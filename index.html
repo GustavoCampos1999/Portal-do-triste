@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Triste - Ferramentas para Tibia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Portal do Triste</h1>
+        <nav class="main-nav">
+            <a href="#" class="nav-link active" data-page="inicio">Início</a>
+            <a href="#" class="nav-link" data-page="calculadora">Calculadora de Charms</a>
+            <a href="#" class="nav-link" data-page="conversor-rc">Conversão RC</a>
+            <a href="#" class="nav-link disabled">(Em Breve)</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="page-inicio" class="page-content">
+            <div class="container">
+                <h2>Bem-vindo ao Portal do Triste!</h2>
+                <p>Comi o cu de quem ta lendo.</p>
+                <p>kk</p>
+            </div>
+        </div>
+
+        <div id="page-calculadora" class="page-content hidden">
+            <div class="container">
+                <header class="tool-header">
+                    <h1>Calculadora de Charms Avançada</h1>
+                </header>
+                <fieldset class="charms-fieldset">
+                    <legend>Selecione Seus Charms</legend>
+                    <div id="charm-selection-grid" class="charm-grid"></div>
+                </fieldset>
+                <fieldset class="player-stats-fieldset">
+                    <legend>Seus Atributos</legend>
+                    <div class="input-group">
+                        <label for="level">Seu Level:</label>
+                        <input type="number" id="level" placeholder="Ex: 300">
+                    </div>
+                    <div class="input-group">
+                        <label for="maxHp">Seu Max HP:</label>
+                        <input type="number" id="maxHp" placeholder="Ex: 4000">
+                    </div>
+                    <div class="input-group">
+                        <label for="maxMana">Sua Max Mana:</label>
+                        <input type="number" id="maxMana" placeholder="Ex: 8000">
+                    </div>
+                </fieldset>
+                <div class="mode-switcher">
+                    <button id="mode-individual-btn" class="mode-btn active">Análise Individual</button>
+                    <button id="mode-hunt-btn" class="mode-btn">Analisador de Hunt</button>
+                </div>
+                <div class="analyzer-container"> <div id="individual-analyzer" class="analyzer-content">
+                        <fieldset class="full-width">
+                            <legend>Informações do Alvo</legend>
+                            <div class="input-group search-container">
+                                <label for="monsterSearch">Selecione o Alvo:</label>
+                                <input type="text" id="monsterSearch" placeholder="Carregando..." autocomplete="off">
+                                <span class="clear-button" id="clearSearchBtn">&times;</span>
+                                <div class="search-results" id="searchResults"></div>
+                            </div>
+                            <div class="selected-monster-display" id="selectedMonsterDisplay">
+                                <img id="selectedMonsterImage" src="" alt="Imagem do Monstro">
+                                <h3 id="selectedMonsterName"></h3>
+                            </div>
+                        </fieldset>
+                        <button id="calculateBtn" class="full-width" disabled>Calcular Melhor Dano</button>
+                    </div>
+                    <div id="hunt-analyzer" class="analyzer-content hidden">
+                        <p>Copie e cole seu log do Hunting Analyser (incluindo "Killed Monsters").</p>
+                        <textarea id="hunt-log" placeholder="Ex: Loot of a dragon: ...&#10;Killed Monsters:&#10;25x dragon&#10;10x dragon lord"></textarea>
+                        <button id="analyze-hunt-btn" class="full-width">Analisar Hunt</button>
+                    </div>
+                </div>
+                <div id="result" class="result-container"></div>
+            </div>
+        </div>
+        
+        <div id="page-conversor-rc" class="page-content hidden">
+            <div class="container">
+                <header class="tool-header">
+                    <h1>Conversor de Dinheiro (RC)</h1>
+                </header>
+                <fieldset class="rc-converter-fieldset">
+                    <legend>Valores da Transação</legend>
+                    <div class="input-group">
+                        <label for="gold-needed">Gold que você precisa (kk):</label>
+                        <input type="number" id="gold-needed" placeholder="Ex: 50">
+                    </div>
+                    <div class="input-group">
+                        <label for="rc-price-ingame">Preço de 1 RC (em gold):</label>
+                        <input type="number" id="rc-price-ingame" placeholder="Ex: 110000">
+                    </div>
+                </fieldset>
+                <fieldset class="rc-converter-fieldset">
+                    <legend>Comparação de Custo (Opcional)</legend>
+                     <div class="input-group optional">
+                        <label for="rc-price-real">Preço de 1.000 RCs (R$):</label>
+                        <input type="number" id="rc-price-real" placeholder="Ex: 88">
+                    </div>
+                     <div class="input-group optional">
+                        <label for="kk-price-real">Preço do KK (R$):</label>
+                        <input type="number" id="kk-price-real" placeholder="Ex: 0.67">
+                    </div>
+                </fieldset>
+                <button id="calculate-rc-btn" class="full-width">Calcular</button>
+                <div id="rc-result" class="result-container"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="tibia-monsters-db.js"></script>
+    <script src="navegacao.js"></script>
+    <script src="calculadora_charms.js"></script>
+    <script src="conversor_rc.js"></script>
+</body>
+</html>
