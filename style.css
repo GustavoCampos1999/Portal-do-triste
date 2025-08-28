@@ -10,20 +10,19 @@ body {
     min-height: 100vh;
 }
 
-.site-header {
-    width: 100%;
-    background-color: rgba(18, 12, 8, 0.9);
-    padding: 15px 0;
-    text-align: center;
-    border-bottom: 3px solid #4a3c28;
-    box-shadow: 0 2px 10px #000;
-}
-
 .site-header h1 {
     color: #c89b3c;
     text-shadow: 1px 1px 2px #000;
     margin: 0 0 15px 0;
     font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-header h1 img {
+    height: 1.5em; 
+    margin-right: 15px; 
 }
 
 .main-nav {
@@ -360,7 +359,7 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
 }
 
 .site-header h1 img {
-    height: 1em; 
+    height: 2em; 
     vertical-align: middle; 
     margin-right: 15px; 
 }
