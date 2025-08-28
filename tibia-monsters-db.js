@@ -44246,7 +44246,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.1
+        "multiplier": 1.25
       },
       {
         "type": "holy",
@@ -44266,7 +44266,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.15
+        "multiplier": 1.10
       },
       {
         "type": "earth",
