@@ -1,64 +1,71 @@
-// conversor_rc.js
 document.addEventListener('DOMContentLoaded', () => {
-    const calculateRcBtn = document.getElementById('calculate-rc-btn');
-    if (!calculateRcBtn) return; // Só executa se o botão estiver na página
+    const page = document.getElementById('page-conversor-rc');
+    if (!page) return;
 
-    const rcPriceIngameInput = document.getElementById('rc-price-ingame');
-    const goldNeededInput = document.getElementById('gold-needed');
-    const rcPriceRealInput = document.getElementById('rc-price-real');
-    const kkPriceRealInput = document.getElementById('kk-price-real');
-    const rcResultDiv = document.getElementById('rc-result');
+    const goldNeededInput = page.querySelector('#gold-needed');
+    const rcPriceIngameInput = page.querySelector('#rc-price-ingame');
+    const rcPriceRealInput = page.querySelector('#rc-price-real');
+    const kkPriceRealInput = page.querySelector('#kk-price-real');
+    const rcResultDiv = page.querySelector('#rc-result');
 
-    calculateRcBtn.addEventListener('click', () => {
+    function calculateTcConversion() {
         const rcPriceInGold = parseFloat(rcPriceIngameInput.value);
         const goldNeededInKk = parseFloat(goldNeededInput.value);
-        
         const rcPriceReal = parseFloat(rcPriceRealInput.value);
         const kkPriceReal = parseFloat(kkPriceRealInput.value);
 
         if (!goldNeededInKk || goldNeededInKk <= 0) {
-            rcResultDiv.innerHTML = "Por favor, insira quanto gold você precisa.";
+            rcResultDiv.innerHTML = "Por favor, insira quanto gold (kk) você precisa.";
             return;
         }
 
         let resultHTML = '';
-        const goldNeeded = goldNeededInKk * 1000000;
 
-        // --- LÓGICA DE CÁLCULO ATUALIZADA ---
         if (rcPriceInGold > 0) {
-            // 1. Calcula a quantidade exata de RCs necessários.
-            const exactRcNeeded = goldNeeded / rcPriceInGold;
-            // 2. Calcula quantos "pacotes de 25" são necessários, arredondando para cima.
-            const bundlesNeeded = Math.ceil(exactRcNeeded / 25);
-            // 3. Calcula o total final de RCs com base nos pacotes.
+            const goldNeeded = goldNeededInKk * 1000000;
+            const exactTcNeeded = goldNeeded / rcPriceInGold;
+            const bundlesNeeded = Math.ceil(exactTcNeeded / 25);
             const finalRcNeeded = bundlesNeeded * 25;
 
             resultHTML += `
-                <p>Para obter <strong>${goldNeededInKk.toLocaleString('pt-BR')}kk</strong>, você precisará comprar:<br>
-                <strong class="damage-value">${finalRcNeeded.toLocaleString('pt-BR')}</strong> Rubinicoins (RC) no jogo.</p>
+                <div>Para obter <strong>${goldNeededInKk.toLocaleString('pt-BR')}kk</strong>, você precisará de:</div>
+                <div style="margin-top: 8px;"><strong class="damage-value">${finalRcNeeded.toLocaleString('pt-BR')}</strong> Tibia Coins (TC)</div>
             `;
 
-            // Lógica de comparação (só executa se ambos os campos opcionais forem preenchidos)
             if (rcPriceReal > 0 && kkPriceReal > 0) {
                 const costViaRc = (finalRcNeeded / 1000) * rcPriceReal;
                 const costViaKk = goldNeededInKk * kkPriceReal;
                 
                 resultHTML += `<hr style="border-color: #4a3c28; margin: 15px 0;">`;
-                resultHTML += `<p>Custo via RCs: <strong class="${costViaRc <= costViaKk ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaRc.toFixed(2).replace('.', ',')}</strong></p>`;
-                resultHTML += `<p>Custo via KKs: <strong class="${costViaKk < costViaRc ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaKk.toFixed(2).replace('.', ',')}</strong></p>`;
+                resultHTML += `<div>Custo via TCs: <strong class="${costViaRc <= costViaKk ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaRc.toFixed(2).replace('.', ',')}</strong></div>`;
+                resultHTML += `<div style="margin-top: 5px;">Custo via KKs: <strong class="${costViaKk < costViaRc ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaKk.toFixed(2).replace('.', ',')}</strong></div>`;
                 
                 if (costViaRc < costViaKk) {
-                    resultHTML += `<p style="margin-top: 10px;">É <strong class="cheaper-value">mais barato</strong> comprar RCs e vender no jogo!</p>`;
+                    resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar TCs e vender no jogo!</strong></p>`;
                 } else if (costViaKk < costViaRc) {
-                    resultHTML += `<p style="margin-top: 10px;">É <strong class="cheaper-value">mais barato</strong> comprar os kks diretamente!</p>`;
+                    resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar os kks diretamente!</strong></p>`;
                 } else {
-                     resultHTML += `<p style="margin-top: 10px;">Os custos são equivalentes.</p>`;
+                    resultHTML += `<p style="margin-top: 15px;">Os custos são equivalentes.</p>`;
                 }
             }
         } else {
-             resultHTML = "Por favor, insira o preço do RC em gold.";
+            resultHTML = "Por favor, insira o preço do TC em gold.";
         }
         
         rcResultDiv.innerHTML = resultHTML;
+    }
+
+    const inputs = [goldNeededInput, rcPriceIngameInput, rcPriceRealInput, kkPriceRealInput];
+    inputs.forEach(input => {
+        if (input) {
+            input.addEventListener('input', calculateTcConversion);
+        }
     });
+
+    const calculateBtn = page.querySelector('#calculate-rc-btn');
+    if (calculateBtn) {
+        calculateBtn.style.display = 'none';
+    }
+    
+    rcResultDiv.innerHTML = 'Preencha os campos para calcular.';
 });

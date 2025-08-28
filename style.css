@@ -76,10 +76,11 @@ main {
     max-width: 700px;
     background-color: rgba(18, 12, 8, 0.85);
     padding: 25px 35px;
-    border-radius: 5px;
+    border-radius: 30px;
     border: 3px solid #4a3c28;
     box-shadow: 0 0 15px #000, inset 0 0 10px rgba(0,0,0,0.5);
     text-align: center;
+    position: relative;
 }
 
 .tool-header h1, #page-inicio h2, #page-conversor-rc h2 {
@@ -113,12 +114,12 @@ main p {
 .charm-item {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
     font-size: 1em;
     min-height: 30px;
 }
 .charm-item label {
-    width: 105px;
+    width: 120px;
     flex-shrink: 0; 
     cursor: pointer;
     white-space: nowrap;
@@ -160,16 +161,23 @@ main p {
 }
 
 .analyzer-container {
-    position: relative;
-    height: 300px; 
+    display: grid;
+    align-items: center; 
 }
-.analyzer-content {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
+
+#individual-analyzer,
+#hunt-analyzer {
+    grid-area: 1 / 1; 
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
 }
+
 .analyzer-content.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#calculateBtn {
     display: none;
 }
 
@@ -211,6 +219,7 @@ input[type="number"], input[type="text"] {
     font-size: 1em;
     text-align: center;
     box-sizing: border-box;
+    height: 42px;
 }
 
 textarea#hunt-log {
@@ -224,12 +233,32 @@ textarea#hunt-log {
     font-family: monospace;
     font-size: 1em;
     box-sizing: border-box;
-    margin-bottom: 15px;
 }
 
-.search-container { position: relative; }
-.clear-button { display: none; position: absolute; right: 10px; top: 38px; transform: translateY(-50%); font-size: 24px; font-weight: 700; color: #a0937d; cursor: pointer; transition: color 0.2s; z-index: 5; }
-.clear-button:hover { color: #f0e6d2; }
+.search-container { 
+    position: relative;
+    margin-bottom: 20px;
+ }
+
+.clear-button { 
+    display: none; 
+    position: absolute; 
+    right: 15px; 
+    top: 45px; 
+    transform: translateY(-50%); 
+    font-size: 40px; 
+    font-weight: 900; 
+    color: #e74c3c; 
+    cursor: pointer; 
+    transition: all 0.2s; 
+    z-index: 5; 
+    line-height: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+.clear-button:hover { 
+    color: #ff7979; transform: translateY(-50%) scale(1.1); 
+}
+
 .search-results { display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 1000; background: #1e1610; border: 2px solid #4a3c28; max-height: 250px; overflow-y: auto; text-align: left; }
 .search-results div { display: flex; align-items: center; padding: 10px; border-bottom: 1px solid #3a2c18; cursor: pointer; }
 .search-results div:hover { background-color: #c89b3c; color: #1a1a1a; }
@@ -257,12 +286,14 @@ button:hover { background-color: #c89b3c; border-color: #f0e6d2; }
 button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed; }
 
 .result-container {
-    border: 1px solid #4a3c28;
-    margin-top: 30px;
-    padding: 20px;
-    text-align: left;
-    min-height: 50px;
+  border: 1px solid #4a3c28;
+  padding: 20px;
+  margin-top: 15px;
+  text-align: left;
+  min-height: 50px; /* Alterado de height para min-height */
+  height: auto;       /* Garante que a altura possa ser automática */
 }
+
 .result-container h3, .result-container h4 { text-align: center; margin-top: 0; color: #c89b3c; }
 .result-container .recommendation-box { background-color: rgba(200, 155, 60, 0.1); border: 1px solid #c89b3c; padding: 15px; border-radius: 4px; text-align: center; margin-bottom: 20px; }
 .result-container .recommendation-box p { margin: 0; color: #f0e6d2; }
@@ -313,4 +344,17 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     font-size: 1.2em;
     color: #f0e6d2;
     text-align: center;
+}
+
+.lost-damage-value {
+    font-weight: bold;
+    color: #e74c3c; 
+}
+
+#analyze-hunt-btn {
+    display: none;
+}
+
+#calculate-rc-btn {
+    display: none;
 }

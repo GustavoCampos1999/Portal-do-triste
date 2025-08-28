@@ -1,8 +1,8 @@
-const allMonstersData = [
+var allMonstersData = [
   {
     "name": "A Weak Spot",
     "hp": 435000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/A_Weak_Spot.gif",
+    "image_url": "images/monsters/A_Weak_Spot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37,7 +37,7 @@ const allMonstersData = [
   {
     "name": "Abominable Servant",
     "hp": 8900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Abominable_Servant.gif",
+    "image_url": "images/monsters/Abominable_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -72,7 +72,7 @@ const allMonstersData = [
   {
     "name": "Abyssador",
     "hp": 340000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Abyssador.gif",
+    "image_url": "images/monsters/Abyssador.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -107,7 +107,7 @@ const allMonstersData = [
   {
     "name": "Abyssal Calamary",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Abyssal_Calamary.gif",
+    "image_url": "images/monsters/Abyssal_Calamary.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -142,7 +142,7 @@ const allMonstersData = [
   {
     "name": "Achad",
     "hp": 185,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Achad.gif",
+    "image_url": "images/monsters/Achad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -177,7 +177,7 @@ const allMonstersData = [
   {
     "name": "Acid Blob",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Acid_Blob.gif",
+    "image_url": "images/monsters/Acid_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -212,7 +212,7 @@ const allMonstersData = [
   {
     "name": "Acolyte of Darkness",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Acolyte_of_Darkness.gif",
+    "image_url": "images/monsters/Acolyte_of_Darkness.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -247,7 +247,7 @@ const allMonstersData = [
   {
     "name": "Acolyte of the Cult",
     "hp": 390,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Acolyte_of_the_Cult.gif",
+    "image_url": "images/monsters/Acolyte_of_the_Cult.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -282,7 +282,7 @@ const allMonstersData = [
   {
     "name": "Adept of the Cult",
     "hp": 430,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Adept_of_the_Cult.gif",
+    "image_url": "images/monsters/Adept_of_the_Cult.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -317,7 +317,7 @@ const allMonstersData = [
   {
     "name": "Adult Goanna",
     "hp": 8300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Adult_Goanna.gif",
+    "image_url": "images/monsters/Adult_Goanna.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -352,7 +352,7 @@ const allMonstersData = [
   {
     "name": "Adventurer",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Adventurer.gif",
+    "image_url": "images/monsters/Adventurer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -387,7 +387,7 @@ const allMonstersData = [
   {
     "name": "Afflicted Strider",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Afflicted_Strider.gif",
+    "image_url": "images/monsters/Afflicted_Strider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -422,7 +422,7 @@ const allMonstersData = [
   {
     "name": "Aftershock",
     "hp": 105000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Aftershock.gif",
+    "image_url": "images/monsters/Aftershock.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -457,7 +457,7 @@ const allMonstersData = [
   {
     "name": "Aggressive Chicken",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Aggressive_Chicken.gif",
+    "image_url": "images/monsters/Aggressive_Chicken.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -492,7 +492,7 @@ const allMonstersData = [
   {
     "name": "Aggressive Matter",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Aggressive_Matter.gif",
+    "image_url": "images/monsters/Aggressive_Matter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -527,7 +527,7 @@ const allMonstersData = [
   {
     "name": "Agrestic Chicken",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Agrestic_Chicken.gif",
+    "image_url": "images/monsters/Agrestic_Chicken.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -562,7 +562,7 @@ const allMonstersData = [
   {
     "name": "Ahau",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ahau.gif",
+    "image_url": "images/monsters/Ahau.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -597,7 +597,7 @@ const allMonstersData = [
   {
     "name": "Albino Dragon",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Albino_Dragon.gif",
+    "image_url": "images/monsters/Albino_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -632,7 +632,7 @@ const allMonstersData = [
   {
     "name": "Alchemistical Container",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Alchemistical_Container.gif",
+    "image_url": "images/monsters/Alchemistical_Container.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -667,7 +667,7 @@ const allMonstersData = [
   {
     "name": "Alptramun",
     "hp": 320000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Alptramun.gif",
+    "image_url": "images/monsters/Alptramun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -702,7 +702,7 @@ const allMonstersData = [
   {
     "name": "Amazon",
     "hp": 110,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Amazon.gif",
+    "image_url": "images/monsters/Amazon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -737,7 +737,7 @@ const allMonstersData = [
   {
     "name": "Amenef the Burning",
     "hp": 26000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Amenef_the_Burning.gif",
+    "image_url": "images/monsters/Amenef_the_Burning.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -772,7 +772,7 @@ const allMonstersData = [
   {
     "name": "An Observer Eye",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/An_Observer_Eye.gif",
+    "image_url": "images/monsters/An_Observer_Eye.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -807,7 +807,7 @@ const allMonstersData = [
   {
     "name": "Ancient Lion Knight",
     "hp": 9100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ancient_Lion_Knight.gif",
+    "image_url": "images/monsters/Ancient_Lion_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -842,7 +842,7 @@ const allMonstersData = [
   {
     "name": "Ancient Scarab",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ancient_Scarab.gif",
+    "image_url": "images/monsters/Ancient_Scarab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -877,7 +877,7 @@ const allMonstersData = [
   {
     "name": "Ancient Ugly Monster",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ancient_Ugly_Monster.gif",
+    "image_url": "images/monsters/Ancient_Ugly_Monster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -912,7 +912,7 @@ const allMonstersData = [
   {
     "name": "Angry Adventurer",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Angry_Adventurer.gif",
+    "image_url": "images/monsters/Angry_Adventurer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -947,7 +947,7 @@ const allMonstersData = [
   {
     "name": "Angry Demon",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Angry_Demon.gif",
+    "image_url": "images/monsters/Angry_Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -982,7 +982,7 @@ const allMonstersData = [
   {
     "name": "Angry Elemental",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Angry_Elemental.gif",
+    "image_url": "images/monsters/Angry_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1017,7 +1017,7 @@ const allMonstersData = [
   {
     "name": "Angry Plant",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Angry_Plant.gif",
+    "image_url": "images/monsters/Angry_Plant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1052,7 +1052,7 @@ const allMonstersData = [
   {
     "name": "Angry Plant Thing",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Angry_Plant_Thing.gif",
+    "image_url": "images/monsters/Angry_Plant_Thing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1087,7 +1087,7 @@ const allMonstersData = [
   {
     "name": "Angry Sugar Fairy",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Angry_Sugar_Fairy.gif",
+    "image_url": "images/monsters/Angry_Sugar_Fairy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1122,7 +1122,7 @@ const allMonstersData = [
   {
     "name": "Animated Clomp",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Clomp.gif",
+    "image_url": "images/monsters/Animated_Clomp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1157,7 +1157,7 @@ const allMonstersData = [
   {
     "name": "Animated Cyclops",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Cyclops.gif",
+    "image_url": "images/monsters/Animated_Cyclops.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1192,7 +1192,7 @@ const allMonstersData = [
   {
     "name": "Animated Feather",
     "hp": 13000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Feather.gif",
+    "image_url": "images/monsters/Animated_Feather.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1227,7 +1227,7 @@ const allMonstersData = [
   {
     "name": "Animated Guzzlemaw",
     "hp": 6400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Guzzlemaw.gif",
+    "image_url": "images/monsters/Animated_Guzzlemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1262,7 +1262,7 @@ const allMonstersData = [
   {
     "name": "Animated Moohtant",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Moohtant.gif",
+    "image_url": "images/monsters/Animated_Moohtant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1297,7 +1297,7 @@ const allMonstersData = [
   {
     "name": "Animated Mummy",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Mummy.gif",
+    "image_url": "images/monsters/Animated_Mummy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1332,7 +1332,7 @@ const allMonstersData = [
   {
     "name": "Animated Ogre Brute",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Ogre_Brute.gif",
+    "image_url": "images/monsters/Animated_Ogre_Brute.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1367,7 +1367,7 @@ const allMonstersData = [
   {
     "name": "Animated Ogre Savage",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Ogre_Savage.gif",
+    "image_url": "images/monsters/Animated_Ogre_Savage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1402,7 +1402,7 @@ const allMonstersData = [
   {
     "name": "Animated Ogre Shaman",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Ogre_Shaman.gif",
+    "image_url": "images/monsters/Animated_Ogre_Shaman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1437,7 +1437,7 @@ const allMonstersData = [
   {
     "name": "Animated Rotworm",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Rotworm.gif",
+    "image_url": "images/monsters/Animated_Rotworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1472,7 +1472,7 @@ const allMonstersData = [
   {
     "name": "Animated Skunk",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Skunk.gif",
+    "image_url": "images/monsters/Animated_Skunk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1507,7 +1507,7 @@ const allMonstersData = [
   {
     "name": "Animated Snowman",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Animated_Snowman.gif",
+    "image_url": "images/monsters/Animated_Snowman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1542,7 +1542,7 @@ const allMonstersData = [
   {
     "name": "Anmothra",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Anmothra.gif",
+    "image_url": "images/monsters/Anmothra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1577,7 +1577,7 @@ const allMonstersData = [
   {
     "name": "Annihilon",
     "hp": 46500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Annihilon.gif",
+    "image_url": "images/monsters/Annihilon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1612,7 +1612,7 @@ const allMonstersData = [
   {
     "name": "Anomaly",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Anomaly.gif",
+    "image_url": "images/monsters/Anomaly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1647,7 +1647,7 @@ const allMonstersData = [
   {
     "name": "Antenna",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Antenna.gif",
+    "image_url": "images/monsters/Antenna.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1682,7 +1682,7 @@ const allMonstersData = [
   {
     "name": "Apprentice Sheng",
     "hp": 95,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Apprentice_Sheng.gif",
+    "image_url": "images/monsters/Apprentice_Sheng.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1717,7 +1717,7 @@ const allMonstersData = [
   {
     "name": "Arachir the Ancient One",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Arachir_the_Ancient_One.gif",
+    "image_url": "images/monsters/Arachir_the_Ancient_One.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1752,7 +1752,7 @@ const allMonstersData = [
   {
     "name": "Arachnophobica",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Arachnophobica.gif",
+    "image_url": "images/monsters/Arachnophobica.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1787,7 +1787,7 @@ const allMonstersData = [
   {
     "name": "Arbaziloth",
     "hp": 360000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Arbaziloth.gif",
+    "image_url": "images/monsters/Arbaziloth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1822,7 +1822,7 @@ const allMonstersData = [
   {
     "name": "Arctic Faun",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Arctic_Faun.gif",
+    "image_url": "images/monsters/Arctic_Faun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1857,7 +1857,7 @@ const allMonstersData = [
   {
     "name": "Armadile",
     "hp": 3800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Armadile.gif",
+    "image_url": "images/monsters/Armadile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1892,7 +1892,7 @@ const allMonstersData = [
   {
     "name": "Armenius (Creature)",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Armenius_(Creature).gif",
+    "image_url": "images/monsters/Armenius__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1927,7 +1927,7 @@ const allMonstersData = [
   {
     "name": "Arthei",
     "hp": 4200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Arthei.gif",
+    "image_url": "images/monsters/Arthei.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1962,7 +1962,7 @@ const allMonstersData = [
   {
     "name": "Arthom the Hunter",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Arthom_the_Hunter.gif",
+    "image_url": "images/monsters/Arthom_the_Hunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1997,7 +1997,7 @@ const allMonstersData = [
   {
     "name": "Ashmunrah",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ashmunrah.gif",
+    "image_url": "images/monsters/Ashmunrah.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2032,7 +2032,7 @@ const allMonstersData = [
   {
     "name": "Askarak Demon",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Askarak_Demon.gif",
+    "image_url": "images/monsters/Askarak_Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2067,7 +2067,7 @@ const allMonstersData = [
   {
     "name": "Askarak Lord",
     "hp": 2100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Askarak_Lord.gif",
+    "image_url": "images/monsters/Askarak_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2102,7 +2102,7 @@ const allMonstersData = [
   {
     "name": "Askarak Prince",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Askarak_Prince.gif",
+    "image_url": "images/monsters/Askarak_Prince.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2137,7 +2137,7 @@ const allMonstersData = [
   {
     "name": "Assassin",
     "hp": 175,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Assassin.gif",
+    "image_url": "images/monsters/Assassin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2172,7 +2172,7 @@ const allMonstersData = [
   {
     "name": "Atab",
     "hp": 8100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Atab.gif",
+    "image_url": "images/monsters/Atab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2207,7 +2207,7 @@ const allMonstersData = [
   {
     "name": "Avalanche (Creature)",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Avalanche_(Creature).gif",
+    "image_url": "images/monsters/Avalanche__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2242,7 +2242,7 @@ const allMonstersData = [
   {
     "name": "Axeitus Headbanger",
     "hp": 365,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Axeitus_Headbanger.gif",
+    "image_url": "images/monsters/Axeitus_Headbanger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2277,7 +2277,7 @@ const allMonstersData = [
   {
     "name": "Ayana the Crimson Curse",
     "hp": 17000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ayana_the_Crimson_Curse.gif",
+    "image_url": "images/monsters/Ayana_the_Crimson_Curse.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2312,7 +2312,7 @@ const allMonstersData = [
   {
     "name": "Azerus",
     "hp": 26000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Azerus.gif",
+    "image_url": "images/monsters/Azerus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2347,7 +2347,7 @@ const allMonstersData = [
   {
     "name": "Azure Frog",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Azure_Frog.gif",
+    "image_url": "images/monsters/Azure_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2382,7 +2382,7 @@ const allMonstersData = [
   {
     "name": "Baby Pet of Chayenne",
     "hp": 380,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Baby_Pet_of_Chayenne.gif",
+    "image_url": "images/monsters/Baby_Pet_of_Chayenne.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2417,7 +2417,7 @@ const allMonstersData = [
   {
     "name": "Bad Thought",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bad_Thought.gif",
+    "image_url": "images/monsters/Bad_Thought.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2452,7 +2452,7 @@ const allMonstersData = [
   {
     "name": "Badger",
     "hp": 23,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Badger.gif",
+    "image_url": "images/monsters/Badger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2487,7 +2487,7 @@ const allMonstersData = [
   {
     "name": "Bakragore",
     "hp": 660000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bakragore.gif",
+    "image_url": "images/monsters/Bakragore.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2522,7 +2522,7 @@ const allMonstersData = [
   {
     "name": "Baleful Bunny",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Baleful_Bunny.gif",
+    "image_url": "images/monsters/Baleful_Bunny.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2557,7 +2557,7 @@ const allMonstersData = [
   {
     "name": "Bandit",
     "hp": 245,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bandit.gif",
+    "image_url": "images/monsters/Bandit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2592,7 +2592,7 @@ const allMonstersData = [
   {
     "name": "Bane Bringer",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bane_Bringer.gif",
+    "image_url": "images/monsters/Bane_Bringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2627,7 +2627,7 @@ const allMonstersData = [
   {
     "name": "Bane Lord",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bane_Lord.gif",
+    "image_url": "images/monsters/Bane_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2662,7 +2662,7 @@ const allMonstersData = [
   {
     "name": "Bane of Light",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bane_of_Light.gif",
+    "image_url": "images/monsters/Bane_of_Light.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2697,7 +2697,7 @@ const allMonstersData = [
   {
     "name": "Banshee",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Banshee.gif",
+    "image_url": "images/monsters/Banshee.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2732,7 +2732,7 @@ const allMonstersData = [
   {
     "name": "Barbaria",
     "hp": 345,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbaria.gif",
+    "image_url": "images/monsters/Barbaria.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2767,7 +2767,7 @@ const allMonstersData = [
   {
     "name": "Barbarian Bloodwalker",
     "hp": 305,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Bloodwalker.gif",
+    "image_url": "images/monsters/Barbarian_Bloodwalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2802,7 +2802,7 @@ const allMonstersData = [
   {
     "name": "Barbarian Brutetamer",
     "hp": 145,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Brutetamer.gif",
+    "image_url": "images/monsters/Barbarian_Brutetamer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2837,7 +2837,7 @@ const allMonstersData = [
   {
     "name": "Barbarian Headsplitter",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Headsplitter.gif",
+    "image_url": "images/monsters/Barbarian_Headsplitter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2872,7 +2872,7 @@ const allMonstersData = [
   {
     "name": "Barbarian Skullhunter",
     "hp": 135,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Skullhunter.gif",
+    "image_url": "images/monsters/Barbarian_Skullhunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2907,7 +2907,7 @@ const allMonstersData = [
   {
     "name": "Barkless Devotee",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barkless_Devotee.gif",
+    "image_url": "images/monsters/Barkless_Devotee.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2942,7 +2942,7 @@ const allMonstersData = [
   {
     "name": "Barkless Fanatic",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barkless_Fanatic.gif",
+    "image_url": "images/monsters/Barkless_Fanatic.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2977,7 +2977,7 @@ const allMonstersData = [
   {
     "name": "Baron Brute",
     "hp": 5025,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Baron_Brute.gif",
+    "image_url": "images/monsters/Baron_Brute.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3012,7 +3012,7 @@ const allMonstersData = [
   {
     "name": "Bashmu",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bashmu.gif",
+    "image_url": "images/monsters/Bashmu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3047,7 +3047,7 @@ const allMonstersData = [
   {
     "name": "Bat",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bat.gif",
+    "image_url": "images/monsters/Bat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3082,7 +3082,7 @@ const allMonstersData = [
   {
     "name": "Battlemaster Zunzu",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Battlemaster_Zunzu.gif",
+    "image_url": "images/monsters/Battlemaster_Zunzu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3117,7 +3117,7 @@ const allMonstersData = [
   {
     "name": "Bear",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bear.gif",
+    "image_url": "images/monsters/Bear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3152,7 +3152,7 @@ const allMonstersData = [
   {
     "name": "Bear (Nostalgia)",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bear_(Nostalgia).gif",
+    "image_url": "images/monsters/Bear__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3187,7 +3187,7 @@ const allMonstersData = [
   {
     "name": "Behemoth",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Behemoth.gif",
+    "image_url": "images/monsters/Behemoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3222,7 +3222,7 @@ const allMonstersData = [
   {
     "name": "Bellicose Orger",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bellicose_Orger.gif",
+    "image_url": "images/monsters/Bellicose_Orger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3257,7 +3257,7 @@ const allMonstersData = [
   {
     "name": "Berrypest",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Berrypest.gif",
+    "image_url": "images/monsters/Berrypest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3292,7 +3292,7 @@ const allMonstersData = [
   {
     "name": "Berserker Chicken",
     "hp": 465,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Berserker_Chicken.gif",
+    "image_url": "images/monsters/Berserker_Chicken.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3327,7 +3327,7 @@ const allMonstersData = [
   {
     "name": "Betrayed Wraith",
     "hp": 4200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Betrayed_Wraith.gif",
+    "image_url": "images/monsters/Betrayed_Wraith.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3362,7 +3362,7 @@ const allMonstersData = [
   {
     "name": "Bibby Bloodbath",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bibby_Bloodbath.gif",
+    "image_url": "images/monsters/Bibby_Bloodbath.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3397,7 +3397,7 @@ const allMonstersData = [
   {
     "name": "Big Boss Trolliver",
     "hp": 140,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Big_Boss_Trolliver.gif",
+    "image_url": "images/monsters/Big_Boss_Trolliver.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3432,7 +3432,7 @@ const allMonstersData = [
   {
     "name": "Biting Book",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Biting_Book.gif",
+    "image_url": "images/monsters/Biting_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3467,7 +3467,7 @@ const allMonstersData = [
   {
     "name": "Black Cobra",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Black_Cobra.gif",
+    "image_url": "images/monsters/Black_Cobra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3502,7 +3502,7 @@ const allMonstersData = [
   {
     "name": "Black Knight",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Black_Knight.gif",
+    "image_url": "images/monsters/Black_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3537,7 +3537,7 @@ const allMonstersData = [
   {
     "name": "Black Sheep",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Black_Sheep.gif",
+    "image_url": "images/monsters/Black_Sheep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3572,7 +3572,7 @@ const allMonstersData = [
   {
     "name": "Black Sphinx Acolyte",
     "hp": 8100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Black_Sphinx_Acolyte.gif",
+    "image_url": "images/monsters/Black_Sphinx_Acolyte.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3607,7 +3607,7 @@ const allMonstersData = [
   {
     "name": "Black Vixen",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Black_Vixen.gif",
+    "image_url": "images/monsters/Black_Vixen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3642,7 +3642,7 @@ const allMonstersData = [
   {
     "name": "Blazing Fire Elemental",
     "hp": 650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blazing_Fire_Elemental.gif",
+    "image_url": "images/monsters/Blazing_Fire_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3677,7 +3677,7 @@ const allMonstersData = [
   {
     "name": "Blemished Spawn",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blemished_Spawn.gif",
+    "image_url": "images/monsters/Blemished_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3712,7 +3712,7 @@ const allMonstersData = [
   {
     "name": "Blight Bug",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blight_Bug.gif",
+    "image_url": "images/monsters/Blight_Bug.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3747,7 +3747,7 @@ const allMonstersData = [
   {
     "name": "Blight Mariner",
     "hp": 16500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blight_Mariner.gif",
+    "image_url": "images/monsters/Blight_Mariner.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3782,7 +3782,7 @@ const allMonstersData = [
   {
     "name": "Blightwalker",
     "hp": 8100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blightwalker.gif",
+    "image_url": "images/monsters/Blightwalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3817,7 +3817,7 @@ const allMonstersData = [
   {
     "name": "Blistering Fire Elemental",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blistering_Fire_Elemental.gif",
+    "image_url": "images/monsters/Blistering_Fire_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3852,7 +3852,7 @@ const allMonstersData = [
   {
     "name": "Bloated Man-Maggot",
     "hp": 31700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bloated_Man-Maggot.gif",
+    "image_url": "images/monsters/Bloated_Man-Maggot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3887,7 +3887,7 @@ const allMonstersData = [
   {
     "name": "Blocking Stalagmite",
     "hp": 10500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blocking_Stalagmite.gif",
+    "image_url": "images/monsters/Blocking_Stalagmite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3922,7 +3922,7 @@ const allMonstersData = [
   {
     "name": "Blood Beast",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Beast.gif",
+    "image_url": "images/monsters/Blood_Beast.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3957,7 +3957,7 @@ const allMonstersData = [
   {
     "name": "Blood Crab",
     "hp": 290,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Crab.gif",
+    "image_url": "images/monsters/Blood_Crab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3992,7 +3992,7 @@ const allMonstersData = [
   {
     "name": "Blood Hand",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Hand.gif",
+    "image_url": "images/monsters/Blood_Hand.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4027,7 +4027,7 @@ const allMonstersData = [
   {
     "name": "Blood Priest",
     "hp": 820,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Priest.gif",
+    "image_url": "images/monsters/Blood_Priest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4062,7 +4062,7 @@ const allMonstersData = [
   {
     "name": "Blood Tear",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Tear.gif",
+    "image_url": "images/monsters/Blood_Tear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4097,7 +4097,7 @@ const allMonstersData = [
   {
     "name": "Bloodback",
     "hp": 5200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bloodback.gif",
+    "image_url": "images/monsters/Bloodback.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4132,7 +4132,7 @@ const allMonstersData = [
   {
     "name": "Bloodjaw",
     "hp": 40000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bloodjaw.gif",
+    "image_url": "images/monsters/Bloodjaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4167,7 +4167,7 @@ const allMonstersData = [
   {
     "name": "Bloodpaw",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bloodpaw.gif",
+    "image_url": "images/monsters/Bloodpaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4202,7 +4202,7 @@ const allMonstersData = [
   {
     "name": "Bloom of Doom",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bloom_of_Doom.gif",
+    "image_url": "images/monsters/Bloom_of_Doom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4237,7 +4237,7 @@ const allMonstersData = [
   {
     "name": "Blue Djinn",
     "hp": 330,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blue_Djinn.gif",
+    "image_url": "images/monsters/Blue_Djinn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4272,7 +4272,7 @@ const allMonstersData = [
   {
     "name": "Bluebeak",
     "hp": 2430,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bluebeak.gif",
+    "image_url": "images/monsters/Bluebeak.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4307,7 +4307,7 @@ const allMonstersData = [
   {
     "name": "Boar",
     "hp": 198,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boar.gif",
+    "image_url": "images/monsters/Boar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4342,7 +4342,7 @@ const allMonstersData = [
   {
     "name": "Boar Man",
     "hp": 9200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boar_Man.gif",
+    "image_url": "images/monsters/Boar_Man.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4377,7 +4377,7 @@ const allMonstersData = [
   {
     "name": "Bog Frog",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bog_Frog.gif",
+    "image_url": "images/monsters/Bog_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4412,7 +4412,7 @@ const allMonstersData = [
   {
     "name": "Bog Raider",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bog_Raider.gif",
+    "image_url": "images/monsters/Bog_Raider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4447,7 +4447,7 @@ const allMonstersData = [
   {
     "name": "Bolfrim (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bolfrim_(Creature).gif",
+    "image_url": "images/monsters/Bolfrim__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4482,7 +4482,7 @@ const allMonstersData = [
   {
     "name": "Bone Jaw",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bone_Jaw.gif",
+    "image_url": "images/monsters/Bone_Jaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4517,7 +4517,7 @@ const allMonstersData = [
   {
     "name": "Bonebeast",
     "hp": 515,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonebeast.gif",
+    "image_url": "images/monsters/Bonebeast.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4552,7 +4552,7 @@ const allMonstersData = [
   {
     "name": "Bonelord",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonelord.gif",
+    "image_url": "images/monsters/Bonelord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4587,7 +4587,7 @@ const allMonstersData = [
   {
     "name": "Bonelord (Nostalgia)",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonelord_(Nostalgia).gif",
+    "image_url": "images/monsters/Bonelord__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4622,7 +4622,7 @@ const allMonstersData = [
   {
     "name": "Bonny Bunny",
     "hp": 200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonny_Bunny.gif",
+    "image_url": "images/monsters/Bonny_Bunny.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4657,7 +4657,7 @@ const allMonstersData = [
   {
     "name": "Bony Sea Devil",
     "hp": 24000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bony_Sea_Devil.gif",
+    "image_url": "images/monsters/Bony_Sea_Devil.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4692,7 +4692,7 @@ const allMonstersData = [
   {
     "name": "Boogey",
     "hp": 930,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boogey.gif",
+    "image_url": "images/monsters/Boogey.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4727,7 +4727,7 @@ const allMonstersData = [
   {
     "name": "Boogy",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boogy.gif",
+    "image_url": "images/monsters/Boogy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4762,7 +4762,7 @@ const allMonstersData = [
   {
     "name": "Boreth",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boreth.gif",
+    "image_url": "images/monsters/Boreth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4797,7 +4797,7 @@ const allMonstersData = [
   {
     "name": "Bovinus",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bovinus.gif",
+    "image_url": "images/monsters/Bovinus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4832,7 +4832,7 @@ const allMonstersData = [
   {
     "name": "Brachiodemon",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brachiodemon.gif",
+    "image_url": "images/monsters/Brachiodemon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4867,7 +4867,7 @@ const allMonstersData = [
   {
     "name": "Bragrumol",
     "hp": 38000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bragrumol.gif",
+    "image_url": "images/monsters/Bragrumol.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4902,7 +4902,7 @@ const allMonstersData = [
   {
     "name": "Brain Squid",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brain_Squid.gif",
+    "image_url": "images/monsters/Brain_Squid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4937,7 +4937,7 @@ const allMonstersData = [
   {
     "name": "Braindeath",
     "hp": 1225,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Braindeath.gif",
+    "image_url": "images/monsters/Braindeath.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4972,7 +4972,7 @@ const allMonstersData = [
   {
     "name": "Bramble Wyrmling",
     "hp": 2350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bramble_Wyrmling.gif",
+    "image_url": "images/monsters/Bramble_Wyrmling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5007,7 +5007,7 @@ const allMonstersData = [
   {
     "name": "Branchy Crawler",
     "hp": 27000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Branchy_Crawler.gif",
+    "image_url": "images/monsters/Branchy_Crawler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5042,7 +5042,7 @@ const allMonstersData = [
   {
     "name": "Breach Brood",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Breach_Brood.gif",
+    "image_url": "images/monsters/Breach_Brood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5077,7 +5077,7 @@ const allMonstersData = [
   {
     "name": "Bretzecutioner",
     "hp": 5600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bretzecutioner.gif",
+    "image_url": "images/monsters/Bretzecutioner.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5112,7 +5112,7 @@ const allMonstersData = [
   {
     "name": "Bride of Night",
     "hp": 275,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bride_of_Night.gif",
+    "image_url": "images/monsters/Bride_of_Night.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5147,7 +5147,7 @@ const allMonstersData = [
   {
     "name": "Brimstone Bug",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brimstone_Bug.gif",
+    "image_url": "images/monsters/Brimstone_Bug.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5182,7 +5182,7 @@ const allMonstersData = [
   {
     "name": "Brinebrute Inferniarch",
     "hp": 32000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brinebrute_Inferniarch.gif",
+    "image_url": "images/monsters/Brinebrute_Inferniarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5217,7 +5217,7 @@ const allMonstersData = [
   {
     "name": "Brittle Skeleton",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brittle_Skeleton.gif",
+    "image_url": "images/monsters/Brittle_Skeleton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5252,7 +5252,7 @@ const allMonstersData = [
   {
     "name": "Broken Shaper",
     "hp": 2200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Broken_Shaper.gif",
+    "image_url": "images/monsters/Broken_Shaper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5287,7 +5287,7 @@ const allMonstersData = [
   {
     "name": "Brokul",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brokul.gif",
+    "image_url": "images/monsters/Brokul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5322,7 +5322,7 @@ const allMonstersData = [
   {
     "name": "Broodrider Inferniarch",
     "hp": 9600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Broodrider_Inferniarch.gif",
+    "image_url": "images/monsters/Broodrider_Inferniarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5357,7 +5357,7 @@ const allMonstersData = [
   {
     "name": "Bruise Payne",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bruise_Payne.gif",
+    "image_url": "images/monsters/Bruise_Payne.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5392,7 +5392,7 @@ const allMonstersData = [
   {
     "name": "Bruton",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bruton.gif",
+    "image_url": "images/monsters/Bruton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5427,7 +5427,7 @@ const allMonstersData = [
   {
     "name": "Brutus Bloodbeard",
     "hp": 1555,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Brutus_Bloodbeard.gif",
+    "image_url": "images/monsters/Brutus_Bloodbeard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5462,7 +5462,7 @@ const allMonstersData = [
   {
     "name": "Bug",
     "hp": 29,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bug.gif",
+    "image_url": "images/monsters/Bug.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5497,7 +5497,7 @@ const allMonstersData = [
   {
     "name": "Bug (Nostalgia)",
     "hp": 29,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bug_(Nostalgia).gif",
+    "image_url": "images/monsters/Bug__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5532,7 +5532,7 @@ const allMonstersData = [
   {
     "name": "Bulltaur Alchemist",
     "hp": 5690,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bulltaur_Alchemist.gif",
+    "image_url": "images/monsters/Bulltaur_Alchemist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5567,7 +5567,7 @@ const allMonstersData = [
   {
     "name": "Bulltaur Brute",
     "hp": 6560,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bulltaur_Brute.gif",
+    "image_url": "images/monsters/Bulltaur_Brute.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5602,7 +5602,7 @@ const allMonstersData = [
   {
     "name": "Bulltaur Forgepriest",
     "hp": 6840,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bulltaur_Forgepriest.gif",
+    "image_url": "images/monsters/Bulltaur_Forgepriest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5637,7 +5637,7 @@ const allMonstersData = [
   {
     "name": "Bullwark",
     "hp": 72000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bullwark.gif",
+    "image_url": "images/monsters/Bullwark.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5672,7 +5672,7 @@ const allMonstersData = [
   {
     "name": "Burning Book",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Burning_Book.gif",
+    "image_url": "images/monsters/Burning_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5707,7 +5707,7 @@ const allMonstersData = [
   {
     "name": "Burning Gladiator",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Burning_Gladiator.gif",
+    "image_url": "images/monsters/Burning_Gladiator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5742,7 +5742,7 @@ const allMonstersData = [
   {
     "name": "Burster",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Burster.gif",
+    "image_url": "images/monsters/Burster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5777,7 +5777,7 @@ const allMonstersData = [
   {
     "name": "Burster Spectre",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Burster_Spectre.gif",
+    "image_url": "images/monsters/Burster_Spectre.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5812,7 +5812,7 @@ const allMonstersData = [
   {
     "name": "Butterfly (Blue)",
     "hp": 2,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Butterfly_(Blue).gif",
+    "image_url": "images/monsters/Butterfly__Blue_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5847,7 +5847,7 @@ const allMonstersData = [
   {
     "name": "Butterfly (Purple)",
     "hp": 2,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Butterfly_(Purple).gif",
+    "image_url": "images/monsters/Butterfly__Purple_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5882,7 +5882,7 @@ const allMonstersData = [
   {
     "name": "Butterfly (Red)",
     "hp": 2,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Butterfly_(Red).gif",
+    "image_url": "images/monsters/Butterfly__Red_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5917,7 +5917,7 @@ const allMonstersData = [
   {
     "name": "Butterfly (Yellow)",
     "hp": 2,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Butterfly_(Yellow).gif",
+    "image_url": "images/monsters/Butterfly__Yellow_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5952,7 +5952,7 @@ const allMonstersData = [
   {
     "name": "Cake Golem",
     "hp": 444,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cake_Golem.gif",
+    "image_url": "images/monsters/Cake_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5987,7 +5987,7 @@ const allMonstersData = [
   {
     "name": "Calamary",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Calamary.gif",
+    "image_url": "images/monsters/Calamary.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6022,7 +6022,7 @@ const allMonstersData = [
   {
     "name": "Candy Floss Elemental",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Candy_Floss_Elemental.gif",
+    "image_url": "images/monsters/Candy_Floss_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6057,7 +6057,7 @@ const allMonstersData = [
   {
     "name": "Candy Horror",
     "hp": 3100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Candy_Horror.gif",
+    "image_url": "images/monsters/Candy_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6092,7 +6092,7 @@ const allMonstersData = [
   {
     "name": "Canopic Jar",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Canopic_Jar.gif",
+    "image_url": "images/monsters/Canopic_Jar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6127,7 +6127,7 @@ const allMonstersData = [
   {
     "name": "Capricious Phantom",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Capricious_Phantom.gif",
+    "image_url": "images/monsters/Capricious_Phantom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6162,7 +6162,7 @@ const allMonstersData = [
   {
     "name": "Captain Jones",
     "hp": 555,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Captain_Jones.gif",
+    "image_url": "images/monsters/Captain_Jones.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6197,7 +6197,7 @@ const allMonstersData = [
   {
     "name": "Carniphila",
     "hp": 255,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carniphila.gif",
+    "image_url": "images/monsters/Carniphila.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6232,7 +6232,7 @@ const allMonstersData = [
   {
     "name": "Carnisylvan Sapling",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carnisylvan_Sapling.gif",
+    "image_url": "images/monsters/Carnisylvan_Sapling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6267,7 +6267,7 @@ const allMonstersData = [
   {
     "name": "Carnivorous Butterfly",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carnivorous_Butterfly.gif",
+    "image_url": "images/monsters/Carnivorous_Butterfly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6302,7 +6302,7 @@ const allMonstersData = [
   {
     "name": "Carnivostrich",
     "hp": 8250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carnivostrich.gif",
+    "image_url": "images/monsters/Carnivostrich.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6337,7 +6337,7 @@ const allMonstersData = [
   {
     "name": "Carrion Worm",
     "hp": 145,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carrion_Worm.gif",
+    "image_url": "images/monsters/Carrion_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6372,7 +6372,7 @@ const allMonstersData = [
   {
     "name": "Cart Packed with Gold",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cart_Packed_with_Gold.gif",
+    "image_url": "images/monsters/Cart_Packed_with_Gold.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6407,7 +6407,7 @@ const allMonstersData = [
   {
     "name": "Cat",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cat.gif",
+    "image_url": "images/monsters/Cat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6442,7 +6442,7 @@ const allMonstersData = [
   {
     "name": "Cave Chimera",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cave_Chimera.gif",
+    "image_url": "images/monsters/Cave_Chimera.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6477,7 +6477,7 @@ const allMonstersData = [
   {
     "name": "Cave Devourer",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cave_Devourer.gif",
+    "image_url": "images/monsters/Cave_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6512,7 +6512,7 @@ const allMonstersData = [
   {
     "name": "Cave Hydra",
     "hp": 2350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cave_Hydra.gif",
+    "image_url": "images/monsters/Cave_Hydra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6547,7 +6547,7 @@ const allMonstersData = [
   {
     "name": "Cave Parrot",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cave_Parrot.gif",
+    "image_url": "images/monsters/Cave_Parrot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6582,7 +6582,7 @@ const allMonstersData = [
   {
     "name": "Cave Rat",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cave_Rat.gif",
+    "image_url": "images/monsters/Cave_Rat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6617,7 +6617,7 @@ const allMonstersData = [
   {
     "name": "Cave Spider",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cave_Spider.gif",
+    "image_url": "images/monsters/Cave_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6652,7 +6652,7 @@ const allMonstersData = [
   {
     "name": "Cellar Rat",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cellar_Rat.gif",
+    "image_url": "images/monsters/Cellar_Rat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6687,7 +6687,7 @@ const allMonstersData = [
   {
     "name": "Centipede",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Centipede.gif",
+    "image_url": "images/monsters/Centipede.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6722,7 +6722,7 @@ const allMonstersData = [
   {
     "name": "Cerebellum",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cerebellum.gif",
+    "image_url": "images/monsters/Cerebellum.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6757,7 +6757,7 @@ const allMonstersData = [
   {
     "name": "Chakoya Toolshaper",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Toolshaper.gif",
+    "image_url": "images/monsters/Chakoya_Toolshaper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6792,7 +6792,7 @@ const allMonstersData = [
   {
     "name": "Chakoya Tribewarden",
     "hp": 68,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Tribewarden.gif",
+    "image_url": "images/monsters/Chakoya_Tribewarden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6827,7 +6827,7 @@ const allMonstersData = [
   {
     "name": "Chakoya Windcaller",
     "hp": 84,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Windcaller.gif",
+    "image_url": "images/monsters/Chakoya_Windcaller.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6862,7 +6862,7 @@ const allMonstersData = [
   {
     "name": "Charged Anomaly",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Charged_Anomaly.gif",
+    "image_url": "images/monsters/Charged_Anomaly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6897,7 +6897,7 @@ const allMonstersData = [
   {
     "name": "Charged Energy Elemental",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Charged_Energy_Elemental.gif",
+    "image_url": "images/monsters/Charged_Energy_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6932,7 +6932,7 @@ const allMonstersData = [
   {
     "name": "Charger",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Charger.gif",
+    "image_url": "images/monsters/Charger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6967,7 +6967,7 @@ const allMonstersData = [
   {
     "name": "Charging Outburst",
     "hp": 12000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Charging_Outburst.gif",
+    "image_url": "images/monsters/Charging_Outburst.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7002,7 +7002,7 @@ const allMonstersData = [
   {
     "name": "Chasm Spawn",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chasm_Spawn.gif",
+    "image_url": "images/monsters/Chasm_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7037,7 +7037,7 @@ const allMonstersData = [
   {
     "name": "Chayenne (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chayenne_(Creature).gif",
+    "image_url": "images/monsters/Chayenne__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7072,7 +7072,7 @@ const allMonstersData = [
   {
     "name": "Cheeky Sugar Cube",
     "hp": 28,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cheeky_Sugar_Cube.gif",
+    "image_url": "images/monsters/Cheeky_Sugar_Cube.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7107,7 +7107,7 @@ const allMonstersData = [
   {
     "name": "Cheese Thief",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cheese_Thief.gif",
+    "image_url": "images/monsters/Cheese_Thief.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7142,7 +7142,7 @@ const allMonstersData = [
   {
     "name": "Chicken",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chicken.gif",
+    "image_url": "images/monsters/Chicken.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7177,7 +7177,7 @@ const allMonstersData = [
   {
     "name": "Chikhaton",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chikhaton.gif",
+    "image_url": "images/monsters/Chikhaton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7212,7 +7212,7 @@ const allMonstersData = [
   {
     "name": "Chizzoron the Distorter",
     "hp": 16000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chizzoron_the_Distorter.gif",
+    "image_url": "images/monsters/Chizzoron_the_Distorter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7247,7 +7247,7 @@ const allMonstersData = [
   {
     "name": "Chocolate Blob",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chocolate_Blob.gif",
+    "image_url": "images/monsters/Chocolate_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7282,7 +7282,7 @@ const allMonstersData = [
   {
     "name": "Choking Fear",
     "hp": 5800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Choking_Fear.gif",
+    "image_url": "images/monsters/Choking_Fear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7317,7 +7317,7 @@ const allMonstersData = [
   {
     "name": "Chopper",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chopper.gif",
+    "image_url": "images/monsters/Chopper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7352,7 +7352,7 @@ const allMonstersData = [
   {
     "name": "Cinder Wyrmling",
     "hp": 2350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cinder_Wyrmling.gif",
+    "image_url": "images/monsters/Cinder_Wyrmling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7387,7 +7387,7 @@ const allMonstersData = [
   {
     "name": "Clay Guardian",
     "hp": 625,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Clay_Guardian.gif",
+    "image_url": "images/monsters/Clay_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7422,7 +7422,7 @@ const allMonstersData = [
   {
     "name": "Cliff Strider",
     "hp": 9400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cliff_Strider.gif",
+    "image_url": "images/monsters/Cliff_Strider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7457,7 +7457,7 @@ const allMonstersData = [
   {
     "name": "Cloak of Terror",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cloak_of_Terror.gif",
+    "image_url": "images/monsters/Cloak_of_Terror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7492,7 +7492,7 @@ const allMonstersData = [
   {
     "name": "Clomp",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Clomp.gif",
+    "image_url": "images/monsters/Clomp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7527,7 +7527,7 @@ const allMonstersData = [
   {
     "name": "Clutter",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Clutter.gif",
+    "image_url": "images/monsters/Clutter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7562,7 +7562,7 @@ const allMonstersData = [
   {
     "name": "Cobra",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra.gif",
+    "image_url": "images/monsters/Cobra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7597,7 +7597,7 @@ const allMonstersData = [
   {
     "name": "Cobra Assassin",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra_Assassin.gif",
+    "image_url": "images/monsters/Cobra_Assassin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7632,7 +7632,7 @@ const allMonstersData = [
   {
     "name": "Cobra Scout",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra_Scout.gif",
+    "image_url": "images/monsters/Cobra_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7667,7 +7667,7 @@ const allMonstersData = [
   {
     "name": "Cobra Vizier",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra_Vizier.gif",
+    "image_url": "images/monsters/Cobra_Vizier.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7702,7 +7702,7 @@ const allMonstersData = [
   {
     "name": "Coldheart",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Coldheart.gif",
+    "image_url": "images/monsters/Coldheart.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7737,7 +7737,7 @@ const allMonstersData = [
   {
     "name": "Colerian the Barbarian",
     "hp": 265,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Colerian_the_Barbarian.gif",
+    "image_url": "images/monsters/Colerian_the_Barbarian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7772,7 +7772,7 @@ const allMonstersData = [
   {
     "name": "Common Beetle",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Common_Beetle.gif",
+    "image_url": "images/monsters/Common_Beetle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7807,7 +7807,7 @@ const allMonstersData = [
   {
     "name": "Containment Machine",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Containment_Machine.gif",
+    "image_url": "images/monsters/Containment_Machine.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7842,7 +7842,7 @@ const allMonstersData = [
   {
     "name": "Control Tower",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Control_Tower.gif",
+    "image_url": "images/monsters/Control_Tower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7877,7 +7877,7 @@ const allMonstersData = [
   {
     "name": "Converter",
     "hp": 29600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Converter.gif",
+    "image_url": "images/monsters/Converter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7912,7 +7912,7 @@ const allMonstersData = [
   {
     "name": "Coral Frog",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Coral_Frog.gif",
+    "image_url": "images/monsters/Coral_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7947,7 +7947,7 @@ const allMonstersData = [
   {
     "name": "Corrupt Naga",
     "hp": 5990,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corrupt_Naga.gif",
+    "image_url": "images/monsters/Corrupt_Naga.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7982,7 +7982,7 @@ const allMonstersData = [
   {
     "name": "Corrupted Soul",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corrupted_Soul.gif",
+    "image_url": "images/monsters/Corrupted_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8017,7 +8017,7 @@ const allMonstersData = [
   {
     "name": "Corym Charlatan",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Charlatan.gif",
+    "image_url": "images/monsters/Corym_Charlatan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8052,7 +8052,7 @@ const allMonstersData = [
   {
     "name": "Corym Skirmisher",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Skirmisher.gif",
+    "image_url": "images/monsters/Corym_Skirmisher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8087,7 +8087,7 @@ const allMonstersData = [
   {
     "name": "Corym Vanguard",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Vanguard.gif",
+    "image_url": "images/monsters/Corym_Vanguard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8122,7 +8122,7 @@ const allMonstersData = [
   {
     "name": "Cosmic Energy Prism A",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cosmic_Energy_Prism_A.gif",
+    "image_url": "images/monsters/Cosmic_Energy_Prism_A.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8157,7 +8157,7 @@ const allMonstersData = [
   {
     "name": "Cosmic Energy Prism B",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cosmic_Energy_Prism_B.gif",
+    "image_url": "images/monsters/Cosmic_Energy_Prism_B.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8192,7 +8192,7 @@ const allMonstersData = [
   {
     "name": "Cosmic Energy Prism C",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cosmic_Energy_Prism_C.gif",
+    "image_url": "images/monsters/Cosmic_Energy_Prism_C.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8227,7 +8227,7 @@ const allMonstersData = [
   {
     "name": "Cosmic Energy Prism D",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cosmic_Energy_Prism_D.gif",
+    "image_url": "images/monsters/Cosmic_Energy_Prism_D.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8262,7 +8262,7 @@ const allMonstersData = [
   {
     "name": "Count Tofifti (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Count_Tofifti_(Creature).gif",
+    "image_url": "images/monsters/Count_Tofifti__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8297,7 +8297,7 @@ const allMonstersData = [
   {
     "name": "Count Vlarkorth",
     "hp": 300000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Count_Vlarkorth.gif",
+    "image_url": "images/monsters/Count_Vlarkorth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8332,7 +8332,7 @@ const allMonstersData = [
   {
     "name": "Countess Sorrow",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Countess_Sorrow.gif",
+    "image_url": "images/monsters/Countess_Sorrow.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8367,7 +8367,7 @@ const allMonstersData = [
   {
     "name": "Courage Leech",
     "hp": 27000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Courage_Leech.gif",
+    "image_url": "images/monsters/Courage_Leech.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8402,7 +8402,7 @@ const allMonstersData = [
   {
     "name": "Cow",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cow.gif",
+    "image_url": "images/monsters/Cow.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8437,7 +8437,7 @@ const allMonstersData = [
   {
     "name": "Crab",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crab.gif",
+    "image_url": "images/monsters/Crab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8472,7 +8472,7 @@ const allMonstersData = [
   {
     "name": "Craban (Creature)",
     "hp": 300000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Craban_(Creature).gif",
+    "image_url": "images/monsters/Craban__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8507,7 +8507,7 @@ const allMonstersData = [
   {
     "name": "Crape Man",
     "hp": 9150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crape_Man.gif",
+    "image_url": "images/monsters/Crape_Man.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8542,7 +8542,7 @@ const allMonstersData = [
   {
     "name": "Crawler",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crawler.gif",
+    "image_url": "images/monsters/Crawler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8577,7 +8577,7 @@ const allMonstersData = [
   {
     "name": "Crazed Beggar",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Beggar.gif",
+    "image_url": "images/monsters/Crazed_Beggar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8612,7 +8612,7 @@ const allMonstersData = [
   {
     "name": "Crazed Dwarf",
     "hp": 105,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Dwarf.gif",
+    "image_url": "images/monsters/Crazed_Dwarf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8647,7 +8647,7 @@ const allMonstersData = [
   {
     "name": "Crazed Summer Rearguard",
     "hp": 5300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Summer_Rearguard.gif",
+    "image_url": "images/monsters/Crazed_Summer_Rearguard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8682,7 +8682,7 @@ const allMonstersData = [
   {
     "name": "Crazed Summer Vanguard",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Summer_Vanguard.gif",
+    "image_url": "images/monsters/Crazed_Summer_Vanguard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8717,7 +8717,7 @@ const allMonstersData = [
   {
     "name": "Crazed Winter Rearguard",
     "hp": 5200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Winter_Rearguard.gif",
+    "image_url": "images/monsters/Crazed_Winter_Rearguard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8752,7 +8752,7 @@ const allMonstersData = [
   {
     "name": "Crazed Winter Vanguard",
     "hp": 5800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Winter_Vanguard.gif",
+    "image_url": "images/monsters/Crazed_Winter_Vanguard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8787,7 +8787,7 @@ const allMonstersData = [
   {
     "name": "Cream Blob",
     "hp": 76,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cream_Blob.gif",
+    "image_url": "images/monsters/Cream_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8822,7 +8822,7 @@ const allMonstersData = [
   {
     "name": "Crimson Frog",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crimson_Frog.gif",
+    "image_url": "images/monsters/Crimson_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8857,7 +8857,7 @@ const allMonstersData = [
   {
     "name": "Crocodile",
     "hp": 105,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crocodile.gif",
+    "image_url": "images/monsters/Crocodile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8892,7 +8892,7 @@ const allMonstersData = [
   {
     "name": "Crultor",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crultor.gif",
+    "image_url": "images/monsters/Crultor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8927,7 +8927,7 @@ const allMonstersData = [
   {
     "name": "Crusader",
     "hp": 3400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crusader.gif",
+    "image_url": "images/monsters/Crusader.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8962,7 +8962,7 @@ const allMonstersData = [
   {
     "name": "Crustacea Gigantica",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crustacea_Gigantica.gif",
+    "image_url": "images/monsters/Crustacea_Gigantica.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8997,7 +8997,7 @@ const allMonstersData = [
   {
     "name": "Crypt Defiler",
     "hp": 185,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Defiler.gif",
+    "image_url": "images/monsters/Crypt_Defiler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9032,7 +9032,7 @@ const allMonstersData = [
   {
     "name": "Crypt Shambler",
     "hp": 330,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Shambler.gif",
+    "image_url": "images/monsters/Crypt_Shambler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9067,7 +9067,7 @@ const allMonstersData = [
   {
     "name": "Crypt Warden",
     "hp": 8300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Warden.gif",
+    "image_url": "images/monsters/Crypt_Warden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9102,7 +9102,7 @@ const allMonstersData = [
   {
     "name": "Crypt Warrior",
     "hp": 7800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Warrior.gif",
+    "image_url": "images/monsters/Crypt_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9137,7 +9137,7 @@ const allMonstersData = [
   {
     "name": "Crystal Spider",
     "hp": 1250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crystal_Spider.gif",
+    "image_url": "images/monsters/Crystal_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9172,7 +9172,7 @@ const allMonstersData = [
   {
     "name": "Crystal Wolf",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crystal_Wolf.gif",
+    "image_url": "images/monsters/Crystal_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9207,7 +9207,7 @@ const allMonstersData = [
   {
     "name": "Crystalcrusher",
     "hp": 570,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crystalcrusher.gif",
+    "image_url": "images/monsters/Crystalcrusher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9242,7 +9242,7 @@ const allMonstersData = [
   {
     "name": "Cublarc the Plunderer",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cublarc_the_Plunderer.gif",
+    "image_url": "images/monsters/Cublarc_the_Plunderer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9277,7 +9277,7 @@ const allMonstersData = [
   {
     "name": "Cult Believer",
     "hp": 975,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cult_Believer.gif",
+    "image_url": "images/monsters/Cult_Believer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9312,7 +9312,7 @@ const allMonstersData = [
   {
     "name": "Cult Enforcer",
     "hp": 1150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cult_Enforcer.gif",
+    "image_url": "images/monsters/Cult_Enforcer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9347,7 +9347,7 @@ const allMonstersData = [
   {
     "name": "Cult Scholar",
     "hp": 1650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cult_Scholar.gif",
+    "image_url": "images/monsters/Cult_Scholar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9382,7 +9382,7 @@ const allMonstersData = [
   {
     "name": "Cunning Werepanther",
     "hp": 4300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cunning_Werepanther.gif",
+    "image_url": "images/monsters/Cunning_Werepanther.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9417,7 +9417,7 @@ const allMonstersData = [
   {
     "name": "Cursed Ape",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cursed_Ape.gif",
+    "image_url": "images/monsters/Cursed_Ape.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9452,7 +9452,7 @@ const allMonstersData = [
   {
     "name": "Cursed Book",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cursed_Book.gif",
+    "image_url": "images/monsters/Cursed_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9487,7 +9487,7 @@ const allMonstersData = [
   {
     "name": "Cursed Gladiator",
     "hp": 435,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cursed_Gladiator.gif",
+    "image_url": "images/monsters/Cursed_Gladiator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9522,7 +9522,7 @@ const allMonstersData = [
   {
     "name": "Cursed Prospector",
     "hp": 3900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cursed_Prospector.gif",
+    "image_url": "images/monsters/Cursed_Prospector.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9557,7 +9557,7 @@ const allMonstersData = [
   {
     "name": "Custodian",
     "hp": 47000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Custodian.gif",
+    "image_url": "images/monsters/Custodian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9592,7 +9592,7 @@ const allMonstersData = [
   {
     "name": "Cyclops",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cyclops.gif",
+    "image_url": "images/monsters/Cyclops.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9627,7 +9627,7 @@ const allMonstersData = [
   {
     "name": "Cyclops Drone",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cyclops_Drone.gif",
+    "image_url": "images/monsters/Cyclops_Drone.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9662,7 +9662,7 @@ const allMonstersData = [
   {
     "name": "Cyclops Smith",
     "hp": 435,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cyclops_Smith.gif",
+    "image_url": "images/monsters/Cyclops_Smith.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9697,7 +9697,7 @@ const allMonstersData = [
   {
     "name": "Damage Resonance",
     "hp": 11000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Damage_Resonance.gif",
+    "image_url": "images/monsters/Damage_Resonance.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9732,7 +9732,7 @@ const allMonstersData = [
   {
     "name": "Damaged Crystal Golem",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Damaged_Crystal_Golem.gif",
+    "image_url": "images/monsters/Damaged_Crystal_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9767,7 +9767,7 @@ const allMonstersData = [
   {
     "name": "Damaged Worker Golem",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Damaged_Worker_Golem.gif",
+    "image_url": "images/monsters/Damaged_Worker_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9802,7 +9802,7 @@ const allMonstersData = [
   {
     "name": "Damned Soul",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Damned_Soul.gif",
+    "image_url": "images/monsters/Damned_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9837,7 +9837,7 @@ const allMonstersData = [
   {
     "name": "Darakan the Executioner",
     "hp": 3480,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darakan_the_Executioner.gif",
+    "image_url": "images/monsters/Darakan_the_Executioner.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9872,7 +9872,7 @@ const allMonstersData = [
   {
     "name": "Dark Apprentice",
     "hp": 225,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Apprentice.gif",
+    "image_url": "images/monsters/Dark_Apprentice.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9907,7 +9907,7 @@ const allMonstersData = [
   {
     "name": "Dark Carnisylvan",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Carnisylvan.gif",
+    "image_url": "images/monsters/Dark_Carnisylvan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9942,7 +9942,7 @@ const allMonstersData = [
   {
     "name": "Dark Faun",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Faun.gif",
+    "image_url": "images/monsters/Dark_Faun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -9977,7 +9977,7 @@ const allMonstersData = [
   {
     "name": "Dark Magician",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Magician.gif",
+    "image_url": "images/monsters/Dark_Magician.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10012,7 +10012,7 @@ const allMonstersData = [
   {
     "name": "Dark Merudri",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Merudri.gif",
+    "image_url": "images/monsters/Dark_Merudri.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10047,7 +10047,7 @@ const allMonstersData = [
   {
     "name": "Dark Monk",
     "hp": 190,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Monk.gif",
+    "image_url": "images/monsters/Dark_Monk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10082,7 +10082,7 @@ const allMonstersData = [
   {
     "name": "Dark Torturer",
     "hp": 7350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Torturer.gif",
+    "image_url": "images/monsters/Dark_Torturer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10117,7 +10117,7 @@ const allMonstersData = [
   {
     "name": "Darkfang",
     "hp": 4800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darkfang.gif",
+    "image_url": "images/monsters/Darkfang.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10152,7 +10152,7 @@ const allMonstersData = [
   {
     "name": "Darklight Construct",
     "hp": 32200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darklight_Construct.gif",
+    "image_url": "images/monsters/Darklight_Construct.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10187,7 +10187,7 @@ const allMonstersData = [
   {
     "name": "Darklight Emitter",
     "hp": 27500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darklight_Emitter.gif",
+    "image_url": "images/monsters/Darklight_Emitter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10222,7 +10222,7 @@ const allMonstersData = [
   {
     "name": "Darklight Matter",
     "hp": 30150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darklight_Matter.gif",
+    "image_url": "images/monsters/Darklight_Matter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10257,7 +10257,7 @@ const allMonstersData = [
   {
     "name": "Darklight Source",
     "hp": 31550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darklight_Source.gif",
+    "image_url": "images/monsters/Darklight_Source.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10292,7 +10292,7 @@ const allMonstersData = [
   {
     "name": "Darklight Striker",
     "hp": 29700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Darklight_Striker.gif",
+    "image_url": "images/monsters/Darklight_Striker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10327,7 +10327,7 @@ const allMonstersData = [
   {
     "name": "Dawn Bat",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawn_Bat.gif",
+    "image_url": "images/monsters/Dawn_Bat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10362,7 +10362,7 @@ const allMonstersData = [
   {
     "name": "Dawn Scorpion",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawn_Scorpion.gif",
+    "image_url": "images/monsters/Dawn_Scorpion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10397,7 +10397,7 @@ const allMonstersData = [
   {
     "name": "Dawnfire Asura",
     "hp": 2900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawnfire_Asura.gif",
+    "image_url": "images/monsters/Dawnfire_Asura.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10432,7 +10432,7 @@ const allMonstersData = [
   {
     "name": "Dawnfly",
     "hp": 90,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawnfly.gif",
+    "image_url": "images/monsters/Dawnfly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10467,7 +10467,7 @@ const allMonstersData = [
   {
     "name": "Dazed Leaf Golem",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dazed_Leaf_Golem.gif",
+    "image_url": "images/monsters/Dazed_Leaf_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10502,7 +10502,7 @@ const allMonstersData = [
   {
     "name": "Deadeye Devious",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deadeye_Devious.gif",
+    "image_url": "images/monsters/Deadeye_Devious.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10537,7 +10537,7 @@ const allMonstersData = [
   {
     "name": "Death Blob",
     "hp": 320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Death_Blob.gif",
+    "image_url": "images/monsters/Death_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10572,7 +10572,7 @@ const allMonstersData = [
   {
     "name": "Death Dragon",
     "hp": 8350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Death_Dragon.gif",
+    "image_url": "images/monsters/Death_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10607,7 +10607,7 @@ const allMonstersData = [
   {
     "name": "Death Priest",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Death_Priest.gif",
+    "image_url": "images/monsters/Death_Priest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10642,7 +10642,7 @@ const allMonstersData = [
   {
     "name": "Death Priest Shargon",
     "hp": 65000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Death_Priest_Shargon.gif",
+    "image_url": "images/monsters/Death_Priest_Shargon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10677,7 +10677,7 @@ const allMonstersData = [
   {
     "name": "Deathbine",
     "hp": 525,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathbine.gif",
+    "image_url": "images/monsters/Deathbine.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10712,7 +10712,7 @@ const allMonstersData = [
   {
     "name": "Deathbringer",
     "hp": 8440,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathbringer.gif",
+    "image_url": "images/monsters/Deathbringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10747,7 +10747,7 @@ const allMonstersData = [
   {
     "name": "Deathling Scout",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathling_Scout.gif",
+    "image_url": "images/monsters/Deathling_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10782,7 +10782,7 @@ const allMonstersData = [
   {
     "name": "Deathling Spellsinger",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathling_Spellsinger.gif",
+    "image_url": "images/monsters/Deathling_Spellsinger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10817,7 +10817,7 @@ const allMonstersData = [
   {
     "name": "Deathslicer",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathslicer.gif",
+    "image_url": "images/monsters/Deathslicer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10852,7 +10852,7 @@ const allMonstersData = [
   {
     "name": "Deathspawn",
     "hp": 225,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathspawn.gif",
+    "image_url": "images/monsters/Deathspawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10887,7 +10887,7 @@ const allMonstersData = [
   {
     "name": "Deathstrike",
     "hp": 200000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deathstrike.gif",
+    "image_url": "images/monsters/Deathstrike.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10922,7 +10922,7 @@ const allMonstersData = [
   {
     "name": "Deep Terror",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deep_Terror.gif",
+    "image_url": "images/monsters/Deep_Terror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10957,7 +10957,7 @@ const allMonstersData = [
   {
     "name": "Deepling Brawler",
     "hp": 380,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Brawler.gif",
+    "image_url": "images/monsters/Deepling_Brawler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10992,7 +10992,7 @@ const allMonstersData = [
   {
     "name": "Deepling Elite",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Elite.gif",
+    "image_url": "images/monsters/Deepling_Elite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11027,7 +11027,7 @@ const allMonstersData = [
   {
     "name": "Deepling Guard",
     "hp": 1900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Guard.gif",
+    "image_url": "images/monsters/Deepling_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11062,7 +11062,7 @@ const allMonstersData = [
   {
     "name": "Deepling Master Librarian",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Master_Librarian.gif",
+    "image_url": "images/monsters/Deepling_Master_Librarian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11097,7 +11097,7 @@ const allMonstersData = [
   {
     "name": "Deepling Scout",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Scout.gif",
+    "image_url": "images/monsters/Deepling_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11132,7 +11132,7 @@ const allMonstersData = [
   {
     "name": "Deepling Spellsinger",
     "hp": 850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Spellsinger.gif",
+    "image_url": "images/monsters/Deepling_Spellsinger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11167,7 +11167,7 @@ const allMonstersData = [
   {
     "name": "Deepling Tyrant",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Tyrant.gif",
+    "image_url": "images/monsters/Deepling_Tyrant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11202,7 +11202,7 @@ const allMonstersData = [
   {
     "name": "Deepling Warrior",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Warrior.gif",
+    "image_url": "images/monsters/Deepling_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11237,7 +11237,7 @@ const allMonstersData = [
   {
     "name": "Deepling Worker",
     "hp": 190,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Worker.gif",
+    "image_url": "images/monsters/Deepling_Worker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11272,7 +11272,7 @@ const allMonstersData = [
   {
     "name": "Deepsea Blood Crab",
     "hp": 320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepsea_Blood_Crab.gif",
+    "image_url": "images/monsters/Deepsea_Blood_Crab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11307,7 +11307,7 @@ const allMonstersData = [
   {
     "name": "Deepworm",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepworm.gif",
+    "image_url": "images/monsters/Deepworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11342,7 +11342,7 @@ const allMonstersData = [
   {
     "name": "Deer",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deer.gif",
+    "image_url": "images/monsters/Deer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11377,7 +11377,7 @@ const allMonstersData = [
   {
     "name": "Defiler",
     "hp": 3650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Defiler.gif",
+    "image_url": "images/monsters/Defiler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11412,7 +11412,7 @@ const allMonstersData = [
   {
     "name": "Delany (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Delany_(Creature).gif",
+    "image_url": "images/monsters/Delany__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11447,7 +11447,7 @@ const allMonstersData = [
   {
     "name": "Demodras",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Demodras.gif",
+    "image_url": "images/monsters/Demodras.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11482,7 +11482,7 @@ const allMonstersData = [
   {
     "name": "Demon",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Demon.gif",
+    "image_url": "images/monsters/Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11517,7 +11517,7 @@ const allMonstersData = [
   {
     "name": "Demon (Goblin)",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Demon_(Goblin).gif",
+    "image_url": "images/monsters/Demon__Goblin_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11552,7 +11552,7 @@ const allMonstersData = [
   {
     "name": "Demon Outcast",
     "hp": 6900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Demon_Outcast.gif",
+    "image_url": "images/monsters/Demon_Outcast.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11587,7 +11587,7 @@ const allMonstersData = [
   {
     "name": "Demon Parrot",
     "hp": 360,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Demon_Parrot.gif",
+    "image_url": "images/monsters/Demon_Parrot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11622,7 +11622,7 @@ const allMonstersData = [
   {
     "name": "Demon Skeleton",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Demon_Skeleton.gif",
+    "image_url": "images/monsters/Demon_Skeleton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11657,7 +11657,7 @@ const allMonstersData = [
   {
     "name": "Denson Larika (Creature)",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Denson_Larika_(Creature).gif",
+    "image_url": "images/monsters/Denson_Larika__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11692,7 +11692,7 @@ const allMonstersData = [
   {
     "name": "Depowered Minotaur",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Depowered_Minotaur.gif",
+    "image_url": "images/monsters/Depowered_Minotaur.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11727,7 +11727,7 @@ const allMonstersData = [
   {
     "name": "Despair",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Despair.gif",
+    "image_url": "images/monsters/Despair.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11762,7 +11762,7 @@ const allMonstersData = [
   {
     "name": "Desperate White Deer",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Desperate_White_Deer.gif",
+    "image_url": "images/monsters/Desperate_White_Deer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11797,7 +11797,7 @@ const allMonstersData = [
   {
     "name": "Despor",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Despor.gif",
+    "image_url": "images/monsters/Despor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11832,7 +11832,7 @@ const allMonstersData = [
   {
     "name": "Destroyer",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Destroyer.gif",
+    "image_url": "images/monsters/Destroyer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11867,7 +11867,7 @@ const allMonstersData = [
   {
     "name": "Devourer",
     "hp": 1900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Devourer.gif",
+    "image_url": "images/monsters/Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11902,7 +11902,7 @@ const allMonstersData = [
   {
     "name": "Devovorga",
     "hp": 500000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Devovorga.gif",
+    "image_url": "images/monsters/Devovorga.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11937,7 +11937,7 @@ const allMonstersData = [
   {
     "name": "Dharalion",
     "hp": 390,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dharalion.gif",
+    "image_url": "images/monsters/Dharalion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11972,7 +11972,7 @@ const allMonstersData = [
   {
     "name": "Diabolic Imp",
     "hp": 1950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diabolic_Imp.gif",
+    "image_url": "images/monsters/Diabolic_Imp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12007,7 +12007,7 @@ const allMonstersData = [
   {
     "name": "Diamond Servant",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diamond_Servant.gif",
+    "image_url": "images/monsters/Diamond_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12042,7 +12042,7 @@ const allMonstersData = [
   {
     "name": "Diamond Servant Replica",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diamond_Servant_Replica.gif",
+    "image_url": "images/monsters/Diamond_Servant_Replica.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12077,7 +12077,7 @@ const allMonstersData = [
   {
     "name": "Diblis the Fair",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diblis_the_Fair.gif",
+    "image_url": "images/monsters/Diblis_the_Fair.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12112,7 +12112,7 @@ const allMonstersData = [
   {
     "name": "Dipthrah",
     "hp": 4200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dipthrah.gif",
+    "image_url": "images/monsters/Dipthrah.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12147,7 +12147,7 @@ const allMonstersData = [
   {
     "name": "Dire Penguin",
     "hp": 173,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dire_Penguin.gif",
+    "image_url": "images/monsters/Dire_Penguin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12182,7 +12182,7 @@ const allMonstersData = [
   {
     "name": "Diremaw",
     "hp": 3600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diremaw.gif",
+    "image_url": "images/monsters/Diremaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12217,7 +12217,7 @@ const allMonstersData = [
   {
     "name": "Dirtbeard",
     "hp": 630,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dirtbeard.gif",
+    "image_url": "images/monsters/Dirtbeard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12252,7 +12252,7 @@ const allMonstersData = [
   {
     "name": "Diseased Bill",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diseased_Bill.gif",
+    "image_url": "images/monsters/Diseased_Bill.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12287,7 +12287,7 @@ const allMonstersData = [
   {
     "name": "Diseased Dan",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diseased_Dan.gif",
+    "image_url": "images/monsters/Diseased_Dan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12322,7 +12322,7 @@ const allMonstersData = [
   {
     "name": "Diseased Fred",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Diseased_Fred.gif",
+    "image_url": "images/monsters/Diseased_Fred.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12357,7 +12357,7 @@ const allMonstersData = [
   {
     "name": "Disruption",
     "hp": 12000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Disruption.gif",
+    "image_url": "images/monsters/Disruption.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12392,7 +12392,7 @@ const allMonstersData = [
   {
     "name": "Distorted Phantom",
     "hp": 26000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Distorted_Phantom.gif",
+    "image_url": "images/monsters/Distorted_Phantom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12427,7 +12427,7 @@ const allMonstersData = [
   {
     "name": "Doctor Perhaps",
     "hp": 475,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Doctor_Perhaps.gif",
+    "image_url": "images/monsters/Doctor_Perhaps.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12462,7 +12462,7 @@ const allMonstersData = [
   {
     "name": "Dog",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dog.gif",
+    "image_url": "images/monsters/Dog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12497,7 +12497,7 @@ const allMonstersData = [
   {
     "name": "Domestikion",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Domestikion.gif",
+    "image_url": "images/monsters/Domestikion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12532,7 +12532,7 @@ const allMonstersData = [
   {
     "name": "Doom Deer",
     "hp": 405,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Doom_Deer.gif",
+    "image_url": "images/monsters/Doom_Deer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12567,7 +12567,7 @@ const allMonstersData = [
   {
     "name": "Doomhowl",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Doomhowl.gif",
+    "image_url": "images/monsters/Doomhowl.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12602,7 +12602,7 @@ const allMonstersData = [
   {
     "name": "Doomsday Cultist",
     "hp": 125,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Doomsday_Cultist.gif",
+    "image_url": "images/monsters/Doomsday_Cultist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12637,7 +12637,7 @@ const allMonstersData = [
   {
     "name": "Dracola",
     "hp": 16200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dracola.gif",
+    "image_url": "images/monsters/Dracola.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12672,7 +12672,7 @@ const allMonstersData = [
   {
     "name": "Dragolisk",
     "hp": 6180,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragolisk.gif",
+    "image_url": "images/monsters/Dragolisk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12707,7 +12707,7 @@ const allMonstersData = [
   {
     "name": "Dragon",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragon.gif",
+    "image_url": "images/monsters/Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12742,7 +12742,7 @@ const allMonstersData = [
   {
     "name": "Dragon Essence",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragon_Essence.gif",
+    "image_url": "images/monsters/Dragon_Essence.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12777,7 +12777,7 @@ const allMonstersData = [
   {
     "name": "Dragon Hatchling",
     "hp": 380,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragon_Hatchling.gif",
+    "image_url": "images/monsters/Dragon_Hatchling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12812,7 +12812,7 @@ const allMonstersData = [
   {
     "name": "Dragon Hoard",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragon_Hoard.gif",
+    "image_url": "images/monsters/Dragon_Hoard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12847,7 +12847,7 @@ const allMonstersData = [
   {
     "name": "Dragon Lord",
     "hp": 1900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragon_Lord.gif",
+    "image_url": "images/monsters/Dragon_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12882,7 +12882,7 @@ const allMonstersData = [
   {
     "name": "Dragon Lord Hatchling",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragon_Lord_Hatchling.gif",
+    "image_url": "images/monsters/Dragon_Lord_Hatchling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12917,7 +12917,7 @@ const allMonstersData = [
   {
     "name": "Dragonling",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dragonling.gif",
+    "image_url": "images/monsters/Dragonling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12952,7 +12952,7 @@ const allMonstersData = [
   {
     "name": "Draken Abomination",
     "hp": 6250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Draken_Abomination.gif",
+    "image_url": "images/monsters/Draken_Abomination.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12987,7 +12987,7 @@ const allMonstersData = [
   {
     "name": "Draken Elite",
     "hp": 5550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Draken_Elite.gif",
+    "image_url": "images/monsters/Draken_Elite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13022,7 +13022,7 @@ const allMonstersData = [
   {
     "name": "Draken Spellweaver",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Draken_Spellweaver.gif",
+    "image_url": "images/monsters/Draken_Spellweaver.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13057,7 +13057,7 @@ const allMonstersData = [
   {
     "name": "Draken Warmaster",
     "hp": 4150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Draken_Warmaster.gif",
+    "image_url": "images/monsters/Draken_Warmaster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13092,7 +13092,7 @@ const allMonstersData = [
   {
     "name": "Draptor",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Draptor.gif",
+    "image_url": "images/monsters/Draptor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13127,7 +13127,7 @@ const allMonstersData = [
   {
     "name": "Drasilla",
     "hp": 1260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Drasilla.gif",
+    "image_url": "images/monsters/Drasilla.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13162,7 +13162,7 @@ const allMonstersData = [
   {
     "name": "Dread Intruder",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dread_Intruder.gif",
+    "image_url": "images/monsters/Dread_Intruder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13197,7 +13197,7 @@ const allMonstersData = [
   {
     "name": "Dread Minion",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dread_Minion.gif",
+    "image_url": "images/monsters/Dread_Minion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13232,7 +13232,7 @@ const allMonstersData = [
   {
     "name": "Dreadbeast",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dreadbeast.gif",
+    "image_url": "images/monsters/Dreadbeast.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13267,7 +13267,7 @@ const allMonstersData = [
   {
     "name": "Dreadful Disruptor",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dreadful_Disruptor.gif",
+    "image_url": "images/monsters/Dreadful_Disruptor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13302,7 +13302,7 @@ const allMonstersData = [
   {
     "name": "Dreadmaw",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dreadmaw.gif",
+    "image_url": "images/monsters/Dreadmaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13337,7 +13337,7 @@ const allMonstersData = [
   {
     "name": "Dreadwing",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dreadwing.gif",
+    "image_url": "images/monsters/Dreadwing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13372,7 +13372,7 @@ const allMonstersData = [
   {
     "name": "Drillworm",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Drillworm.gif",
+    "image_url": "images/monsters/Drillworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13407,7 +13407,7 @@ const allMonstersData = [
   {
     "name": "Dromedary",
     "hp": 45,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dromedary.gif",
+    "image_url": "images/monsters/Dromedary.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13442,7 +13442,7 @@ const allMonstersData = [
   {
     "name": "Drowned Deck Hand",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Drowned_Deck_Hand.gif",
+    "image_url": "images/monsters/Drowned_Deck_Hand.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13477,7 +13477,7 @@ const allMonstersData = [
   {
     "name": "Druid Familiar",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Druid_Familiar.gif",
+    "image_url": "images/monsters/Druid_Familiar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13512,7 +13512,7 @@ const allMonstersData = [
   {
     "name": "Druid's Apparition",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Druid's_Apparition.gif",
+    "image_url": "images/monsters/Druid's_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13547,7 +13547,7 @@ const allMonstersData = [
   {
     "name": "Drume",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Drume.gif",
+    "image_url": "images/monsters/Drume.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13582,7 +13582,7 @@ const allMonstersData = [
   {
     "name": "Dryad",
     "hp": 310,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dryad.gif",
+    "image_url": "images/monsters/Dryad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13617,7 +13617,7 @@ const allMonstersData = [
   {
     "name": "Duke Krule",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Duke_Krule.gif",
+    "image_url": "images/monsters/Duke_Krule.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13652,7 +13652,7 @@ const allMonstersData = [
   {
     "name": "Duskbringer",
     "hp": 3550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Duskbringer.gif",
+    "image_url": "images/monsters/Duskbringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13687,7 +13687,7 @@ const allMonstersData = [
   {
     "name": "Dwarf",
     "hp": 90,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf.gif",
+    "image_url": "images/monsters/Dwarf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13722,7 +13722,7 @@ const allMonstersData = [
   {
     "name": "Dwarf Geomancer",
     "hp": 380,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Geomancer.gif",
+    "image_url": "images/monsters/Dwarf_Geomancer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13757,7 +13757,7 @@ const allMonstersData = [
   {
     "name": "Dwarf Guard",
     "hp": 245,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Guard.gif",
+    "image_url": "images/monsters/Dwarf_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13792,7 +13792,7 @@ const allMonstersData = [
   {
     "name": "Dwarf Henchman",
     "hp": 350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Henchman.gif",
+    "image_url": "images/monsters/Dwarf_Henchman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13827,7 +13827,7 @@ const allMonstersData = [
   {
     "name": "Dwarf Miner",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Miner.gif",
+    "image_url": "images/monsters/Dwarf_Miner.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13862,7 +13862,7 @@ const allMonstersData = [
   {
     "name": "Dwarf Soldier",
     "hp": 135,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Soldier.gif",
+    "image_url": "images/monsters/Dwarf_Soldier.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13897,7 +13897,7 @@ const allMonstersData = [
   {
     "name": "Dworc Fleshhunter",
     "hp": 85,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Fleshhunter.gif",
+    "image_url": "images/monsters/Dworc_Fleshhunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13932,7 +13932,7 @@ const allMonstersData = [
   {
     "name": "Dworc Shadowstalker",
     "hp": 8900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Shadowstalker.gif",
+    "image_url": "images/monsters/Dworc_Shadowstalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -13967,7 +13967,7 @@ const allMonstersData = [
   {
     "name": "Dworc Venomsniper",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Venomsniper.gif",
+    "image_url": "images/monsters/Dworc_Venomsniper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14002,7 +14002,7 @@ const allMonstersData = [
   {
     "name": "Dworc Voodoomaster",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Voodoomaster.gif",
+    "image_url": "images/monsters/Dworc_Voodoomaster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14037,7 +14037,7 @@ const allMonstersData = [
   {
     "name": "Earth Elemental",
     "hp": 650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Earth_Elemental.gif",
+    "image_url": "images/monsters/Earth_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14072,7 +14072,7 @@ const allMonstersData = [
   {
     "name": "Earth Overlord",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Earth_Overlord.gif",
+    "image_url": "images/monsters/Earth_Overlord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14107,7 +14107,7 @@ const allMonstersData = [
   {
     "name": "Earworm",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Earworm.gif",
+    "image_url": "images/monsters/Earworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14142,7 +14142,7 @@ const allMonstersData = [
   {
     "name": "Eclipse Knight",
     "hp": 45000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Eclipse_Knight.gif",
+    "image_url": "images/monsters/Eclipse_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14177,7 +14177,7 @@ const allMonstersData = [
   {
     "name": "Efreet",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Efreet.gif",
+    "image_url": "images/monsters/Efreet.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14212,7 +14212,7 @@ const allMonstersData = [
   {
     "name": "Egg (Creature)",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Egg_(Creature).gif",
+    "image_url": "images/monsters/Egg__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14247,7 +14247,7 @@ const allMonstersData = [
   {
     "name": "Ekatrix",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ekatrix.gif",
+    "image_url": "images/monsters/Ekatrix.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14282,7 +14282,7 @@ const allMonstersData = [
   {
     "name": "Elder Bloodjaw",
     "hp": 86000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elder_Bloodjaw.gif",
+    "image_url": "images/monsters/Elder_Bloodjaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14317,7 +14317,7 @@ const allMonstersData = [
   {
     "name": "Elder Bonelord",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elder_Bonelord.gif",
+    "image_url": "images/monsters/Elder_Bonelord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14352,7 +14352,7 @@ const allMonstersData = [
   {
     "name": "Elder Forest Fury",
     "hp": 670,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elder_Forest_Fury.gif",
+    "image_url": "images/monsters/Elder_Forest_Fury.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14387,7 +14387,7 @@ const allMonstersData = [
   {
     "name": "Elder Mummy",
     "hp": 850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elder_Mummy.gif",
+    "image_url": "images/monsters/Elder_Mummy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14422,7 +14422,7 @@ const allMonstersData = [
   {
     "name": "Elder Wyrm",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elder_Wyrm.gif",
+    "image_url": "images/monsters/Elder_Wyrm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14457,7 +14457,7 @@ const allMonstersData = [
   {
     "name": "Elephant",
     "hp": 320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elephant.gif",
+    "image_url": "images/monsters/Elephant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14492,7 +14492,7 @@ const allMonstersData = [
   {
     "name": "Elf",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf.gif",
+    "image_url": "images/monsters/Elf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14527,7 +14527,7 @@ const allMonstersData = [
   {
     "name": "Elf Arcanist",
     "hp": 220,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Arcanist.gif",
+    "image_url": "images/monsters/Elf_Arcanist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14562,7 +14562,7 @@ const allMonstersData = [
   {
     "name": "Elf Overseer",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Overseer.gif",
+    "image_url": "images/monsters/Elf_Overseer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14597,7 +14597,7 @@ const allMonstersData = [
   {
     "name": "Elf Scout",
     "hp": 160,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Scout.gif",
+    "image_url": "images/monsters/Elf_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14632,7 +14632,7 @@ const allMonstersData = [
   {
     "name": "Elvira Hammerthrust",
     "hp": 245,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elvira_Hammerthrust.gif",
+    "image_url": "images/monsters/Elvira_Hammerthrust.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14667,7 +14667,7 @@ const allMonstersData = [
   {
     "name": "Emerald Damselfly",
     "hp": 90,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Emerald_Damselfly.gif",
+    "image_url": "images/monsters/Emerald_Damselfly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14702,7 +14702,7 @@ const allMonstersData = [
   {
     "name": "Emerald Tortoise",
     "hp": 22300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Emerald_Tortoise.gif",
+    "image_url": "images/monsters/Emerald_Tortoise.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14737,7 +14737,7 @@ const allMonstersData = [
   {
     "name": "Empowered Glooth Horror",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Empowered_Glooth_Horror.gif",
+    "image_url": "images/monsters/Empowered_Glooth_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14772,7 +14772,7 @@ const allMonstersData = [
   {
     "name": "Energetic Book",
     "hp": 18500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Energetic_Book.gif",
+    "image_url": "images/monsters/Energetic_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14807,7 +14807,7 @@ const allMonstersData = [
   {
     "name": "Energized Raging Mage",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Energized_Raging_Mage.gif",
+    "image_url": "images/monsters/Energized_Raging_Mage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14842,7 +14842,7 @@ const allMonstersData = [
   {
     "name": "Energuardian of Tales",
     "hp": 14000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Energuardian_of_Tales.gif",
+    "image_url": "images/monsters/Energuardian_of_Tales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14877,7 +14877,7 @@ const allMonstersData = [
   {
     "name": "Energy Elemental",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Energy_Elemental.gif",
+    "image_url": "images/monsters/Energy_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14912,7 +14912,7 @@ const allMonstersData = [
   {
     "name": "Energy Overlord",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Energy_Overlord.gif",
+    "image_url": "images/monsters/Energy_Overlord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14947,7 +14947,7 @@ const allMonstersData = [
   {
     "name": "Enfeebled Silencer",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enfeebled_Silencer.gif",
+    "image_url": "images/monsters/Enfeebled_Silencer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14982,7 +14982,7 @@ const allMonstersData = [
   {
     "name": "Enlightened of the Cult",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enlightened_of_the_Cult.gif",
+    "image_url": "images/monsters/Enlightened_of_the_Cult.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15017,7 +15017,7 @@ const allMonstersData = [
   {
     "name": "Enpa Yolo",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enpa_Yolo.gif",
+    "image_url": "images/monsters/Enpa_Yolo.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15052,7 +15052,7 @@ const allMonstersData = [
   {
     "name": "Enraged Bookworm",
     "hp": 145,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_Bookworm.gif",
+    "image_url": "images/monsters/Enraged_Bookworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15087,7 +15087,7 @@ const allMonstersData = [
   {
     "name": "Enraged Crystal Golem",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_Crystal_Golem.gif",
+    "image_url": "images/monsters/Enraged_Crystal_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15122,7 +15122,7 @@ const allMonstersData = [
   {
     "name": "Enraged Morshabaal",
     "hp": 1000000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_Morshabaal.gif",
+    "image_url": "images/monsters/Enraged_Morshabaal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15157,7 +15157,7 @@ const allMonstersData = [
   {
     "name": "Enraged Sand Brood",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_Sand_Brood.gif",
+    "image_url": "images/monsters/Enraged_Sand_Brood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15192,7 +15192,7 @@ const allMonstersData = [
   {
     "name": "Enraged Soul",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_Soul.gif",
+    "image_url": "images/monsters/Enraged_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15227,7 +15227,7 @@ const allMonstersData = [
   {
     "name": "Enraged Squirrel",
     "hp": 35,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_Squirrel.gif",
+    "image_url": "images/monsters/Enraged_Squirrel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15262,7 +15262,7 @@ const allMonstersData = [
   {
     "name": "Enraged White Deer",
     "hp": 255,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enraged_White_Deer.gif",
+    "image_url": "images/monsters/Enraged_White_Deer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15297,7 +15297,7 @@ const allMonstersData = [
   {
     "name": "Enslaved Dwarf",
     "hp": 3800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enslaved_Dwarf.gif",
+    "image_url": "images/monsters/Enslaved_Dwarf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15332,7 +15332,7 @@ const allMonstersData = [
   {
     "name": "Enthralled Demon",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enthralled_Demon.gif",
+    "image_url": "images/monsters/Enthralled_Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15367,7 +15367,7 @@ const allMonstersData = [
   {
     "name": "Enusat the Onyx Wing",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Enusat_the_Onyx_Wing.gif",
+    "image_url": "images/monsters/Enusat_the_Onyx_Wing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15402,7 +15402,7 @@ const allMonstersData = [
   {
     "name": "Eradicator",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Eradicator.gif",
+    "image_url": "images/monsters/Eradicator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15437,7 +15437,7 @@ const allMonstersData = [
   {
     "name": "Eruption of Destruction",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Eruption_of_Destruction.gif",
+    "image_url": "images/monsters/Eruption_of_Destruction.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15472,7 +15472,7 @@ const allMonstersData = [
   {
     "name": "Esmeralda",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Esmeralda.gif",
+    "image_url": "images/monsters/Esmeralda.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15507,7 +15507,7 @@ const allMonstersData = [
   {
     "name": "Essence of Darkness",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Essence_of_Darkness.gif",
+    "image_url": "images/monsters/Essence_of_Darkness.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15542,7 +15542,7 @@ const allMonstersData = [
   {
     "name": "Essence of Malice",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Essence_of_Malice.gif",
+    "image_url": "images/monsters/Essence_of_Malice.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15577,7 +15577,7 @@ const allMonstersData = [
   {
     "name": "Eternal Guardian",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Eternal_Guardian.gif",
+    "image_url": "images/monsters/Eternal_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15612,7 +15612,7 @@ const allMonstersData = [
   {
     "name": "Ethershreck",
     "hp": 9500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ethershreck.gif",
+    "image_url": "images/monsters/Ethershreck.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15647,7 +15647,7 @@ const allMonstersData = [
   {
     "name": "Evil Mastermind",
     "hp": 1295,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Evil_Mastermind.gif",
+    "image_url": "images/monsters/Evil_Mastermind.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15682,7 +15682,7 @@ const allMonstersData = [
   {
     "name": "Evil Prospector",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Evil_Prospector.gif",
+    "image_url": "images/monsters/Evil_Prospector.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15717,7 +15717,7 @@ const allMonstersData = [
   {
     "name": "Evil Sheep",
     "hp": 350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Evil_Sheep.gif",
+    "image_url": "images/monsters/Evil_Sheep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15752,7 +15752,7 @@ const allMonstersData = [
   {
     "name": "Evil Sheep Lord",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Evil_Sheep_Lord.gif",
+    "image_url": "images/monsters/Evil_Sheep_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15787,7 +15787,7 @@ const allMonstersData = [
   {
     "name": "Execowtioner",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Execowtioner.gif",
+    "image_url": "images/monsters/Execowtioner.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15822,7 +15822,7 @@ const allMonstersData = [
   {
     "name": "Exotic Bat",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Exotic_Bat.gif",
+    "image_url": "images/monsters/Exotic_Bat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15857,7 +15857,7 @@ const allMonstersData = [
   {
     "name": "Exotic Cave Spider",
     "hp": 1900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Exotic_Cave_Spider.gif",
+    "image_url": "images/monsters/Exotic_Cave_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15892,7 +15892,7 @@ const allMonstersData = [
   {
     "name": "Eye of the Seven",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Eye_of_the_Seven.gif",
+    "image_url": "images/monsters/Eye_of_the_Seven.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15927,7 +15927,7 @@ const allMonstersData = [
   {
     "name": "Eyeless Devourer",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Eyeless_Devourer.gif",
+    "image_url": "images/monsters/Eyeless_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15962,7 +15962,7 @@ const allMonstersData = [
   {
     "name": "Faceless Bane",
     "hp": 17000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Faceless_Bane.gif",
+    "image_url": "images/monsters/Faceless_Bane.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15997,7 +15997,7 @@ const allMonstersData = [
   {
     "name": "Fahim the Wise",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fahim_the_Wise.gif",
+    "image_url": "images/monsters/Fahim_the_Wise.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16032,7 +16032,7 @@ const allMonstersData = [
   {
     "name": "Falcon Knight",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Falcon_Knight.gif",
+    "image_url": "images/monsters/Falcon_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16067,7 +16067,7 @@ const allMonstersData = [
   {
     "name": "Falcon Paladin",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Falcon_Paladin.gif",
+    "image_url": "images/monsters/Falcon_Paladin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16102,7 +16102,7 @@ const allMonstersData = [
   {
     "name": "Fallen Challenger",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fallen_Challenger.gif",
+    "image_url": "images/monsters/Fallen_Challenger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16137,7 +16137,7 @@ const allMonstersData = [
   {
     "name": "Fallen Mooh'Tah Master Ghar",
     "hp": 7990,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fallen_Mooh'Tah_Master_Ghar.gif",
+    "image_url": "images/monsters/Fallen_Mooh'Tah_Master_Ghar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16172,7 +16172,7 @@ const allMonstersData = [
   {
     "name": "Fat Porker",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fat_Porker.gif",
+    "image_url": "images/monsters/Fat_Porker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16207,7 +16207,7 @@ const allMonstersData = [
   {
     "name": "Fatality",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fatality.gif",
+    "image_url": "images/monsters/Fatality.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16242,7 +16242,7 @@ const allMonstersData = [
   {
     "name": "Faun",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Faun.gif",
+    "image_url": "images/monsters/Faun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16277,7 +16277,7 @@ const allMonstersData = [
   {
     "name": "Fazzrah",
     "hp": 2955,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fazzrah.gif",
+    "image_url": "images/monsters/Fazzrah.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16312,7 +16312,7 @@ const allMonstersData = [
   {
     "name": "Feeble Glooth Horror",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Feeble_Glooth_Horror.gif",
+    "image_url": "images/monsters/Feeble_Glooth_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16347,7 +16347,7 @@ const allMonstersData = [
   {
     "name": "Feral Sphinx",
     "hp": 9800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Feral_Sphinx.gif",
+    "image_url": "images/monsters/Feral_Sphinx.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16382,7 +16382,7 @@ const allMonstersData = [
   {
     "name": "Feral Werecrocodile",
     "hp": 6400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Feral_Werecrocodile.gif",
+    "image_url": "images/monsters/Feral_Werecrocodile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16417,7 +16417,7 @@ const allMonstersData = [
   {
     "name": "Fernfang",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fernfang.gif",
+    "image_url": "images/monsters/Fernfang.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16452,7 +16452,7 @@ const allMonstersData = [
   {
     "name": "Feroxa (Killable Werewolf)",
     "hp": 150000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Feroxa_(Killable_Werewolf).gif",
+    "image_url": "images/monsters/Feroxa__Killable_Werewolf_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16487,7 +16487,7 @@ const allMonstersData = [
   {
     "name": "Ferumbras",
     "hp": 90000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ferumbras.gif",
+    "image_url": "images/monsters/Ferumbras.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16522,7 +16522,7 @@ const allMonstersData = [
   {
     "name": "Ferumbras Mortal Shell",
     "hp": 300000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ferumbras_Mortal_Shell.gif",
+    "image_url": "images/monsters/Ferumbras_Mortal_Shell.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16557,7 +16557,7 @@ const allMonstersData = [
   {
     "name": "Ferumbras Soul Splinter",
     "hp": 90000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ferumbras_Soul_Splinter.gif",
+    "image_url": "images/monsters/Ferumbras_Soul_Splinter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16592,7 +16592,7 @@ const allMonstersData = [
   {
     "name": "Fetter",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fetter.gif",
+    "image_url": "images/monsters/Fetter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16627,7 +16627,7 @@ const allMonstersData = [
   {
     "name": "Feverish Citizen",
     "hp": 125,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Feverish_Citizen.gif",
+    "image_url": "images/monsters/Feverish_Citizen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16662,7 +16662,7 @@ const allMonstersData = [
   {
     "name": "Feversleep",
     "hp": 5900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Feversleep.gif",
+    "image_url": "images/monsters/Feversleep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16697,7 +16697,7 @@ const allMonstersData = [
   {
     "name": "Fiery Blood",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fiery_Blood.gif",
+    "image_url": "images/monsters/Fiery_Blood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16732,7 +16732,7 @@ const allMonstersData = [
   {
     "name": "Fiery Heart (Creature)",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fiery_Heart_(Creature).gif",
+    "image_url": "images/monsters/Fiery_Heart__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16767,7 +16767,7 @@ const allMonstersData = [
   {
     "name": "Filth Toad",
     "hp": 185,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Filth_Toad.gif",
+    "image_url": "images/monsters/Filth_Toad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16802,7 +16802,7 @@ const allMonstersData = [
   {
     "name": "Fire Devil",
     "hp": 200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Devil.gif",
+    "image_url": "images/monsters/Fire_Devil.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16837,7 +16837,7 @@ const allMonstersData = [
   {
     "name": "Fire Elemental",
     "hp": 280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Elemental.gif",
+    "image_url": "images/monsters/Fire_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16872,7 +16872,7 @@ const allMonstersData = [
   {
     "name": "Fire Overlord",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Overlord.gif",
+    "image_url": "images/monsters/Fire_Overlord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16907,7 +16907,7 @@ const allMonstersData = [
   {
     "name": "Firestarter",
     "hp": 180,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Firestarter.gif",
+    "image_url": "images/monsters/Firestarter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16942,7 +16942,7 @@ const allMonstersData = [
   {
     "name": "Fish (Creature)",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fish_(Creature).gif",
+    "image_url": "images/monsters/Fish__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16977,7 +16977,7 @@ const allMonstersData = [
   {
     "name": "Flame of Omrafir",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flame_of_Omrafir.gif",
+    "image_url": "images/monsters/Flame_of_Omrafir.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17012,7 +17012,7 @@ const allMonstersData = [
   {
     "name": "Flameborn",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flameborn.gif",
+    "image_url": "images/monsters/Flameborn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17047,7 +17047,7 @@ const allMonstersData = [
   {
     "name": "Flamecaller Zazrak",
     "hp": 2690,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flamecaller_Zazrak.gif",
+    "image_url": "images/monsters/Flamecaller_Zazrak.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17082,7 +17082,7 @@ const allMonstersData = [
   {
     "name": "Flamethrower",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flamethrower.gif",
+    "image_url": "images/monsters/Flamethrower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17117,7 +17117,7 @@ const allMonstersData = [
   {
     "name": "Flamingo",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flamingo.gif",
+    "image_url": "images/monsters/Flamingo.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17152,7 +17152,7 @@ const allMonstersData = [
   {
     "name": "Fleabringer",
     "hp": 265,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fleabringer.gif",
+    "image_url": "images/monsters/Fleabringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17187,7 +17187,7 @@ const allMonstersData = [
   {
     "name": "Fleshcrawler",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fleshcrawler.gif",
+    "image_url": "images/monsters/Fleshcrawler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17222,7 +17222,7 @@ const allMonstersData = [
   {
     "name": "Fleshslicer",
     "hp": 5700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fleshslicer.gif",
+    "image_url": "images/monsters/Fleshslicer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17257,7 +17257,7 @@ const allMonstersData = [
   {
     "name": "Flimsy Lost Soul",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flimsy_Lost_Soul.gif",
+    "image_url": "images/monsters/Flimsy_Lost_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17292,7 +17292,7 @@ const allMonstersData = [
   {
     "name": "Floating Savant",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Floating_Savant.gif",
+    "image_url": "images/monsters/Floating_Savant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17327,7 +17327,7 @@ const allMonstersData = [
   {
     "name": "Flying Book",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Flying_Book.gif",
+    "image_url": "images/monsters/Flying_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17362,7 +17362,7 @@ const allMonstersData = [
   {
     "name": "Foam Stalker",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Foam_Stalker.gif",
+    "image_url": "images/monsters/Foam_Stalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17397,7 +17397,7 @@ const allMonstersData = [
   {
     "name": "Foreman Kneebiter",
     "hp": 570,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Foreman_Kneebiter.gif",
+    "image_url": "images/monsters/Foreman_Kneebiter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17432,7 +17432,7 @@ const allMonstersData = [
   {
     "name": "Foreshock",
     "hp": 105000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Foreshock.gif",
+    "image_url": "images/monsters/Foreshock.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17467,7 +17467,7 @@ const allMonstersData = [
   {
     "name": "Forest Fury",
     "hp": 480,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Forest_Fury.gif",
+    "image_url": "images/monsters/Forest_Fury.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17502,7 +17502,7 @@ const allMonstersData = [
   {
     "name": "Fox",
     "hp": 22,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fox.gif",
+    "image_url": "images/monsters/Fox.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17537,7 +17537,7 @@ const allMonstersData = [
   {
     "name": "Frazzlemaw",
     "hp": 4100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frazzlemaw.gif",
+    "image_url": "images/monsters/Frazzlemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17572,7 +17572,7 @@ const allMonstersData = [
   {
     "name": "Freakish Lost Soul",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Freakish_Lost_Soul.gif",
+    "image_url": "images/monsters/Freakish_Lost_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17607,7 +17607,7 @@ const allMonstersData = [
   {
     "name": "Frenzied Plant Thing",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frenzied_Plant_Thing.gif",
+    "image_url": "images/monsters/Frenzied_Plant_Thing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17642,7 +17642,7 @@ const allMonstersData = [
   {
     "name": "Frenzy",
     "hp": 8210,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frenzy.gif",
+    "image_url": "images/monsters/Frenzy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17677,7 +17677,7 @@ const allMonstersData = [
   {
     "name": "Frost Dragon",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Dragon.gif",
+    "image_url": "images/monsters/Frost_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17712,7 +17712,7 @@ const allMonstersData = [
   {
     "name": "Frost Dragon Hatchling",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Dragon_Hatchling.gif",
+    "image_url": "images/monsters/Frost_Dragon_Hatchling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17747,7 +17747,7 @@ const allMonstersData = [
   {
     "name": "Frost Flower Asura",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Flower_Asura.gif",
+    "image_url": "images/monsters/Frost_Flower_Asura.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17782,7 +17782,7 @@ const allMonstersData = [
   {
     "name": "Frost Giant",
     "hp": 270,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giant.gif",
+    "image_url": "images/monsters/Frost_Giant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17817,7 +17817,7 @@ const allMonstersData = [
   {
     "name": "Frost Giantess",
     "hp": 275,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giantess.gif",
+    "image_url": "images/monsters/Frost_Giantess.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17852,7 +17852,7 @@ const allMonstersData = [
   {
     "name": "Frost Servant",
     "hp": 385,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Servant.gif",
+    "image_url": "images/monsters/Frost_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17887,7 +17887,7 @@ const allMonstersData = [
   {
     "name": "Frost Spider",
     "hp": 1250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Spider.gif",
+    "image_url": "images/monsters/Frost_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17922,7 +17922,7 @@ const allMonstersData = [
   {
     "name": "Frost Troll",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Troll.gif",
+    "image_url": "images/monsters/Frost_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17957,7 +17957,7 @@ const allMonstersData = [
   {
     "name": "Frostfur",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frostfur.gif",
+    "image_url": "images/monsters/Frostfur.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17992,7 +17992,7 @@ const allMonstersData = [
   {
     "name": "Fruit Drop",
     "hp": 63,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fruit_Drop.gif",
+    "image_url": "images/monsters/Fruit_Drop.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18027,7 +18027,7 @@ const allMonstersData = [
   {
     "name": "Fugue",
     "hp": 32000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fugue.gif",
+    "image_url": "images/monsters/Fugue.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18062,7 +18062,7 @@ const allMonstersData = [
   {
     "name": "Fungosaurus",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fungosaurus.gif",
+    "image_url": "images/monsters/Fungosaurus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18097,7 +18097,7 @@ const allMonstersData = [
   {
     "name": "Furious Fire Elemental",
     "hp": 280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Furious_Fire_Elemental.gif",
+    "image_url": "images/monsters/Furious_Fire_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18132,7 +18132,7 @@ const allMonstersData = [
   {
     "name": "Furious Morshabaal",
     "hp": 1000000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Furious_Morshabaal.gif",
+    "image_url": "images/monsters/Furious_Morshabaal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18167,7 +18167,7 @@ const allMonstersData = [
   {
     "name": "Furious Scorpion",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Furious_Scorpion.gif",
+    "image_url": "images/monsters/Furious_Scorpion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18202,7 +18202,7 @@ const allMonstersData = [
   {
     "name": "Furious Troll",
     "hp": 245,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Furious_Troll.gif",
+    "image_url": "images/monsters/Furious_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18237,7 +18237,7 @@ const allMonstersData = [
   {
     "name": "Fury",
     "hp": 4100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fury.gif",
+    "image_url": "images/monsters/Fury.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18272,7 +18272,7 @@ const allMonstersData = [
   {
     "name": "Fury of the Emperor",
     "hp": 51000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fury_of_the_Emperor.gif",
+    "image_url": "images/monsters/Fury_of_the_Emperor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18307,7 +18307,7 @@ const allMonstersData = [
   {
     "name": "Furyosa",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Furyosa.gif",
+    "image_url": "images/monsters/Furyosa.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18342,7 +18342,7 @@ const allMonstersData = [
   {
     "name": "Gaffir",
     "hp": 48500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gaffir.gif",
+    "image_url": "images/monsters/Gaffir.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18377,7 +18377,7 @@ const allMonstersData = [
   {
     "name": "Gang Member",
     "hp": 295,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gang_Member.gif",
+    "image_url": "images/monsters/Gang_Member.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18412,7 +18412,7 @@ const allMonstersData = [
   {
     "name": "Gargoyle",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gargoyle.gif",
+    "image_url": "images/monsters/Gargoyle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18447,7 +18447,7 @@ const allMonstersData = [
   {
     "name": "Gaz'haragoth",
     "hp": 350000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gaz'haragoth.gif",
+    "image_url": "images/monsters/Gaz'haragoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18482,7 +18482,7 @@ const allMonstersData = [
   {
     "name": "Gazer",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gazer.gif",
+    "image_url": "images/monsters/Gazer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18517,7 +18517,7 @@ const allMonstersData = [
   {
     "name": "Gazer Spectre",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gazer_Spectre.gif",
+    "image_url": "images/monsters/Gazer_Spectre.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18552,7 +18552,7 @@ const allMonstersData = [
   {
     "name": "Gelidrazah the Frozen",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gelidrazah_the_Frozen.gif",
+    "image_url": "images/monsters/Gelidrazah_the_Frozen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18587,7 +18587,7 @@ const allMonstersData = [
   {
     "name": "General Murius",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/General_Murius.gif",
+    "image_url": "images/monsters/General_Murius.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18622,7 +18622,7 @@ const allMonstersData = [
   {
     "name": "Ghastly Dragon",
     "hp": 7800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghastly_Dragon.gif",
+    "image_url": "images/monsters/Ghastly_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18657,7 +18657,7 @@ const allMonstersData = [
   {
     "name": "Ghazbaran",
     "hp": 77000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghazbaran.gif",
+    "image_url": "images/monsters/Ghazbaran.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18692,7 +18692,7 @@ const allMonstersData = [
   {
     "name": "Ghost",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghost.gif",
+    "image_url": "images/monsters/Ghost.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18727,7 +18727,7 @@ const allMonstersData = [
   {
     "name": "Ghost of a Planegazer",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghost_of_a_Planegazer.gif",
+    "image_url": "images/monsters/Ghost_of_a_Planegazer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18762,7 +18762,7 @@ const allMonstersData = [
   {
     "name": "Ghost Wolf",
     "hp": 160,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghost_Wolf.gif",
+    "image_url": "images/monsters/Ghost_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18797,7 +18797,7 @@ const allMonstersData = [
   {
     "name": "Ghostly Apparition",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghostly_Apparition.gif",
+    "image_url": "images/monsters/Ghostly_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18832,7 +18832,7 @@ const allMonstersData = [
   {
     "name": "Ghoul",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghoul.gif",
+    "image_url": "images/monsters/Ghoul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18867,7 +18867,7 @@ const allMonstersData = [
   {
     "name": "Ghoulish Hyaena",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghoulish_Hyaena.gif",
+    "image_url": "images/monsters/Ghoulish_Hyaena.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18902,7 +18902,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider.gif",
+    "image_url": "images/monsters/Giant_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18937,7 +18937,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider (Nostalgia)",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_(Nostalgia).gif",
+    "image_url": "images/monsters/Giant_Spider__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18972,7 +18972,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider (Wyda)",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_(Wyda).gif",
+    "image_url": "images/monsters/Giant_Spider__Wyda_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19007,7 +19007,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider 7.4",
     "hp": 3250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_7.4.gif",
+    "image_url": "images/monsters/Giant_Spider_7.4.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19042,7 +19042,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider Brood 7.4",
     "hp": 1050,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_Brood_7.4.gif",
+    "image_url": "images/monsters/Giant_Spider_Brood_7.4.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19077,7 +19077,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider Brood 7.6",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_Brood_7.6.gif",
+    "image_url": "images/monsters/Giant_Spider_Brood_7.6.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19112,7 +19112,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider Brood 8.1",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_Brood_8.1.gif",
+    "image_url": "images/monsters/Giant_Spider_Brood_8.1.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19147,7 +19147,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider Drone 7.4",
     "hp": 1150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_Drone_7.4.gif",
+    "image_url": "images/monsters/Giant_Spider_Drone_7.4.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19182,7 +19182,7 @@ const allMonstersData = [
   {
     "name": "Giant Spider Hatchling 7.4",
     "hp": 950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Giant_Spider_Hatchling_7.4.gif",
+    "image_url": "images/monsters/Giant_Spider_Hatchling_7.4.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19217,7 +19217,7 @@ const allMonstersData = [
   {
     "name": "Gingerbread Man",
     "hp": 85,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gingerbread_Man.gif",
+    "image_url": "images/monsters/Gingerbread_Man.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19252,7 +19252,7 @@ const allMonstersData = [
   {
     "name": "Girtablilu Warrior",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Girtablilu_Warrior.gif",
+    "image_url": "images/monsters/Girtablilu_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19287,7 +19287,7 @@ const allMonstersData = [
   {
     "name": "Gladiator",
     "hp": 185,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gladiator.gif",
+    "image_url": "images/monsters/Gladiator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19322,7 +19322,7 @@ const allMonstersData = [
   {
     "name": "Glitterscale",
     "hp": 1111,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glitterscale.gif",
+    "image_url": "images/monsters/Glitterscale.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19357,7 +19357,7 @@ const allMonstersData = [
   {
     "name": "Gloom Maw",
     "hp": 8700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gloom_Maw.gif",
+    "image_url": "images/monsters/Gloom_Maw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19392,7 +19392,7 @@ const allMonstersData = [
   {
     "name": "Gloom Wolf",
     "hp": 200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gloom_Wolf.gif",
+    "image_url": "images/monsters/Gloom_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19427,7 +19427,7 @@ const allMonstersData = [
   {
     "name": "Gloombringer",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gloombringer.gif",
+    "image_url": "images/monsters/Gloombringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19462,7 +19462,7 @@ const allMonstersData = [
   {
     "name": "Glooth Anemone",
     "hp": 2400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Anemone.gif",
+    "image_url": "images/monsters/Glooth_Anemone.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19497,7 +19497,7 @@ const allMonstersData = [
   {
     "name": "Glooth Bandit",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Bandit.gif",
+    "image_url": "images/monsters/Glooth_Bandit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19532,7 +19532,7 @@ const allMonstersData = [
   {
     "name": "Glooth Battery",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Battery.gif",
+    "image_url": "images/monsters/Glooth_Battery.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19567,7 +19567,7 @@ const allMonstersData = [
   {
     "name": "Glooth Blob",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Blob.gif",
+    "image_url": "images/monsters/Glooth_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19602,7 +19602,7 @@ const allMonstersData = [
   {
     "name": "Glooth Bomb",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Bomb.gif",
+    "image_url": "images/monsters/Glooth_Bomb.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19637,7 +19637,7 @@ const allMonstersData = [
   {
     "name": "Glooth Brigand",
     "hp": 2400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Brigand.gif",
+    "image_url": "images/monsters/Glooth_Brigand.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19672,7 +19672,7 @@ const allMonstersData = [
   {
     "name": "Glooth Fairy",
     "hp": 59000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Fairy.gif",
+    "image_url": "images/monsters/Glooth_Fairy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19707,7 +19707,7 @@ const allMonstersData = [
   {
     "name": "Glooth Golem",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Golem.gif",
+    "image_url": "images/monsters/Glooth_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19742,7 +19742,7 @@ const allMonstersData = [
   {
     "name": "Glooth Horror",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth_Horror.gif",
+    "image_url": "images/monsters/Glooth_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19777,7 +19777,7 @@ const allMonstersData = [
   {
     "name": "Glooth-Generator",
     "hp": 12000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Glooth-Generator.gif",
+    "image_url": "images/monsters/Glooth-Generator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19812,7 +19812,7 @@ const allMonstersData = [
   {
     "name": "Gnarlhound",
     "hp": 198,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gnarlhound.gif",
+    "image_url": "images/monsters/Gnarlhound.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19847,7 +19847,7 @@ const allMonstersData = [
   {
     "name": "Gnomevil",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gnomevil.gif",
+    "image_url": "images/monsters/Gnomevil.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19882,7 +19882,7 @@ const allMonstersData = [
   {
     "name": "Gnorre Chyllson",
     "hp": 7150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gnorre_Chyllson.gif",
+    "image_url": "images/monsters/Gnorre_Chyllson.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19917,7 +19917,7 @@ const allMonstersData = [
   {
     "name": "Goblin",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin.gif",
+    "image_url": "images/monsters/Goblin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19952,7 +19952,7 @@ const allMonstersData = [
   {
     "name": "Goblin Assassin",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Assassin.gif",
+    "image_url": "images/monsters/Goblin_Assassin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19987,7 +19987,7 @@ const allMonstersData = [
   {
     "name": "Goblin Leader",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Leader.gif",
+    "image_url": "images/monsters/Goblin_Leader.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20022,7 +20022,7 @@ const allMonstersData = [
   {
     "name": "Goblin Scavenger",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Scavenger.gif",
+    "image_url": "images/monsters/Goblin_Scavenger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20057,7 +20057,7 @@ const allMonstersData = [
   {
     "name": "Goggle Cake",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goggle_Cake.gif",
+    "image_url": "images/monsters/Goggle_Cake.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20092,7 +20092,7 @@ const allMonstersData = [
   {
     "name": "Golden Servant",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Golden_Servant.gif",
+    "image_url": "images/monsters/Golden_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20127,7 +20127,7 @@ const allMonstersData = [
   {
     "name": "Golden Servant Replica",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Golden_Servant_Replica.gif",
+    "image_url": "images/monsters/Golden_Servant_Replica.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20162,7 +20162,7 @@ const allMonstersData = [
   {
     "name": "Goldhanded Cultist",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goldhanded_Cultist.gif",
+    "image_url": "images/monsters/Goldhanded_Cultist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20197,7 +20197,7 @@ const allMonstersData = [
   {
     "name": "Goldhanded Cultist Bride",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goldhanded_Cultist_Bride.gif",
+    "image_url": "images/monsters/Goldhanded_Cultist_Bride.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20232,7 +20232,7 @@ const allMonstersData = [
   {
     "name": "Golgordan",
     "hp": 40000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Golgordan.gif",
+    "image_url": "images/monsters/Golgordan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20267,7 +20267,7 @@ const allMonstersData = [
   {
     "name": "Gore Horn",
     "hp": 20620,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gore_Horn.gif",
+    "image_url": "images/monsters/Gore_Horn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20302,7 +20302,7 @@ const allMonstersData = [
   {
     "name": "Gorerilla",
     "hp": 16850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gorerilla.gif",
+    "image_url": "images/monsters/Gorerilla.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20337,7 +20337,7 @@ const allMonstersData = [
   {
     "name": "Gorga",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gorga.gif",
+    "image_url": "images/monsters/Gorga.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20372,7 +20372,7 @@ const allMonstersData = [
   {
     "name": "Gorger Inferniarch",
     "hp": 9450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gorger_Inferniarch.gif",
+    "image_url": "images/monsters/Gorger_Inferniarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20407,7 +20407,7 @@ const allMonstersData = [
   {
     "name": "Gorgo",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gorgo.gif",
+    "image_url": "images/monsters/Gorgo.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20442,7 +20442,7 @@ const allMonstersData = [
   {
     "name": "Gozzler",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gozzler.gif",
+    "image_url": "images/monsters/Gozzler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20477,7 +20477,7 @@ const allMonstersData = [
   {
     "name": "Gralvalon",
     "hp": 33000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gralvalon.gif",
+    "image_url": "images/monsters/Gralvalon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20512,7 +20512,7 @@ const allMonstersData = [
   {
     "name": "Grand Canon Dominus",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grand_Canon_Dominus.gif",
+    "image_url": "images/monsters/Grand_Canon_Dominus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20547,7 +20547,7 @@ const allMonstersData = [
   {
     "name": "Grand Chaplain Gaunder",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grand_Chaplain_Gaunder.gif",
+    "image_url": "images/monsters/Grand_Chaplain_Gaunder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20582,7 +20582,7 @@ const allMonstersData = [
   {
     "name": "Grand Commander Soeren",
     "hp": 17000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grand_Commander_Soeren.gif",
+    "image_url": "images/monsters/Grand_Commander_Soeren.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20617,7 +20617,7 @@ const allMonstersData = [
   {
     "name": "Grand Master Oberon",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grand_Master_Oberon.gif",
+    "image_url": "images/monsters/Grand_Master_Oberon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20652,7 +20652,7 @@ const allMonstersData = [
   {
     "name": "Grand Mother Foulscale",
     "hp": 1850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grand_Mother_Foulscale.gif",
+    "image_url": "images/monsters/Grand_Mother_Foulscale.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20687,7 +20687,7 @@ const allMonstersData = [
   {
     "name": "Grandfather Tridian",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grandfather_Tridian.gif",
+    "image_url": "images/monsters/Grandfather_Tridian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20722,7 +20722,7 @@ const allMonstersData = [
   {
     "name": "Grave Guard",
     "hp": 720,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grave_Guard.gif",
+    "image_url": "images/monsters/Grave_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20757,7 +20757,7 @@ const allMonstersData = [
   {
     "name": "Grave Robber",
     "hp": 165,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grave_Robber.gif",
+    "image_url": "images/monsters/Grave_Robber.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20792,7 +20792,7 @@ const allMonstersData = [
   {
     "name": "Gravedigger",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gravedigger.gif",
+    "image_url": "images/monsters/Gravedigger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20827,7 +20827,7 @@ const allMonstersData = [
   {
     "name": "Gravelord Oshuran",
     "hp": 3100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gravelord_Oshuran.gif",
+    "image_url": "images/monsters/Gravelord_Oshuran.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20862,7 +20862,7 @@ const allMonstersData = [
   {
     "name": "Great Timedisplaced Anomaly",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Great_Timedisplaced_Anomaly.gif",
+    "image_url": "images/monsters/Great_Timedisplaced_Anomaly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20897,7 +20897,7 @@ const allMonstersData = [
   {
     "name": "Greater Canopic Jar",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Greater_Canopic_Jar.gif",
+    "image_url": "images/monsters/Greater_Canopic_Jar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20932,7 +20932,7 @@ const allMonstersData = [
   {
     "name": "Greater Death Minion",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Greater_Death_Minion.gif",
+    "image_url": "images/monsters/Greater_Death_Minion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20967,7 +20967,7 @@ const allMonstersData = [
   {
     "name": "Greater Energy Elemental",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Greater_Energy_Elemental.gif",
+    "image_url": "images/monsters/Greater_Energy_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21002,7 +21002,7 @@ const allMonstersData = [
   {
     "name": "Greater Fire Elemental",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Greater_Fire_Elemental.gif",
+    "image_url": "images/monsters/Greater_Fire_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21037,7 +21037,7 @@ const allMonstersData = [
   {
     "name": "Greedok",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Greedok.gif",
+    "image_url": "images/monsters/Greedok.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21072,7 +21072,7 @@ const allMonstersData = [
   {
     "name": "Green Djinn",
     "hp": 330,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Green_Djinn.gif",
+    "image_url": "images/monsters/Green_Djinn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21107,7 +21107,7 @@ const allMonstersData = [
   {
     "name": "Green Frog",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Green_Frog.gif",
+    "image_url": "images/monsters/Green_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21142,7 +21142,7 @@ const allMonstersData = [
   {
     "name": "Grim Reaper",
     "hp": 3900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grim_Reaper.gif",
+    "image_url": "images/monsters/Grim_Reaper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21177,7 +21177,7 @@ const allMonstersData = [
   {
     "name": "Grimeleech",
     "hp": 9500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grimeleech.gif",
+    "image_url": "images/monsters/Grimeleech.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21212,7 +21212,7 @@ const allMonstersData = [
   {
     "name": "Grimgor Guteater",
     "hp": 1155,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grimgor_Guteater.gif",
+    "image_url": "images/monsters/Grimgor_Guteater.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21247,7 +21247,7 @@ const allMonstersData = [
   {
     "name": "Grims Little Hamster",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grims_Little_Hamster.gif",
+    "image_url": "images/monsters/Grims_Little_Hamster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21282,7 +21282,7 @@ const allMonstersData = [
   {
     "name": "Groam",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Groam.gif",
+    "image_url": "images/monsters/Groam.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21317,7 +21317,7 @@ const allMonstersData = [
   {
     "name": "Grorlam",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grorlam.gif",
+    "image_url": "images/monsters/Grorlam.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21352,7 +21352,7 @@ const allMonstersData = [
   {
     "name": "Grove Guardian",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grove_Guardian.gif",
+    "image_url": "images/monsters/Grove_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21387,7 +21387,7 @@ const allMonstersData = [
   {
     "name": "Grynch Clan Goblin",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Grynch_Clan_Goblin.gif",
+    "image_url": "images/monsters/Grynch_Clan_Goblin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21422,7 +21422,7 @@ const allMonstersData = [
   {
     "name": "Gryphon",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gryphon.gif",
+    "image_url": "images/monsters/Gryphon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21457,7 +21457,7 @@ const allMonstersData = [
   {
     "name": "Guard Captain Quaid",
     "hp": 55000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Guard_Captain_Quaid.gif",
+    "image_url": "images/monsters/Guard_Captain_Quaid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21492,7 +21492,7 @@ const allMonstersData = [
   {
     "name": "Guardian Golem",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Guardian_Golem.gif",
+    "image_url": "images/monsters/Guardian_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21527,7 +21527,7 @@ const allMonstersData = [
   {
     "name": "Guardian of Tales",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Guardian_of_Tales.gif",
+    "image_url": "images/monsters/Guardian_of_Tales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21562,7 +21562,7 @@ const allMonstersData = [
   {
     "name": "Guzzlemaw",
     "hp": 6400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Guzzlemaw.gif",
+    "image_url": "images/monsters/Guzzlemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21597,7 +21597,7 @@ const allMonstersData = [
   {
     "name": "Hairman the Huge",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hairman_the_Huge.gif",
+    "image_url": "images/monsters/Hairman_the_Huge.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21632,7 +21632,7 @@ const allMonstersData = [
   {
     "name": "Hand of Cursed Fate",
     "hp": 6600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hand_of_Cursed_Fate.gif",
+    "image_url": "images/monsters/Hand_of_Cursed_Fate.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21667,7 +21667,7 @@ const allMonstersData = [
   {
     "name": "Harbinger of Darkness",
     "hp": 120000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Harbinger_of_Darkness.gif",
+    "image_url": "images/monsters/Harbinger_of_Darkness.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21702,7 +21702,7 @@ const allMonstersData = [
   {
     "name": "Hardened Usurper Archer",
     "hp": 7300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hardened_Usurper_Archer.gif",
+    "image_url": "images/monsters/Hardened_Usurper_Archer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21737,7 +21737,7 @@ const allMonstersData = [
   {
     "name": "Hardened Usurper Knight",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hardened_Usurper_Knight.gif",
+    "image_url": "images/monsters/Hardened_Usurper_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21772,7 +21772,7 @@ const allMonstersData = [
   {
     "name": "Hardened Usurper Warlock",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hardened_Usurper_Warlock.gif",
+    "image_url": "images/monsters/Hardened_Usurper_Warlock.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21807,7 +21807,7 @@ const allMonstersData = [
   {
     "name": "Harpy",
     "hp": 7700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Harpy.gif",
+    "image_url": "images/monsters/Harpy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21842,7 +21842,7 @@ const allMonstersData = [
   {
     "name": "Hatebreeder",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hatebreeder.gif",
+    "image_url": "images/monsters/Hatebreeder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21877,7 +21877,7 @@ const allMonstersData = [
   {
     "name": "Haunted Dragon",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Haunted_Dragon.gif",
+    "image_url": "images/monsters/Haunted_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21912,7 +21912,7 @@ const allMonstersData = [
   {
     "name": "Haunted Treeling",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Haunted_Treeling.gif",
+    "image_url": "images/monsters/Haunted_Treeling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21947,7 +21947,7 @@ const allMonstersData = [
   {
     "name": "Haunter",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Haunter.gif",
+    "image_url": "images/monsters/Haunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21982,7 +21982,7 @@ const allMonstersData = [
   {
     "name": "Hawk Hopper",
     "hp": 2180,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hawk_Hopper.gif",
+    "image_url": "images/monsters/Hawk_Hopper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22017,7 +22017,7 @@ const allMonstersData = [
   {
     "name": "Hazardous Phantom",
     "hp": 70000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hazardous_Phantom.gif",
+    "image_url": "images/monsters/Hazardous_Phantom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22052,7 +22052,7 @@ const allMonstersData = [
   {
     "name": "Headpecker",
     "hp": 16300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Headpecker.gif",
+    "image_url": "images/monsters/Headpecker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22087,7 +22087,7 @@ const allMonstersData = [
   {
     "name": "Headwalker",
     "hp": 2460,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Headwalker.gif",
+    "image_url": "images/monsters/Headwalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22122,7 +22122,7 @@ const allMonstersData = [
   {
     "name": "Hell Hole",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hell_Hole.gif",
+    "image_url": "images/monsters/Hell_Hole.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22157,7 +22157,7 @@ const allMonstersData = [
   {
     "name": "Hellfire Fighter",
     "hp": 3800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hellfire_Fighter.gif",
+    "image_url": "images/monsters/Hellfire_Fighter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22192,7 +22192,7 @@ const allMonstersData = [
   {
     "name": "Hellflayer",
     "hp": 14000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hellflayer.gif",
+    "image_url": "images/monsters/Hellflayer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22227,7 +22227,7 @@ const allMonstersData = [
   {
     "name": "Hellgorak",
     "hp": 25850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hellgorak.gif",
+    "image_url": "images/monsters/Hellgorak.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22262,7 +22262,7 @@ const allMonstersData = [
   {
     "name": "Hellhound",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hellhound.gif",
+    "image_url": "images/monsters/Hellhound.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22297,7 +22297,7 @@ const allMonstersData = [
   {
     "name": "Hellhunter Inferniarch",
     "hp": 11300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hellhunter_Inferniarch.gif",
+    "image_url": "images/monsters/Hellhunter_Inferniarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22332,7 +22332,7 @@ const allMonstersData = [
   {
     "name": "Hellspawn",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hellspawn.gif",
+    "image_url": "images/monsters/Hellspawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22367,7 +22367,7 @@ const allMonstersData = [
   {
     "name": "Hemming",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hemming.gif",
+    "image_url": "images/monsters/Hemming.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22402,7 +22402,7 @@ const allMonstersData = [
   {
     "name": "Heoni",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Heoni.gif",
+    "image_url": "images/monsters/Heoni.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22437,7 +22437,7 @@ const allMonstersData = [
   {
     "name": "Herald of Gloom",
     "hp": 340,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Herald_of_Gloom.gif",
+    "image_url": "images/monsters/Herald_of_Gloom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22472,7 +22472,7 @@ const allMonstersData = [
   {
     "name": "Herd Weevil",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Herd_Weevil.gif",
+    "image_url": "images/monsters/Herd_Weevil.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22507,7 +22507,7 @@ const allMonstersData = [
   {
     "name": "Hero",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hero.gif",
+    "image_url": "images/monsters/Hero.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22542,7 +22542,7 @@ const allMonstersData = [
   {
     "name": "Hibernal Moth",
     "hp": 850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hibernal_Moth.gif",
+    "image_url": "images/monsters/Hibernal_Moth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22577,7 +22577,7 @@ const allMonstersData = [
   {
     "name": "Hide",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hide.gif",
+    "image_url": "images/monsters/Hide.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22612,7 +22612,7 @@ const allMonstersData = [
   {
     "name": "Hideous Fungus",
     "hp": 4600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hideous_Fungus.gif",
+    "image_url": "images/monsters/Hideous_Fungus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22647,7 +22647,7 @@ const allMonstersData = [
   {
     "name": "High Templar Cobrass",
     "hp": 410,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/High_Templar_Cobrass.gif",
+    "image_url": "images/monsters/High_Templar_Cobrass.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22682,7 +22682,7 @@ const allMonstersData = [
   {
     "name": "High Voltage Elemental",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/High_Voltage_Elemental.gif",
+    "image_url": "images/monsters/High_Voltage_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22717,7 +22717,7 @@ const allMonstersData = [
   {
     "name": "Hirintror",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hirintror.gif",
+    "image_url": "images/monsters/Hirintror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22752,7 +22752,7 @@ const allMonstersData = [
   {
     "name": "Hive Overseer",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hive_Overseer.gif",
+    "image_url": "images/monsters/Hive_Overseer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22787,7 +22787,7 @@ const allMonstersData = [
   {
     "name": "Holy Bog Frog",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Holy_Bog_Frog.gif",
+    "image_url": "images/monsters/Holy_Bog_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22822,7 +22822,7 @@ const allMonstersData = [
   {
     "name": "Honey Elemental",
     "hp": 2560,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Honey_Elemental.gif",
+    "image_url": "images/monsters/Honey_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22857,7 +22857,7 @@ const allMonstersData = [
   {
     "name": "Honour Guard",
     "hp": 85,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Honour_Guard.gif",
+    "image_url": "images/monsters/Honour_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22892,7 +22892,7 @@ const allMonstersData = [
   {
     "name": "Hoodinion",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hoodinion.gif",
+    "image_url": "images/monsters/Hoodinion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22927,7 +22927,7 @@ const allMonstersData = [
   {
     "name": "Horadron",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Horadron.gif",
+    "image_url": "images/monsters/Horadron.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22962,7 +22962,7 @@ const allMonstersData = [
   {
     "name": "Horestis",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Horestis.gif",
+    "image_url": "images/monsters/Horestis.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -22997,7 +22997,7 @@ const allMonstersData = [
   {
     "name": "Horse (Brown)",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Horse_(Brown).gif",
+    "image_url": "images/monsters/Horse__Brown_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23032,7 +23032,7 @@ const allMonstersData = [
   {
     "name": "Horse (Grey)",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Horse_(Grey).gif",
+    "image_url": "images/monsters/Horse__Grey_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23067,7 +23067,7 @@ const allMonstersData = [
   {
     "name": "Horse (Taupe)",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Horse_(Taupe).gif",
+    "image_url": "images/monsters/Horse__Taupe_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23102,7 +23102,7 @@ const allMonstersData = [
   {
     "name": "Hot Dog",
     "hp": 505,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hot_Dog.gif",
+    "image_url": "images/monsters/Hot_Dog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23137,7 +23137,7 @@ const allMonstersData = [
   {
     "name": "Hulking Carnisylvan",
     "hp": 8600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hulking_Carnisylvan.gif",
+    "image_url": "images/monsters/Hulking_Carnisylvan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23172,7 +23172,7 @@ const allMonstersData = [
   {
     "name": "Hulking Prehemoth",
     "hp": 20700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hulking_Prehemoth.gif",
+    "image_url": "images/monsters/Hulking_Prehemoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23207,7 +23207,7 @@ const allMonstersData = [
   {
     "name": "Human (Creature)",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Human_(Creature).gif",
+    "image_url": "images/monsters/Human__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23242,7 +23242,7 @@ const allMonstersData = [
   {
     "name": "Humongous Fungus",
     "hp": 3400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Humongous_Fungus.gif",
+    "image_url": "images/monsters/Humongous_Fungus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23277,7 +23277,7 @@ const allMonstersData = [
   {
     "name": "Humorless Fungus",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Humorless_Fungus.gif",
+    "image_url": "images/monsters/Humorless_Fungus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23312,7 +23312,7 @@ const allMonstersData = [
   {
     "name": "Hunter",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hunter.gif",
+    "image_url": "images/monsters/Hunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23347,7 +23347,7 @@ const allMonstersData = [
   {
     "name": "Husky",
     "hp": 140,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Husky.gif",
+    "image_url": "images/monsters/Husky.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23382,7 +23382,7 @@ const allMonstersData = [
   {
     "name": "Hyaena",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hyaena.gif",
+    "image_url": "images/monsters/Hyaena.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23417,7 +23417,7 @@ const allMonstersData = [
   {
     "name": "Hydra",
     "hp": 2350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hydra.gif",
+    "image_url": "images/monsters/Hydra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23452,7 +23452,7 @@ const allMonstersData = [
   {
     "name": "Ice Dragon",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ice_Dragon.gif",
+    "image_url": "images/monsters/Ice_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23487,7 +23487,7 @@ const allMonstersData = [
   {
     "name": "Ice Golem",
     "hp": 385,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ice_Golem.gif",
+    "image_url": "images/monsters/Ice_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23522,7 +23522,7 @@ const allMonstersData = [
   {
     "name": "Ice Overlord",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ice_Overlord.gif",
+    "image_url": "images/monsters/Ice_Overlord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23557,7 +23557,7 @@ const allMonstersData = [
   {
     "name": "Ice Witch",
     "hp": 650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ice_Witch.gif",
+    "image_url": "images/monsters/Ice_Witch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23592,7 +23592,7 @@ const allMonstersData = [
   {
     "name": "Icecold Book",
     "hp": 21000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Icecold_Book.gif",
+    "image_url": "images/monsters/Icecold_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23627,7 +23627,7 @@ const allMonstersData = [
   {
     "name": "Iks Ahpututu",
     "hp": 1630,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iks_Ahpututu.gif",
+    "image_url": "images/monsters/Iks_Ahpututu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23662,7 +23662,7 @@ const allMonstersData = [
   {
     "name": "Iks Aucar",
     "hp": 1520,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iks_Aucar.gif",
+    "image_url": "images/monsters/Iks_Aucar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23697,7 +23697,7 @@ const allMonstersData = [
   {
     "name": "Iks Chuka",
     "hp": 1240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iks_Chuka.gif",
+    "image_url": "images/monsters/Iks_Chuka.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23732,7 +23732,7 @@ const allMonstersData = [
   {
     "name": "Iks Churrascan",
     "hp": 1520,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iks_Churrascan.gif",
+    "image_url": "images/monsters/Iks_Churrascan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23767,7 +23767,7 @@ const allMonstersData = [
   {
     "name": "Iks Pututu",
     "hp": 1310,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iks_Pututu.gif",
+    "image_url": "images/monsters/Iks_Pututu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23802,7 +23802,7 @@ const allMonstersData = [
   {
     "name": "Iks Yapunac",
     "hp": 3125,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iks_Yapunac.gif",
+    "image_url": "images/monsters/Iks_Yapunac.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23837,7 +23837,7 @@ const allMonstersData = [
   {
     "name": "Imp Warden",
     "hp": 10500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Imp_Warden.gif",
+    "image_url": "images/monsters/Imp_Warden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23872,7 +23872,7 @@ const allMonstersData = [
   {
     "name": "Incineron",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Incineron.gif",
+    "image_url": "images/monsters/Incineron.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23907,7 +23907,7 @@ const allMonstersData = [
   {
     "name": "Incredibly Old Witch",
     "hp": 620,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Incredibly_Old_Witch.gif",
+    "image_url": "images/monsters/Incredibly_Old_Witch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23942,7 +23942,7 @@ const allMonstersData = [
   {
     "name": "Infected Weeper",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infected_Weeper.gif",
+    "image_url": "images/monsters/Infected_Weeper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23977,7 +23977,7 @@ const allMonstersData = [
   {
     "name": "Infernal Demon",
     "hp": 32000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernal_Demon.gif",
+    "image_url": "images/monsters/Infernal_Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24012,7 +24012,7 @@ const allMonstersData = [
   {
     "name": "Infernal Frog",
     "hp": 655,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernal_Frog.gif",
+    "image_url": "images/monsters/Infernal_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24047,7 +24047,7 @@ const allMonstersData = [
   {
     "name": "Infernal Phantom",
     "hp": 26000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernal_Phantom.gif",
+    "image_url": "images/monsters/Infernal_Phantom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24082,7 +24082,7 @@ const allMonstersData = [
   {
     "name": "Infernalist",
     "hp": 3650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Infernalist.gif",
+    "image_url": "images/monsters/Infernalist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24117,7 +24117,7 @@ const allMonstersData = [
   {
     "name": "Ink Blob",
     "hp": 9500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ink_Blob.gif",
+    "image_url": "images/monsters/Ink_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24152,7 +24152,7 @@ const allMonstersData = [
   {
     "name": "Ink Splash",
     "hp": 1950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ink_Splash.gif",
+    "image_url": "images/monsters/Ink_Splash.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24187,7 +24187,7 @@ const allMonstersData = [
   {
     "name": "Inkwing",
     "hp": 12000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Inkwing.gif",
+    "image_url": "images/monsters/Inkwing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24222,7 +24222,7 @@ const allMonstersData = [
   {
     "name": "Inky",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Inky.gif",
+    "image_url": "images/monsters/Inky.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24257,7 +24257,7 @@ const allMonstersData = [
   {
     "name": "Insane Siren",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insane_Siren.gif",
+    "image_url": "images/monsters/Insane_Siren.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24292,7 +24292,7 @@ const allMonstersData = [
   {
     "name": "Insect Swarm",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insect_Swarm.gif",
+    "image_url": "images/monsters/Insect_Swarm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24327,7 +24327,7 @@ const allMonstersData = [
   {
     "name": "Insectoid Scout",
     "hp": 230,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insectoid_Scout.gif",
+    "image_url": "images/monsters/Insectoid_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24362,7 +24362,7 @@ const allMonstersData = [
   {
     "name": "Insectoid Worker",
     "hp": 950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insectoid_Worker.gif",
+    "image_url": "images/monsters/Insectoid_Worker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24397,7 +24397,7 @@ const allMonstersData = [
   {
     "name": "Instable Breach Brood",
     "hp": 2200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Instable_Breach_Brood.gif",
+    "image_url": "images/monsters/Instable_Breach_Brood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24432,7 +24432,7 @@ const allMonstersData = [
   {
     "name": "Instable Fire",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Instable_Fire.gif",
+    "image_url": "images/monsters/Instable_Fire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24467,7 +24467,7 @@ const allMonstersData = [
   {
     "name": "Instable Sparkion",
     "hp": 1900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Instable_Sparkion.gif",
+    "image_url": "images/monsters/Instable_Sparkion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24502,7 +24502,7 @@ const allMonstersData = [
   {
     "name": "Irahsae",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Irahsae.gif",
+    "image_url": "images/monsters/Irahsae.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24537,7 +24537,7 @@ const allMonstersData = [
   {
     "name": "Irgix the Flimsy",
     "hp": 24000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Irgix_the_Flimsy.gif",
+    "image_url": "images/monsters/Irgix_the_Flimsy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24572,7 +24572,7 @@ const allMonstersData = [
   {
     "name": "Iron Servant",
     "hp": 350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iron_Servant.gif",
+    "image_url": "images/monsters/Iron_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24607,7 +24607,7 @@ const allMonstersData = [
   {
     "name": "Iron Servant Replica",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Iron_Servant_Replica.gif",
+    "image_url": "images/monsters/Iron_Servant_Replica.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24642,7 +24642,7 @@ const allMonstersData = [
   {
     "name": "Ironblight",
     "hp": 6600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ironblight.gif",
+    "image_url": "images/monsters/Ironblight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24677,7 +24677,7 @@ const allMonstersData = [
   {
     "name": "Island Troll",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Island_Troll.gif",
+    "image_url": "images/monsters/Island_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24712,7 +24712,7 @@ const allMonstersData = [
   {
     "name": "Jagged Earth Elemental",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Jagged_Earth_Elemental.gif",
+    "image_url": "images/monsters/Jagged_Earth_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24747,7 +24747,7 @@ const allMonstersData = [
   {
     "name": "Jailer",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Jailer.gif",
+    "image_url": "images/monsters/Jailer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24782,7 +24782,7 @@ const allMonstersData = [
   {
     "name": "Jaul",
     "hp": 90000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Jaul.gif",
+    "image_url": "images/monsters/Jaul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24817,7 +24817,7 @@ const allMonstersData = [
   {
     "name": "Jellyfish",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Jellyfish.gif",
+    "image_url": "images/monsters/Jellyfish.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24852,7 +24852,7 @@ const allMonstersData = [
   {
     "name": "Jesse the Wicked",
     "hp": 280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Jesse_the_Wicked.gif",
+    "image_url": "images/monsters/Jesse_the_Wicked.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24887,7 +24887,7 @@ const allMonstersData = [
   {
     "name": "Juggernaut",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Juggernaut.gif",
+    "image_url": "images/monsters/Juggernaut.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24922,7 +24922,7 @@ const allMonstersData = [
   {
     "name": "Jungle Moa",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Jungle_Moa.gif",
+    "image_url": "images/monsters/Jungle_Moa.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24957,7 +24957,7 @@ const allMonstersData = [
   {
     "name": "Juvenile Bashmu",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Juvenile_Bashmu.gif",
+    "image_url": "images/monsters/Juvenile_Bashmu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -24992,7 +24992,7 @@ const allMonstersData = [
   {
     "name": "Juvenile Cyclops",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Juvenile_Cyclops.gif",
+    "image_url": "images/monsters/Juvenile_Cyclops.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25027,7 +25027,7 @@ const allMonstersData = [
   {
     "name": "Kalyassa",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kalyassa.gif",
+    "image_url": "images/monsters/Kalyassa.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25062,7 +25062,7 @@ const allMonstersData = [
   {
     "name": "Katex Blood Tongue",
     "hp": 6300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Katex_Blood_Tongue.gif",
+    "image_url": "images/monsters/Katex_Blood_Tongue.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25097,7 +25097,7 @@ const allMonstersData = [
   {
     "name": "Kerberos",
     "hp": 11000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kerberos.gif",
+    "image_url": "images/monsters/Kerberos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25132,7 +25132,7 @@ const allMonstersData = [
   {
     "name": "Killer Caiman",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Killer_Caiman.gif",
+    "image_url": "images/monsters/Killer_Caiman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25167,7 +25167,7 @@ const allMonstersData = [
   {
     "name": "Killer Rabbit",
     "hp": 205,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Killer_Rabbit.gif",
+    "image_url": "images/monsters/Killer_Rabbit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25202,7 +25202,7 @@ const allMonstersData = [
   {
     "name": "King Zelos",
     "hp": 480000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/King_Zelos.gif",
+    "image_url": "images/monsters/King_Zelos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25237,7 +25237,7 @@ const allMonstersData = [
   {
     "name": "Knight Familiar",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Knight_Familiar.gif",
+    "image_url": "images/monsters/Knight_Familiar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25272,7 +25272,7 @@ const allMonstersData = [
   {
     "name": "Knight's Apparition",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Knight's_Apparition.gif",
+    "image_url": "images/monsters/Knight's_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25307,7 +25307,7 @@ const allMonstersData = [
   {
     "name": "Knowledge Elemental",
     "hp": 10500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Knowledge_Elemental.gif",
+    "image_url": "images/monsters/Knowledge_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25342,7 +25342,7 @@ const allMonstersData = [
   {
     "name": "Kollos",
     "hp": 3800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kollos.gif",
+    "image_url": "images/monsters/Kollos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25377,7 +25377,7 @@ const allMonstersData = [
   {
     "name": "Kongra",
     "hp": 340,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kongra.gif",
+    "image_url": "images/monsters/Kongra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25412,7 +25412,7 @@ const allMonstersData = [
   {
     "name": "Koshei the Deathless",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Koshei_the_Deathless.gif",
+    "image_url": "images/monsters/Koshei_the_Deathless.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25447,7 +25447,7 @@ const allMonstersData = [
   {
     "name": "Kraknaknork",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kraknaknork.gif",
+    "image_url": "images/monsters/Kraknaknork.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25482,7 +25482,7 @@ const allMonstersData = [
   {
     "name": "Kreebosh the Exile",
     "hp": 705,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kreebosh_the_Exile.gif",
+    "image_url": "images/monsters/Kreebosh_the_Exile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25517,7 +25517,7 @@ const allMonstersData = [
   {
     "name": "Kroazur",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kroazur.gif",
+    "image_url": "images/monsters/Kroazur.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25552,7 +25552,7 @@ const allMonstersData = [
   {
     "name": "Kusuma",
     "hp": 7650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kusuma.gif",
+    "image_url": "images/monsters/Kusuma.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25587,7 +25587,7 @@ const allMonstersData = [
   {
     "name": "Lab Assistant",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lab_Assistant.gif",
+    "image_url": "images/monsters/Lab_Assistant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25622,7 +25622,7 @@ const allMonstersData = [
   {
     "name": "Lacewing Moth",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lacewing_Moth.gif",
+    "image_url": "images/monsters/Lacewing_Moth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25657,7 +25657,7 @@ const allMonstersData = [
   {
     "name": "Lady Tenebris",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lady_Tenebris.gif",
+    "image_url": "images/monsters/Lady_Tenebris.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25692,7 +25692,7 @@ const allMonstersData = [
   {
     "name": "Ladybug",
     "hp": 255,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ladybug.gif",
+    "image_url": "images/monsters/Ladybug.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25727,7 +25727,7 @@ const allMonstersData = [
   {
     "name": "Lamassu",
     "hp": 8700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lamassu.gif",
+    "image_url": "images/monsters/Lamassu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25762,7 +25762,7 @@ const allMonstersData = [
   {
     "name": "Lancer Beetle",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lancer_Beetle.gif",
+    "image_url": "images/monsters/Lancer_Beetle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25797,7 +25797,7 @@ const allMonstersData = [
   {
     "name": "Larva",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Larva.gif",
+    "image_url": "images/monsters/Larva.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25832,7 +25832,7 @@ const allMonstersData = [
   {
     "name": "Last Planegazer",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Last_Planegazer.gif",
+    "image_url": "images/monsters/Last_Planegazer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25867,7 +25867,7 @@ const allMonstersData = [
   {
     "name": "Latrivan",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Latrivan.gif",
+    "image_url": "images/monsters/Latrivan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25902,7 +25902,7 @@ const allMonstersData = [
   {
     "name": "Lava Golem",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lava_Golem.gif",
+    "image_url": "images/monsters/Lava_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25937,7 +25937,7 @@ const allMonstersData = [
   {
     "name": "Lava Lurker",
     "hp": 5900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lava_Lurker.gif",
+    "image_url": "images/monsters/Lava_Lurker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25972,7 +25972,7 @@ const allMonstersData = [
   {
     "name": "Lava Puddle (Creature)",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lava_Puddle_(Creature).gif",
+    "image_url": "images/monsters/Lava_Puddle__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26007,7 +26007,7 @@ const allMonstersData = [
   {
     "name": "Lavafungus",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lavafungus.gif",
+    "image_url": "images/monsters/Lavafungus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26042,7 +26042,7 @@ const allMonstersData = [
   {
     "name": "Lavaworm",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lavaworm.gif",
+    "image_url": "images/monsters/Lavaworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26077,7 +26077,7 @@ const allMonstersData = [
   {
     "name": "Leaf Golem",
     "hp": 90,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Leaf_Golem.gif",
+    "image_url": "images/monsters/Leaf_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26112,7 +26112,7 @@ const allMonstersData = [
   {
     "name": "Leiden",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Leiden.gif",
+    "image_url": "images/monsters/Leiden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26147,7 +26147,7 @@ const allMonstersData = [
   {
     "name": "Lersatio",
     "hp": 1645,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lersatio.gif",
+    "image_url": "images/monsters/Lersatio.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26182,7 +26182,7 @@ const allMonstersData = [
   {
     "name": "Lesser Death Minion",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lesser_Death_Minion.gif",
+    "image_url": "images/monsters/Lesser_Death_Minion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26217,7 +26217,7 @@ const allMonstersData = [
   {
     "name": "Lesser Fire Devil",
     "hp": 175,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lesser_Fire_Devil.gif",
+    "image_url": "images/monsters/Lesser_Fire_Devil.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26252,7 +26252,7 @@ const allMonstersData = [
   {
     "name": "Lesser Magma Crystal",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lesser_Magma_Crystal.gif",
+    "image_url": "images/monsters/Lesser_Magma_Crystal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26287,7 +26287,7 @@ const allMonstersData = [
   {
     "name": "Lesser Swarmer",
     "hp": 230,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lesser_Swarmer.gif",
+    "image_url": "images/monsters/Lesser_Swarmer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26322,7 +26322,7 @@ const allMonstersData = [
   {
     "name": "Lethal Lissy",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lethal_Lissy.gif",
+    "image_url": "images/monsters/Lethal_Lissy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26357,7 +26357,7 @@ const allMonstersData = [
   {
     "name": "Leviathan",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Leviathan.gif",
+    "image_url": "images/monsters/Leviathan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26392,7 +26392,7 @@ const allMonstersData = [
   {
     "name": "Librarian",
     "hp": 11000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Librarian.gif",
+    "image_url": "images/monsters/Librarian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26427,7 +26427,7 @@ const allMonstersData = [
   {
     "name": "Lich",
     "hp": 880,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lich.gif",
+    "image_url": "images/monsters/Lich.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26462,7 +26462,7 @@ const allMonstersData = [
   {
     "name": "Liodile",
     "hp": 8600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Liodile.gif",
+    "image_url": "images/monsters/Liodile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26497,7 +26497,7 @@ const allMonstersData = [
   {
     "name": "Lion",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion.gif",
+    "image_url": "images/monsters/Lion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26532,7 +26532,7 @@ const allMonstersData = [
   {
     "name": "Lion Archer",
     "hp": 7300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion_Archer.gif",
+    "image_url": "images/monsters/Lion_Archer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26567,7 +26567,7 @@ const allMonstersData = [
   {
     "name": "Lion Commander",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion_Commander.gif",
+    "image_url": "images/monsters/Lion_Commander.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26602,7 +26602,7 @@ const allMonstersData = [
   {
     "name": "Lion Hydra",
     "hp": 2760,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion_Hydra.gif",
+    "image_url": "images/monsters/Lion_Hydra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26637,7 +26637,7 @@ const allMonstersData = [
   {
     "name": "Lion Knight",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion_Knight.gif",
+    "image_url": "images/monsters/Lion_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26672,7 +26672,7 @@ const allMonstersData = [
   {
     "name": "Lion Warlock",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion_Warlock.gif",
+    "image_url": "images/monsters/Lion_Warlock.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26707,7 +26707,7 @@ const allMonstersData = [
   {
     "name": "Lionet (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lionet_(Creature).gif",
+    "image_url": "images/monsters/Lionet__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26742,7 +26742,7 @@ const allMonstersData = [
   {
     "name": "Lisa",
     "hp": 55000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lisa.gif",
+    "image_url": "images/monsters/Lisa.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26777,7 +26777,7 @@ const allMonstersData = [
   {
     "name": "Little Corym Charlatan",
     "hp": 90,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Little_Corym_Charlatan.gif",
+    "image_url": "images/monsters/Little_Corym_Charlatan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26812,7 +26812,7 @@ const allMonstersData = [
   {
     "name": "Lizard Abomination",
     "hp": 95000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Abomination.gif",
+    "image_url": "images/monsters/Lizard_Abomination.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26847,7 +26847,7 @@ const allMonstersData = [
   {
     "name": "Lizard Chosen",
     "hp": 3050,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Chosen.gif",
+    "image_url": "images/monsters/Lizard_Chosen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26882,7 +26882,7 @@ const allMonstersData = [
   {
     "name": "Lizard Dragon Priest",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Dragon_Priest.gif",
+    "image_url": "images/monsters/Lizard_Dragon_Priest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26917,7 +26917,7 @@ const allMonstersData = [
   {
     "name": "Lizard Gate Guardian",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Gate_Guardian.gif",
+    "image_url": "images/monsters/Lizard_Gate_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26952,7 +26952,7 @@ const allMonstersData = [
   {
     "name": "Lizard High Guard",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_High_Guard.gif",
+    "image_url": "images/monsters/Lizard_High_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26987,7 +26987,7 @@ const allMonstersData = [
   {
     "name": "Lizard Legionnaire",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Legionnaire.gif",
+    "image_url": "images/monsters/Lizard_Legionnaire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27022,7 +27022,7 @@ const allMonstersData = [
   {
     "name": "Lizard Magistratus",
     "hp": 6250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Magistratus.gif",
+    "image_url": "images/monsters/Lizard_Magistratus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27057,7 +27057,7 @@ const allMonstersData = [
   {
     "name": "Lizard Noble",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Noble.gif",
+    "image_url": "images/monsters/Lizard_Noble.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27092,7 +27092,7 @@ const allMonstersData = [
   {
     "name": "Lizard Sentinel",
     "hp": 265,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Sentinel.gif",
+    "image_url": "images/monsters/Lizard_Sentinel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27127,7 +27127,7 @@ const allMonstersData = [
   {
     "name": "Lizard Snakecharmer",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Snakecharmer.gif",
+    "image_url": "images/monsters/Lizard_Snakecharmer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27162,7 +27162,7 @@ const allMonstersData = [
   {
     "name": "Lizard Templar",
     "hp": 410,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Templar.gif",
+    "image_url": "images/monsters/Lizard_Templar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27197,7 +27197,7 @@ const allMonstersData = [
   {
     "name": "Lizard Zaogun",
     "hp": 2955,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Zaogun.gif",
+    "image_url": "images/monsters/Lizard_Zaogun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27232,7 +27232,7 @@ const allMonstersData = [
   {
     "name": "Lord of the Elements",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lord_of_the_Elements.gif",
+    "image_url": "images/monsters/Lord_of_the_Elements.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27267,7 +27267,7 @@ const allMonstersData = [
   {
     "name": "Lord Retro",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lord_Retro.gif",
+    "image_url": "images/monsters/Lord_Retro.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27302,7 +27302,7 @@ const allMonstersData = [
   {
     "name": "Loricate Orger",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Loricate_Orger.gif",
+    "image_url": "images/monsters/Loricate_Orger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27337,7 +27337,7 @@ const allMonstersData = [
   {
     "name": "Lost Basher",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Basher.gif",
+    "image_url": "images/monsters/Lost_Basher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27372,7 +27372,7 @@ const allMonstersData = [
   {
     "name": "Lost Berserker",
     "hp": 5900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Berserker.gif",
+    "image_url": "images/monsters/Lost_Berserker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27407,7 +27407,7 @@ const allMonstersData = [
   {
     "name": "Lost Exile",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Exile.gif",
+    "image_url": "images/monsters/Lost_Exile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27442,7 +27442,7 @@ const allMonstersData = [
   {
     "name": "Lost Gnome",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Gnome.gif",
+    "image_url": "images/monsters/Lost_Gnome.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27477,7 +27477,7 @@ const allMonstersData = [
   {
     "name": "Lost Husher",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Husher.gif",
+    "image_url": "images/monsters/Lost_Husher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27512,7 +27512,7 @@ const allMonstersData = [
   {
     "name": "Lost Soul",
     "hp": 5800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Soul.gif",
+    "image_url": "images/monsters/Lost_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27547,7 +27547,7 @@ const allMonstersData = [
   {
     "name": "Lost Thrower",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Thrower.gif",
+    "image_url": "images/monsters/Lost_Thrower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27582,7 +27582,7 @@ const allMonstersData = [
   {
     "name": "Lost Time",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lost_Time.gif",
+    "image_url": "images/monsters/Lost_Time.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27617,7 +27617,7 @@ const allMonstersData = [
   {
     "name": "Lucifuga Aranea",
     "hp": 12000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lucifuga_Aranea.gif",
+    "image_url": "images/monsters/Lucifuga_Aranea.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27652,7 +27652,7 @@ const allMonstersData = [
   {
     "name": "Lumbering Carnivor",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lumbering_Carnivor.gif",
+    "image_url": "images/monsters/Lumbering_Carnivor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27687,7 +27687,7 @@ const allMonstersData = [
   {
     "name": "Lyxoph (Creature)",
     "hp": 45000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lyxoph_(Creature).gif",
+    "image_url": "images/monsters/Lyxoph__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27722,7 +27722,7 @@ const allMonstersData = [
   {
     "name": "Mad Mage",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mad_Mage.gif",
+    "image_url": "images/monsters/Mad_Mage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27757,7 +27757,7 @@ const allMonstersData = [
   {
     "name": "Mad Scientist",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mad_Scientist.gif",
+    "image_url": "images/monsters/Mad_Scientist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27792,7 +27792,7 @@ const allMonstersData = [
   {
     "name": "Mad Sheep",
     "hp": 22,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mad_Sheep.gif",
+    "image_url": "images/monsters/Mad_Sheep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27827,7 +27827,7 @@ const allMonstersData = [
   {
     "name": "Mad Technomancer",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mad_Technomancer.gif",
+    "image_url": "images/monsters/Mad_Technomancer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27862,7 +27862,7 @@ const allMonstersData = [
   {
     "name": "Madareth",
     "hp": 75000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Madareth.gif",
+    "image_url": "images/monsters/Madareth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27897,7 +27897,7 @@ const allMonstersData = [
   {
     "name": "Magicthrower",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magicthrower.gif",
+    "image_url": "images/monsters/Magicthrower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27932,7 +27932,7 @@ const allMonstersData = [
   {
     "name": "Magma Bubble",
     "hp": 150000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magma_Bubble.gif",
+    "image_url": "images/monsters/Magma_Bubble.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27967,7 +27967,7 @@ const allMonstersData = [
   {
     "name": "Magma Crawler",
     "hp": 4800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magma_Crawler.gif",
+    "image_url": "images/monsters/Magma_Crawler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28002,7 +28002,7 @@ const allMonstersData = [
   {
     "name": "Magma Crystal",
     "hp": 22000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magma_Crystal.gif",
+    "image_url": "images/monsters/Magma_Crystal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28037,7 +28037,7 @@ const allMonstersData = [
   {
     "name": "Magma Fiend",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magma_Fiend.gif",
+    "image_url": "images/monsters/Magma_Fiend.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28072,7 +28072,7 @@ const allMonstersData = [
   {
     "name": "Magmaoid",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magmaoid.gif",
+    "image_url": "images/monsters/Magmaoid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28107,7 +28107,7 @@ const allMonstersData = [
   {
     "name": "Magnor Mournbringer",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Magnor_Mournbringer.gif",
+    "image_url": "images/monsters/Magnor_Mournbringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28142,7 +28142,7 @@ const allMonstersData = [
   {
     "name": "Mahatheb",
     "hp": 650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mahatheb.gif",
+    "image_url": "images/monsters/Mahatheb.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28177,7 +28177,7 @@ const allMonstersData = [
   {
     "name": "Mahrdis",
     "hp": 3900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mahrdis.gif",
+    "image_url": "images/monsters/Mahrdis.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28212,7 +28212,7 @@ const allMonstersData = [
   {
     "name": "Major Timedisplaced Anomaly (Fiehonja)",
     "hp": 75000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Major_Timedisplaced_Anomaly_(Fiehonja).gif",
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly__Fiehonja_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28247,7 +28247,7 @@ const allMonstersData = [
   {
     "name": "Major Timedisplaced Anomaly (Issavi)",
     "hp": 70000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Major_Timedisplaced_Anomaly_(Issavi).gif",
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly__Issavi_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28282,7 +28282,7 @@ const allMonstersData = [
   {
     "name": "Major Timedisplaced Anomaly (Rascacoon)",
     "hp": 65000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Major_Timedisplaced_Anomaly_(Rascacoon).gif",
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly__Rascacoon_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28317,7 +28317,7 @@ const allMonstersData = [
   {
     "name": "Makara",
     "hp": 5050,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Makara.gif",
+    "image_url": "images/monsters/Makara.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28352,7 +28352,7 @@ const allMonstersData = [
   {
     "name": "Makeshift Home",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Makeshift_Home.gif",
+    "image_url": "images/monsters/Makeshift_Home.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28387,7 +28387,7 @@ const allMonstersData = [
   {
     "name": "Malicious Minion",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Malicious_Minion.gif",
+    "image_url": "images/monsters/Malicious_Minion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28422,7 +28422,7 @@ const allMonstersData = [
   {
     "name": "Maliz",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Maliz.gif",
+    "image_url": "images/monsters/Maliz.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28457,7 +28457,7 @@ const allMonstersData = [
   {
     "name": "Malofur Mangrinder",
     "hp": 320000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Malofur_Mangrinder.gif",
+    "image_url": "images/monsters/Malofur_Mangrinder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28492,7 +28492,7 @@ const allMonstersData = [
   {
     "name": "Malvaroth",
     "hp": 40000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Malvaroth.gif",
+    "image_url": "images/monsters/Malvaroth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28527,7 +28527,7 @@ const allMonstersData = [
   {
     "name": "Mamma Longlegs",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mamma_Longlegs.gif",
+    "image_url": "images/monsters/Mamma_Longlegs.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28562,7 +28562,7 @@ const allMonstersData = [
   {
     "name": "Mammoth",
     "hp": 320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mammoth.gif",
+    "image_url": "images/monsters/Mammoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28597,7 +28597,7 @@ const allMonstersData = [
   {
     "name": "Man in the Cave",
     "hp": 485,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Man_in_the_Cave.gif",
+    "image_url": "images/monsters/Man_in_the_Cave.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28632,7 +28632,7 @@ const allMonstersData = [
   {
     "name": "Manta Ray",
     "hp": 680,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Manta_Ray.gif",
+    "image_url": "images/monsters/Manta_Ray.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28667,7 +28667,7 @@ const allMonstersData = [
   {
     "name": "Manticore",
     "hp": 6700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Manticore.gif",
+    "image_url": "images/monsters/Manticore.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28702,7 +28702,7 @@ const allMonstersData = [
   {
     "name": "Mantosaurus",
     "hp": 19400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mantosaurus.gif",
+    "image_url": "images/monsters/Mantosaurus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28737,7 +28737,7 @@ const allMonstersData = [
   {
     "name": "Many Faces",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Many_Faces.gif",
+    "image_url": "images/monsters/Many_Faces.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28772,7 +28772,7 @@ const allMonstersData = [
   {
     "name": "Marid",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Marid.gif",
+    "image_url": "images/monsters/Marid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28807,7 +28807,7 @@ const allMonstersData = [
   {
     "name": "Marsh Stalker",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Marsh_Stalker.gif",
+    "image_url": "images/monsters/Marsh_Stalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28842,7 +28842,7 @@ const allMonstersData = [
   {
     "name": "Marziel",
     "hp": 1900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Marziel.gif",
+    "image_url": "images/monsters/Marziel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28877,7 +28877,7 @@ const allMonstersData = [
   {
     "name": "Massacre",
     "hp": 32000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Massacre.gif",
+    "image_url": "images/monsters/Massacre.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28912,7 +28912,7 @@ const allMonstersData = [
   {
     "name": "Massive Earth Elemental",
     "hp": 1330,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Massive_Earth_Elemental.gif",
+    "image_url": "images/monsters/Massive_Earth_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28947,7 +28947,7 @@ const allMonstersData = [
   {
     "name": "Massive Energy Elemental",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Massive_Energy_Elemental.gif",
+    "image_url": "images/monsters/Massive_Energy_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28982,7 +28982,7 @@ const allMonstersData = [
   {
     "name": "Massive Fire Elemental",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Massive_Fire_Elemental.gif",
+    "image_url": "images/monsters/Massive_Fire_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29017,7 +29017,7 @@ const allMonstersData = [
   {
     "name": "Massive Water Elemental",
     "hp": 1250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Massive_Water_Elemental.gif",
+    "image_url": "images/monsters/Massive_Water_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29052,7 +29052,7 @@ const allMonstersData = [
   {
     "name": "Maw",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Maw.gif",
+    "image_url": "images/monsters/Maw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29087,7 +29087,7 @@ const allMonstersData = [
   {
     "name": "Mawhawk",
     "hp": 45000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mawhawk.gif",
+    "image_url": "images/monsters/Mawhawk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29122,7 +29122,7 @@ const allMonstersData = [
   {
     "name": "Maxxenius",
     "hp": 320000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Maxxenius.gif",
+    "image_url": "images/monsters/Maxxenius.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29157,7 +29157,7 @@ const allMonstersData = [
   {
     "name": "Mazoran",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mazoran.gif",
+    "image_url": "images/monsters/Mazoran.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29192,7 +29192,7 @@ const allMonstersData = [
   {
     "name": "Meadow Strider",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Meadow_Strider.gif",
+    "image_url": "images/monsters/Meadow_Strider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29227,7 +29227,7 @@ const allMonstersData = [
   {
     "name": "Mean Lost Soul",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mean_Lost_Soul.gif",
+    "image_url": "images/monsters/Mean_Lost_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29262,7 +29262,7 @@ const allMonstersData = [
   {
     "name": "Mean Termite",
     "hp": 4300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mean_Termite.gif",
+    "image_url": "images/monsters/Mean_Termite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29297,7 +29297,7 @@ const allMonstersData = [
   {
     "name": "Meandering Mushroom",
     "hp": 29100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Meandering_Mushroom.gif",
+    "image_url": "images/monsters/Meandering_Mushroom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29332,7 +29332,7 @@ const allMonstersData = [
   {
     "name": "Mearidion",
     "hp": 850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mearidion.gif",
+    "image_url": "images/monsters/Mearidion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29367,7 +29367,7 @@ const allMonstersData = [
   {
     "name": "Mechanical Fighter",
     "hp": 420,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mechanical_Fighter.gif",
+    "image_url": "images/monsters/Mechanical_Fighter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29402,7 +29402,7 @@ const allMonstersData = [
   {
     "name": "Medusa",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Medusa.gif",
+    "image_url": "images/monsters/Medusa.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29437,7 +29437,7 @@ const allMonstersData = [
   {
     "name": "Mega Dragon",
     "hp": 7920,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mega_Dragon.gif",
+    "image_url": "images/monsters/Mega_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29472,7 +29472,7 @@ const allMonstersData = [
   {
     "name": "Megasylvan Sapling (Creature)",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Megasylvan_Sapling_(Creature).gif",
+    "image_url": "images/monsters/Megasylvan_Sapling__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29507,7 +29507,7 @@ const allMonstersData = [
   {
     "name": "Megasylvan Yselda",
     "hp": 32000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Megasylvan_Yselda.gif",
+    "image_url": "images/monsters/Megasylvan_Yselda.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29542,7 +29542,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Banshee",
     "hp": 3600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Banshee.gif",
+    "image_url": "images/monsters/Memory_of_a_Banshee.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29577,7 +29577,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Book",
     "hp": 3670,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Book.gif",
+    "image_url": "images/monsters/Memory_of_a_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29612,7 +29612,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Carnisylvan",
     "hp": 3800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Carnisylvan.gif",
+    "image_url": "images/monsters/Memory_of_a_Carnisylvan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29647,7 +29647,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Dwarf",
     "hp": 3730,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Dwarf.gif",
+    "image_url": "images/monsters/Memory_of_a_Dwarf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29682,7 +29682,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Faun",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Faun.gif",
+    "image_url": "images/monsters/Memory_of_a_Faun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29717,7 +29717,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Frazzlemaw",
     "hp": 3770,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Frazzlemaw.gif",
+    "image_url": "images/monsters/Memory_of_a_Frazzlemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29752,7 +29752,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Fungus",
     "hp": 3580,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Fungus.gif",
+    "image_url": "images/monsters/Memory_of_a_Fungus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29787,7 +29787,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Golem",
     "hp": 3660,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Golem.gif",
+    "image_url": "images/monsters/Memory_of_a_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29822,7 +29822,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Hero",
     "hp": 3850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Hero.gif",
+    "image_url": "images/monsters/Memory_of_a_Hero.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29857,7 +29857,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Hydra",
     "hp": 3550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Hydra.gif",
+    "image_url": "images/monsters/Memory_of_a_Hydra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29892,7 +29892,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Lizard",
     "hp": 3520,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Lizard.gif",
+    "image_url": "images/monsters/Memory_of_a_Lizard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29927,7 +29927,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Mammoth",
     "hp": 3850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Mammoth.gif",
+    "image_url": "images/monsters/Memory_of_a_Mammoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29962,7 +29962,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Manticore",
     "hp": 3730,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Manticore.gif",
+    "image_url": "images/monsters/Memory_of_a_Manticore.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29997,7 +29997,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Pirate",
     "hp": 3750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Pirate.gif",
+    "image_url": "images/monsters/Memory_of_a_Pirate.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30032,7 +30032,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Scarab",
     "hp": 3620,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Scarab.gif",
+    "image_url": "images/monsters/Memory_of_a_Scarab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30067,7 +30067,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Shaper",
     "hp": 3710,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Shaper.gif",
+    "image_url": "images/monsters/Memory_of_a_Shaper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30102,7 +30102,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Vampire",
     "hp": 3650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Vampire.gif",
+    "image_url": "images/monsters/Memory_of_a_Vampire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30137,7 +30137,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Werelion",
     "hp": 3880,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Werelion.gif",
+    "image_url": "images/monsters/Memory_of_a_Werelion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30172,7 +30172,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Wolf",
     "hp": 3640,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Wolf.gif",
+    "image_url": "images/monsters/Memory_of_a_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30207,7 +30207,7 @@ const allMonstersData = [
   {
     "name": "Memory of a Yalahari",
     "hp": 3540,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_a_Yalahari.gif",
+    "image_url": "images/monsters/Memory_of_a_Yalahari.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30242,7 +30242,7 @@ const allMonstersData = [
   {
     "name": "Memory of an Amazon",
     "hp": 3600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_an_Amazon.gif",
+    "image_url": "images/monsters/Memory_of_an_Amazon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30277,7 +30277,7 @@ const allMonstersData = [
   {
     "name": "Memory of an Elf",
     "hp": 3440,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_an_Elf.gif",
+    "image_url": "images/monsters/Memory_of_an_Elf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30312,7 +30312,7 @@ const allMonstersData = [
   {
     "name": "Memory of an Insectoid",
     "hp": 3630,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_an_Insectoid.gif",
+    "image_url": "images/monsters/Memory_of_an_Insectoid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30347,7 +30347,7 @@ const allMonstersData = [
   {
     "name": "Memory of an Ogre",
     "hp": 3570,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Memory_of_an_Ogre.gif",
+    "image_url": "images/monsters/Memory_of_an_Ogre.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30382,7 +30382,7 @@ const allMonstersData = [
   {
     "name": "Menace",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Menace.gif",
+    "image_url": "images/monsters/Menace.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30417,7 +30417,7 @@ const allMonstersData = [
   {
     "name": "Menacing Carnivor",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Menacing_Carnivor.gif",
+    "image_url": "images/monsters/Menacing_Carnivor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30452,7 +30452,7 @@ const allMonstersData = [
   {
     "name": "Mental-Nexus",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mental-Nexus.gif",
+    "image_url": "images/monsters/Mental-Nexus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30487,7 +30487,7 @@ const allMonstersData = [
   {
     "name": "Mephiles",
     "hp": 415,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mephiles.gif",
+    "image_url": "images/monsters/Mephiles.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30522,7 +30522,7 @@ const allMonstersData = [
   {
     "name": "Mercurial Menace",
     "hp": 18500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mercurial_Menace.gif",
+    "image_url": "images/monsters/Mercurial_Menace.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30557,7 +30557,7 @@ const allMonstersData = [
   {
     "name": "Mercury Blob",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mercury_Blob.gif",
+    "image_url": "images/monsters/Mercury_Blob.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30592,7 +30592,7 @@ const allMonstersData = [
   {
     "name": "Merikh the Slaughterer",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Merikh_the_Slaughterer.gif",
+    "image_url": "images/monsters/Merikh_the_Slaughterer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30627,7 +30627,7 @@ const allMonstersData = [
   {
     "name": "Merlkin",
     "hp": 235,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Merlkin.gif",
+    "image_url": "images/monsters/Merlkin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30662,7 +30662,7 @@ const allMonstersData = [
   {
     "name": "Metal Gargoyle",
     "hp": 2100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Metal_Gargoyle.gif",
+    "image_url": "images/monsters/Metal_Gargoyle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30697,7 +30697,7 @@ const allMonstersData = [
   {
     "name": "Midnight Asura",
     "hp": 3100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Midnight_Asura.gif",
+    "image_url": "images/monsters/Midnight_Asura.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30732,7 +30732,7 @@ const allMonstersData = [
   {
     "name": "Midnight Panther",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Midnight_Panther.gif",
+    "image_url": "images/monsters/Midnight_Panther.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30767,7 +30767,7 @@ const allMonstersData = [
   {
     "name": "Midnight Spawn",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Midnight_Spawn.gif",
+    "image_url": "images/monsters/Midnight_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30802,7 +30802,7 @@ const allMonstersData = [
   {
     "name": "Midnight Warrior",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Midnight_Warrior.gif",
+    "image_url": "images/monsters/Midnight_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30837,7 +30837,7 @@ const allMonstersData = [
   {
     "name": "Mimic",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mimic.gif",
+    "image_url": "images/monsters/Mimic.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30872,7 +30872,7 @@ const allMonstersData = [
   {
     "name": "Mindmasher",
     "hp": 9500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mindmasher.gif",
+    "image_url": "images/monsters/Mindmasher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30907,7 +30907,7 @@ const allMonstersData = [
   {
     "name": "Minion of Gaz'haragoth",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minion_of_Gaz'haragoth.gif",
+    "image_url": "images/monsters/Minion_of_Gaz'haragoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30942,7 +30942,7 @@ const allMonstersData = [
   {
     "name": "Minion of Versperoth",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minion_of_Versperoth.gif",
+    "image_url": "images/monsters/Minion_of_Versperoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30977,7 +30977,7 @@ const allMonstersData = [
   {
     "name": "Minor Timedisplaced Anomaly (Ankrahmun)",
     "hp": 48000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minor_Timedisplaced_Anomaly_(Ankrahmun).gif",
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly__Ankrahmun_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31012,7 +31012,7 @@ const allMonstersData = [
   {
     "name": "Minor Timedisplaced Anomaly (Greenshore)",
     "hp": 44000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minor_Timedisplaced_Anomaly_(Greenshore).gif",
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly__Greenshore_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31047,7 +31047,7 @@ const allMonstersData = [
   {
     "name": "Minor Timedisplaced Anomaly (Rookgaard)",
     "hp": 40000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minor_Timedisplaced_Anomaly_(Rookgaard).gif",
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly__Rookgaard_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31082,7 +31082,7 @@ const allMonstersData = [
   {
     "name": "Minotaur",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur.gif",
+    "image_url": "images/monsters/Minotaur.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31117,7 +31117,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Amazon",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Amazon.gif",
+    "image_url": "images/monsters/Minotaur_Amazon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31152,7 +31152,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Archer",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Archer.gif",
+    "image_url": "images/monsters/Minotaur_Archer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31187,7 +31187,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Bruiser",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Bruiser.gif",
+    "image_url": "images/monsters/Minotaur_Bruiser.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31222,7 +31222,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Cult Follower",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Cult_Follower.gif",
+    "image_url": "images/monsters/Minotaur_Cult_Follower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31257,7 +31257,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Cult Prophet",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Cult_Prophet.gif",
+    "image_url": "images/monsters/Minotaur_Cult_Prophet.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31292,7 +31292,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Cult Zealot",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Cult_Zealot.gif",
+    "image_url": "images/monsters/Minotaur_Cult_Zealot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31327,7 +31327,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Guard",
     "hp": 185,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Guard.gif",
+    "image_url": "images/monsters/Minotaur_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31362,7 +31362,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Hunter",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Hunter.gif",
+    "image_url": "images/monsters/Minotaur_Hunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31397,7 +31397,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Idol",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Idol.gif",
+    "image_url": "images/monsters/Minotaur_Idol.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31432,7 +31432,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Invader",
     "hp": 1850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Invader.gif",
+    "image_url": "images/monsters/Minotaur_Invader.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31467,7 +31467,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Mage",
     "hp": 155,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Mage.gif",
+    "image_url": "images/monsters/Minotaur_Mage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31502,7 +31502,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Occultist",
     "hp": 125,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Occultist.gif",
+    "image_url": "images/monsters/Minotaur_Occultist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31537,7 +31537,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Poacher",
     "hp": 160,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Poacher.gif",
+    "image_url": "images/monsters/Minotaur_Poacher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31572,7 +31572,7 @@ const allMonstersData = [
   {
     "name": "Minotaur Totem",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Totem.gif",
+    "image_url": "images/monsters/Minotaur_Totem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31607,7 +31607,7 @@ const allMonstersData = [
   {
     "name": "Mint Drop",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mint_Drop.gif",
+    "image_url": "images/monsters/Mint_Drop.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31642,7 +31642,7 @@ const allMonstersData = [
   {
     "name": "Mirade (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mirade_(Creature).gif",
+    "image_url": "images/monsters/Mirade__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31677,7 +31677,7 @@ const allMonstersData = [
   {
     "name": "Mirror Image",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mirror_Image.gif",
+    "image_url": "images/monsters/Mirror_Image.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31712,7 +31712,7 @@ const allMonstersData = [
   {
     "name": "Misguided Bully",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Misguided_Bully.gif",
+    "image_url": "images/monsters/Misguided_Bully.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31747,7 +31747,7 @@ const allMonstersData = [
   {
     "name": "Misguided Shadow",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Misguided_Shadow.gif",
+    "image_url": "images/monsters/Misguided_Shadow.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31782,7 +31782,7 @@ const allMonstersData = [
   {
     "name": "Misguided Thief",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Misguided_Thief.gif",
+    "image_url": "images/monsters/Misguided_Thief.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31817,7 +31817,7 @@ const allMonstersData = [
   {
     "name": "Mitmah Scout",
     "hp": 3940,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mitmah_Scout.gif",
+    "image_url": "images/monsters/Mitmah_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31852,7 +31852,7 @@ const allMonstersData = [
   {
     "name": "Mitmah Seer",
     "hp": 4620,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mitmah_Seer.gif",
+    "image_url": "images/monsters/Mitmah_Seer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31887,7 +31887,7 @@ const allMonstersData = [
   {
     "name": "Mitmah Vanguard",
     "hp": 65000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mitmah_Vanguard.gif",
+    "image_url": "images/monsters/Mitmah_Vanguard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31922,7 +31922,7 @@ const allMonstersData = [
   {
     "name": "Modified Gnarlhound",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Modified_Gnarlhound.gif",
+    "image_url": "images/monsters/Modified_Gnarlhound.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31957,7 +31957,7 @@ const allMonstersData = [
   {
     "name": "Mole",
     "hp": 200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mole.gif",
+    "image_url": "images/monsters/Mole.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31992,7 +31992,7 @@ const allMonstersData = [
   {
     "name": "Monk (Creature)",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk_(Creature).gif",
+    "image_url": "images/monsters/Monk__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32027,7 +32027,7 @@ const allMonstersData = [
   {
     "name": "Monk of the Order",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk_of_the_Order.gif",
+    "image_url": "images/monsters/Monk_of_the_Order.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32062,7 +32062,7 @@ const allMonstersData = [
   {
     "name": "Monk's Apparition",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk's_Apparition.gif",
+    "image_url": "images/monsters/Monk's_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32097,7 +32097,7 @@ const allMonstersData = [
   {
     "name": "Monstor",
     "hp": 960,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monstor.gif",
+    "image_url": "images/monsters/Monstor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32132,7 +32132,7 @@ const allMonstersData = [
   {
     "name": "Mooh'Tah Warrior",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mooh'Tah_Warrior.gif",
+    "image_url": "images/monsters/Mooh'Tah_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32167,7 +32167,7 @@ const allMonstersData = [
   {
     "name": "Moohtant",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Moohtant.gif",
+    "image_url": "images/monsters/Moohtant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32202,7 +32202,7 @@ const allMonstersData = [
   {
     "name": "Moohtant Wallbreaker",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Moohtant_Wallbreaker.gif",
+    "image_url": "images/monsters/Moohtant_Wallbreaker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32237,7 +32237,7 @@ const allMonstersData = [
   {
     "name": "Morgaroth",
     "hp": 55000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Morgaroth.gif",
+    "image_url": "images/monsters/Morgaroth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32272,7 +32272,7 @@ const allMonstersData = [
   {
     "name": "Morguthis",
     "hp": 4800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Morguthis.gif",
+    "image_url": "images/monsters/Morguthis.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32307,7 +32307,7 @@ const allMonstersData = [
   {
     "name": "Morik the Gladiator",
     "hp": 1235,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Morik_the_Gladiator.gif",
+    "image_url": "images/monsters/Morik_the_Gladiator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32342,7 +32342,7 @@ const allMonstersData = [
   {
     "name": "Mornenion",
     "hp": 190,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mornenion.gif",
+    "image_url": "images/monsters/Mornenion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32377,7 +32377,7 @@ const allMonstersData = [
   {
     "name": "Morshabaal",
     "hp": 1000000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Morshabaal.gif",
+    "image_url": "images/monsters/Morshabaal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32412,7 +32412,7 @@ const allMonstersData = [
   {
     "name": "Mould Phantom",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mould_Phantom.gif",
+    "image_url": "images/monsters/Mould_Phantom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32447,7 +32447,7 @@ const allMonstersData = [
   {
     "name": "Mountain Troll",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mountain_Troll.gif",
+    "image_url": "images/monsters/Mountain_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32482,7 +32482,7 @@ const allMonstersData = [
   {
     "name": "Mozradek",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mozradek.gif",
+    "image_url": "images/monsters/Mozradek.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32517,7 +32517,7 @@ const allMonstersData = [
   {
     "name": "Mr. Punish",
     "hp": 22000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mr._Punish.gif",
+    "image_url": "images/monsters/Mr._Punish.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32552,7 +32552,7 @@ const allMonstersData = [
   {
     "name": "Muddy Earth Elemental",
     "hp": 650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Muddy_Earth_Elemental.gif",
+    "image_url": "images/monsters/Muddy_Earth_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32587,7 +32587,7 @@ const allMonstersData = [
   {
     "name": "Muglex Clan Assassin",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Muglex_Clan_Assassin.gif",
+    "image_url": "images/monsters/Muglex_Clan_Assassin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32622,7 +32622,7 @@ const allMonstersData = [
   {
     "name": "Muglex Clan Footman",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Muglex_Clan_Footman.gif",
+    "image_url": "images/monsters/Muglex_Clan_Footman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32657,7 +32657,7 @@ const allMonstersData = [
   {
     "name": "Muglex Clan Scavenger",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Muglex_Clan_Scavenger.gif",
+    "image_url": "images/monsters/Muglex_Clan_Scavenger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32692,7 +32692,7 @@ const allMonstersData = [
   {
     "name": "Mummy",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mummy.gif",
+    "image_url": "images/monsters/Mummy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32727,7 +32727,7 @@ const allMonstersData = [
   {
     "name": "Munster",
     "hp": 58,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Munster.gif",
+    "image_url": "images/monsters/Munster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32762,7 +32762,7 @@ const allMonstersData = [
   {
     "name": "Murderous Ghost",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Murderous_Ghost.gif",
+    "image_url": "images/monsters/Murderous_Ghost.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32797,7 +32797,7 @@ const allMonstersData = [
   {
     "name": "Murmillion",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Murmillion.gif",
+    "image_url": "images/monsters/Murmillion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32832,7 +32832,7 @@ const allMonstersData = [
   {
     "name": "Muse of Penciljack",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Muse_of_Penciljack.gif",
+    "image_url": "images/monsters/Muse_of_Penciljack.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32867,7 +32867,7 @@ const allMonstersData = [
   {
     "name": "Museum Stone Golem",
     "hp": 270,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Museum_Stone_Golem.gif",
+    "image_url": "images/monsters/Museum_Stone_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32902,7 +32902,7 @@ const allMonstersData = [
   {
     "name": "Museum Stone Rhino",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Museum_Stone_Rhino.gif",
+    "image_url": "images/monsters/Museum_Stone_Rhino.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32937,7 +32937,7 @@ const allMonstersData = [
   {
     "name": "Mushroom",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mushroom.gif",
+    "image_url": "images/monsters/Mushroom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32972,7 +32972,7 @@ const allMonstersData = [
   {
     "name": "Mushroom Sniffer",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mushroom_Sniffer.gif",
+    "image_url": "images/monsters/Mushroom_Sniffer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33007,7 +33007,7 @@ const allMonstersData = [
   {
     "name": "Mutated Bat",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mutated_Bat.gif",
+    "image_url": "images/monsters/Mutated_Bat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33042,7 +33042,7 @@ const allMonstersData = [
   {
     "name": "Mutated Human",
     "hp": 240,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mutated_Human.gif",
+    "image_url": "images/monsters/Mutated_Human.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33077,7 +33077,7 @@ const allMonstersData = [
   {
     "name": "Mutated Rat",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mutated_Rat.gif",
+    "image_url": "images/monsters/Mutated_Rat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33112,7 +33112,7 @@ const allMonstersData = [
   {
     "name": "Mutated Tiger",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mutated_Tiger.gif",
+    "image_url": "images/monsters/Mutated_Tiger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33147,7 +33147,7 @@ const allMonstersData = [
   {
     "name": "Mutated Zalamon",
     "hp": 155000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mutated_Zalamon.gif",
+    "image_url": "images/monsters/Mutated_Zalamon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33182,7 +33182,7 @@ const allMonstersData = [
   {
     "name": "Mycobiontic Beetle",
     "hp": 30200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mycobiontic_Beetle.gif",
+    "image_url": "images/monsters/Mycobiontic_Beetle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33217,7 +33217,7 @@ const allMonstersData = [
   {
     "name": "Naga Archer",
     "hp": 4640,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Naga_Archer.gif",
+    "image_url": "images/monsters/Naga_Archer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33252,7 +33252,7 @@ const allMonstersData = [
   {
     "name": "Naga Warrior",
     "hp": 5530,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Naga_Warrior.gif",
+    "image_url": "images/monsters/Naga_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33287,7 +33287,7 @@ const allMonstersData = [
   {
     "name": "Nargol the Impaler",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nargol_the_Impaler.gif",
+    "image_url": "images/monsters/Nargol_the_Impaler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33322,7 +33322,7 @@ const allMonstersData = [
   {
     "name": "Necromancer",
     "hp": 580,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Necromancer.gif",
+    "image_url": "images/monsters/Necromancer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33357,7 +33357,7 @@ const allMonstersData = [
   {
     "name": "Necromancer Servant",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Necromancer_Servant.gif",
+    "image_url": "images/monsters/Necromancer_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33392,7 +33392,7 @@ const allMonstersData = [
   {
     "name": "Necropharus",
     "hp": 750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Necropharus.gif",
+    "image_url": "images/monsters/Necropharus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33427,7 +33427,7 @@ const allMonstersData = [
   {
     "name": "Neferi The Spy",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Neferi_The_Spy.gif",
+    "image_url": "images/monsters/Neferi_The_Spy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33462,7 +33462,7 @@ const allMonstersData = [
   {
     "name": "Neutral Deepling Warrior",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Neutral_Deepling_Warrior.gif",
+    "image_url": "images/monsters/Neutral_Deepling_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33497,7 +33497,7 @@ const allMonstersData = [
   {
     "name": "Nibblemaw",
     "hp": 2900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nibblemaw.gif",
+    "image_url": "images/monsters/Nibblemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33532,7 +33532,7 @@ const allMonstersData = [
   {
     "name": "Nightfiend",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nightfiend.gif",
+    "image_url": "images/monsters/Nightfiend.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33567,7 +33567,7 @@ const allMonstersData = [
   {
     "name": "Nighthunter",
     "hp": 19200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nighthunter.gif",
+    "image_url": "images/monsters/Nighthunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33602,7 +33602,7 @@ const allMonstersData = [
   {
     "name": "Nightmare",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nightmare.gif",
+    "image_url": "images/monsters/Nightmare.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33637,7 +33637,7 @@ const allMonstersData = [
   {
     "name": "Nightmare of Gaz'haragoth",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nightmare_of_Gaz'haragoth.gif",
+    "image_url": "images/monsters/Nightmare_of_Gaz'haragoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33672,7 +33672,7 @@ const allMonstersData = [
   {
     "name": "Nightmare Scion",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nightmare_Scion.gif",
+    "image_url": "images/monsters/Nightmare_Scion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33707,7 +33707,7 @@ const allMonstersData = [
   {
     "name": "Nightslayer",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nightslayer.gif",
+    "image_url": "images/monsters/Nightslayer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33742,7 +33742,7 @@ const allMonstersData = [
   {
     "name": "Nightstalker",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nightstalker.gif",
+    "image_url": "images/monsters/Nightstalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33777,7 +33777,7 @@ const allMonstersData = [
   {
     "name": "Noble Lion",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Noble_Lion.gif",
+    "image_url": "images/monsters/Noble_Lion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33812,7 +33812,7 @@ const allMonstersData = [
   {
     "name": "Nomad (Basic)",
     "hp": 160,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad_(Basic).gif",
+    "image_url": "images/monsters/Nomad__Basic_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33847,7 +33847,7 @@ const allMonstersData = [
   {
     "name": "Nomad (Blue)",
     "hp": 160,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad_(Blue).gif",
+    "image_url": "images/monsters/Nomad__Blue_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33882,7 +33882,7 @@ const allMonstersData = [
   {
     "name": "Nomad (Female)",
     "hp": 160,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad_(Female).gif",
+    "image_url": "images/monsters/Nomad__Female_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33917,7 +33917,7 @@ const allMonstersData = [
   {
     "name": "Norcferatu Heartless",
     "hp": 5700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Norcferatu_Heartless.gif",
+    "image_url": "images/monsters/Norcferatu_Heartless.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33952,7 +33952,7 @@ const allMonstersData = [
   {
     "name": "Norcferatu Nightweaver",
     "hp": 6100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Norcferatu_Nightweaver.gif",
+    "image_url": "images/monsters/Norcferatu_Nightweaver.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33987,7 +33987,7 @@ const allMonstersData = [
   {
     "name": "Norgle Glacierbeard",
     "hp": 4280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Norgle_Glacierbeard.gif",
+    "image_url": "images/monsters/Norgle_Glacierbeard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34022,7 +34022,7 @@ const allMonstersData = [
   {
     "name": "Northern Pike (Creature)",
     "hp": 95,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Northern_Pike_(Creature).gif",
+    "image_url": "images/monsters/Northern_Pike__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34057,7 +34057,7 @@ const allMonstersData = [
   {
     "name": "Novice of the Cult",
     "hp": 285,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Novice_of_the_Cult.gif",
+    "image_url": "images/monsters/Novice_of_the_Cult.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34092,7 +34092,7 @@ const allMonstersData = [
   {
     "name": "Noxious Ripptor",
     "hp": 22700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Noxious_Ripptor.gif",
+    "image_url": "images/monsters/Noxious_Ripptor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34127,7 +34127,7 @@ const allMonstersData = [
   {
     "name": "Nymph",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nymph.gif",
+    "image_url": "images/monsters/Nymph.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34162,7 +34162,7 @@ const allMonstersData = [
   {
     "name": "Obujos",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Obujos.gif",
+    "image_url": "images/monsters/Obujos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34197,7 +34197,7 @@ const allMonstersData = [
   {
     "name": "Ocyakao",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ocyakao.gif",
+    "image_url": "images/monsters/Ocyakao.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34232,7 +34232,7 @@ const allMonstersData = [
   {
     "name": "Ogre Brute",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ogre_Brute.gif",
+    "image_url": "images/monsters/Ogre_Brute.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34267,7 +34267,7 @@ const allMonstersData = [
   {
     "name": "Ogre Rowdy",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ogre_Rowdy.gif",
+    "image_url": "images/monsters/Ogre_Rowdy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34302,7 +34302,7 @@ const allMonstersData = [
   {
     "name": "Ogre Ruffian",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ogre_Ruffian.gif",
+    "image_url": "images/monsters/Ogre_Ruffian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34337,7 +34337,7 @@ const allMonstersData = [
   {
     "name": "Ogre Sage",
     "hp": 4800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ogre_Sage.gif",
+    "image_url": "images/monsters/Ogre_Sage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34372,7 +34372,7 @@ const allMonstersData = [
   {
     "name": "Ogre Savage",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ogre_Savage.gif",
+    "image_url": "images/monsters/Ogre_Savage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34407,7 +34407,7 @@ const allMonstersData = [
   {
     "name": "Ogre Shaman",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ogre_Shaman.gif",
+    "image_url": "images/monsters/Ogre_Shaman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34442,7 +34442,7 @@ const allMonstersData = [
   {
     "name": "Omnivora",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Omnivora.gif",
+    "image_url": "images/monsters/Omnivora.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34477,7 +34477,7 @@ const allMonstersData = [
   {
     "name": "Omrafir",
     "hp": 322000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Omrafir.gif",
+    "image_url": "images/monsters/Omrafir.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34512,7 +34512,7 @@ const allMonstersData = [
   {
     "name": "Omruc",
     "hp": 4300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Omruc.gif",
+    "image_url": "images/monsters/Omruc.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34547,7 +34547,7 @@ const allMonstersData = [
   {
     "name": "Oodok Witchmaster",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Oodok_Witchmaster.gif",
+    "image_url": "images/monsters/Oodok_Witchmaster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34582,7 +34582,7 @@ const allMonstersData = [
   {
     "name": "Oozing Carcass",
     "hp": 27500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Oozing_Carcass.gif",
+    "image_url": "images/monsters/Oozing_Carcass.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34617,7 +34617,7 @@ const allMonstersData = [
   {
     "name": "Oozing Corpus",
     "hp": 28700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Oozing_Corpus.gif",
+    "image_url": "images/monsters/Oozing_Corpus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34652,7 +34652,7 @@ const allMonstersData = [
   {
     "name": "Orc",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc.gif",
+    "image_url": "images/monsters/Orc.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34687,7 +34687,7 @@ const allMonstersData = [
   {
     "name": "Orc Berserker",
     "hp": 210,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Berserker.gif",
+    "image_url": "images/monsters/Orc_Berserker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34722,7 +34722,7 @@ const allMonstersData = [
   {
     "name": "Orc Cult Fanatic",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Cult_Fanatic.gif",
+    "image_url": "images/monsters/Orc_Cult_Fanatic.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34757,7 +34757,7 @@ const allMonstersData = [
   {
     "name": "Orc Cult Inquisitor",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Cult_Inquisitor.gif",
+    "image_url": "images/monsters/Orc_Cult_Inquisitor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34792,7 +34792,7 @@ const allMonstersData = [
   {
     "name": "Orc Cult Minion",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Cult_Minion.gif",
+    "image_url": "images/monsters/Orc_Cult_Minion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34827,7 +34827,7 @@ const allMonstersData = [
   {
     "name": "Orc Cult Priest",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Cult_Priest.gif",
+    "image_url": "images/monsters/Orc_Cult_Priest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34862,7 +34862,7 @@ const allMonstersData = [
   {
     "name": "Orc Cultist",
     "hp": 1350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Cultist.gif",
+    "image_url": "images/monsters/Orc_Cultist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34897,7 +34897,7 @@ const allMonstersData = [
   {
     "name": "Orc Leader",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Leader.gif",
+    "image_url": "images/monsters/Orc_Leader.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34932,7 +34932,7 @@ const allMonstersData = [
   {
     "name": "Orc Marauder",
     "hp": 235,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Marauder.gif",
+    "image_url": "images/monsters/Orc_Marauder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34967,7 +34967,7 @@ const allMonstersData = [
   {
     "name": "Orc Rider",
     "hp": 180,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Rider.gif",
+    "image_url": "images/monsters/Orc_Rider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35002,7 +35002,7 @@ const allMonstersData = [
   {
     "name": "Orc Shaman",
     "hp": 115,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Shaman.gif",
+    "image_url": "images/monsters/Orc_Shaman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35037,7 +35037,7 @@ const allMonstersData = [
   {
     "name": "Orc Spearman",
     "hp": 105,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Spearman.gif",
+    "image_url": "images/monsters/Orc_Spearman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35072,7 +35072,7 @@ const allMonstersData = [
   {
     "name": "Orc Warlord",
     "hp": 950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Warlord.gif",
+    "image_url": "images/monsters/Orc_Warlord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35107,7 +35107,7 @@ const allMonstersData = [
   {
     "name": "Orc Warrior",
     "hp": 125,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Warrior.gif",
+    "image_url": "images/monsters/Orc_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35142,7 +35142,7 @@ const allMonstersData = [
   {
     "name": "Orchid Frog",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orchid_Frog.gif",
+    "image_url": "images/monsters/Orchid_Frog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35177,7 +35177,7 @@ const allMonstersData = [
   {
     "name": "Orclops Bloodbreaker",
     "hp": 10300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orclops_Bloodbreaker.gif",
+    "image_url": "images/monsters/Orclops_Bloodbreaker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35212,7 +35212,7 @@ const allMonstersData = [
   {
     "name": "Orclops Doomhauler",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orclops_Doomhauler.gif",
+    "image_url": "images/monsters/Orclops_Doomhauler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35247,7 +35247,7 @@ const allMonstersData = [
   {
     "name": "Orclops Ravager",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orclops_Ravager.gif",
+    "image_url": "images/monsters/Orclops_Ravager.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35282,7 +35282,7 @@ const allMonstersData = [
   {
     "name": "Orcus the Cruel",
     "hp": 480,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orcus_the_Cruel.gif",
+    "image_url": "images/monsters/Orcus_the_Cruel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35317,7 +35317,7 @@ const allMonstersData = [
   {
     "name": "Orewalker",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orewalker.gif",
+    "image_url": "images/monsters/Orewalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35352,7 +35352,7 @@ const allMonstersData = [
   {
     "name": "Orger",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orger.gif",
+    "image_url": "images/monsters/Orger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35387,7 +35387,7 @@ const allMonstersData = [
   {
     "name": "Orger Treasure",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orger_Treasure.gif",
+    "image_url": "images/monsters/Orger_Treasure.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35422,7 +35422,7 @@ const allMonstersData = [
   {
     "name": "Orshabaal",
     "hp": 22500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orshabaal.gif",
+    "image_url": "images/monsters/Orshabaal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35457,7 +35457,7 @@ const allMonstersData = [
   {
     "name": "Outburst",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Outburst.gif",
+    "image_url": "images/monsters/Outburst.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35492,7 +35492,7 @@ const allMonstersData = [
   {
     "name": "Overcharge",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Overcharge.gif",
+    "image_url": "images/monsters/Overcharge.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35527,7 +35527,7 @@ const allMonstersData = [
   {
     "name": "Overcharged Energy Element",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Overcharged_Energy_Element.gif",
+    "image_url": "images/monsters/Overcharged_Energy_Element.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35562,7 +35562,7 @@ const allMonstersData = [
   {
     "name": "Owin (Creature)",
     "hp": 9600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Owin_(Creature).gif",
+    "image_url": "images/monsters/Owin__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35597,7 +35597,7 @@ const allMonstersData = [
   {
     "name": "Paiz the Pauperizer",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Paiz_the_Pauperizer.gif",
+    "image_url": "images/monsters/Paiz_the_Pauperizer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35632,7 +35632,7 @@ const allMonstersData = [
   {
     "name": "Paladin Familiar",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Paladin_Familiar.gif",
+    "image_url": "images/monsters/Paladin_Familiar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35667,7 +35667,7 @@ const allMonstersData = [
   {
     "name": "Paladin's Apparition",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Paladin's_Apparition.gif",
+    "image_url": "images/monsters/Paladin's_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35702,7 +35702,7 @@ const allMonstersData = [
   {
     "name": "Panda",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Panda.gif",
+    "image_url": "images/monsters/Panda.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35737,7 +35737,7 @@ const allMonstersData = [
   {
     "name": "Parasite",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Parasite.gif",
+    "image_url": "images/monsters/Parasite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35772,7 +35772,7 @@ const allMonstersData = [
   {
     "name": "Parder",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Parder.gif",
+    "image_url": "images/monsters/Parder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35807,7 +35807,7 @@ const allMonstersData = [
   {
     "name": "Parrot",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Parrot.gif",
+    "image_url": "images/monsters/Parrot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35842,7 +35842,7 @@ const allMonstersData = [
   {
     "name": "Party Skeleton",
     "hp": 40,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Party_Skeleton.gif",
+    "image_url": "images/monsters/Party_Skeleton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35877,7 +35877,7 @@ const allMonstersData = [
   {
     "name": "Penciljack (Creature)",
     "hp": 150000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Penciljack_(Creature).gif",
+    "image_url": "images/monsters/Penciljack__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35912,7 +35912,7 @@ const allMonstersData = [
   {
     "name": "Penguin",
     "hp": 33,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Penguin.gif",
+    "image_url": "images/monsters/Penguin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35947,7 +35947,7 @@ const allMonstersData = [
   {
     "name": "Percht",
     "hp": 620,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Percht.gif",
+    "image_url": "images/monsters/Percht.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35982,7 +35982,7 @@ const allMonstersData = [
   {
     "name": "Phantasm",
     "hp": 3950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Phantasm.gif",
+    "image_url": "images/monsters/Phantasm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36017,7 +36017,7 @@ const allMonstersData = [
   {
     "name": "Phantasm (Weak)",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Phantasm_(Weak).gif",
+    "image_url": "images/monsters/Phantasm__Weak_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36052,7 +36052,7 @@ const allMonstersData = [
   {
     "name": "Phrodomo",
     "hp": 90000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Phrodomo.gif",
+    "image_url": "images/monsters/Phrodomo.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36087,7 +36087,7 @@ const allMonstersData = [
   {
     "name": "Pig",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pig.gif",
+    "image_url": "images/monsters/Pig.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36122,7 +36122,7 @@ const allMonstersData = [
   {
     "name": "Pig (Nostalgia)",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pig_(Nostalgia).gif",
+    "image_url": "images/monsters/Pig__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36157,7 +36157,7 @@ const allMonstersData = [
   {
     "name": "Pigeon",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pigeon.gif",
+    "image_url": "images/monsters/Pigeon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36192,7 +36192,7 @@ const allMonstersData = [
   {
     "name": "Pillar (Zugurosh)",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pillar_(Zugurosh).gif",
+    "image_url": "images/monsters/Pillar__Zugurosh_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36227,7 +36227,7 @@ const allMonstersData = [
   {
     "name": "Pillar of Dark Energy",
     "hp": 37500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pillar_of_Dark_Energy.gif",
+    "image_url": "images/monsters/Pillar_of_Dark_Energy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36262,7 +36262,7 @@ const allMonstersData = [
   {
     "name": "Pillar of Healing",
     "hp": 7300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pillar_of_Healing.gif",
+    "image_url": "images/monsters/Pillar_of_Healing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36297,7 +36297,7 @@ const allMonstersData = [
   {
     "name": "Piñata Dragon",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Piñata_Dragon.gif",
+    "image_url": "images/monsters/Pi_ata_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36332,7 +36332,7 @@ const allMonstersData = [
   {
     "name": "Pirat Bombardier",
     "hp": 2300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirat_Bombardier.gif",
+    "image_url": "images/monsters/Pirat_Bombardier.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36367,7 +36367,7 @@ const allMonstersData = [
   {
     "name": "Pirat Cutthroat",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirat_Cutthroat.gif",
+    "image_url": "images/monsters/Pirat_Cutthroat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36402,7 +36402,7 @@ const allMonstersData = [
   {
     "name": "Pirat Mate",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirat_Mate.gif",
+    "image_url": "images/monsters/Pirat_Mate.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36437,7 +36437,7 @@ const allMonstersData = [
   {
     "name": "Pirat Scoundrel",
     "hp": 2200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirat_Scoundrel.gif",
+    "image_url": "images/monsters/Pirat_Scoundrel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36472,7 +36472,7 @@ const allMonstersData = [
   {
     "name": "Pirate Buccaneer",
     "hp": 425,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Buccaneer.gif",
+    "image_url": "images/monsters/Pirate_Buccaneer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36507,7 +36507,7 @@ const allMonstersData = [
   {
     "name": "Pirate Corsair",
     "hp": 675,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Corsair.gif",
+    "image_url": "images/monsters/Pirate_Corsair.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36542,7 +36542,7 @@ const allMonstersData = [
   {
     "name": "Pirate Cutthroat",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Cutthroat.gif",
+    "image_url": "images/monsters/Pirate_Cutthroat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36577,7 +36577,7 @@ const allMonstersData = [
   {
     "name": "Pirate Ghost",
     "hp": 275,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Ghost.gif",
+    "image_url": "images/monsters/Pirate_Ghost.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36612,7 +36612,7 @@ const allMonstersData = [
   {
     "name": "Pirate Marauder",
     "hp": 210,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif",
+    "image_url": "images/monsters/Pirate_Marauder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36647,7 +36647,7 @@ const allMonstersData = [
   {
     "name": "Pirate Skeleton",
     "hp": 190,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Skeleton.gif",
+    "image_url": "images/monsters/Pirate_Skeleton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36682,7 +36682,7 @@ const allMonstersData = [
   {
     "name": "Pixie",
     "hp": 770,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pixie.gif",
+    "image_url": "images/monsters/Pixie.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36717,7 +36717,7 @@ const allMonstersData = [
   {
     "name": "Plagirath",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Plagirath.gif",
+    "image_url": "images/monsters/Plagirath.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36752,7 +36752,7 @@ const allMonstersData = [
   {
     "name": "Plaguesmith",
     "hp": 8250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Plaguesmith.gif",
+    "image_url": "images/monsters/Plaguesmith.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36787,7 +36787,7 @@ const allMonstersData = [
   {
     "name": "Plaguethrower",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Plaguethrower.gif",
+    "image_url": "images/monsters/Plaguethrower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36822,7 +36822,7 @@ const allMonstersData = [
   {
     "name": "Planestrider",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Planestrider.gif",
+    "image_url": "images/monsters/Planestrider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36857,7 +36857,7 @@ const allMonstersData = [
   {
     "name": "Plant Abomination",
     "hp": 3900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Plant_Abomination.gif",
+    "image_url": "images/monsters/Plant_Abomination.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36892,7 +36892,7 @@ const allMonstersData = [
   {
     "name": "Poacher",
     "hp": 90,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poacher.gif",
+    "image_url": "images/monsters/Poacher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36927,7 +36927,7 @@ const allMonstersData = [
   {
     "name": "Poison Spider",
     "hp": 26,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poison_Spider.gif",
+    "image_url": "images/monsters/Poison_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36962,7 +36962,7 @@ const allMonstersData = [
   {
     "name": "Poisonous Carnisylvan",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poisonous_Carnisylvan.gif",
+    "image_url": "images/monsters/Poisonous_Carnisylvan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36997,7 +36997,7 @@ const allMonstersData = [
   {
     "name": "Polar Bear",
     "hp": 85,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Polar_Bear.gif",
+    "image_url": "images/monsters/Polar_Bear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37032,7 +37032,7 @@ const allMonstersData = [
   {
     "name": "Poodle",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poodle.gif",
+    "image_url": "images/monsters/Poodle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37067,7 +37067,7 @@ const allMonstersData = [
   {
     "name": "Pooka",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pooka.gif",
+    "image_url": "images/monsters/Pooka.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37102,7 +37102,7 @@ const allMonstersData = [
   {
     "name": "Poor Soul",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poor_Soul.gif",
+    "image_url": "images/monsters/Poor_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37137,7 +37137,7 @@ const allMonstersData = [
   {
     "name": "Possessed Tree",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Possessed_Tree.gif",
+    "image_url": "images/monsters/Possessed_Tree.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37172,7 +37172,7 @@ const allMonstersData = [
   {
     "name": "Preceptor Lazare",
     "hp": 16000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Preceptor_Lazare.gif",
+    "image_url": "images/monsters/Preceptor_Lazare.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37207,7 +37207,7 @@ const allMonstersData = [
   {
     "name": "Priestess",
     "hp": 390,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Priestess.gif",
+    "image_url": "images/monsters/Priestess.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37242,7 +37242,7 @@ const allMonstersData = [
   {
     "name": "Priestess of the Wild Sun",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Priestess_of_the_Wild_Sun.gif",
+    "image_url": "images/monsters/Priestess_of_the_Wild_Sun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37277,7 +37277,7 @@ const allMonstersData = [
   {
     "name": "Prince Drazzak",
     "hp": 330000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Prince_Drazzak.gif",
+    "image_url": "images/monsters/Prince_Drazzak.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37312,7 +37312,7 @@ const allMonstersData = [
   {
     "name": "Professor Maxxen",
     "hp": 90000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Professor_Maxxen.gif",
+    "image_url": "images/monsters/Professor_Maxxen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37347,7 +37347,7 @@ const allMonstersData = [
   {
     "name": "Pupated Rootthing",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pupated_Rootthing.gif",
+    "image_url": "images/monsters/Pupated_Rootthing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37382,7 +37382,7 @@ const allMonstersData = [
   {
     "name": "Putrid Mummy",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Putrid_Mummy.gif",
+    "image_url": "images/monsters/Putrid_Mummy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37417,7 +37417,7 @@ const allMonstersData = [
   {
     "name": "Pythius the Rotten (Creature)",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pythius_the_Rotten_(Creature).gif",
+    "image_url": "images/monsters/Pythius_the_Rotten__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37452,7 +37452,7 @@ const allMonstersData = [
   {
     "name": "Quara Constrictor",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Constrictor.gif",
+    "image_url": "images/monsters/Quara_Constrictor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37487,7 +37487,7 @@ const allMonstersData = [
   {
     "name": "Quara Constrictor Scout",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Constrictor_Scout.gif",
+    "image_url": "images/monsters/Quara_Constrictor_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37522,7 +37522,7 @@ const allMonstersData = [
   {
     "name": "Quara Hydromancer",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Hydromancer.gif",
+    "image_url": "images/monsters/Quara_Hydromancer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37557,7 +37557,7 @@ const allMonstersData = [
   {
     "name": "Quara Hydromancer Scout",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Hydromancer_Scout.gif",
+    "image_url": "images/monsters/Quara_Hydromancer_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37592,7 +37592,7 @@ const allMonstersData = [
   {
     "name": "Quara Looter",
     "hp": 11500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Looter.gif",
+    "image_url": "images/monsters/Quara_Looter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37627,7 +37627,7 @@ const allMonstersData = [
   {
     "name": "Quara Mantassin",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Mantassin.gif",
+    "image_url": "images/monsters/Quara_Mantassin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37662,7 +37662,7 @@ const allMonstersData = [
   {
     "name": "Quara Mantassin Scout",
     "hp": 220,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Mantassin_Scout.gif",
+    "image_url": "images/monsters/Quara_Mantassin_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37697,7 +37697,7 @@ const allMonstersData = [
   {
     "name": "Quara Pincher",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Pincher.gif",
+    "image_url": "images/monsters/Quara_Pincher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37732,7 +37732,7 @@ const allMonstersData = [
   {
     "name": "Quara Pincher Scout",
     "hp": 775,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Pincher_Scout.gif",
+    "image_url": "images/monsters/Quara_Pincher_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37767,7 +37767,7 @@ const allMonstersData = [
   {
     "name": "Quara Plunderer",
     "hp": 13500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Plunderer.gif",
+    "image_url": "images/monsters/Quara_Plunderer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37802,7 +37802,7 @@ const allMonstersData = [
   {
     "name": "Quara Predator",
     "hp": 2200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Predator.gif",
+    "image_url": "images/monsters/Quara_Predator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37837,7 +37837,7 @@ const allMonstersData = [
   {
     "name": "Quara Predator Scout",
     "hp": 890,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Predator_Scout.gif",
+    "image_url": "images/monsters/Quara_Predator_Scout.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37872,7 +37872,7 @@ const allMonstersData = [
   {
     "name": "Quara Raider",
     "hp": 12500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Raider.gif",
+    "image_url": "images/monsters/Quara_Raider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37907,7 +37907,7 @@ const allMonstersData = [
   {
     "name": "Quara Saboteur",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Saboteur.gif",
+    "image_url": "images/monsters/Quara_Saboteur.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37942,7 +37942,7 @@ const allMonstersData = [
   {
     "name": "Queen Nostalgia (2)",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Queen_Nostalgia_(2).gif",
+    "image_url": "images/monsters/Queen_Nostalgia__2_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37977,7 +37977,7 @@ const allMonstersData = [
   {
     "name": "Rabbit",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rabbit.gif",
+    "image_url": "images/monsters/Rabbit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38012,7 +38012,7 @@ const allMonstersData = [
   {
     "name": "Rabid Wolf",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rabid_Wolf.gif",
+    "image_url": "images/monsters/Rabid_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38047,7 +38047,7 @@ const allMonstersData = [
   {
     "name": "Radicular Totem",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Radicular_Totem.gif",
+    "image_url": "images/monsters/Radicular_Totem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38082,7 +38082,7 @@ const allMonstersData = [
   {
     "name": "Rage of Mazoran",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rage_of_Mazoran.gif",
+    "image_url": "images/monsters/Rage_of_Mazoran.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38117,7 +38117,7 @@ const allMonstersData = [
   {
     "name": "Rage Squid",
     "hp": 17000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rage_Squid.gif",
+    "image_url": "images/monsters/Rage_Squid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38152,7 +38152,7 @@ const allMonstersData = [
   {
     "name": "Ragged Rabid Wolf",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ragged_Rabid_Wolf.gif",
+    "image_url": "images/monsters/Ragged_Rabid_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38187,7 +38187,7 @@ const allMonstersData = [
   {
     "name": "Ragiaz",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ragiaz.gif",
+    "image_url": "images/monsters/Ragiaz.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38222,7 +38222,7 @@ const allMonstersData = [
   {
     "name": "Raging Fire",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Raging_Fire.gif",
+    "image_url": "images/monsters/Raging_Fire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38257,7 +38257,7 @@ const allMonstersData = [
   {
     "name": "Raging Mage",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Raging_Mage.gif",
+    "image_url": "images/monsters/Raging_Mage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38292,7 +38292,7 @@ const allMonstersData = [
   {
     "name": "Rahemos",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rahemos.gif",
+    "image_url": "images/monsters/Rahemos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38327,7 +38327,7 @@ const allMonstersData = [
   {
     "name": "Rat",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rat.gif",
+    "image_url": "images/monsters/Rat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38362,7 +38362,7 @@ const allMonstersData = [
   {
     "name": "Ravenous Lava Lurker",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ravenous_Lava_Lurker.gif",
+    "image_url": "images/monsters/Ravenous_Lava_Lurker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38397,7 +38397,7 @@ const allMonstersData = [
   {
     "name": "Raxias",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Raxias.gif",
+    "image_url": "images/monsters/Raxias.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38432,7 +38432,7 @@ const allMonstersData = [
   {
     "name": "Razzagorn",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Razzagorn.gif",
+    "image_url": "images/monsters/Razzagorn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38467,7 +38467,7 @@ const allMonstersData = [
   {
     "name": "Reality Reaver",
     "hp": 3900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Reality_Reaver.gif",
+    "image_url": "images/monsters/Reality_Reaver.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38502,7 +38502,7 @@ const allMonstersData = [
   {
     "name": "Realityquake",
     "hp": 110000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Realityquake.gif",
+    "image_url": "images/monsters/Realityquake.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38537,7 +38537,7 @@ const allMonstersData = [
   {
     "name": "Redeemed Soul",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Redeemed_Soul.gif",
+    "image_url": "images/monsters/Redeemed_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38572,7 +38572,7 @@ const allMonstersData = [
   {
     "name": "Reflection of a Mage",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Reflection_of_a_Mage.gif",
+    "image_url": "images/monsters/Reflection_of_a_Mage.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38607,7 +38607,7 @@ const allMonstersData = [
   {
     "name": "Reflection of Mawhawk",
     "hp": 45000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Reflection_of_Mawhawk.gif",
+    "image_url": "images/monsters/Reflection_of_Mawhawk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38642,7 +38642,7 @@ const allMonstersData = [
   {
     "name": "Reflection of Obujos",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Reflection_of_Obujos.gif",
+    "image_url": "images/monsters/Reflection_of_Obujos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38677,7 +38677,7 @@ const allMonstersData = [
   {
     "name": "Regenerating Mass",
     "hp": 110000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Regenerating_Mass.gif",
+    "image_url": "images/monsters/Regenerating_Mass.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38712,7 +38712,7 @@ const allMonstersData = [
   {
     "name": "Rejana (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rejana_(Creature).gif",
+    "image_url": "images/monsters/Rejana__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38747,7 +38747,7 @@ const allMonstersData = [
   {
     "name": "Renegade Knight",
     "hp": 1450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Knight.gif",
+    "image_url": "images/monsters/Renegade_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38782,7 +38782,7 @@ const allMonstersData = [
   {
     "name": "Renegade Orc",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Orc.gif",
+    "image_url": "images/monsters/Renegade_Orc.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38817,7 +38817,7 @@ const allMonstersData = [
   {
     "name": "Renegade Quara Constrictor",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Quara_Constrictor.gif",
+    "image_url": "images/monsters/Renegade_Quara_Constrictor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38852,7 +38852,7 @@ const allMonstersData = [
   {
     "name": "Renegade Quara Hydromancer",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Quara_Hydromancer.gif",
+    "image_url": "images/monsters/Renegade_Quara_Hydromancer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38887,7 +38887,7 @@ const allMonstersData = [
   {
     "name": "Renegade Quara Mantassin",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Quara_Mantassin.gif",
+    "image_url": "images/monsters/Renegade_Quara_Mantassin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38922,7 +38922,7 @@ const allMonstersData = [
   {
     "name": "Renegade Quara Pincher",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Quara_Pincher.gif",
+    "image_url": "images/monsters/Renegade_Quara_Pincher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38957,7 +38957,7 @@ const allMonstersData = [
   {
     "name": "Renegade Quara Predator",
     "hp": 3250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Renegade_Quara_Predator.gif",
+    "image_url": "images/monsters/Renegade_Quara_Predator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38992,7 +38992,7 @@ const allMonstersData = [
   {
     "name": "Retching Horror",
     "hp": 5300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Retching_Horror.gif",
+    "image_url": "images/monsters/Retching_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39027,7 +39027,7 @@ const allMonstersData = [
   {
     "name": "Retros Treasure",
     "hp": 37500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Retros_Treasure.gif",
+    "image_url": "images/monsters/Retros_Treasure.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39062,7 +39062,7 @@ const allMonstersData = [
   {
     "name": "Rewar the Bloody",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rewar_the_Bloody.gif",
+    "image_url": "images/monsters/Rewar_the_Bloody.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39097,7 +39097,7 @@ const allMonstersData = [
   {
     "name": "Rhindeer",
     "hp": 8650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rhindeer.gif",
+    "image_url": "images/monsters/Rhindeer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39132,7 +39132,7 @@ const allMonstersData = [
   {
     "name": "Ribstride",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ribstride.gif",
+    "image_url": "images/monsters/Ribstride.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39167,7 +39167,7 @@ const allMonstersData = [
   {
     "name": "Rift Brood",
     "hp": 2950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rift_Brood.gif",
+    "image_url": "images/monsters/Rift_Brood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39202,7 +39202,7 @@ const allMonstersData = [
   {
     "name": "Rift Invader",
     "hp": 6250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rift_Invader.gif",
+    "image_url": "images/monsters/Rift_Invader.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39237,7 +39237,7 @@ const allMonstersData = [
   {
     "name": "Rift Scythe",
     "hp": 3600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rift_Scythe.gif",
+    "image_url": "images/monsters/Rift_Scythe.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39272,7 +39272,7 @@ const allMonstersData = [
   {
     "name": "Rift Worm",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rift_Worm.gif",
+    "image_url": "images/monsters/Rift_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39307,7 +39307,7 @@ const allMonstersData = [
   {
     "name": "Ripper Spectre",
     "hp": 3800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ripper_Spectre.gif",
+    "image_url": "images/monsters/Ripper_Spectre.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39342,7 +39342,7 @@ const allMonstersData = [
   {
     "name": "Risen Soldier",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Risen_Soldier.gif",
+    "image_url": "images/monsters/Risen_Soldier.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39377,7 +39377,7 @@ const allMonstersData = [
   {
     "name": "Roaring Lion",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Roaring_Lion.gif",
+    "image_url": "images/monsters/Roaring_Lion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39412,7 +39412,7 @@ const allMonstersData = [
   {
     "name": "Roaring Water Elemental",
     "hp": 1750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Roaring_Water_Elemental.gif",
+    "image_url": "images/monsters/Roaring_Water_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39447,7 +39447,7 @@ const allMonstersData = [
   {
     "name": "Roast Pork",
     "hp": 420,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Roast_Pork.gif",
+    "image_url": "images/monsters/Roast_Pork.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39482,7 +39482,7 @@ const allMonstersData = [
   {
     "name": "Robby the Reckless",
     "hp": 155,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Robby_the_Reckless.gif",
+    "image_url": "images/monsters/Robby_the_Reckless.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39517,7 +39517,7 @@ const allMonstersData = [
   {
     "name": "Rocko",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rocko.gif",
+    "image_url": "images/monsters/Rocko.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39552,7 +39552,7 @@ const allMonstersData = [
   {
     "name": "Rocky",
     "hp": 390,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rocky.gif",
+    "image_url": "images/monsters/Rocky.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39587,7 +39587,7 @@ const allMonstersData = [
   {
     "name": "Rogue Naga",
     "hp": 6200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rogue_Naga.gif",
+    "image_url": "images/monsters/Rogue_Naga.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39622,7 +39622,7 @@ const allMonstersData = [
   {
     "name": "Ron the Ripper",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ron_the_Ripper.gif",
+    "image_url": "images/monsters/Ron_the_Ripper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39657,7 +39657,7 @@ const allMonstersData = [
   {
     "name": "Rootthing Amber Shaper",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rootthing_Amber_Shaper.gif",
+    "image_url": "images/monsters/Rootthing_Amber_Shaper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39692,7 +39692,7 @@ const allMonstersData = [
   {
     "name": "Rootthing Bug Tracker",
     "hp": 12500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rootthing_Bug_Tracker.gif",
+    "image_url": "images/monsters/Rootthing_Bug_Tracker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39727,7 +39727,7 @@ const allMonstersData = [
   {
     "name": "Rootthing Nutshell",
     "hp": 13500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rootthing_Nutshell.gif",
+    "image_url": "images/monsters/Rootthing_Nutshell.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39762,7 +39762,7 @@ const allMonstersData = [
   {
     "name": "Rorc",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rorc.gif",
+    "image_url": "images/monsters/Rorc.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39797,7 +39797,7 @@ const allMonstersData = [
   {
     "name": "Rot Elemental",
     "hp": 850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rot_Elemental.gif",
+    "image_url": "images/monsters/Rot_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39832,7 +39832,7 @@ const allMonstersData = [
   {
     "name": "Rotspit",
     "hp": 6800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotspit.gif",
+    "image_url": "images/monsters/Rotspit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39867,7 +39867,7 @@ const allMonstersData = [
   {
     "name": "Rotten Golem",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotten_Golem.gif",
+    "image_url": "images/monsters/Rotten_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39902,7 +39902,7 @@ const allMonstersData = [
   {
     "name": "Rotten Man-Maggot",
     "hp": 31100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotten_Man-Maggot.gif",
+    "image_url": "images/monsters/Rotten_Man-Maggot.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39937,7 +39937,7 @@ const allMonstersData = [
   {
     "name": "Rotten Plant Thing",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotten_Plant_Thing.gif",
+    "image_url": "images/monsters/Rotten_Plant_Thing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39972,7 +39972,7 @@ const allMonstersData = [
   {
     "name": "Rottie the Rotworm",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rottie_the_Rotworm.gif",
+    "image_url": "images/monsters/Rottie_the_Rotworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40007,7 +40007,7 @@ const allMonstersData = [
   {
     "name": "Rotworm",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif",
+    "image_url": "images/monsters/Rotworm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40042,7 +40042,7 @@ const allMonstersData = [
   {
     "name": "Rotworm Queen",
     "hp": 105,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm_Queen.gif",
+    "image_url": "images/monsters/Rotworm_Queen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40077,7 +40077,7 @@ const allMonstersData = [
   {
     "name": "Rukor Zad",
     "hp": 380,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rukor_Zad.gif",
+    "image_url": "images/monsters/Rukor_Zad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40112,7 +40112,7 @@ const allMonstersData = [
   {
     "name": "Rupture",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rupture.gif",
+    "image_url": "images/monsters/Rupture.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40147,7 +40147,7 @@ const allMonstersData = [
   {
     "name": "Rustheap Golem",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rustheap_Golem.gif",
+    "image_url": "images/monsters/Rustheap_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40182,7 +40182,7 @@ const allMonstersData = [
   {
     "name": "Sabretooth (Creature)",
     "hp": 17300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sabretooth_(Creature).gif",
+    "image_url": "images/monsters/Sabretooth__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40217,7 +40217,7 @@ const allMonstersData = [
   {
     "name": "Sacred Snake",
     "hp": 10,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sacred_Snake.gif",
+    "image_url": "images/monsters/Sacred_Snake.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40252,7 +40252,7 @@ const allMonstersData = [
   {
     "name": "Sacred Spider",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sacred_Spider.gif",
+    "image_url": "images/monsters/Sacred_Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40287,7 +40287,7 @@ const allMonstersData = [
   {
     "name": "Salamander",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Salamander.gif",
+    "image_url": "images/monsters/Salamander.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40322,7 +40322,7 @@ const allMonstersData = [
   {
     "name": "Salamander Trainer",
     "hp": 220,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Salamander_Trainer.gif",
+    "image_url": "images/monsters/Salamander_Trainer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40357,7 +40357,7 @@ const allMonstersData = [
   {
     "name": "Sand Brood",
     "hp": 2100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sand_Brood.gif",
+    "image_url": "images/monsters/Sand_Brood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40392,7 +40392,7 @@ const allMonstersData = [
   {
     "name": "Sandcrawler",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sandcrawler.gif",
+    "image_url": "images/monsters/Sandcrawler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40427,7 +40427,7 @@ const allMonstersData = [
   {
     "name": "Sandstone Scorpion",
     "hp": 900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sandstone_Scorpion.gif",
+    "image_url": "images/monsters/Sandstone_Scorpion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40462,7 +40462,7 @@ const allMonstersData = [
   {
     "name": "Scar Tribe Shaman",
     "hp": 115,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scar_Tribe_Shaman.gif",
+    "image_url": "images/monsters/Scar_Tribe_Shaman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40497,7 +40497,7 @@ const allMonstersData = [
   {
     "name": "Scar Tribe Warrior",
     "hp": 125,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scar_Tribe_Warrior.gif",
+    "image_url": "images/monsters/Scar_Tribe_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40532,7 +40532,7 @@ const allMonstersData = [
   {
     "name": "Scarab",
     "hp": 320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scarab.gif",
+    "image_url": "images/monsters/Scarab.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40567,7 +40567,7 @@ const allMonstersData = [
   {
     "name": "Scarlett Etzel",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scarlett_Etzel.gif",
+    "image_url": "images/monsters/Scarlett_Etzel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40602,7 +40602,7 @@ const allMonstersData = [
   {
     "name": "Schiach",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Schiach.gif",
+    "image_url": "images/monsters/Schiach.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40637,7 +40637,7 @@ const allMonstersData = [
   {
     "name": "Scissorion",
     "hp": 950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scissorion.gif",
+    "image_url": "images/monsters/Scissorion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40672,7 +40672,7 @@ const allMonstersData = [
   {
     "name": "Scorn of the Emperor",
     "hp": 45000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scorn_of_the_Emperor.gif",
+    "image_url": "images/monsters/Scorn_of_the_Emperor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40707,7 +40707,7 @@ const allMonstersData = [
   {
     "name": "Scorpion",
     "hp": 45,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scorpion.gif",
+    "image_url": "images/monsters/Scorpion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40742,7 +40742,7 @@ const allMonstersData = [
   {
     "name": "Sea Serpent",
     "hp": 1950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sea_Serpent.gif",
+    "image_url": "images/monsters/Sea_Serpent.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40777,7 +40777,7 @@ const allMonstersData = [
   {
     "name": "Seacrest Serpent",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Seacrest_Serpent.gif",
+    "image_url": "images/monsters/Seacrest_Serpent.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40812,7 +40812,7 @@ const allMonstersData = [
   {
     "name": "Seagull",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Seagull.gif",
+    "image_url": "images/monsters/Seagull.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40847,7 +40847,7 @@ const allMonstersData = [
   {
     "name": "Security Golem",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Security_Golem.gif",
+    "image_url": "images/monsters/Security_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40882,7 +40882,7 @@ const allMonstersData = [
   {
     "name": "Serpent Spawn",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Serpent_Spawn.gif",
+    "image_url": "images/monsters/Serpent_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40917,7 +40917,7 @@ const allMonstersData = [
   {
     "name": "Servant Golem",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Servant_Golem.gif",
+    "image_url": "images/monsters/Servant_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40952,7 +40952,7 @@ const allMonstersData = [
   {
     "name": "Shaburak Demon",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shaburak_Demon.gif",
+    "image_url": "images/monsters/Shaburak_Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40987,7 +40987,7 @@ const allMonstersData = [
   {
     "name": "Shaburak Lord",
     "hp": 2100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shaburak_Lord.gif",
+    "image_url": "images/monsters/Shaburak_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41022,7 +41022,7 @@ const allMonstersData = [
   {
     "name": "Shaburak Prince",
     "hp": 2600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shaburak_Prince.gif",
+    "image_url": "images/monsters/Shaburak_Prince.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41057,7 +41057,7 @@ const allMonstersData = [
   {
     "name": "Shadow Hound",
     "hp": 555,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadow_Hound.gif",
+    "image_url": "images/monsters/Shadow_Hound.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41092,7 +41092,7 @@ const allMonstersData = [
   {
     "name": "Shadow of Boreth",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadow_of_Boreth.gif",
+    "image_url": "images/monsters/Shadow_of_Boreth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41127,7 +41127,7 @@ const allMonstersData = [
   {
     "name": "Shadow of Lersatio",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadow_of_Lersatio.gif",
+    "image_url": "images/monsters/Shadow_of_Lersatio.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41162,7 +41162,7 @@ const allMonstersData = [
   {
     "name": "Shadow of Marziel",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadow_of_Marziel.gif",
+    "image_url": "images/monsters/Shadow_of_Marziel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41197,7 +41197,7 @@ const allMonstersData = [
   {
     "name": "Shadow Pupil",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadow_Pupil.gif",
+    "image_url": "images/monsters/Shadow_Pupil.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41232,7 +41232,7 @@ const allMonstersData = [
   {
     "name": "Shadowpelt",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadowpelt.gif",
+    "image_url": "images/monsters/Shadowpelt.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41267,7 +41267,7 @@ const allMonstersData = [
   {
     "name": "Shadowstalker",
     "hp": 6100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shadowstalker.gif",
+    "image_url": "images/monsters/Shadowstalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41302,7 +41302,7 @@ const allMonstersData = [
   {
     "name": "Shaper Matriarch",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shaper_Matriarch.gif",
+    "image_url": "images/monsters/Shaper_Matriarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41337,7 +41337,7 @@ const allMonstersData = [
   {
     "name": "Shard of Corruption",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shard_of_Corruption.gif",
+    "image_url": "images/monsters/Shard_of_Corruption.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41372,7 +41372,7 @@ const allMonstersData = [
   {
     "name": "Shard of Magnor",
     "hp": 205000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shard_of_Magnor.gif",
+    "image_url": "images/monsters/Shard_of_Magnor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41407,7 +41407,7 @@ const allMonstersData = [
   {
     "name": "Shardhead",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shardhead.gif",
+    "image_url": "images/monsters/Shardhead.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41442,7 +41442,7 @@ const allMonstersData = [
   {
     "name": "Shark",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shark.gif",
+    "image_url": "images/monsters/Shark.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41477,7 +41477,7 @@ const allMonstersData = [
   {
     "name": "Sharpclaw",
     "hp": 3300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sharpclaw.gif",
+    "image_url": "images/monsters/Sharpclaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41512,7 +41512,7 @@ const allMonstersData = [
   {
     "name": "Sharptooth",
     "hp": 3100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sharptooth.gif",
+    "image_url": "images/monsters/Sharptooth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41547,7 +41547,7 @@ const allMonstersData = [
   {
     "name": "Sheep",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sheep.gif",
+    "image_url": "images/monsters/Sheep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41582,7 +41582,7 @@ const allMonstersData = [
   {
     "name": "Shell Drake",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shell_Drake.gif",
+    "image_url": "images/monsters/Shell_Drake.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41617,7 +41617,7 @@ const allMonstersData = [
   {
     "name": "Shimmying Butterfly",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shimmying_Butterfly.gif",
+    "image_url": "images/monsters/Shimmying_Butterfly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41652,7 +41652,7 @@ const allMonstersData = [
   {
     "name": "Shiversleep",
     "hp": 4600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shiversleep.gif",
+    "image_url": "images/monsters/Shiversleep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41687,7 +41687,7 @@ const allMonstersData = [
   {
     "name": "Shock Head",
     "hp": 4200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shock_Head.gif",
+    "image_url": "images/monsters/Shock_Head.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41722,7 +41722,7 @@ const allMonstersData = [
   {
     "name": "Shredderthrower",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shredderthrower.gif",
+    "image_url": "images/monsters/Shredderthrower.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41757,7 +41757,7 @@ const allMonstersData = [
   {
     "name": "Shrieking Cry-Stal",
     "hp": 20650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shrieking_Cry-Stal.gif",
+    "image_url": "images/monsters/Shrieking_Cry-Stal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41792,7 +41792,7 @@ const allMonstersData = [
   {
     "name": "Shulgrax",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Shulgrax.gif",
+    "image_url": "images/monsters/Shulgrax.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41827,7 +41827,7 @@ const allMonstersData = [
   {
     "name": "Sibang",
     "hp": 225,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sibang.gif",
+    "image_url": "images/monsters/Sibang.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41862,7 +41862,7 @@ const allMonstersData = [
   {
     "name": "Sight of Surrender",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sight_of_Surrender.gif",
+    "image_url": "images/monsters/Sight_of_Surrender.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41897,7 +41897,7 @@ const allMonstersData = [
   {
     "name": "Silencer",
     "hp": 5400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Silencer.gif",
+    "image_url": "images/monsters/Silencer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41932,7 +41932,7 @@ const allMonstersData = [
   {
     "name": "Silver Rabbit",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Silver_Rabbit.gif",
+    "image_url": "images/monsters/Silver_Rabbit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41967,7 +41967,7 @@ const allMonstersData = [
   {
     "name": "Sineater Inferniarch",
     "hp": 9150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sineater_Inferniarch.gif",
+    "image_url": "images/monsters/Sineater_Inferniarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42002,7 +42002,7 @@ const allMonstersData = [
   {
     "name": "Sir Leonard",
     "hp": 22000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sir_Leonard.gif",
+    "image_url": "images/monsters/Sir_Leonard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42037,7 +42037,7 @@ const allMonstersData = [
   {
     "name": "Sir Leopold",
     "hp": 18000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sir_Leopold.gif",
+    "image_url": "images/monsters/Sir_Leopold.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42072,7 +42072,7 @@ const allMonstersData = [
   {
     "name": "Sir Valorcrest",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sir_Valorcrest.gif",
+    "image_url": "images/monsters/Sir_Valorcrest.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42107,7 +42107,7 @@ const allMonstersData = [
   {
     "name": "Siramal (Creature)",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Siramal_(Creature).gif",
+    "image_url": "images/monsters/Siramal__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42142,7 +42142,7 @@ const allMonstersData = [
   {
     "name": "Sister Hetai",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sister_Hetai.gif",
+    "image_url": "images/monsters/Sister_Hetai.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42177,7 +42177,7 @@ const allMonstersData = [
   {
     "name": "Skeleton",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton.gif",
+    "image_url": "images/monsters/Skeleton.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42212,7 +42212,7 @@ const allMonstersData = [
   {
     "name": "Skeleton Elite Warrior",
     "hp": 7800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton_Elite_Warrior.gif",
+    "image_url": "images/monsters/Skeleton_Elite_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42247,7 +42247,7 @@ const allMonstersData = [
   {
     "name": "Skeleton Warrior",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton_Warrior.gif",
+    "image_url": "images/monsters/Skeleton_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42282,7 +42282,7 @@ const allMonstersData = [
   {
     "name": "Skunk",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skunk.gif",
+    "image_url": "images/monsters/Skunk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42317,7 +42317,7 @@ const allMonstersData = [
   {
     "name": "Slick Water Elemental",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slick_Water_Elemental.gif",
+    "image_url": "images/monsters/Slick_Water_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42352,7 +42352,7 @@ const allMonstersData = [
   {
     "name": "Slim",
     "hp": 1025,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slim.gif",
+    "image_url": "images/monsters/Slim.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42387,7 +42387,7 @@ const allMonstersData = [
   {
     "name": "Slime",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slime.gif",
+    "image_url": "images/monsters/Slime.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42422,7 +42422,7 @@ const allMonstersData = [
   {
     "name": "Slippery Northern Pike",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slippery_Northern_Pike.gif",
+    "image_url": "images/monsters/Slippery_Northern_Pike.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42457,7 +42457,7 @@ const allMonstersData = [
   {
     "name": "Slug",
     "hp": 255,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Slug.gif",
+    "image_url": "images/monsters/Slug.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42492,7 +42492,7 @@ const allMonstersData = [
   {
     "name": "Smuggler",
     "hp": 130,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Smuggler.gif",
+    "image_url": "images/monsters/Smuggler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42527,7 +42527,7 @@ const allMonstersData = [
   {
     "name": "Smuggler Baron Silvertoe",
     "hp": 280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Smuggler_Baron_Silvertoe.gif",
+    "image_url": "images/monsters/Smuggler_Baron_Silvertoe.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42562,7 +42562,7 @@ const allMonstersData = [
   {
     "name": "Snail Slime",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Snail_Slime.gif",
+    "image_url": "images/monsters/Snail_Slime.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42597,7 +42597,7 @@ const allMonstersData = [
   {
     "name": "Snake",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Snake.gif",
+    "image_url": "images/monsters/Snake.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42632,7 +42632,7 @@ const allMonstersData = [
   {
     "name": "Snake God Essence",
     "hp": 65000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Snake_God_Essence.gif",
+    "image_url": "images/monsters/Snake_God_Essence.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42667,7 +42667,7 @@ const allMonstersData = [
   {
     "name": "Snake Thing",
     "hp": 70000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Snake_Thing.gif",
+    "image_url": "images/monsters/Snake_Thing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42702,7 +42702,7 @@ const allMonstersData = [
   {
     "name": "Solitary Frost Dragon",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Solitary_Frost_Dragon.gif",
+    "image_url": "images/monsters/Solitary_Frost_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42737,7 +42737,7 @@ const allMonstersData = [
   {
     "name": "Son of Verminor",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Son_of_Verminor.gif",
+    "image_url": "images/monsters/Son_of_Verminor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42772,7 +42772,7 @@ const allMonstersData = [
   {
     "name": "Sopping Carcass",
     "hp": 32700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sopping_Carcass.gif",
+    "image_url": "images/monsters/Sopping_Carcass.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42807,7 +42807,7 @@ const allMonstersData = [
   {
     "name": "Sopping Corpus",
     "hp": 33400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sopping_Corpus.gif",
+    "image_url": "images/monsters/Sopping_Corpus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42842,7 +42842,7 @@ const allMonstersData = [
   {
     "name": "Sorcerer Familiar",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sorcerer_Familiar.gif",
+    "image_url": "images/monsters/Sorcerer_Familiar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42877,7 +42877,7 @@ const allMonstersData = [
   {
     "name": "Sorcerer's Apparition",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sorcerer's_Apparition.gif",
+    "image_url": "images/monsters/Sorcerer's_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42912,7 +42912,7 @@ const allMonstersData = [
   {
     "name": "Soul Scourge",
     "hp": 6900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Soul_Scourge.gif",
+    "image_url": "images/monsters/Soul_Scourge.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42947,7 +42947,7 @@ const allMonstersData = [
   {
     "name": "Soul Spark",
     "hp": 115,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Soul_Spark.gif",
+    "image_url": "images/monsters/Soul_Spark.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42982,7 +42982,7 @@ const allMonstersData = [
   {
     "name": "Soul Sphere",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Soul_Sphere.gif",
+    "image_url": "images/monsters/Soul_Sphere.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43017,7 +43017,7 @@ const allMonstersData = [
   {
     "name": "Soul-Broken Harbinger",
     "hp": 6300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Soul-Broken_Harbinger.gif",
+    "image_url": "images/monsters/Soul-Broken_Harbinger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43052,7 +43052,7 @@ const allMonstersData = [
   {
     "name": "Souleater",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Souleater.gif",
+    "image_url": "images/monsters/Souleater.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43087,7 +43087,7 @@ const allMonstersData = [
   {
     "name": "Spark of Destruction",
     "hp": 3900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spark_of_Destruction.gif",
+    "image_url": "images/monsters/Spark_of_Destruction.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43122,7 +43122,7 @@ const allMonstersData = [
   {
     "name": "Sparkion",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sparkion.gif",
+    "image_url": "images/monsters/Sparkion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43157,7 +43157,7 @@ const allMonstersData = [
   {
     "name": "Spawn of Despair",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spawn_of_Despair.gif",
+    "image_url": "images/monsters/Spawn_of_Despair.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43192,7 +43192,7 @@ const allMonstersData = [
   {
     "name": "Spawn of Devovorga",
     "hp": 8900,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spawn_of_Devovorga.gif",
+    "image_url": "images/monsters/Spawn_of_Devovorga.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43227,7 +43227,7 @@ const allMonstersData = [
   {
     "name": "Spawn of the Schnitzel",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spawn_of_the_Schnitzel.gif",
+    "image_url": "images/monsters/Spawn_of_the_Schnitzel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43262,7 +43262,7 @@ const allMonstersData = [
   {
     "name": "Spectre",
     "hp": 1350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spectre.gif",
+    "image_url": "images/monsters/Spectre.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43297,7 +43297,7 @@ const allMonstersData = [
   {
     "name": "Spellreaper Inferniarch",
     "hp": 11800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spellreaper_Inferniarch.gif",
+    "image_url": "images/monsters/Spellreaper_Inferniarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43332,7 +43332,7 @@ const allMonstersData = [
   {
     "name": "Sphinx",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sphinx.gif",
+    "image_url": "images/monsters/Sphinx.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43367,7 +43367,7 @@ const allMonstersData = [
   {
     "name": "Spider",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spider.gif",
+    "image_url": "images/monsters/Spider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43402,7 +43402,7 @@ const allMonstersData = [
   {
     "name": "Spider (Nostalgia)",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spider_(Nostalgia).gif",
+    "image_url": "images/monsters/Spider__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43437,7 +43437,7 @@ const allMonstersData = [
   {
     "name": "Spider Queen",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spider_Queen.gif",
+    "image_url": "images/monsters/Spider_Queen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43472,7 +43472,7 @@ const allMonstersData = [
   {
     "name": "Spidris",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spidris.gif",
+    "image_url": "images/monsters/Spidris.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43507,7 +43507,7 @@ const allMonstersData = [
   {
     "name": "Spidris Elite",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spidris_Elite.gif",
+    "image_url": "images/monsters/Spidris_Elite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43542,7 +43542,7 @@ const allMonstersData = [
   {
     "name": "Spiky Carnivor",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spiky_Carnivor.gif",
+    "image_url": "images/monsters/Spiky_Carnivor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43577,7 +43577,7 @@ const allMonstersData = [
   {
     "name": "Spirit of Earth",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spirit_of_Earth.gif",
+    "image_url": "images/monsters/Spirit_of_Earth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43612,7 +43612,7 @@ const allMonstersData = [
   {
     "name": "Spirit of Fire",
     "hp": 2210,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spirit_of_Fire.gif",
+    "image_url": "images/monsters/Spirit_of_Fire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43647,7 +43647,7 @@ const allMonstersData = [
   {
     "name": "Spirit of Water",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spirit_of_Water.gif",
+    "image_url": "images/monsters/Spirit_of_Water.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43682,7 +43682,7 @@ const allMonstersData = [
   {
     "name": "Spirit Overlord",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spirit_Overlord.gif",
+    "image_url": "images/monsters/Spirit_Overlord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43717,7 +43717,7 @@ const allMonstersData = [
   {
     "name": "Spit Nettle",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spit_Nettle.gif",
+    "image_url": "images/monsters/Spit_Nettle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43752,7 +43752,7 @@ const allMonstersData = [
   {
     "name": "Spite of the Emperor",
     "hp": 48000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spite_of_the_Emperor.gif",
+    "image_url": "images/monsters/Spite_of_the_Emperor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43787,7 +43787,7 @@ const allMonstersData = [
   {
     "name": "Spitter",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spitter.gif",
+    "image_url": "images/monsters/Spitter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43822,7 +43822,7 @@ const allMonstersData = [
   {
     "name": "Splasher",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Splasher.gif",
+    "image_url": "images/monsters/Splasher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43857,7 +43857,7 @@ const allMonstersData = [
   {
     "name": "Spyrat (Facing East)",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spyrat_(Facing_East).gif",
+    "image_url": "images/monsters/Spyrat__Facing_East_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43892,7 +43892,7 @@ const allMonstersData = [
   {
     "name": "Spyrat (Facing North)",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spyrat_(Facing_North).gif",
+    "image_url": "images/monsters/Spyrat__Facing_North_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43927,7 +43927,7 @@ const allMonstersData = [
   {
     "name": "Spyrat (Facing South)",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spyrat_(Facing_South).gif",
+    "image_url": "images/monsters/Spyrat__Facing_South_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43962,7 +43962,7 @@ const allMonstersData = [
   {
     "name": "Spyrat (Facing West)",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Spyrat_(Facing_West).gif",
+    "image_url": "images/monsters/Spyrat__Facing_West_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43997,7 +43997,7 @@ const allMonstersData = [
   {
     "name": "Squid Warden",
     "hp": 16500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Squid_Warden.gif",
+    "image_url": "images/monsters/Squid_Warden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44032,7 +44032,7 @@ const allMonstersData = [
   {
     "name": "Squidgy Slime",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Squidgy_Slime.gif",
+    "image_url": "images/monsters/Squidgy_Slime.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44067,7 +44067,7 @@ const allMonstersData = [
   {
     "name": "Squirrel",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Squirrel.gif",
+    "image_url": "images/monsters/Squirrel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44102,7 +44102,7 @@ const allMonstersData = [
   {
     "name": "Srezz Yellow Eyes",
     "hp": 6200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Srezz_Yellow_Eyes.gif",
+    "image_url": "images/monsters/Srezz_Yellow_Eyes.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44137,7 +44137,7 @@ const allMonstersData = [
   {
     "name": "Stabilizing Dread Intruder",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stabilizing_Dread_Intruder.gif",
+    "image_url": "images/monsters/Stabilizing_Dread_Intruder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44172,7 +44172,7 @@ const allMonstersData = [
   {
     "name": "Stabilizing Reality Reaver",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stabilizing_Reality_Reaver.gif",
+    "image_url": "images/monsters/Stabilizing_Reality_Reaver.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44207,7 +44207,7 @@ const allMonstersData = [
   {
     "name": "Stalker",
     "hp": 120,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stalker.gif",
+    "image_url": "images/monsters/Stalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44242,7 +44242,7 @@ const allMonstersData = [
   {
     "name": "Stalking Stalk",
     "hp": 17100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stalking_Stalk.gif",
+    "image_url": "images/monsters/Stalking_Stalk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44277,7 +44277,7 @@ const allMonstersData = [
   {
     "name": "Stampor",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stampor.gif",
+    "image_url": "images/monsters/Stampor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44312,7 +44312,7 @@ const allMonstersData = [
   {
     "name": "Starving Wolf",
     "hp": 85,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Starving_Wolf.gif",
+    "image_url": "images/monsters/Starving_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44347,7 +44347,7 @@ const allMonstersData = [
   {
     "name": "Stone Devourer",
     "hp": 4200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stone_Devourer.gif",
+    "image_url": "images/monsters/Stone_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44382,7 +44382,7 @@ const allMonstersData = [
   {
     "name": "Stone Golem",
     "hp": 270,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stone_Golem.gif",
+    "image_url": "images/monsters/Stone_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44417,7 +44417,7 @@ const allMonstersData = [
   {
     "name": "Stone Rhino",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stone_Rhino.gif",
+    "image_url": "images/monsters/Stone_Rhino.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44452,7 +44452,7 @@ const allMonstersData = [
   {
     "name": "Stonecracker",
     "hp": 6500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stonecracker.gif",
+    "image_url": "images/monsters/Stonecracker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44487,7 +44487,7 @@ const allMonstersData = [
   {
     "name": "Stonerefiner",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stonerefiner.gif",
+    "image_url": "images/monsters/Stonerefiner.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44522,7 +44522,7 @@ const allMonstersData = [
   {
     "name": "Strange Slime",
     "hp": 15,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Strange_Slime.gif",
+    "image_url": "images/monsters/Strange_Slime.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44557,7 +44557,7 @@ const allMonstersData = [
   {
     "name": "Streaked Devourer",
     "hp": 7000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Streaked_Devourer.gif",
+    "image_url": "images/monsters/Streaked_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44592,7 +44592,7 @@ const allMonstersData = [
   {
     "name": "Strong Glooth Horror",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Strong_Glooth_Horror.gif",
+    "image_url": "images/monsters/Strong_Glooth_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44627,7 +44627,7 @@ const allMonstersData = [
   {
     "name": "Sugar Cube",
     "hp": 28,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sugar_Cube.gif",
+    "image_url": "images/monsters/Sugar_Cube.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44662,7 +44662,7 @@ const allMonstersData = [
   {
     "name": "Sugar Cube Worker",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sugar_Cube_Worker.gif",
+    "image_url": "images/monsters/Sugar_Cube_Worker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44697,7 +44697,7 @@ const allMonstersData = [
   {
     "name": "Sugar Daddy",
     "hp": 9500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sugar_Daddy.gif",
+    "image_url": "images/monsters/Sugar_Daddy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44732,7 +44732,7 @@ const allMonstersData = [
   {
     "name": "Sugar Mommy",
     "hp": 6000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sugar_Mommy.gif",
+    "image_url": "images/monsters/Sugar_Mommy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44767,7 +44767,7 @@ const allMonstersData = [
   {
     "name": "Sulphider",
     "hp": 21000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sulphider.gif",
+    "image_url": "images/monsters/Sulphider.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44802,7 +44802,7 @@ const allMonstersData = [
   {
     "name": "Sulphur Scuttler",
     "hp": 1300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sulphur_Scuttler.gif",
+    "image_url": "images/monsters/Sulphur_Scuttler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44837,7 +44837,7 @@ const allMonstersData = [
   {
     "name": "Sulphur Spouter",
     "hp": 19000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sulphur_Spouter.gif",
+    "image_url": "images/monsters/Sulphur_Spouter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44872,7 +44872,7 @@ const allMonstersData = [
   {
     "name": "Sun-Marked Goanna",
     "hp": 7800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sun-Marked_Goanna.gif",
+    "image_url": "images/monsters/Sun-Marked_Goanna.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44907,7 +44907,7 @@ const allMonstersData = [
   {
     "name": "Superior Death Minion",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Superior_Death_Minion.gif",
+    "image_url": "images/monsters/Superior_Death_Minion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44942,7 +44942,7 @@ const allMonstersData = [
   {
     "name": "Svoren the Mad",
     "hp": 6310,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Svoren_the_Mad.gif",
+    "image_url": "images/monsters/Svoren_the_Mad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44977,7 +44977,7 @@ const allMonstersData = [
   {
     "name": "Swamp Troll",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swamp_Troll.gif",
+    "image_url": "images/monsters/Swamp_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45012,7 +45012,7 @@ const allMonstersData = [
   {
     "name": "Swampling",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swampling.gif",
+    "image_url": "images/monsters/Swampling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45047,7 +45047,7 @@ const allMonstersData = [
   {
     "name": "Swan Maiden",
     "hp": 800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swan_Maiden.gif",
+    "image_url": "images/monsters/Swan_Maiden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45082,7 +45082,7 @@ const allMonstersData = [
   {
     "name": "Swarmer",
     "hp": 460,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swarmer.gif",
+    "image_url": "images/monsters/Swarmer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45117,7 +45117,7 @@ const allMonstersData = [
   {
     "name": "Swarmer Hatchling",
     "hp": 5,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swarmer_Hatchling.gif",
+    "image_url": "images/monsters/Swarmer_Hatchling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45152,7 +45152,7 @@ const allMonstersData = [
   {
     "name": "Tainted Soul",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tainted_Soul.gif",
+    "image_url": "images/monsters/Tainted_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45187,7 +45187,7 @@ const allMonstersData = [
   {
     "name": "Tame Terror Bird",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tame_Terror_Bird.gif",
+    "image_url": "images/monsters/Tame_Terror_Bird.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45222,7 +45222,7 @@ const allMonstersData = [
   {
     "name": "Tamru the Black",
     "hp": 15500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tamru_the_Black.gif",
+    "image_url": "images/monsters/Tamru_the_Black.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45257,7 +45257,7 @@ const allMonstersData = [
   {
     "name": "Tanjis",
     "hp": 30000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tanjis.gif",
+    "image_url": "images/monsters/Tanjis.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45292,7 +45292,7 @@ const allMonstersData = [
   {
     "name": "Tarantula",
     "hp": 225,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarantula.gif",
+    "image_url": "images/monsters/Tarantula.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45327,7 +45327,7 @@ const allMonstersData = [
   {
     "name": "Tarbaz",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarbaz.gif",
+    "image_url": "images/monsters/Tarbaz.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45362,7 +45362,7 @@ const allMonstersData = [
   {
     "name": "Tarnished Spirit",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarnished_Spirit.gif",
+    "image_url": "images/monsters/Tarnished_Spirit.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45397,7 +45397,7 @@ const allMonstersData = [
   {
     "name": "Tazhadur",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tazhadur.gif",
+    "image_url": "images/monsters/Tazhadur.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45432,7 +45432,7 @@ const allMonstersData = [
   {
     "name": "Teleskor",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Teleskor.gif",
+    "image_url": "images/monsters/Teleskor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45467,7 +45467,7 @@ const allMonstersData = [
   {
     "name": "Teneshpar",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Teneshpar.gif",
+    "image_url": "images/monsters/Teneshpar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45502,7 +45502,7 @@ const allMonstersData = [
   {
     "name": "Tentacle",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tentacle.gif",
+    "image_url": "images/monsters/Tentacle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45537,7 +45537,7 @@ const allMonstersData = [
   {
     "name": "Tentugly's Head",
     "hp": 75000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tentugly's_Head.gif",
+    "image_url": "images/monsters/Tentugly's_Head.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45572,7 +45572,7 @@ const allMonstersData = [
   {
     "name": "Terofar",
     "hp": 40000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terofar.gif",
+    "image_url": "images/monsters/Terofar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45607,7 +45607,7 @@ const allMonstersData = [
   {
     "name": "Terramite",
     "hp": 365,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terramite.gif",
+    "image_url": "images/monsters/Terramite.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45642,7 +45642,7 @@ const allMonstersData = [
   {
     "name": "Terrified Elephant",
     "hp": 320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terrified_Elephant.gif",
+    "image_url": "images/monsters/Terrified_Elephant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45677,7 +45677,7 @@ const allMonstersData = [
   {
     "name": "Terror Bird",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terror_Bird.gif",
+    "image_url": "images/monsters/Terror_Bird.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45712,7 +45712,7 @@ const allMonstersData = [
   {
     "name": "Terrorsleep",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terrorsleep.gif",
+    "image_url": "images/monsters/Terrorsleep.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45747,7 +45747,7 @@ const allMonstersData = [
   {
     "name": "Thaian",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thaian.gif",
+    "image_url": "images/monsters/Thaian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45782,7 +45782,7 @@ const allMonstersData = [
   {
     "name": "Thaian's Ghost",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thaian's_Ghost.gif",
+    "image_url": "images/monsters/Thaian's_Ghost.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45817,7 +45817,7 @@ const allMonstersData = [
   {
     "name": "Thalas",
     "hp": 4100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thalas.gif",
+    "image_url": "images/monsters/Thalas.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45852,7 +45852,7 @@ const allMonstersData = [
   {
     "name": "Thanatursus",
     "hp": 7200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thanatursus.gif",
+    "image_url": "images/monsters/Thanatursus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45887,7 +45887,7 @@ const allMonstersData = [
   {
     "name": "Thawing Dragon Lord",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thawing_Dragon_Lord.gif",
+    "image_url": "images/monsters/Thawing_Dragon_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45922,7 +45922,7 @@ const allMonstersData = [
   {
     "name": "The Abomination",
     "hp": 750000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Abomination.gif",
+    "image_url": "images/monsters/The_Abomination.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45957,7 +45957,7 @@ const allMonstersData = [
   {
     "name": "The Armored Voidborn",
     "hp": 60000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Armored_Voidborn.gif",
+    "image_url": "images/monsters/The_Armored_Voidborn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -45992,7 +45992,7 @@ const allMonstersData = [
   {
     "name": "The Axeorcist",
     "hp": 5100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Axeorcist.gif",
+    "image_url": "images/monsters/The_Axeorcist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46027,7 +46027,7 @@ const allMonstersData = [
   {
     "name": "The Big Bad One",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Big_Bad_One.gif",
+    "image_url": "images/monsters/The_Big_Bad_One.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46062,7 +46062,7 @@ const allMonstersData = [
   {
     "name": "The Blazing Time Guardian",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Blazing_Time_Guardian.gif",
+    "image_url": "images/monsters/The_Blazing_Time_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46097,7 +46097,7 @@ const allMonstersData = [
   {
     "name": "The Blightfather",
     "hp": 400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Blightfather.gif",
+    "image_url": "images/monsters/The_Blightfather.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46132,7 +46132,7 @@ const allMonstersData = [
   {
     "name": "The Bloodtusk",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Bloodtusk.gif",
+    "image_url": "images/monsters/The_Bloodtusk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46167,7 +46167,7 @@ const allMonstersData = [
   {
     "name": "The Bloodweb",
     "hp": 1750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Bloodweb.gif",
+    "image_url": "images/monsters/The_Bloodweb.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46202,7 +46202,7 @@ const allMonstersData = [
   {
     "name": "The Book of Death",
     "hp": 7800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Book_of_Death.gif",
+    "image_url": "images/monsters/The_Book_of_Death.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46237,7 +46237,7 @@ const allMonstersData = [
   {
     "name": "The Book of Secrets",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Book_of_Secrets.gif",
+    "image_url": "images/monsters/The_Book_of_Secrets.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46272,7 +46272,7 @@ const allMonstersData = [
   {
     "name": "The Collector",
     "hp": 340,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Collector.gif",
+    "image_url": "images/monsters/The_Collector.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46307,7 +46307,7 @@ const allMonstersData = [
   {
     "name": "The Count",
     "hp": 1250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Count.gif",
+    "image_url": "images/monsters/The_Count.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46342,7 +46342,7 @@ const allMonstersData = [
   {
     "name": "The Count of the Core",
     "hp": 500000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Count_of_the_Core.gif",
+    "image_url": "images/monsters/The_Count_of_the_Core.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46377,7 +46377,7 @@ const allMonstersData = [
   {
     "name": "The Dark Dancer",
     "hp": 805,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Dark_Dancer.gif",
+    "image_url": "images/monsters/The_Dark_Dancer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46412,7 +46412,7 @@ const allMonstersData = [
   {
     "name": "The Diamond Blossom",
     "hp": 20000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Diamond_Blossom.gif",
+    "image_url": "images/monsters/The_Diamond_Blossom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46447,7 +46447,7 @@ const allMonstersData = [
   {
     "name": "The Dread Maiden",
     "hp": 300000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Dread_Maiden.gif",
+    "image_url": "images/monsters/The_Dread_Maiden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46482,7 +46482,7 @@ const allMonstersData = [
   {
     "name": "The Dreadorian",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Dreadorian.gif",
+    "image_url": "images/monsters/The_Dreadorian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46517,7 +46517,7 @@ const allMonstersData = [
   {
     "name": "The End of Days",
     "hp": 90000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_End_of_Days.gif",
+    "image_url": "images/monsters/The_End_of_Days.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46552,7 +46552,7 @@ const allMonstersData = [
   {
     "name": "The Evil Eye",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Evil_Eye.gif",
+    "image_url": "images/monsters/The_Evil_Eye.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46587,7 +46587,7 @@ const allMonstersData = [
   {
     "name": "The False God",
     "hp": 300000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_False_God.gif",
+    "image_url": "images/monsters/The_False_God.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46622,7 +46622,7 @@ const allMonstersData = [
   {
     "name": "The First Dragon",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_First_Dragon.gif",
+    "image_url": "images/monsters/The_First_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46657,7 +46657,7 @@ const allMonstersData = [
   {
     "name": "The Flaming Orchid",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Flaming_Orchid.gif",
+    "image_url": "images/monsters/The_Flaming_Orchid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46692,7 +46692,7 @@ const allMonstersData = [
   {
     "name": "The Forgemaster (Creature)",
     "hp": 10500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Forgemaster_(Creature).gif",
+    "image_url": "images/monsters/The_Forgemaster__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46727,7 +46727,7 @@ const allMonstersData = [
   {
     "name": "The Freezing Time Guardian",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Freezing_Time_Guardian.gif",
+    "image_url": "images/monsters/The_Freezing_Time_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46762,7 +46762,7 @@ const allMonstersData = [
   {
     "name": "The Frog Prince",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Frog_Prince.gif",
+    "image_url": "images/monsters/The_Frog_Prince.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46797,7 +46797,7 @@ const allMonstersData = [
   {
     "name": "The Great Schnitzel",
     "hp": 110000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Great_Schnitzel.gif",
+    "image_url": "images/monsters/The_Great_Schnitzel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46832,7 +46832,7 @@ const allMonstersData = [
   {
     "name": "The Hag",
     "hp": 935,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Hag.gif",
+    "image_url": "images/monsters/The_Hag.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46867,7 +46867,7 @@ const allMonstersData = [
   {
     "name": "The Hairy One",
     "hp": 325,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Hairy_One.gif",
+    "image_url": "images/monsters/The_Hairy_One.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46902,7 +46902,7 @@ const allMonstersData = [
   {
     "name": "The Halloween Hare",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Halloween_Hare.gif",
+    "image_url": "images/monsters/The_Halloween_Hare.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46937,7 +46937,7 @@ const allMonstersData = [
   {
     "name": "The Handmaiden",
     "hp": 19500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Handmaiden.gif",
+    "image_url": "images/monsters/The_Handmaiden.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46972,7 +46972,7 @@ const allMonstersData = [
   {
     "name": "The Horned Fox",
     "hp": 265,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Horned_Fox.gif",
+    "image_url": "images/monsters/The_Horned_Fox.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47007,7 +47007,7 @@ const allMonstersData = [
   {
     "name": "The Hungerer",
     "hp": 2000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Hungerer.gif",
+    "image_url": "images/monsters/The_Hungerer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47042,7 +47042,7 @@ const allMonstersData = [
   {
     "name": "The Imperor",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Imperor.gif",
+    "image_url": "images/monsters/The_Imperor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47077,7 +47077,7 @@ const allMonstersData = [
   {
     "name": "The Keeper",
     "hp": 40000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Keeper.gif",
+    "image_url": "images/monsters/The_Keeper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47112,7 +47112,7 @@ const allMonstersData = [
   {
     "name": "The Lily of Night",
     "hp": 19000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Lily_of_Night.gif",
+    "image_url": "images/monsters/The_Lily_of_Night.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47147,7 +47147,7 @@ const allMonstersData = [
   {
     "name": "The Lord of the Lice",
     "hp": 80000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Lord_of_the_Lice.gif",
+    "image_url": "images/monsters/The_Lord_of_the_Lice.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47182,7 +47182,7 @@ const allMonstersData = [
   {
     "name": "The Manhunter",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Manhunter.gif",
+    "image_url": "images/monsters/The_Manhunter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47217,7 +47217,7 @@ const allMonstersData = [
   {
     "name": "The Many",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Many.gif",
+    "image_url": "images/monsters/The_Many.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47252,7 +47252,7 @@ const allMonstersData = [
   {
     "name": "The Masked Marauder",
     "hp": 7320,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Masked_Marauder.gif",
+    "image_url": "images/monsters/The_Masked_Marauder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47287,7 +47287,7 @@ const allMonstersData = [
   {
     "name": "The Mean Masher",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Mean_Masher.gif",
+    "image_url": "images/monsters/The_Mean_Masher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47322,7 +47322,7 @@ const allMonstersData = [
   {
     "name": "The Mega Magmaoid",
     "hp": 104000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Mega_Magmaoid.gif",
+    "image_url": "images/monsters/The_Mega_Magmaoid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47357,7 +47357,7 @@ const allMonstersData = [
   {
     "name": "The Monster",
     "hp": 45000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Monster.gif",
+    "image_url": "images/monsters/The_Monster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47392,7 +47392,7 @@ const allMonstersData = [
   {
     "name": "The Moonlight Aster",
     "hp": 4500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Moonlight_Aster.gif",
+    "image_url": "images/monsters/The_Moonlight_Aster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47427,7 +47427,7 @@ const allMonstersData = [
   {
     "name": "The Mutated Pumpkin",
     "hp": 500000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Mutated_Pumpkin.gif",
+    "image_url": "images/monsters/The_Mutated_Pumpkin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47462,7 +47462,7 @@ const allMonstersData = [
   {
     "name": "The Nightmare Beast",
     "hp": 750000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Nightmare_Beast.gif",
+    "image_url": "images/monsters/The_Nightmare_Beast.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47497,7 +47497,7 @@ const allMonstersData = [
   {
     "name": "The Noxious Spawn",
     "hp": 9500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Noxious_Spawn.gif",
+    "image_url": "images/monsters/The_Noxious_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47532,7 +47532,7 @@ const allMonstersData = [
   {
     "name": "The Obliverator",
     "hp": 9020,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Obliverator.gif",
+    "image_url": "images/monsters/The_Obliverator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47567,7 +47567,7 @@ const allMonstersData = [
   {
     "name": "The Old Whopper",
     "hp": 785,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Old_Whopper.gif",
+    "image_url": "images/monsters/The_Old_Whopper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47602,7 +47602,7 @@ const allMonstersData = [
   {
     "name": "The Old Widow",
     "hp": 3200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Old_Widow.gif",
+    "image_url": "images/monsters/The_Old_Widow.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47637,7 +47637,7 @@ const allMonstersData = [
   {
     "name": "The Pale Count",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Pale_Count.gif",
+    "image_url": "images/monsters/The_Pale_Count.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47672,7 +47672,7 @@ const allMonstersData = [
   {
     "name": "The Pale Worm",
     "hp": 435000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Pale_Worm.gif",
+    "image_url": "images/monsters/The_Pale_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47707,7 +47707,7 @@ const allMonstersData = [
   {
     "name": "The Percht Queen",
     "hp": 2300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Percht_Queen.gif",
+    "image_url": "images/monsters/The_Percht_Queen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47742,7 +47742,7 @@ const allMonstersData = [
   {
     "name": "The Pit Lord",
     "hp": 5270,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Pit_Lord.gif",
+    "image_url": "images/monsters/The_Pit_Lord.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47777,7 +47777,7 @@ const allMonstersData = [
   {
     "name": "The Plasmother",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Plasmother.gif",
+    "image_url": "images/monsters/The_Plasmother.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47812,7 +47812,7 @@ const allMonstersData = [
   {
     "name": "The Ravager",
     "hp": 53500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Ravager.gif",
+    "image_url": "images/monsters/The_Ravager.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47847,7 +47847,7 @@ const allMonstersData = [
   {
     "name": "The Red Knight",
     "hp": 200000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Red_Knight.gif",
+    "image_url": "images/monsters/The_Red_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47882,7 +47882,7 @@ const allMonstersData = [
   {
     "name": "The Shatterer",
     "hp": 80000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Shatterer.gif",
+    "image_url": "images/monsters/The_Shatterer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47917,7 +47917,7 @@ const allMonstersData = [
   {
     "name": "The Snapper",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Snapper.gif",
+    "image_url": "images/monsters/The_Snapper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47952,7 +47952,7 @@ const allMonstersData = [
   {
     "name": "The Souldespoiler",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Souldespoiler.gif",
+    "image_url": "images/monsters/The_Souldespoiler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47987,7 +47987,7 @@ const allMonstersData = [
   {
     "name": "The Time Guardian",
     "hp": 290000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Time_Guardian.gif",
+    "image_url": "images/monsters/The_Time_Guardian.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48022,7 +48022,7 @@ const allMonstersData = [
   {
     "name": "The Unarmored Voidborn",
     "hp": 250000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Unarmored_Voidborn.gif",
+    "image_url": "images/monsters/The_Unarmored_Voidborn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48057,7 +48057,7 @@ const allMonstersData = [
   {
     "name": "The Voice of Ruin",
     "hp": 5500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Voice_of_Ruin.gif",
+    "image_url": "images/monsters/The_Voice_of_Ruin.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48092,7 +48092,7 @@ const allMonstersData = [
   {
     "name": "The Weakened Count",
     "hp": 740,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Weakened_Count.gif",
+    "image_url": "images/monsters/The_Weakened_Count.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48127,7 +48127,7 @@ const allMonstersData = [
   {
     "name": "The Welter",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Welter.gif",
+    "image_url": "images/monsters/The_Welter.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48162,7 +48162,7 @@ const allMonstersData = [
   {
     "name": "The Winter Bloom",
     "hp": 4750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/The_Winter_Bloom.gif",
+    "image_url": "images/monsters/The_Winter_Bloom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48197,7 +48197,7 @@ const allMonstersData = [
   {
     "name": "Thief (Creature)",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thief_(Creature).gif",
+    "image_url": "images/monsters/Thief__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48232,7 +48232,7 @@ const allMonstersData = [
   {
     "name": "Thieving Squirrel",
     "hp": 55,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thieving_Squirrel.gif",
+    "image_url": "images/monsters/Thieving_Squirrel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48267,7 +48267,7 @@ const allMonstersData = [
   {
     "name": "Thorn Lily",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thorn_Lily.gif",
+    "image_url": "images/monsters/Thorn_Lily.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48302,7 +48302,7 @@ const allMonstersData = [
   {
     "name": "Thornback Tortoise",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thornback_Tortoise.gif",
+    "image_url": "images/monsters/Thornback_Tortoise.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48337,7 +48337,7 @@ const allMonstersData = [
   {
     "name": "Thornfire Wolf",
     "hp": 600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thornfire_Wolf.gif",
+    "image_url": "images/monsters/Thornfire_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48372,7 +48372,7 @@ const allMonstersData = [
   {
     "name": "Thul",
     "hp": 2950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thul.gif",
+    "image_url": "images/monsters/Thul.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48407,7 +48407,7 @@ const allMonstersData = [
   {
     "name": "Tiger",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif",
+    "image_url": "images/monsters/Tiger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48442,7 +48442,7 @@ const allMonstersData = [
   {
     "name": "Time Keeper",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Time_Keeper.gif",
+    "image_url": "images/monsters/Time_Keeper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48477,7 +48477,7 @@ const allMonstersData = [
   {
     "name": "Timedisplaced Anomaly (Banuta)",
     "hp": 52500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Timedisplaced_Anomaly_(Banuta).gif",
+    "image_url": "images/monsters/Timedisplaced_Anomaly__Banuta_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48512,7 +48512,7 @@ const allMonstersData = [
   {
     "name": "Timedisplaced Anomaly (Chazorai)",
     "hp": 56000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Timedisplaced_Anomaly_(Chazorai).gif",
+    "image_url": "images/monsters/Timedisplaced_Anomaly__Chazorai_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48547,7 +48547,7 @@ const allMonstersData = [
   {
     "name": "Timedisplaced Anomaly (Warzone)",
     "hp": 60000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Timedisplaced_Anomaly_(Warzone).gif",
+    "image_url": "images/monsters/Timedisplaced_Anomaly__Warzone_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48582,7 +48582,7 @@ const allMonstersData = [
   {
     "name": "Timira the Many-Headed",
     "hp": 75000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Timira_the_Many-Headed.gif",
+    "image_url": "images/monsters/Timira_the_Many-Headed.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48617,7 +48617,7 @@ const allMonstersData = [
   {
     "name": "Tiquandas Revenge",
     "hp": 1800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiquandas_Revenge.gif",
+    "image_url": "images/monsters/Tiquandas_Revenge.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48652,7 +48652,7 @@ const allMonstersData = [
   {
     "name": "Tirecz",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tirecz.gif",
+    "image_url": "images/monsters/Tirecz.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48687,7 +48687,7 @@ const allMonstersData = [
   {
     "name": "Toad",
     "hp": 135,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Toad.gif",
+    "image_url": "images/monsters/Toad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48722,7 +48722,7 @@ const allMonstersData = [
   {
     "name": "Tomb Servant",
     "hp": 475,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tomb_Servant.gif",
+    "image_url": "images/monsters/Tomb_Servant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48757,7 +48757,7 @@ const allMonstersData = [
   {
     "name": "Tormented Ghost",
     "hp": 210,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tormented_Ghost.gif",
+    "image_url": "images/monsters/Tormented_Ghost.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48792,7 +48792,7 @@ const allMonstersData = [
   {
     "name": "Tormentor",
     "hp": 4100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tormentor.gif",
+    "image_url": "images/monsters/Tormentor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48827,7 +48827,7 @@ const allMonstersData = [
   {
     "name": "Tortoise",
     "hp": 185,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tortoise.gif",
+    "image_url": "images/monsters/Tortoise.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48862,7 +48862,7 @@ const allMonstersData = [
   {
     "name": "Toxic Swarm",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Toxic_Swarm.gif",
+    "image_url": "images/monsters/Toxic_Swarm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48897,7 +48897,7 @@ const allMonstersData = [
   {
     "name": "Travelling Merchant",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Travelling_Merchant.gif",
+    "image_url": "images/monsters/Travelling_Merchant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48932,7 +48932,7 @@ const allMonstersData = [
   {
     "name": "Tremendous Tyrant",
     "hp": 11500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tremendous_Tyrant.gif",
+    "image_url": "images/monsters/Tremendous_Tyrant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48967,7 +48967,7 @@ const allMonstersData = [
   {
     "name": "Tremor Worm",
     "hp": 125000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tremor_Worm.gif",
+    "image_url": "images/monsters/Tremor_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49002,7 +49002,7 @@ const allMonstersData = [
   {
     "name": "Tremorak",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tremorak.gif",
+    "image_url": "images/monsters/Tremorak.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49037,7 +49037,7 @@ const allMonstersData = [
   {
     "name": "Troll",
     "hp": 50,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll.gif",
+    "image_url": "images/monsters/Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49072,7 +49072,7 @@ const allMonstersData = [
   {
     "name": "Troll Champion",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll_Champion.gif",
+    "image_url": "images/monsters/Troll_Champion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49107,7 +49107,7 @@ const allMonstersData = [
   {
     "name": "Troll Guard",
     "hp": 60,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll_Guard.gif",
+    "image_url": "images/monsters/Troll_Guard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49142,7 +49142,7 @@ const allMonstersData = [
   {
     "name": "Troll Legionnaire",
     "hp": 210,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll_Legionnaire.gif",
+    "image_url": "images/monsters/Troll_Legionnaire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49177,7 +49177,7 @@ const allMonstersData = [
   {
     "name": "Troll Marauder",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll_Marauder.gif",
+    "image_url": "images/monsters/Troll_Marauder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49212,7 +49212,7 @@ const allMonstersData = [
   {
     "name": "Troll-Trained Salamander",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll-Trained_Salamander.gif",
+    "image_url": "images/monsters/Troll-Trained_Salamander.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49247,7 +49247,7 @@ const allMonstersData = [
   {
     "name": "Trollwut",
     "hp": 280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Trollwut.gif",
+    "image_url": "images/monsters/Trollwut.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49282,7 +49282,7 @@ const allMonstersData = [
   {
     "name": "Tromphonyte",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tromphonyte.gif",
+    "image_url": "images/monsters/Tromphonyte.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49317,7 +49317,7 @@ const allMonstersData = [
   {
     "name": "Tropical Desolator",
     "hp": 15500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tropical_Desolator.gif",
+    "image_url": "images/monsters/Tropical_Desolator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49352,7 +49352,7 @@ const allMonstersData = [
   {
     "name": "True Dawnfire Asura",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/True_Dawnfire_Asura.gif",
+    "image_url": "images/monsters/True_Dawnfire_Asura.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49387,7 +49387,7 @@ const allMonstersData = [
   {
     "name": "True Frost Flower Asura",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/True_Frost_Flower_Asura.gif",
+    "image_url": "images/monsters/True_Frost_Flower_Asura.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49422,7 +49422,7 @@ const allMonstersData = [
   {
     "name": "True Midnight Asura",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/True_Midnight_Asura.gif",
+    "image_url": "images/monsters/True_Midnight_Asura.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49457,7 +49457,7 @@ const allMonstersData = [
   {
     "name": "Truffle",
     "hp": 70,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Truffle.gif",
+    "image_url": "images/monsters/Truffle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49492,7 +49492,7 @@ const allMonstersData = [
   {
     "name": "Truffle Cook",
     "hp": 54,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Truffle_Cook.gif",
+    "image_url": "images/monsters/Truffle_Cook.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49527,7 +49527,7 @@ const allMonstersData = [
   {
     "name": "Truffle Worker",
     "hp": 26,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Truffle_Worker.gif",
+    "image_url": "images/monsters/Truffle_Worker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49562,7 +49562,7 @@ const allMonstersData = [
   {
     "name": "Tunnel Devourer",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tunnel_Devourer.gif",
+    "image_url": "images/monsters/Tunnel_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49597,7 +49597,7 @@ const allMonstersData = [
   {
     "name": "Tunnel Tyrant",
     "hp": 5200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tunnel_Tyrant.gif",
+    "image_url": "images/monsters/Tunnel_Tyrant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49632,7 +49632,7 @@ const allMonstersData = [
   {
     "name": "Turbulent Elemental",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Turbulent_Elemental.gif",
+    "image_url": "images/monsters/Turbulent_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49667,7 +49667,7 @@ const allMonstersData = [
   {
     "name": "Twisted Pooka",
     "hp": 700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Twisted_Pooka.gif",
+    "image_url": "images/monsters/Twisted_Pooka.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49702,7 +49702,7 @@ const allMonstersData = [
   {
     "name": "Twisted Shaper",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Twisted_Shaper.gif",
+    "image_url": "images/monsters/Twisted_Shaper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49737,7 +49737,7 @@ const allMonstersData = [
   {
     "name": "Twisterror",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Twisterror.gif",
+    "image_url": "images/monsters/Twisterror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49772,7 +49772,7 @@ const allMonstersData = [
   {
     "name": "Two-Headed Turtle",
     "hp": 5010,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Two-Headed_Turtle.gif",
+    "image_url": "images/monsters/Two-Headed_Turtle.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49807,7 +49807,7 @@ const allMonstersData = [
   {
     "name": "Tyrn",
     "hp": 12000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tyrn.gif",
+    "image_url": "images/monsters/Tyrn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49842,7 +49842,7 @@ const allMonstersData = [
   {
     "name": "Tzumrah the Dazzler",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tzumrah_the_Dazzler.gif",
+    "image_url": "images/monsters/Tzumrah_the_Dazzler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49877,7 +49877,7 @@ const allMonstersData = [
   {
     "name": "Ugly Monster",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ugly_Monster.gif",
+    "image_url": "images/monsters/Ugly_Monster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49912,7 +49912,7 @@ const allMonstersData = [
   {
     "name": "Unaz the Mean",
     "hp": 28000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Unaz_the_Mean.gif",
+    "image_url": "images/monsters/Unaz_the_Mean.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49947,7 +49947,7 @@ const allMonstersData = [
   {
     "name": "Undead Cavebear",
     "hp": 450,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Cavebear.gif",
+    "image_url": "images/monsters/Undead_Cavebear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -49982,7 +49982,7 @@ const allMonstersData = [
   {
     "name": "Undead Dragon",
     "hp": 8350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Dragon.gif",
+    "image_url": "images/monsters/Undead_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50017,7 +50017,7 @@ const allMonstersData = [
   {
     "name": "Undead Elite Gladiator",
     "hp": 8000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Elite_Gladiator.gif",
+    "image_url": "images/monsters/Undead_Elite_Gladiator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50052,7 +50052,7 @@ const allMonstersData = [
   {
     "name": "Undead Gladiator",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Gladiator.gif",
+    "image_url": "images/monsters/Undead_Gladiator.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50087,7 +50087,7 @@ const allMonstersData = [
   {
     "name": "Undead Jester",
     "hp": 355,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Jester.gif",
+    "image_url": "images/monsters/Undead_Jester.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50122,7 +50122,7 @@ const allMonstersData = [
   {
     "name": "Undead Mine Worker",
     "hp": 65,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Mine_Worker.gif",
+    "image_url": "images/monsters/Undead_Mine_Worker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50157,7 +50157,7 @@ const allMonstersData = [
   {
     "name": "Undead Pet of Chayenne",
     "hp": 8350,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Pet_of_Chayenne.gif",
+    "image_url": "images/monsters/Undead_Pet_of_Chayenne.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50192,7 +50192,7 @@ const allMonstersData = [
   {
     "name": "Undead Prospector",
     "hp": 100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undead_Prospector.gif",
+    "image_url": "images/monsters/Undead_Prospector.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50227,7 +50227,7 @@ const allMonstersData = [
   {
     "name": "Undertaker",
     "hp": 20100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Undertaker.gif",
+    "image_url": "images/monsters/Undertaker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50262,7 +50262,7 @@ const allMonstersData = [
   {
     "name": "Unexpected",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Unexpected.gif",
+    "image_url": "images/monsters/Unexpected.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50297,7 +50297,7 @@ const allMonstersData = [
   {
     "name": "Ungreez",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ungreez.gif",
+    "image_url": "images/monsters/Ungreez.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50332,7 +50332,7 @@ const allMonstersData = [
   {
     "name": "Uninvited",
     "hp": 4700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Uninvited.gif",
+    "image_url": "images/monsters/Uninvited.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50367,7 +50367,7 @@ const allMonstersData = [
   {
     "name": "Unsolicited",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Unsolicited.gif",
+    "image_url": "images/monsters/Unsolicited.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50402,7 +50402,7 @@ const allMonstersData = [
   {
     "name": "Unstable Spark",
     "hp": 10500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Unstable_Spark.gif",
+    "image_url": "images/monsters/Unstable_Spark.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50437,7 +50437,7 @@ const allMonstersData = [
   {
     "name": "Unwanted",
     "hp": 3750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Unwanted.gif",
+    "image_url": "images/monsters/Unwanted.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50472,7 +50472,7 @@ const allMonstersData = [
   {
     "name": "Urmahlullu the Immaculate",
     "hp": 120000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Urmahlullu_the_Immaculate.gif",
+    "image_url": "images/monsters/Urmahlullu_the_Immaculate.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50507,7 +50507,7 @@ const allMonstersData = [
   {
     "name": "Ushuriel",
     "hp": 31500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ushuriel.gif",
+    "image_url": "images/monsters/Ushuriel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50542,7 +50542,7 @@ const allMonstersData = [
   {
     "name": "Usurper Archer",
     "hp": 7300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Usurper_Archer.gif",
+    "image_url": "images/monsters/Usurper_Archer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50577,7 +50577,7 @@ const allMonstersData = [
   {
     "name": "Usurper Commander",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Usurper_Commander.gif",
+    "image_url": "images/monsters/Usurper_Commander.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50612,7 +50612,7 @@ const allMonstersData = [
   {
     "name": "Usurper Knight",
     "hp": 8200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Usurper_Knight.gif",
+    "image_url": "images/monsters/Usurper_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50647,7 +50647,7 @@ const allMonstersData = [
   {
     "name": "Usurper Warlock",
     "hp": 7500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Usurper_Warlock.gif",
+    "image_url": "images/monsters/Usurper_Warlock.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50682,7 +50682,7 @@ const allMonstersData = [
   {
     "name": "Utua Stone Sting",
     "hp": 6400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Utua_Stone_Sting.gif",
+    "image_url": "images/monsters/Utua_Stone_Sting.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50717,7 +50717,7 @@ const allMonstersData = [
   {
     "name": "Valkyrie",
     "hp": 190,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Valkyrie.gif",
+    "image_url": "images/monsters/Valkyrie.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50752,7 +50752,7 @@ const allMonstersData = [
   {
     "name": "Vampire",
     "hp": 475,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vampire.gif",
+    "image_url": "images/monsters/Vampire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50787,7 +50787,7 @@ const allMonstersData = [
   {
     "name": "Vampire Bride",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vampire_Bride.gif",
+    "image_url": "images/monsters/Vampire_Bride.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50822,7 +50822,7 @@ const allMonstersData = [
   {
     "name": "Vampire Pig",
     "hp": 305,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vampire_Pig.gif",
+    "image_url": "images/monsters/Vampire_Pig.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50857,7 +50857,7 @@ const allMonstersData = [
   {
     "name": "Vampire Viscount",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vampire_Viscount.gif",
+    "image_url": "images/monsters/Vampire_Viscount.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50892,7 +50892,7 @@ const allMonstersData = [
   {
     "name": "Vampiric Blood",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vampiric_Blood.gif",
+    "image_url": "images/monsters/Vampiric_Blood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50927,7 +50927,7 @@ const allMonstersData = [
   {
     "name": "Varg",
     "hp": 5400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Varg.gif",
+    "image_url": "images/monsters/Varg.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50962,7 +50962,7 @@ const allMonstersData = [
   {
     "name": "Varnished Diremaw",
     "hp": 9000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Varnished_Diremaw.gif",
+    "image_url": "images/monsters/Varnished_Diremaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50997,7 +50997,7 @@ const allMonstersData = [
   {
     "name": "Vashresamun",
     "hp": 4000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vashresamun.gif",
+    "image_url": "images/monsters/Vashresamun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51032,7 +51032,7 @@ const allMonstersData = [
   {
     "name": "Venerable Foam Stalker",
     "hp": 5650,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Venerable_Foam_Stalker.gif",
+    "image_url": "images/monsters/Venerable_Foam_Stalker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51067,7 +51067,7 @@ const allMonstersData = [
   {
     "name": "Venerable Girtablilu",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Venerable_Girtablilu.gif",
+    "image_url": "images/monsters/Venerable_Girtablilu.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51102,7 +51102,7 @@ const allMonstersData = [
   {
     "name": "Vengar",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vengar.gif",
+    "image_url": "images/monsters/Vengar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51137,7 +51137,7 @@ const allMonstersData = [
   {
     "name": "Vermin Swarm",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vermin_Swarm.gif",
+    "image_url": "images/monsters/Vermin_Swarm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51172,7 +51172,7 @@ const allMonstersData = [
   {
     "name": "Versperoth",
     "hp": 100000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Versperoth.gif",
+    "image_url": "images/monsters/Versperoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51207,7 +51207,7 @@ const allMonstersData = [
   {
     "name": "Vexclaw",
     "hp": 8500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vexclaw.gif",
+    "image_url": "images/monsters/Vexclaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51242,7 +51242,7 @@ const allMonstersData = [
   {
     "name": "Vibrant Phantom",
     "hp": 27000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vibrant_Phantom.gif",
+    "image_url": "images/monsters/Vibrant_Phantom.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51277,7 +51277,7 @@ const allMonstersData = [
   {
     "name": "Vicious Ink Splash",
     "hp": 1950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vicious_Ink_Splash.gif",
+    "image_url": "images/monsters/Vicious_Ink_Splash.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51312,7 +51312,7 @@ const allMonstersData = [
   {
     "name": "Vicious Lich",
     "hp": 880,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vicious_Lich.gif",
+    "image_url": "images/monsters/Vicious_Lich.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51347,7 +51347,7 @@ const allMonstersData = [
   {
     "name": "Vicious Manbat",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vicious_Manbat.gif",
+    "image_url": "images/monsters/Vicious_Manbat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51382,7 +51382,7 @@ const allMonstersData = [
   {
     "name": "Vicious Squire",
     "hp": 1000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vicious_Squire.gif",
+    "image_url": "images/monsters/Vicious_Squire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51417,7 +51417,7 @@ const allMonstersData = [
   {
     "name": "Vile Destroyer",
     "hp": 3700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vile_Destroyer.gif",
+    "image_url": "images/monsters/Vile_Destroyer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51452,7 +51452,7 @@ const allMonstersData = [
   {
     "name": "Vile Grandmaster",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vile_Grandmaster.gif",
+    "image_url": "images/monsters/Vile_Grandmaster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51487,7 +51487,7 @@ const allMonstersData = [
   {
     "name": "Vilear",
     "hp": 50000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vilear.gif",
+    "image_url": "images/monsters/Vilear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51522,7 +51522,7 @@ const allMonstersData = [
   {
     "name": "Vok the Freakish",
     "hp": 32000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vok_the_Freakish.gif",
+    "image_url": "images/monsters/Vok_the_Freakish.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51557,7 +51557,7 @@ const allMonstersData = [
   {
     "name": "Vortex Spawn",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vortex_Spawn.gif",
+    "image_url": "images/monsters/Vortex_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51592,7 +51592,7 @@ const allMonstersData = [
   {
     "name": "Vulcongra",
     "hp": 1600,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vulcongra.gif",
+    "image_url": "images/monsters/Vulcongra.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51627,7 +51627,7 @@ const allMonstersData = [
   {
     "name": "Vulnerable Cocoon",
     "hp": 200000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Vulnerable_Cocoon.gif",
+    "image_url": "images/monsters/Vulnerable_Cocoon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51662,7 +51662,7 @@ const allMonstersData = [
   {
     "name": "Wafer Paper Butterfly",
     "hp": 2,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wafer_Paper_Butterfly.gif",
+    "image_url": "images/monsters/Wafer_Paper_Butterfly.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51697,7 +51697,7 @@ const allMonstersData = [
   {
     "name": "Wailing Widow",
     "hp": 850,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wailing_Widow.gif",
+    "image_url": "images/monsters/Wailing_Widow.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51732,7 +51732,7 @@ const allMonstersData = [
   {
     "name": "Walker",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Walker.gif",
+    "image_url": "images/monsters/Walker.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51767,7 +51767,7 @@ const allMonstersData = [
   {
     "name": "Walking Pillar",
     "hp": 38000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Walking_Pillar.gif",
+    "image_url": "images/monsters/Walking_Pillar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51802,7 +51802,7 @@ const allMonstersData = [
   {
     "name": "Wandering Pillar",
     "hp": 37000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wandering_Pillar.gif",
+    "image_url": "images/monsters/Wandering_Pillar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51837,7 +51837,7 @@ const allMonstersData = [
   {
     "name": "War Golem",
     "hp": 4300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/War_Golem.gif",
+    "image_url": "images/monsters/War_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51872,7 +51872,7 @@ const allMonstersData = [
   {
     "name": "War Wolf",
     "hp": 140,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/War_Wolf.gif",
+    "image_url": "images/monsters/War_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51907,7 +51907,7 @@ const allMonstersData = [
   {
     "name": "Wardragon",
     "hp": 6960,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wardragon.gif",
+    "image_url": "images/monsters/Wardragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51942,7 +51942,7 @@ const allMonstersData = [
   {
     "name": "Warlock",
     "hp": 3500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Warlock.gif",
+    "image_url": "images/monsters/Warlock.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51977,7 +51977,7 @@ const allMonstersData = [
   {
     "name": "Warlord Ruzad",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Warlord_Ruzad.gif",
+    "image_url": "images/monsters/Warlord_Ruzad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52012,7 +52012,7 @@ const allMonstersData = [
   {
     "name": "Wasp",
     "hp": 35,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wasp.gif",
+    "image_url": "images/monsters/Wasp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52047,7 +52047,7 @@ const allMonstersData = [
   {
     "name": "Wasp (Nostalgia)",
     "hp": 35,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wasp_(Nostalgia).gif",
+    "image_url": "images/monsters/Wasp__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52082,7 +52082,7 @@ const allMonstersData = [
   {
     "name": "Waspoid",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Waspoid.gif",
+    "image_url": "images/monsters/Waspoid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52117,7 +52117,7 @@ const allMonstersData = [
   {
     "name": "Water Buffalo",
     "hp": 390,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Water_Buffalo.gif",
+    "image_url": "images/monsters/Water_Buffalo.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52152,7 +52152,7 @@ const allMonstersData = [
   {
     "name": "Water Elemental",
     "hp": 550,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Water_Elemental.gif",
+    "image_url": "images/monsters/Water_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52187,7 +52187,7 @@ const allMonstersData = [
   {
     "name": "Weakened Demon",
     "hp": 5,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Weakened_Demon.gif",
+    "image_url": "images/monsters/Weakened_Demon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52222,7 +52222,7 @@ const allMonstersData = [
   {
     "name": "Weakened Frazzlemaw",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Weakened_Frazzlemaw.gif",
+    "image_url": "images/monsters/Weakened_Frazzlemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52257,7 +52257,7 @@ const allMonstersData = [
   {
     "name": "Weakened Glooth Horror",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Weakened_Glooth_Horror.gif",
+    "image_url": "images/monsters/Weakened_Glooth_Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52292,7 +52292,7 @@ const allMonstersData = [
   {
     "name": "Weakened Shlorg",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Weakened_Shlorg.gif",
+    "image_url": "images/monsters/Weakened_Shlorg.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52327,7 +52327,7 @@ const allMonstersData = [
   {
     "name": "Webster",
     "hp": 2950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Webster.gif",
+    "image_url": "images/monsters/Webster.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52362,7 +52362,7 @@ const allMonstersData = [
   {
     "name": "Weeper",
     "hp": 6800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Weeper.gif",
+    "image_url": "images/monsters/Weeper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52397,7 +52397,7 @@ const allMonstersData = [
   {
     "name": "Werebadger",
     "hp": 1700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werebadger.gif",
+    "image_url": "images/monsters/Werebadger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52432,7 +52432,7 @@ const allMonstersData = [
   {
     "name": "Werebear",
     "hp": 2400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werebear.gif",
+    "image_url": "images/monsters/Werebear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52467,7 +52467,7 @@ const allMonstersData = [
   {
     "name": "Wereboar",
     "hp": 2200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wereboar.gif",
+    "image_url": "images/monsters/Wereboar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52502,7 +52502,7 @@ const allMonstersData = [
   {
     "name": "Werecrocodile",
     "hp": 5280,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werecrocodile.gif",
+    "image_url": "images/monsters/Werecrocodile.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52537,7 +52537,7 @@ const allMonstersData = [
   {
     "name": "Werefox",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werefox.gif",
+    "image_url": "images/monsters/Werefox.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52572,7 +52572,7 @@ const allMonstersData = [
   {
     "name": "Werehyaena",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werehyaena.gif",
+    "image_url": "images/monsters/Werehyaena.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52607,7 +52607,7 @@ const allMonstersData = [
   {
     "name": "Werehyaena Shaman",
     "hp": 2500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werehyaena_Shaman.gif",
+    "image_url": "images/monsters/Werehyaena_Shaman.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52642,7 +52642,7 @@ const allMonstersData = [
   {
     "name": "Werelion",
     "hp": 2800,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werelion.gif",
+    "image_url": "images/monsters/Werelion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52677,7 +52677,7 @@ const allMonstersData = [
   {
     "name": "Werelioness",
     "hp": 3000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werelioness.gif",
+    "image_url": "images/monsters/Werelioness.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52712,7 +52712,7 @@ const allMonstersData = [
   {
     "name": "Werepanther",
     "hp": 4200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werepanther.gif",
+    "image_url": "images/monsters/Werepanther.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52747,7 +52747,7 @@ const allMonstersData = [
   {
     "name": "Weretiger",
     "hp": 5000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Weretiger.gif",
+    "image_url": "images/monsters/Weretiger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52782,7 +52782,7 @@ const allMonstersData = [
   {
     "name": "Werewolf",
     "hp": 1955,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Werewolf.gif",
+    "image_url": "images/monsters/Werewolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52817,7 +52817,7 @@ const allMonstersData = [
   {
     "name": "White Deer",
     "hp": 195,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Deer.gif",
+    "image_url": "images/monsters/White_Deer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52852,7 +52852,7 @@ const allMonstersData = [
   {
     "name": "White Lion",
     "hp": 2700,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Lion.gif",
+    "image_url": "images/monsters/White_Lion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52887,7 +52887,7 @@ const allMonstersData = [
   {
     "name": "White Pale",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Pale.gif",
+    "image_url": "images/monsters/White_Pale.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52922,7 +52922,7 @@ const allMonstersData = [
   {
     "name": "White Shade",
     "hp": 260,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Shade.gif",
+    "image_url": "images/monsters/White_Shade.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52957,7 +52957,7 @@ const allMonstersData = [
   {
     "name": "White Tiger",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Tiger.gif",
+    "image_url": "images/monsters/White_Tiger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52992,7 +52992,7 @@ const allMonstersData = [
   {
     "name": "White Weretiger",
     "hp": 6100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Weretiger.gif",
+    "image_url": "images/monsters/White_Weretiger.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53027,7 +53027,7 @@ const allMonstersData = [
   {
     "name": "Wiggler",
     "hp": 1200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wiggler.gif",
+    "image_url": "images/monsters/Wiggler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53062,7 +53062,7 @@ const allMonstersData = [
   {
     "name": "Wild Dog",
     "hp": 20,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Dog.gif",
+    "image_url": "images/monsters/Wild_Dog.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53097,7 +53097,7 @@ const allMonstersData = [
   {
     "name": "Wild Horse",
     "hp": 75,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Horse.gif",
+    "image_url": "images/monsters/Wild_Horse.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53132,7 +53132,7 @@ const allMonstersData = [
   {
     "name": "Wild Warrior",
     "hp": 135,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Warrior.gif",
+    "image_url": "images/monsters/Wild_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53167,7 +53167,7 @@ const allMonstersData = [
   {
     "name": "Willi Wasp",
     "hp": 250,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Willi_Wasp.gif",
+    "image_url": "images/monsters/Willi_Wasp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53202,7 +53202,7 @@ const allMonstersData = [
   {
     "name": "Wilting Leaf Golem",
     "hp": 380,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wilting_Leaf_Golem.gif",
+    "image_url": "images/monsters/Wilting_Leaf_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53237,7 +53237,7 @@ const allMonstersData = [
   {
     "name": "Winter Wolf",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Winter_Wolf.gif",
+    "image_url": "images/monsters/Winter_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53272,7 +53272,7 @@ const allMonstersData = [
   {
     "name": "Wisp",
     "hp": 115,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wisp.gif",
+    "image_url": "images/monsters/Wisp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53307,7 +53307,7 @@ const allMonstersData = [
   {
     "name": "Witch",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Witch.gif",
+    "image_url": "images/monsters/Witch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53342,7 +53342,7 @@ const allMonstersData = [
   {
     "name": "Wolf",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wolf.gif",
+    "image_url": "images/monsters/Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53377,7 +53377,7 @@ const allMonstersData = [
   {
     "name": "Wolf (Nostalgia)",
     "hp": 25,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wolf_(Nostalgia).gif",
+    "image_url": "images/monsters/Wolf__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53412,7 +53412,7 @@ const allMonstersData = [
   {
     "name": "Woodling",
     "hp": 80,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Woodling.gif",
+    "image_url": "images/monsters/Woodling.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53447,7 +53447,7 @@ const allMonstersData = [
   {
     "name": "Worker Golem",
     "hp": 1470,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Worker_Golem.gif",
+    "image_url": "images/monsters/Worker_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53482,7 +53482,7 @@ const allMonstersData = [
   {
     "name": "Worker Imp",
     "hp": 13500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Worker_Imp.gif",
+    "image_url": "images/monsters/Worker_Imp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53517,7 +53517,7 @@ const allMonstersData = [
   {
     "name": "World Devourer",
     "hp": 25000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/World_Devourer.gif",
+    "image_url": "images/monsters/World_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53552,7 +53552,7 @@ const allMonstersData = [
   {
     "name": "Worm Priestess",
     "hp": 1100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Worm_Priestess.gif",
+    "image_url": "images/monsters/Worm_Priestess.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53587,7 +53587,7 @@ const allMonstersData = [
   {
     "name": "Wounded Cave Draptor",
     "hp": 5,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wounded_Cave_Draptor.gif",
+    "image_url": "images/monsters/Wounded_Cave_Draptor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53622,7 +53622,7 @@ const allMonstersData = [
   {
     "name": "Wrath of the Emperor",
     "hp": 55000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wrath_of_the_Emperor.gif",
+    "image_url": "images/monsters/Wrath_of_the_Emperor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53657,7 +53657,7 @@ const allMonstersData = [
   {
     "name": "Wrathful Archivist",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wrathful_Archivist.gif",
+    "image_url": "images/monsters/Wrathful_Archivist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53692,7 +53692,7 @@ const allMonstersData = [
   {
     "name": "Wyrm",
     "hp": 1825,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wyrm.gif",
+    "image_url": "images/monsters/Wyrm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53727,7 +53727,7 @@ const allMonstersData = [
   {
     "name": "Wyvern",
     "hp": 795,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wyvern.gif",
+    "image_url": "images/monsters/Wyvern.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53762,7 +53762,7 @@ const allMonstersData = [
   {
     "name": "Xenia",
     "hp": 200,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Xenia.gif",
+    "image_url": "images/monsters/Xenia.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53797,7 +53797,7 @@ const allMonstersData = [
   {
     "name": "Xogixath",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Xogixath.gif",
+    "image_url": "images/monsters/Xogixath.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53832,7 +53832,7 @@ const allMonstersData = [
   {
     "name": "Yaga the Crone",
     "hp": 620,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Yaga_the_Crone.gif",
+    "image_url": "images/monsters/Yaga_the_Crone.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53867,7 +53867,7 @@ const allMonstersData = [
   {
     "name": "Yakchal",
     "hp": 5750,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Yakchal.gif",
+    "image_url": "images/monsters/Yakchal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53902,7 +53902,7 @@ const allMonstersData = [
   {
     "name": "Yalahari (Creature)",
     "hp": 150,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Yalahari_(Creature).gif",
+    "image_url": "images/monsters/Yalahari__Creature_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53937,7 +53937,7 @@ const allMonstersData = [
   {
     "name": "Yeti",
     "hp": 950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Yeti.gif",
+    "image_url": "images/monsters/Yeti.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53972,7 +53972,7 @@ const allMonstersData = [
   {
     "name": "Yielothax",
     "hp": 1500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Yielothax.gif",
+    "image_url": "images/monsters/Yielothax.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54007,7 +54007,7 @@ const allMonstersData = [
   {
     "name": "Yirkas Blue Scales",
     "hp": 6300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Yirkas_Blue_Scales.gif",
+    "image_url": "images/monsters/Yirkas_Blue_Scales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54042,7 +54042,7 @@ const allMonstersData = [
   {
     "name": "Young Goanna",
     "hp": 6950,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Young_Goanna.gif",
+    "image_url": "images/monsters/Young_Goanna.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54077,7 +54077,7 @@ const allMonstersData = [
   {
     "name": "Young Sea Serpent",
     "hp": 1050,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Young_Sea_Serpent.gif",
+    "image_url": "images/monsters/Young_Sea_Serpent.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54112,7 +54112,7 @@ const allMonstersData = [
   {
     "name": "Young Troll",
     "hp": 30,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Young_Troll.gif",
+    "image_url": "images/monsters/Young_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54147,7 +54147,7 @@ const allMonstersData = [
   {
     "name": "Zanakeph",
     "hp": 13000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zanakeph.gif",
+    "image_url": "images/monsters/Zanakeph.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54182,7 +54182,7 @@ const allMonstersData = [
   {
     "name": "Zarabustor",
     "hp": 5100,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zarabustor.gif",
+    "image_url": "images/monsters/Zarabustor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54217,7 +54217,7 @@ const allMonstersData = [
   {
     "name": "Zavarash",
     "hp": 35000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zavarash.gif",
+    "image_url": "images/monsters/Zavarash.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54252,7 +54252,7 @@ const allMonstersData = [
   {
     "name": "Zevelon Duskbringer",
     "hp": 1400,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zevelon_Duskbringer.gif",
+    "image_url": "images/monsters/Zevelon_Duskbringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54287,7 +54287,7 @@ const allMonstersData = [
   {
     "name": "Zomba",
     "hp": 300,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zomba.gif",
+    "image_url": "images/monsters/Zomba.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54322,7 +54322,7 @@ const allMonstersData = [
   {
     "name": "Zombie",
     "hp": 500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zombie.gif",
+    "image_url": "images/monsters/Zombie.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54357,7 +54357,7 @@ const allMonstersData = [
   {
     "name": "Zorvorax",
     "hp": 10000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zorvorax.gif",
+    "image_url": "images/monsters/Zorvorax.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54392,7 +54392,7 @@ const allMonstersData = [
   {
     "name": "Zugurosh",
     "hp": 90500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zugurosh.gif",
+    "image_url": "images/monsters/Zugurosh.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54427,7 +54427,7 @@ const allMonstersData = [
   {
     "name": "Zulazza the Corruptor",
     "hp": 46500,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zulazza_the_Corruptor.gif",
+    "image_url": "images/monsters/Zulazza_the_Corruptor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -54462,7 +54462,7 @@ const allMonstersData = [
   {
     "name": "Zushuka",
     "hp": 15000,
-    "image_url": "https://tibia.fandom.com/wiki/Special:Redirect/file/Zushuka.gif",
+    "image_url": "images/monsters/Zushuka.gif",
     "damageTypes": [
       {
         "type": "physical",
