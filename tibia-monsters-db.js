@@ -1,8 +1,218 @@
 var allMonstersData = [
   {
+    "name": "1st Mate Ratticus",
+    "hp": 200000,
+    "image_url": "images/monsters/1st_Mate_Ratticus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "1st Mate Ratticus",
+    "hp": 200000,
+    "image_url": "images/monsters/1st_Mate_Ratticus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "A Greedy Eye",
+    "hp": 0,
+    "image_url": "images/monsters/A_Greedy_Eye.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "A Shielded Astral Glyph",
+    "hp": 0,
+    "image_url": "images/monsters/A_Shielded_Astral_Glyph.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "A Weak Spot",
-    "hp": 435000,
+    "hp": 0,
     "image_url": "images/monsters/A_Weak_Spot.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "A Weak Spot",
+    "hp": 0,
+    "image_url": "images/monsters/A_Weak_Spot.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Abominable Cultist",
+    "hp": 0,
+    "image_url": "images/monsters/Abominable_Cultist.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53,7 +263,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -70,13 +280,83 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Abyssador",
-    "hp": 340000,
-    "image_url": "images/monsters/Abyssador.gif",
+    "name": "Abominable Spawn",
+    "hp": 0,
+    "image_url": "images/monsters/Abominable_Spawn.gif",
     "damageTypes": [
       {
         "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.25
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Abyssador",
+    "hp": 350000,
+    "image_url": "images/monsters/Abyssador.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.85
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Abyssador",
+    "hp": 350000,
+    "image_url": "images/monsters/Abyssador.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -146,7 +426,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "holy",
@@ -162,7 +442,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -170,7 +450,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
       }
     ]
   },
@@ -280,6 +560,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Active Lava Hole",
+    "hp": 0,
+    "image_url": "images/monsters/Active_Lava_Hole.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Adept of the Cult",
     "hp": 430,
     "image_url": "images/monsters/Adept_of_the_Cult.gif",
@@ -385,6 +700,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Adventurers Bane",
+    "hp": 1850,
+    "image_url": "images/monsters/Adventurers_Bane.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.15
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.15
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.15
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.15
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.15
+      }
+    ]
+  },
+  {
+    "name": "Adventurers Nemesis",
+    "hp": 1900,
+    "image_url": "images/monsters/Adventurers_Nemesis.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.15
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.15
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.15
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.15
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.15
+      }
+    ]
+  },
+  {
     "name": "Afflicted Strider",
     "hp": 10000,
     "image_url": "images/monsters/Afflicted_Strider.gif",
@@ -416,6 +801,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Aftershock",
+    "hp": 105000,
+    "image_url": "images/monsters/Aftershock.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -490,9 +910,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Aggressive Matter",
-    "hp": 3000,
-    "image_url": "images/monsters/Aggressive_Matter.gif",
+    "name": "Aggressive Lava",
+    "hp": 0,
+    "image_url": "images/monsters/Aggressive_Lava.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -516,11 +936,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Agressive Matter",
+    "hp": 0,
+    "image_url": "images/monsters/Agressive_Matter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -595,6 +1050,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ahau",
+    "hp": 9000,
+    "image_url": "images/monsters/Ahau.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.95
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Albino Dragon",
     "hp": 5000,
     "image_url": "images/monsters/Albino_Dragon.gif",
@@ -625,7 +1115,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -633,6 +1123,41 @@ var allMonstersData = [
     "name": "Alchemistical Container",
     "hp": 1000,
     "image_url": "images/monsters/Alchemistical_Container.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Allusion",
+    "hp": 7000,
+    "image_url": "images/monsters/Allusion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -687,11 +1212,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Alptramun",
+    "hp": 320000,
+    "image_url": "images/monsters/Alptramun.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
       },
       {
         "type": "earth",
@@ -735,9 +1295,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Amenef the Burning",
+    "name": "Amenef The Burning",
     "hp": 26000,
-    "image_url": "images/monsters/Amenef_the_Burning.gif",
+    "image_url": "images/monsters/Amenef_The_Burning.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -757,11 +1317,81 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.2
+        "multiplier": 1
       },
       {
         "type": "energy",
         "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Amenef The Burning",
+    "hp": 26000,
+    "image_url": "images/monsters/Amenef_The_Burning.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "An Astral Glyph",
+    "hp": 300000,
+    "image_url": "images/monsters/An_Astral_Glyph.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -776,19 +1406,19 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -800,14 +1430,119 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Ancient Lion Knight",
-    "hp": 9100,
-    "image_url": "images/monsters/Ancient_Lion_Knight.gif",
+    "name": "An Observer Eye",
+    "hp": 30000,
+    "image_url": "images/monsters/An_Observer_Eye.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "An Observer Eye (Imune)",
+    "hp": 0,
+    "image_url": "images/monsters/An_Observer_Eye_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "An Observer Eye (Imune)",
+    "hp": 0,
+    "image_url": "images/monsters/An_Observer_Eye_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ancient Lion Archer",
+    "hp": 0,
+    "image_url": "images/monsters/Ancient_Lion_Archer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -819,7 +1554,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.3
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ancient Lion Knight",
+    "hp": 9100,
+    "image_url": "images/monsters/Ancient_Lion_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
       },
       {
         "type": "fire",
@@ -827,7 +1597,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ancient Lion Warlock",
+    "hp": 0,
+    "image_url": "images/monsters/Ancient_Lion_Warlock.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -871,6 +1676,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ancient Spawn of Morgathla",
+    "hp": 900000,
+    "image_url": "images/monsters/Ancient_Spawn_of_Morgathla.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": -1
+      }
+    ]
+  },
+  {
+    "name": "Ancient Spawn of Morgathla",
+    "hp": 900000,
+    "image_url": "images/monsters/Ancient_Spawn_of_Morgathla.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": -1
       }
     ]
   },
@@ -951,7 +1826,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.75
+        "multiplier": 0.7
       },
       {
         "type": "holy",
@@ -959,7 +1834,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.8
+        "multiplier": 0.7
       },
       {
         "type": "fire",
@@ -981,7 +1856,7 @@ var allMonstersData = [
   },
   {
     "name": "Angry Elemental",
-    "hp": 7000,
+    "hp": 0,
     "image_url": "images/monsters/Angry_Elemental.gif",
     "damageTypes": [
       {
@@ -998,25 +1873,25 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.25
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Angry Plant",
-    "hp": 10000,
+    "hp": 0,
     "image_url": "images/monsters/Angry_Plant.gif",
     "damageTypes": [
       {
@@ -1046,41 +1921,6 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Angry Plant Thing",
-    "hp": 100000,
-    "image_url": "images/monsters/Angry_Plant_Thing.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 0.55
-      },
-      {
-        "type": "holy",
-        "multiplier": 0.55
-      },
-      {
-        "type": "death",
-        "multiplier": 0.55
-      },
-      {
-        "type": "fire",
-        "multiplier": 0.55
-      },
-      {
-        "type": "ice",
-        "multiplier": 0.55
-      },
-      {
-        "type": "energy",
-        "multiplier": 0.55
-      },
-      {
-        "type": "earth",
-        "multiplier": 0.55
       }
     ]
   },
@@ -1165,11 +2005,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "fire",
@@ -1181,11 +2021,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.75
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 1.1
       }
     ]
   },
@@ -1274,23 +2114,23 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -1305,11 +2145,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.25
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -1317,7 +2157,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "energy",
@@ -1325,7 +2165,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -1410,27 +2250,27 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -1540,8 +2380,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Animated Sword",
+    "hp": 7500,
+    "image_url": "images/monsters/Animated_Sword.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Anmothra",
-    "hp": 7000,
+    "hp": 7500,
     "image_url": "images/monsters/Anmothra.gif",
     "damageTypes": [
       {
@@ -1566,11 +2441,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.75
+        "multiplier": 0.8
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 0.2
       }
     ]
   },
@@ -1585,11 +2460,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "fire",
@@ -1601,11 +2476,116 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.04
       },
       {
         "type": "earth",
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Annihilon",
+    "hp": 46500,
+    "image_url": "images/monsters/Annihilon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.04
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Annihilon",
+    "hp": 46500,
+    "image_url": "images/monsters/Annihilon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.04
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Annoying Dog",
+    "hp": 0,
+    "image_url": "images/monsters/Annoying_Dog.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -1624,7 +2604,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -1632,7 +2612,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -1640,14 +2620,154 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1.1
       }
     ]
   },
   {
-    "name": "Antenna",
-    "hp": 10000,
-    "image_url": "images/monsters/Antenna.gif",
+    "name": "Anomaly",
+    "hp": 290000,
+    "image_url": "images/monsters/Anomaly.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Antenna (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Antenna_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse",
+    "hp": 160000,
+    "image_url": "images/monsters/Apocalypse.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse",
+    "hp": 160000,
+    "image_url": "images/monsters/Apocalypse.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse",
+    "hp": 160000,
+    "image_url": "images/monsters/Apocalypse.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1715,8 +2835,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Apprentice Sheng",
+    "hp": 95,
+    "image_url": "images/monsters/Apprentice_Sheng.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Arachir the Ancient One",
-    "hp": 1600,
+    "hp": 1700,
     "image_url": "images/monsters/Arachir_the_Ancient_One.gif",
     "damageTypes": [
       {
@@ -1741,11 +2896,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 0.8
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Arachir the Ancient One",
+    "hp": 1700,
+    "image_url": "images/monsters/Arachir_the_Ancient_One.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
         "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.01
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.95
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -1811,7 +3001,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.67
       },
       {
         "type": "earth",
@@ -1842,7 +3032,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "energy",
@@ -1850,7 +3040,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "Arkhothep (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Arkhothep_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -1890,9 +3115,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Armenius (Creature)",
+    "name": "Armenius (Criatura)",
     "hp": 550,
-    "image_url": "images/monsters/Armenius__Creature_.gif",
+    "image_url": "images/monsters/Armenius_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Armenius (Criatura)",
+    "hp": 550,
+    "image_url": "images/monsters/Armenius_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -1931,11 +3191,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -1955,7 +3215,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Arthei",
+    "hp": 4200,
+    "image_url": "images/monsters/Arthei.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
         "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.8
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.5
       }
     ]
   },
@@ -1991,6 +3286,146 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Arthom the Hunter",
+    "hp": 500,
+    "image_url": "images/monsters/Arthom_the_Hunter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ascending Ferumbras",
+    "hp": 0,
+    "image_url": "images/monsters/Ascending_Ferumbras.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ascending Ferumbras",
+    "hp": 0,
+    "image_url": "images/monsters/Ascending_Ferumbras.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ashes of Burning Hatred",
+    "hp": 0,
+    "image_url": "images/monsters/Ashes_of_Burning_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -2122,11 +3557,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "energy",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Aspect Of Power",
+    "hp": 0,
+    "image_url": "images/monsters/Aspect_Of_Power.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -2176,19 +3646,19 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.4
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.75
       },
       {
         "type": "ice",
@@ -2200,14 +3670,49 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.6
       }
     ]
   },
   {
-    "name": "Avalanche (Creature)",
+    "name": "Atab",
+    "hp": 8100,
+    "image_url": "images/monsters/Atab.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.6
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.75
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Avalanche (Criatura)",
     "hp": 550,
-    "image_url": "images/monsters/Avalanche__Creature_.gif",
+    "image_url": "images/monsters/Avalanche_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2254,7 +3759,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "fire",
@@ -2270,7 +3775,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 1.1
       }
     ]
   },
@@ -2289,7 +3794,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -2297,7 +3802,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -2305,13 +3810,118 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Ayana the Crimson Curse",
+    "hp": 17000,
+    "image_url": "images/monsters/Ayana_the_Crimson_Curse.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Azaram's Soul",
+    "hp": 50000,
+    "image_url": "images/monsters/Azaram's_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
   {
     "name": "Azerus",
-    "hp": 26000,
+    "hp": 7500,
+    "image_url": "images/monsters/Azerus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "death",
+        "multiplier": 0.85
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.85
+      }
+    ]
+  },
+  {
+    "name": "Azerus",
+    "hp": 7500,
     "image_url": "images/monsters/Azerus.gif",
     "damageTypes": [
       {
@@ -2380,9 +3990,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Baby Pet of Chayenne",
-    "hp": 380,
-    "image_url": "images/monsters/Baby_Pet_of_Chayenne.gif",
+    "name": "Baby Dragon (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Baby_Dragon_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -2398,7 +4008,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -2411,6 +4021,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bad Dream",
+    "hp": 0,
+    "image_url": "images/monsters/Bad_Dream.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -2486,7 +4131,7 @@ var allMonstersData = [
   },
   {
     "name": "Bakragore",
-    "hp": 660000,
+    "hp": 0,
     "image_url": "images/monsters/Bakragore.gif",
     "damageTypes": [
       {
@@ -2499,7 +4144,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -2515,7 +4160,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1.05
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bakragore",
+    "hp": 0,
+    "image_url": "images/monsters/Bakragore.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -2600,27 +4280,27 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "death",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       }
     ]
   },
@@ -2631,31 +4311,31 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1.1
       },
       {
         "type": "holy",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.1
       },
       {
         "type": "death",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.1
       },
       {
         "type": "fire",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.1
       },
       {
         "type": "earth",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.1
       }
     ]
   },
@@ -2726,6 +4406,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Barbaria",
+    "hp": 345,
+    "image_url": "images/monsters/Barbaria.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -2985,6 +4700,41 @@ var allMonstersData = [
       },
       {
         "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Basaltwall (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Basaltwall_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
         "multiplier": 1
       },
       {
@@ -2993,7 +4743,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -3115,6 +4865,146 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Battlemaster Zunzu",
+    "hp": 4000,
+    "image_url": "images/monsters/Battlemaster_Zunzu.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.85
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.75
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Bazir",
+    "hp": 0,
+    "image_url": "images/monsters/Bazir.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bazir",
+    "hp": 0,
+    "image_url": "images/monsters/Bazir.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bazir",
+    "hp": 0,
+    "image_url": "images/monsters/Bazir.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Bear",
     "hp": 80,
     "image_url": "images/monsters/Bear.gif",
@@ -3150,9 +5040,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Bear (Nostalgia)",
-    "hp": 80,
-    "image_url": "images/monsters/Bear__Nostalgia_.gif",
+    "name": "Beer Distraction",
+    "hp": 0,
+    "image_url": "images/monsters/Beer_Distraction.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3160,11 +5050,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -3172,7 +5062,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -3215,7 +5105,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -3251,6 +5141,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Benevolent Iks Spirit",
+    "hp": 0,
+    "image_url": "images/monsters/Benevolent_Iks_Spirit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -3335,7 +5260,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.2
+        "multiplier": 1.25
       },
       {
         "type": "death",
@@ -3356,6 +5281,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Bibby Bloodbath",
+    "hp": 1200,
+    "image_url": "images/monsters/Bibby_Bloodbath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.2
       }
     ]
   },
@@ -3430,6 +5390,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Big Boss Trolliver",
+    "hp": 140,
+    "image_url": "images/monsters/Big_Boss_Trolliver.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Biting Book",
     "hp": 6500,
     "image_url": "images/monsters/Biting_Book.gif",
@@ -3465,9 +5460,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Black Cobra",
-    "hp": 10000,
-    "image_url": "images/monsters/Black_Cobra.gif",
+    "name": "Biting Cold",
+    "hp": 0,
+    "image_url": "images/monsters/Biting_Cold.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -3500,17 +5495,52 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Black Cobra",
+    "hp": 6500,
+    "image_url": "images/monsters/Black_Cobra.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Black Knight",
     "hp": 1800,
     "image_url": "images/monsters/Black_Knight.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0.8
       },
       {
         "type": "holy",
-        "multiplier": 1.08
+        "multiplier": 1.1
       },
       {
         "type": "death",
@@ -3518,7 +5548,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "ice",
@@ -3526,11 +5556,81 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Black Knight",
+    "hp": 1800,
+    "image_url": "images/monsters/Black_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Black Mutagen",
+    "hp": 0,
+    "image_url": "images/monsters/Black_Mutagen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -3635,7 +5735,147 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.4
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Black Vixen",
+    "hp": 3200,
+    "image_url": "images/monsters/Black_Vixen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blasting Flame",
+    "hp": 2500,
+    "image_url": "images/monsters/Blasting_Flame.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blaze of Burning Hatred",
+    "hp": 0,
+    "image_url": "images/monsters/Blaze_of_Burning_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Blazing Bonfire (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Blazing_Bonfire_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -3650,11 +5890,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 0.6
       },
       {
         "type": "fire",
@@ -3670,7 +5910,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.5
       }
     ]
   },
@@ -3711,7 +5951,7 @@ var allMonstersData = [
   },
   {
     "name": "Blight Bug",
-    "hp": 3700,
+    "hp": 0,
     "image_url": "images/monsters/Blight_Bug.gif",
     "damageTypes": [
       {
@@ -3780,6 +6020,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Blight Spitter",
+    "hp": 2800,
+    "image_url": "images/monsters/Blight_Spitter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Blightling",
+    "hp": 0,
+    "image_url": "images/monsters/Blightling.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Blightwalker",
     "hp": 8100,
     "image_url": "images/monsters/Blightwalker.gif",
@@ -3811,6 +6121,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Blissful Times",
+    "hp": 0,
+    "image_url": "images/monsters/Blissful_Times.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -3899,7 +6244,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -3907,7 +6252,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -3990,6 +6335,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Blood Guardian",
+    "hp": 0,
+    "image_url": "images/monsters/Blood_Guardian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Blood Hand",
     "hp": 700,
     "image_url": "images/monsters/Blood_Hand.gif",
@@ -4021,6 +6401,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Blood Pool",
+    "hp": 9000,
+    "image_url": "images/monsters/Blood_Pool.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -4061,8 +6476,43 @@ var allMonstersData = [
   },
   {
     "name": "Blood Tear",
-    "hp": 3500,
+    "hp": 0,
     "image_url": "images/monsters/Blood_Tear.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Bloodback",
+    "hp": 5200,
+    "image_url": "images/monsters/Bloodback.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4074,7 +6524,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "fire",
@@ -4086,7 +6536,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "earth",
@@ -4113,7 +6563,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -4125,7 +6575,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 1
       }
     ]
   },
@@ -4187,7 +6637,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "energy",
@@ -4195,13 +6645,13 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 0.9
       }
     ]
   },
   {
     "name": "Bloom of Doom",
-    "hp": 30000,
+    "hp": 0,
     "image_url": "images/monsters/Bloom_of_Doom.gif",
     "damageTypes": [
       {
@@ -4219,6 +6669,76 @@ var allMonstersData = [
       {
         "type": "fire",
         "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Collector Unit",
+    "hp": 0,
+    "image_url": "images/monsters/Blue_Collector_Unit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Container",
+    "hp": 0,
+    "image_url": "images/monsters/Blue_Container.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -4253,7 +6773,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -4262,6 +6782,111 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Mutagen",
+    "hp": 0,
+    "image_url": "images/monsters/Blue_Mutagen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Soul Stealer",
+    "hp": 0,
+    "image_url": "images/monsters/Blue_Soul_Stealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Blue Tube",
+    "hp": 0,
+    "image_url": "images/monsters/Blue_Tube.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -4346,7 +6971,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.85
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -4428,7 +7053,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "ice",
@@ -4445,13 +7070,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Bolfrim (Creature)",
-    "hp": 100000,
-    "image_url": "images/monsters/Bolfrim__Creature_.gif",
+    "name": "Bone Capsule",
+    "hp": 70000,
+    "image_url": "images/monsters/Bone_Capsule.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "holy",
@@ -4459,11 +7084,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -4471,7 +7096,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -4481,7 +7106,7 @@ var allMonstersData = [
   },
   {
     "name": "Bone Jaw",
-    "hp": 4500,
+    "hp": 0,
     "image_url": "images/monsters/Bone_Jaw.gif",
     "damageTypes": [
       {
@@ -4490,7 +7115,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -4502,15 +7127,15 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -4585,9 +7210,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Bonelord (Nostalgia)",
-    "hp": 260,
-    "image_url": "images/monsters/Bonelord__Nostalgia_.gif",
+    "name": "Bones",
+    "hp": 9500,
+    "image_url": "images/monsters/Bones.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4603,11 +7228,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -4615,13 +7240,13 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Bonny Bunny",
-    "hp": 200,
+    "hp": 1,
     "image_url": "images/monsters/Bonny_Bunny.gif",
     "damageTypes": [
       {
@@ -4630,27 +7255,27 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -4704,7 +7329,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 0.2
       },
       {
         "type": "fire",
@@ -4712,7 +7337,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.75
+        "multiplier": 0.35
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Boogey",
+    "hp": 930,
+    "image_url": "images/monsters/Boogey.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.2
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.35
       },
       {
         "type": "energy",
@@ -4755,7 +7415,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       }
     ]
   },
@@ -4795,9 +7455,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Bovinus",
-    "hp": 150,
-    "image_url": "images/monsters/Bovinus.gif",
+    "name": "Boreth",
+    "hp": 1400,
+    "image_url": "images/monsters/Boreth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Bot (Criatura)",
+    "hp": 1000,
+    "image_url": "images/monsters/Bot_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -4813,7 +7508,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -4821,11 +7516,81 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bound Astral Power",
+    "hp": 70000,
+    "image_url": "images/monsters/Bound_Astral_Power.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.6
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Bovinus",
+    "hp": 150,
+    "image_url": "images/monsters/Bovinus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
         "multiplier": 0.8
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -4879,15 +7644,155 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.30000000000000004
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bragrumol",
+    "hp": 38000,
+    "image_url": "images/monsters/Bragrumol.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brain Head",
+    "hp": 230000,
+    "image_url": "images/monsters/Brain_Head.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.5
+      },
+      {
+        "type": "energy",
+        "multiplier": -1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brain Head",
+    "hp": 230000,
+    "image_url": "images/monsters/Brain_Head.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.5
+      },
+      {
+        "type": "energy",
+        "multiplier": -1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brain Parasite",
+    "hp": 7500,
+    "image_url": "images/monsters/Brain_Parasite.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -5066,7 +7971,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -5085,27 +7990,62 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.01
       },
       {
         "type": "death",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.15
+        "multiplier": 1.01
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bretzecutioner",
+    "hp": 5600,
+    "image_url": "images/monsters/Bretzecutioner.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.01
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -5311,7 +8251,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.15
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Brokul",
+    "hp": 50000,
+    "image_url": "images/monsters/Brokul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -5326,11 +8301,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -5351,6 +8326,251 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Brother Chill",
+    "hp": 190000,
+    "image_url": "images/monsters/Brother_Chill.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brother Chill",
+    "hp": 190000,
+    "image_url": "images/monsters/Brother_Chill.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brother Freeze",
+    "hp": 190000,
+    "image_url": "images/monsters/Brother_Freeze.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brother Freeze",
+    "hp": 190000,
+    "image_url": "images/monsters/Brother_Freeze.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brother Worm",
+    "hp": 290000,
+    "image_url": "images/monsters/Brother_Worm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Brother Worm",
+    "hp": 290000,
+    "image_url": "images/monsters/Brother_Worm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bruise Payne",
+    "hp": 1600,
+    "image_url": "images/monsters/Bruise_Payne.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.35
       }
     ]
   },
@@ -5400,23 +8620,93 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.55
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Bruton",
+    "hp": 50000,
+    "image_url": "images/monsters/Bruton.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Brutus Bloodbeard",
+    "hp": 1555,
+    "image_url": "images/monsters/Brutus_Bloodbeard.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
       },
       {
         "type": "earth",
@@ -5435,7 +8725,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "death",
@@ -5447,11 +8737,11 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "energy",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "earth",
@@ -5463,41 +8753,6 @@ var allMonstersData = [
     "name": "Bug",
     "hp": 29,
     "image_url": "images/monsters/Bug.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Bug (Nostalgia)",
-    "hp": 29,
-    "image_url": "images/monsters/Bug__Nostalgia_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5649,23 +8904,58 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Bullwark",
+    "hp": 72000,
+    "image_url": "images/monsters/Bullwark.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -5740,8 +9030,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Burrowing Beetle",
+    "hp": 0,
+    "image_url": "images/monsters/Burrowing_Beetle.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Burster",
-    "hp": 10000,
+    "hp": 0,
     "image_url": "images/monsters/Burster.gif",
     "damageTypes": [
       {
@@ -5766,7 +9091,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Burster",
+    "hp": 0,
+    "image_url": "images/monsters/Burster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -5797,7 +9157,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "energy",
@@ -5810,9 +9170,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Butterfly (Blue)",
+    "name": "Butterfly (Amarelo)",
     "hp": 2,
-    "image_url": "images/monsters/Butterfly__Blue_.gif",
+    "image_url": "images/monsters/Butterfly_(Amarelo).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5845,9 +9205,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Butterfly (Purple)",
+    "name": "Butterfly (Azul)",
     "hp": 2,
-    "image_url": "images/monsters/Butterfly__Purple_.gif",
+    "image_url": "images/monsters/Butterfly_(Azul).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5880,9 +9240,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Butterfly (Red)",
+    "name": "Butterfly (Vermelho)",
     "hp": 2,
-    "image_url": "images/monsters/Butterfly__Red_.gif",
+    "image_url": "images/monsters/Butterfly_(Vermelho).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5915,9 +9275,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Butterfly (Yellow)",
+    "name": "Butterfly (Violeta)",
     "hp": 2,
-    "image_url": "images/monsters/Butterfly__Yellow_.gif",
+    "image_url": "images/monsters/Butterfly_(Violeta).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -5960,27 +9320,27 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "death",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "ice",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       }
     ]
   },
@@ -6178,15 +9538,120 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Captain Jones",
+    "hp": 555,
+    "image_url": "images/monsters/Captain_Jones.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Captured Beer",
+    "hp": 0,
+    "image_url": "images/monsters/Captured_Beer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Captured Dwarf",
+    "hp": 0,
+    "image_url": "images/monsters/Captured_Dwarf.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -6370,9 +9835,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Cart Packed with Gold",
+    "name": "Cart Packed With Gold",
     "hp": 10000,
-    "image_url": "images/monsters/Cart_Packed_with_Gold.gif",
+    "image_url": "images/monsters/Cart_Packed_With_Gold.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Cart Packed With Gold",
+    "hp": 10000,
+    "image_url": "images/monsters/Cart_Packed_With_Gold.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -6516,11 +10016,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "death",
@@ -6532,7 +10032,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "energy",
@@ -6633,7 +10133,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.3
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -6642,6 +10142,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Celebrating Orger",
+    "hp": 0,
+    "image_url": "images/monsters/Celebrating_Orger.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -6656,7 +10191,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -6668,7 +10203,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "ice",
@@ -6676,11 +10211,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.96
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.6
       }
     ]
   },
@@ -6721,7 +10256,7 @@ var allMonstersData = [
   },
   {
     "name": "Cerebellum",
-    "hp": 15000,
+    "hp": 0,
     "image_url": "images/monsters/Cerebellum.gif",
     "damageTypes": [
       {
@@ -6734,7 +10269,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -6746,11 +10281,81 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": -10
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 1.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Chagorz",
+    "hp": 0,
+    "image_url": "images/monsters/Chagorz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Chagorz",
+    "hp": 0,
+    "image_url": "images/monsters/Chagorz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -6860,6 +10465,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Channeling Earl Osam",
+    "hp": 0,
+    "image_url": "images/monsters/Channeling_Earl_Osam.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Channeling Earl Osam",
+    "hp": 0,
+    "image_url": "images/monsters/Channeling_Earl_Osam.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Charged Anomaly",
     "hp": 18000,
     "image_url": "images/monsters/Charged_Anomaly.gif",
@@ -6891,6 +10566,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Charged Anomaly",
+    "hp": 18000,
+    "image_url": "images/monsters/Charged_Anomaly.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Charged Disruption",
+    "hp": 0,
+    "image_url": "images/monsters/Charged_Disruption.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -6944,7 +10689,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "fire",
@@ -6952,15 +10697,15 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.15
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 1.15
       }
     ]
   },
@@ -6971,31 +10716,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.5
+        "multiplier": 1.1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Charging Outburst",
+    "hp": 12000,
+    "image_url": "images/monsters/Charging_Outburst.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -7035,9 +10815,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Chayenne (Creature)",
+    "name": "Chayenne (Criatura)",
     "hp": 100000,
-    "image_url": "images/monsters/Chayenne__Creature_.gif",
+    "image_url": "images/monsters/Chayenne_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7066,47 +10846,12 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Cheeky Sugar Cube",
-    "hp": 28,
-    "image_url": "images/monsters/Cheeky_Sugar_Cube.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.1
-      },
-      {
-        "type": "ice",
-        "multiplier": 0.95
-      },
-      {
-        "type": "energy",
-        "multiplier": 1.1
-      },
-      {
-        "type": "earth",
-        "multiplier": 0.8
       }
     ]
   },
   {
     "name": "Cheese Thief",
-    "hp": 1100,
+    "hp": 1200,
     "image_url": "images/monsters/Cheese_Thief.gif",
     "damageTypes": [
       {
@@ -7176,12 +10921,12 @@ var allMonstersData = [
   },
   {
     "name": "Chikhaton",
-    "hp": 20000,
+    "hp": 80000,
     "image_url": "images/monsters/Chikhaton.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -7201,11 +10946,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Chizzoron the Distorter",
+    "hp": 16000,
+    "image_url": "images/monsters/Chizzoron_the_Distorter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 0.7
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
         "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -7294,7 +11074,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "fire",
@@ -7307,6 +11087,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0.98
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Chopper",
+    "hp": 7200,
+    "image_url": "images/monsters/Chopper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -7455,9 +11270,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Cloak of Terror",
+    "name": "Cloak Of Terror",
     "hp": 28000,
-    "image_url": "images/monsters/Cloak_of_Terror.gif",
+    "image_url": "images/monsters/Cloak_Of_Terror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7700,6 +11515,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Cocoon",
+    "hp": 0,
+    "image_url": "images/monsters/Cocoon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Coldheart",
     "hp": 7000,
     "image_url": "images/monsters/Coldheart.gif",
@@ -7771,7 +11621,7 @@ var allMonstersData = [
   },
   {
     "name": "Common Beetle",
-    "hp": 3700,
+    "hp": 0,
     "image_url": "images/monsters/Common_Beetle.gif",
     "damageTypes": [
       {
@@ -7805,8 +11655,253 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Community Manager (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Community_Manager_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Concentrated Death",
+    "hp": 2000,
+    "image_url": "images/monsters/Concentrated_Death.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Condensed Sin",
+    "hp": 3800,
+    "image_url": "images/monsters/Condensed_Sin.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Connoisseur Rabbit",
+    "hp": 0,
+    "image_url": "images/monsters/Connoisseur_Rabbit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Connoisseur Spider",
+    "hp": 0,
+    "image_url": "images/monsters/Connoisseur_Spider.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Connoisseur Wolf",
+    "hp": 0,
+    "image_url": "images/monsters/Connoisseur_Wolf.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Containment Crystal",
+    "hp": 7000,
+    "image_url": "images/monsters/Containment_Crystal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Containment Machine",
-    "hp": 6500,
+    "hp": 6000,
     "image_url": "images/monsters/Containment_Machine.gif",
     "damageTypes": [
       {
@@ -7823,19 +11918,19 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.95
+        "multiplier": 1
       }
     ]
   },
@@ -7850,7 +11945,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.55
       },
       {
         "type": "death",
@@ -7858,7 +11953,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.55
       },
       {
         "type": "ice",
@@ -7866,11 +11961,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.55
       },
       {
         "type": "earth",
-        "multiplier": 0.44999999999999996
+        "multiplier": 1
       }
     ]
   },
@@ -7946,7 +12041,7 @@ var allMonstersData = [
   },
   {
     "name": "Corrupt Naga",
-    "hp": 5990,
+    "hp": 0,
     "image_url": "images/monsters/Corrupt_Naga.gif",
     "damageTypes": [
       {
@@ -7963,7 +12058,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -7971,7 +12066,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -7994,7 +12089,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -8002,7 +12097,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.4
       },
       {
         "type": "energy",
@@ -8010,7 +12105,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 1
       }
     ]
   },
@@ -8260,9 +12355,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Count Tofifti (Creature)",
+    "name": "Count Tofifti (Criatura)",
     "hp": 100000,
-    "image_url": "images/monsters/Count_Tofifti__Creature_.gif",
+    "image_url": "images/monsters/Count_Tofifti_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -8282,7 +12377,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -8301,7 +12396,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -8309,7 +12404,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -8321,7 +12416,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Count Vlarkorth",
+    "hp": 300000,
+    "image_url": "images/monsters/Count_Vlarkorth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
         "multiplier": 0.95
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
       },
       {
         "type": "earth",
@@ -8356,7 +12486,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Countess Sorrow",
+    "hp": 6500,
+    "image_url": "images/monsters/Countess_Sorrow.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
       },
       {
         "type": "earth",
@@ -8371,7 +12536,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -8470,37 +12635,37 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Craban (Creature)",
-    "hp": 300000,
-    "image_url": "images/monsters/Craban__Creature_.gif",
+    "name": "Crackler",
+    "hp": 0,
+    "image_url": "images/monsters/Crackler.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.05
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -8511,7 +12676,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.75
+        "multiplier": 0.85
       },
       {
         "type": "holy",
@@ -8900,7 +13065,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "death",
@@ -8920,7 +13085,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.75
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Crultor",
+    "hp": 50000,
+    "image_url": "images/monsters/Crultor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -9135,6 +13335,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Crystal Collection Box",
+    "hp": 0,
+    "image_url": "images/monsters/Crystal_Collection_Box.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Crystal Spider",
     "hp": 1250,
     "image_url": "images/monsters/Crystal_Spider.gif",
@@ -9246,15 +13481,15 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.3
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "fire",
@@ -9266,11 +13501,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "earth",
-        "multiplier": 1.2
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Cublarc the Plunderer",
+    "hp": 400,
+    "image_url": "images/monsters/Cublarc_the_Plunderer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
       }
     ]
   },
@@ -9561,7 +13831,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.30000000000000004
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -9573,7 +13843,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -9585,7 +13855,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Custodian",
+    "hp": 47000,
+    "image_url": "images/monsters/Custodian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -9806,11 +14111,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1.1
       },
       {
         "type": "death",
@@ -9822,7 +14127,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dangerous Apparatus",
+    "hp": 0,
+    "image_url": "images/monsters/Dangerous_Apparatus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -9853,11 +14193,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "energy",
@@ -9940,6 +14280,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Dark Druid",
+    "hp": 6000,
+    "image_url": "images/monsters/Dark_Druid.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Dark Faun",
     "hp": 1100,
     "image_url": "images/monsters/Dark_Faun.gif",
@@ -9970,7 +14345,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "Dark Knight",
+    "hp": 7900,
+    "image_url": "images/monsters/Dark_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dark Knowledge",
+    "hp": 0,
+    "image_url": "images/monsters/Dark_Knowledge.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -10080,6 +14525,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Dark Paladin",
+    "hp": 6500,
+    "image_url": "images/monsters/Dark_Paladin.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Sorcerer",
+    "hp": 6500,
+    "image_url": "images/monsters/Dark_Sorcerer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Soul",
+    "hp": 2900,
+    "image_url": "images/monsters/Dark_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.95
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
     "name": "Dark Torturer",
     "hp": 7350,
     "image_url": "images/monsters/Dark_Torturer.gif",
@@ -10110,7 +14660,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       }
     ]
   },
@@ -10121,7 +14671,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -10129,23 +14679,58 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.30000000000000004
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Darkfang",
+    "hp": 4800,
+    "image_url": "images/monsters/Darkfang.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
       }
     ]
   },
@@ -10168,7 +14753,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "ice",
@@ -10281,7 +14866,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "earth",
@@ -10321,6 +14906,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1.15
+      }
+    ]
+  },
+  {
+    "name": "Data Collector",
+    "hp": 0,
+    "image_url": "images/monsters/Data_Collector.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -10378,7 +14998,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -10386,7 +15006,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -10471,6 +15091,76 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dazed Leaf Golem",
+    "hp": 10000,
+    "image_url": "images/monsters/Dazed_Leaf_Golem.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Deadeye Devious",
+    "hp": 1450,
+    "image_url": "images/monsters/Deadeye_Devious.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
       },
       {
@@ -10495,7 +15185,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
       }
     ]
   },
@@ -10503,6 +15193,41 @@ var allMonstersData = [
     "name": "Deadeye Devious",
     "hp": 1450,
     "image_url": "images/monsters/Deadeye_Devious.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Deadly Heat",
+    "hp": 0,
+    "image_url": "images/monsters/Deadly_Heat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10580,7 +15305,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.01
       },
       {
         "type": "death",
@@ -10592,15 +15317,15 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.99
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.01
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -10631,7 +15356,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -10654,11 +15379,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -10666,11 +15391,116 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.97
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.4
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Death Priest Shargon",
+    "hp": 65000,
+    "image_url": "images/monsters/Death_Priest_Shargon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Death Reaper",
+    "hp": 0,
+    "image_url": "images/monsters/Death_Reaper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.2
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.35
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Deathbine",
+    "hp": 525,
+    "image_url": "images/monsters/Deathbine.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.65
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -10720,7 +15550,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -10728,7 +15558,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 0.99
       },
       {
         "type": "ice",
@@ -10736,7 +15566,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1.01
       },
       {
         "type": "earth",
@@ -10816,7 +15646,7 @@ var allMonstersData = [
   },
   {
     "name": "Deathslicer",
-    "hp": 8200,
+    "hp": 0,
     "image_url": "images/monsters/Deathslicer.gif",
     "damageTypes": [
       {
@@ -10886,7 +15716,7 @@ var allMonstersData = [
   },
   {
     "name": "Deathstrike",
-    "hp": 200000,
+    "hp": 250000,
     "image_url": "images/monsters/Deathstrike.gif",
     "damageTypes": [
       {
@@ -10920,9 +15750,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Deep Terror",
-    "hp": 100000,
-    "image_url": "images/monsters/Deep_Terror.gif",
+    "name": "Deathstrike",
+    "hp": 250000,
+    "image_url": "images/monsters/Deathstrike.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.75
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.6
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Decaying Totem",
+    "hp": 0,
+    "image_url": "images/monsters/Decaying_Totem.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10934,7 +15799,77 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Deep Terror",
+    "hp": 100000,
+    "image_url": "images/monsters/Deep_Terror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 1.01
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Deep Terror",
+    "hp": 100000,
+    "image_url": "images/monsters/Deep_Terror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 1.01
       },
       {
         "type": "fire",
@@ -11410,9 +16345,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Delany (Creature)",
-    "hp": 100000,
-    "image_url": "images/monsters/Delany__Creature_.gif",
+    "name": "Demodras",
+    "hp": 3750,
+    "image_url": "images/monsters/Demodras.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11428,7 +16363,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -11446,7 +16381,7 @@ var allMonstersData = [
   },
   {
     "name": "Demodras",
-    "hp": 4500,
+    "hp": 3750,
     "image_url": "images/monsters/Demodras.gif",
     "damageTypes": [
       {
@@ -11517,7 +16452,42 @@ var allMonstersData = [
   {
     "name": "Demon (Goblin)",
     "hp": 50,
-    "image_url": "images/monsters/Demon__Goblin_.gif",
+    "image_url": "images/monsters/Demon_(Goblin).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Demon Blood",
+    "hp": 3000,
+    "image_url": "images/monsters/Demon_Blood.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11655,9 +16625,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Denson Larika (Creature)",
+    "name": "Demon Slave",
+    "hp": 8000,
+    "image_url": "images/monsters/Demon_Slave.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Denson Larika (Criatura)",
     "hp": 50000,
-    "image_url": "images/monsters/Denson_Larika__Creature_.gif",
+    "image_url": "images/monsters/Denson_Larika_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11665,7 +16670,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -11673,7 +16678,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -11685,7 +16690,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Depolarized Crackler",
+    "hp": 0,
+    "image_url": "images/monsters/Depolarized_Crackler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.09
+      },
+      {
+        "type": "death",
+        "multiplier": 0.99
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.01
       }
     ]
   },
@@ -11760,8 +16800,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Desperate Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Desperate_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Desperate White Deer",
-    "hp": 55,
+    "hp": 255,
     "image_url": "images/monsters/Desperate_White_Deer.gif",
     "damageTypes": [
       {
@@ -11805,7 +16880,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
@@ -11825,7 +16900,112 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.75
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Despor",
+    "hp": 50000,
+    "image_url": "images/monsters/Despor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Destabilized Ferumbras",
+    "hp": 125000,
+    "image_url": "images/monsters/Destabilized_Ferumbras.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Destabilized Ferumbras",
+    "hp": 125000,
+    "image_url": "images/monsters/Destabilized_Ferumbras.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -11865,9 +17045,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Devourer",
+    "name": "Devourer (Criatura)",
     "hp": 1900,
-    "image_url": "images/monsters/Devourer.gif",
+    "image_url": "images/monsters/Devourer_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -11935,6 +17115,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Devovorga (Imune)",
+    "hp": 0,
+    "image_url": "images/monsters/Devovorga_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Dharalion",
     "hp": 390,
     "image_url": "images/monsters/Dharalion.gif",
@@ -11945,7 +17160,42 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dharalion",
+    "hp": 390,
+    "image_url": "images/monsters/Dharalion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -12110,6 +17360,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Diblis the Fair",
+    "hp": 1500,
+    "image_url": "images/monsters/Diblis_the_Fair.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.6
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Digestive Ooze",
+    "hp": 8000,
+    "image_url": "images/monsters/Digestive_Ooze.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Dipthrah",
     "hp": 4200,
     "image_url": "images/monsters/Dipthrah.gif",
@@ -12128,7 +17448,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Dipthrah",
+    "hp": 4200,
+    "image_url": "images/monsters/Dipthrah.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -12250,13 +17605,48 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Dirtbeard",
+    "hp": 630,
+    "image_url": "images/monsters/Dirtbeard.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
     "name": "Diseased Bill",
     "hp": 1000,
     "image_url": "images/monsters/Diseased_Bill.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -12264,7 +17654,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.25
+        "multiplier": 0.99
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.75
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.75
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.75
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Diseased Bill",
+    "hp": 1000,
+    "image_url": "images/monsters/Diseased_Bill.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.75
+      },
+      {
+        "type": "death",
+        "multiplier": 0.99
       },
       {
         "type": "fire",
@@ -12291,7 +17716,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -12299,11 +17724,46 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.65
+        "multiplier": 0.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Diseased Dan",
+    "hp": 800,
+    "image_url": "images/monsters/Diseased_Dan.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.15
       },
       {
         "type": "ice",
@@ -12326,7 +17786,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -12334,7 +17794,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.44999999999999996
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -12346,7 +17806,77 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Diseased Fred",
+    "hp": 1100,
+    "image_url": "images/monsters/Diseased_Fred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
         "multiplier": 0.85
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Disgusting Ooze",
+    "hp": 0,
+    "image_url": "images/monsters/Disgusting_Ooze.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
       },
       {
         "type": "earth",
@@ -12425,6 +17955,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Doctor Marrow",
+    "hp": 0,
+    "image_url": "images/monsters/Doctor_Marrow.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Doctor Perhaps",
     "hp": 475,
     "image_url": "images/monsters/Doctor_Perhaps.gif",
@@ -12456,6 +18021,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Doctor Perhaps",
+    "hp": 475,
+    "image_url": "images/monsters/Doctor_Perhaps.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.05
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Doctor Rudebert Evul",
+    "hp": 0,
+    "image_url": "images/monsters/Doctor_Rudebert_Evul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -12496,7 +18131,7 @@ var allMonstersData = [
   },
   {
     "name": "Domestikion",
-    "hp": 750,
+    "hp": 0,
     "image_url": "images/monsters/Domestikion.gif",
     "damageTypes": [
       {
@@ -12635,8 +18270,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Dorokoll The Mystic",
+    "hp": 0,
+    "image_url": "images/monsters/Dorokoll_The_Mystic.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Dracola",
-    "hp": 16200,
+    "hp": 16000,
+    "image_url": "images/monsters/Dracola.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dracola",
+    "hp": 16000,
     "image_url": "images/monsters/Dracola.gif",
     "damageTypes": [
       {
@@ -12735,13 +18440,153 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Dragon Bride",
+    "hp": 0,
+    "image_url": "images/monsters/Dragon_Bride.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dragon Bride (Frost)",
+    "hp": 0,
+    "image_url": "images/monsters/Dragon_Bride_(Frost).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dragon Bride (Lord)",
+    "hp": 0,
+    "image_url": "images/monsters/Dragon_Bride_(Lord).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dragon Egg",
+    "hp": 0,
+    "image_url": "images/monsters/Dragon_Egg.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Dragon Essence",
-    "hp": 30000,
+    "hp": 15000,
     "image_url": "images/monsters/Dragon_Essence.gif",
     "damageTypes": [
       {
@@ -12762,15 +18607,15 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 1.1
       }
     ]
   },
@@ -12810,41 +18655,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Dragon Hoard",
-    "hp": 50000,
-    "image_url": "images/monsters/Dragon_Hoard.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 0
-      },
-      {
-        "type": "holy",
-        "multiplier": 0
-      },
-      {
-        "type": "death",
-        "multiplier": 0
-      },
-      {
-        "type": "fire",
-        "multiplier": 0
-      },
-      {
-        "type": "ice",
-        "multiplier": 0
-      },
-      {
-        "type": "energy",
-        "multiplier": 0
-      },
-      {
-        "type": "earth",
-        "multiplier": 0
-      }
-    ]
-  },
-  {
     "name": "Dragon Lord",
     "hp": 1900,
     "image_url": "images/monsters/Dragon_Lord.gif",
@@ -12875,7 +18685,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -12911,6 +18721,216 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.25
+      }
+    ]
+  },
+  {
+    "name": "Dragon Pack",
+    "hp": 50000,
+    "image_url": "images/monsters/Dragon_Pack.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dragon Pack",
+    "hp": 50000,
+    "image_url": "images/monsters/Dragon_Pack.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dragon Servant",
+    "hp": 3200,
+    "image_url": "images/monsters/Dragon_Servant.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Dragon Warden",
+    "hp": 0,
+    "image_url": "images/monsters/Dragon_Warden.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dragon Wrath",
+    "hp": 7800,
+    "image_url": "images/monsters/Dragon_Wrath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Dragonking Zyrtarch",
+    "hp": 0,
+    "image_url": "images/monsters/Dragonking_Zyrtarch.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -13034,7 +19054,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "fire",
@@ -13151,11 +19171,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.99
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.99
       }
     ]
   },
@@ -13174,7 +19194,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "fire",
@@ -13186,7 +19206,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
@@ -13196,7 +19216,7 @@ var allMonstersData = [
   },
   {
     "name": "Dread Minion",
-    "hp": 2500,
+    "hp": 0,
     "image_url": "images/monsters/Dread_Minion.gif",
     "damageTypes": [
       {
@@ -13231,7 +19251,7 @@ var allMonstersData = [
   },
   {
     "name": "Dreadbeast",
-    "hp": 800,
+    "hp": 795,
     "image_url": "images/monsters/Dreadbeast.gif",
     "damageTypes": [
       {
@@ -13248,7 +19268,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "ice",
@@ -13266,12 +19286,12 @@ var allMonstersData = [
   },
   {
     "name": "Dreadful Disruptor",
-    "hp": 10000,
+    "hp": 27000,
     "image_url": "images/monsters/Dreadful_Disruptor.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -13279,23 +19299,93 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
-        "multiplier": 0.9
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dreadful Disruptor",
+    "hp": 27000,
+    "image_url": "images/monsters/Dreadful_Disruptor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Dreadful Harvester",
+    "hp": 12500,
+    "image_url": "images/monsters/Dreadful_Harvester.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -13306,7 +19396,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -13322,11 +19412,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Dreadmaw",
+    "hp": 3500,
+    "image_url": "images/monsters/Dreadmaw.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
       },
       {
         "type": "earth",
@@ -13454,42 +19579,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Druid Familiar",
-    "hp": 20000,
-    "image_url": "images/monsters/Druid_Familiar.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -13580,6 +19670,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Drume",
+    "hp": 35000,
+    "image_url": "images/monsters/Drume.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.65
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Dryad",
     "hp": 310,
     "image_url": "images/monsters/Dryad.gif",
@@ -13629,7 +19754,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -0.6000000000000001
+        "multiplier": -1
       },
       {
         "type": "fire",
@@ -13637,11 +19762,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.35
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Duke Krule",
+    "hp": 290000,
+    "image_url": "images/monsters/Duke_Krule.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.35
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -13680,7 +19840,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -13716,6 +19876,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Dwarf Dispenser",
+    "hp": 0,
+    "image_url": "images/monsters/Dwarf_Dispenser.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -13930,41 +20125,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Dworc Shadowstalker",
-    "hp": 8900,
-    "image_url": "images/monsters/Dworc_Shadowstalker.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 0.95
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 0.6
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.05
-      },
-      {
-        "type": "ice",
-        "multiplier": 1.05
-      },
-      {
-        "type": "energy",
-        "multiplier": 1.05
-      },
-      {
-        "type": "earth",
-        "multiplier": 0.95
-      }
-    ]
-  },
-  {
     "name": "Dworc Venomsniper",
     "hp": 80,
     "image_url": "images/monsters/Dworc_Venomsniper.gif",
@@ -14035,6 +20195,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Earl Osam",
+    "hp": 300000,
+    "image_url": "images/monsters/Earl_Osam.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": -2
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": -0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Earl Osam",
+    "hp": 300000,
+    "image_url": "images/monsters/Earl_Osam.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": -2
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": -0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
     "name": "Earth Elemental",
     "hp": 650,
     "image_url": "images/monsters/Earth_Elemental.gif",
@@ -14088,11 +20318,46 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.25
+        "multiplier": 1
       },
       {
         "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Earth Overlord",
+    "hp": 4000,
+    "image_url": "images/monsters/Earth_Overlord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
         "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -14140,8 +20405,183 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Eating Dog",
+    "hp": 0,
+    "image_url": "images/monsters/Eating_Dog.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Echo Of Chagorz",
+    "hp": 0,
+    "image_url": "images/monsters/Echo_Of_Chagorz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Echo Of Ichgahal",
+    "hp": 0,
+    "image_url": "images/monsters/Echo_Of_Ichgahal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Echo Of Murcion",
+    "hp": 0,
+    "image_url": "images/monsters/Echo_Of_Murcion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Echo Of Vemiath",
+    "hp": 0,
+    "image_url": "images/monsters/Echo_Of_Vemiath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Eclipse Knight",
-    "hp": 45000,
+    "hp": 0,
     "image_url": "images/monsters/Eclipse_Knight.gif",
     "damageTypes": [
       {
@@ -14158,7 +20598,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -14193,7 +20633,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "ice",
@@ -14210,9 +20650,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Egg (Creature)",
+    "name": "Egg (The Welter)",
     "hp": 800,
-    "image_url": "images/monsters/Egg__Creature_.gif",
+    "image_url": "images/monsters/Egg_(The_Welter).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14224,7 +20664,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -14236,7 +20676,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -14251,11 +20691,46 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Ekatrix",
+    "hp": 500,
+    "image_url": "images/monsters/Ekatrix.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -14281,7 +20756,7 @@ var allMonstersData = [
   },
   {
     "name": "Elder Bloodjaw",
-    "hp": 86000,
+    "hp": 0,
     "image_url": "images/monsters/Elder_Bloodjaw.gif",
     "damageTypes": [
       {
@@ -14438,7 +20913,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.7
+        "multiplier": 0.9
       },
       {
         "type": "ice",
@@ -14461,7 +20936,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.75
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -14630,6 +21105,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Elite Pirat",
+    "hp": 0,
+    "image_url": "images/monsters/Elite_Pirat.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Eliz The Unyielding",
+    "hp": 0,
+    "image_url": "images/monsters/Eliz_The_Unyielding.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Elvira Hammerthrust",
     "hp": 245,
     "image_url": "images/monsters/Elvira_Hammerthrust.gif",
@@ -14648,7 +21193,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -14660,7 +21205,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ember Beast",
+    "hp": 0,
+    "image_url": "images/monsters/Ember_Beast.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -14770,6 +21350,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Empty",
+    "hp": 0,
+    "image_url": "images/monsters/Empty.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Energetic Book",
     "hp": 18500,
     "image_url": "images/monsters/Energetic_Book.gif",
@@ -14840,9 +21455,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Energuardian of Tales",
+    "name": "Energized Raging Mage",
+    "hp": 3500,
+    "image_url": "images/monsters/Energized_Raging_Mage.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Energuardian Of Tales",
     "hp": 14000,
-    "image_url": "images/monsters/Energuardian_of_Tales.gif",
+    "image_url": "images/monsters/Energuardian_Of_Tales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -14916,7 +21566,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.99
       },
       {
         "type": "holy",
@@ -14928,7 +21578,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1.01
       },
       {
         "type": "ice",
@@ -14940,7 +21590,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Energy Overlord",
+    "hp": 4000,
+    "image_url": "images/monsters/Energy_Overlord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.01
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Energy Pulse",
+    "hp": 0,
+    "image_url": "images/monsters/Energy_Pulse.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -15126,37 +21846,107 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Enraged Morshabaal",
+    "hp": 1000000,
+    "image_url": "images/monsters/Enraged_Morshabaal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Enraged Pupated Rootthing",
+    "hp": 0,
+    "image_url": "images/monsters/Enraged_Pupated_Rootthing.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Enraged Sand Brood",
-    "hp": 2600,
+    "hp": 0,
     "image_url": "images/monsters/Enraged_Sand_Brood.gif",
     "damageTypes": [
       {
@@ -15204,7 +21994,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -15220,7 +22010,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -15309,7 +22099,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.85
+        "multiplier": 0.86
       },
       {
         "type": "fire",
@@ -15336,7 +22126,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "holy",
@@ -15344,11 +22134,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -15356,18 +22146,18 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.6
       }
     ]
   },
   {
-    "name": "Enusat the Onyx Wing",
+    "name": "Enusat The Onyx Wing",
     "hp": 25000,
-    "image_url": "images/monsters/Enusat_the_Onyx_Wing.gif",
+    "image_url": "images/monsters/Enusat_The_Onyx_Wing.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15383,7 +22173,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
+        "multiplier": 0.8
+      },
+      {
+        "type": "ice",
         "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Enusat The Onyx Wing",
+    "hp": 25000,
+    "image_url": "images/monsters/Enusat_The_Onyx_Wing.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.8
       },
       {
         "type": "ice",
@@ -15406,11 +22231,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.3
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 0.7
       },
       {
         "type": "death",
@@ -15418,19 +22243,54 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 0.7
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 0.7
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 0.7
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Eradicator",
+    "hp": 290000,
+    "image_url": "images/monsters/Eradicator.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.7
       }
     ]
   },
@@ -15438,6 +22298,41 @@ var allMonstersData = [
     "name": "Eruption of Destruction",
     "hp": 8500,
     "image_url": "images/monsters/Eruption_of_Destruction.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Eshtaba The Conjurer",
+    "hp": 0,
+    "image_url": "images/monsters/Eshtaba_The_Conjurer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15505,6 +22400,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Esmeralda",
+    "hp": 800,
+    "image_url": "images/monsters/Esmeralda.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Essence of Darkness",
     "hp": 1000,
     "image_url": "images/monsters/Essence_of_Darkness.gif",
@@ -15515,7 +22445,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "death",
@@ -15523,7 +22453,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
       },
       {
         "type": "ice",
@@ -15540,9 +22470,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Essence of Malice",
+    "name": "Essence Of Malice",
     "hp": 250000,
-    "image_url": "images/monsters/Essence_of_Malice.gif",
+    "image_url": "images/monsters/Essence_Of_Malice.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15550,7 +22480,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.5
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -15558,11 +22488,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 0.8
       },
       {
         "type": "energy",
@@ -15570,7 +22500,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Essence Of Malice",
+    "hp": 250000,
+    "image_url": "images/monsters/Essence_Of_Malice.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
         "multiplier": 1.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.3
       }
     ]
   },
@@ -15593,7 +22558,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "ice",
@@ -15611,7 +22576,42 @@ var allMonstersData = [
   },
   {
     "name": "Ethershreck",
-    "hp": 9500,
+    "hp": 12500,
+    "image_url": "images/monsters/Ethershreck.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ethershreck",
+    "hp": 12500,
     "image_url": "images/monsters/Ethershreck.gif",
     "damageTypes": [
       {
@@ -15671,7 +22671,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Evil Mastermind",
+    "hp": 1295,
+    "image_url": "images/monsters/Evil_Mastermind.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.1
       },
       {
         "type": "earth",
@@ -15769,6 +22804,76 @@ var allMonstersData = [
       {
         "type": "fire",
         "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Evil Tentacle",
+    "hp": 0,
+    "image_url": "images/monsters/Evil_Tentacle.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Excess Heat",
+    "hp": 1000,
+    "image_url": "images/monsters/Excess_Heat.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -15891,7 +22996,7 @@ var allMonstersData = [
   },
   {
     "name": "Eye of the Seven",
-    "hp": 120,
+    "hp": 0,
     "image_url": "images/monsters/Eye_of_the_Seven.gif",
     "damageTypes": [
       {
@@ -15961,12 +23066,12 @@ var allMonstersData = [
   },
   {
     "name": "Faceless Bane",
-    "hp": 17000,
+    "hp": 35000,
     "image_url": "images/monsters/Faceless_Bane.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 0.5
       },
       {
         "type": "holy",
@@ -15983,6 +23088,76 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Faceless Bane",
+    "hp": 35000,
+    "image_url": "images/monsters/Faceless_Bane.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Fahim the Wise",
+    "hp": 2000,
+    "image_url": "images/monsters/Fahim_the_Wise.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.99
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.15
       },
       {
         "type": "energy",
@@ -16101,7 +23276,7 @@ var allMonstersData = [
   },
   {
     "name": "Fallen Challenger",
-    "hp": 9000,
+    "hp": 0,
     "image_url": "images/monsters/Fallen_Challenger.gif",
     "damageTypes": [
       {
@@ -16114,23 +23289,23 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
         "multiplier": 0
       },
       {
-        "type": "energy",
+        "type": "ice",
         "multiplier": 1
       },
       {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -16153,7 +23328,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.4
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -16171,7 +23346,7 @@ var allMonstersData = [
   },
   {
     "name": "Fat Porker",
-    "hp": 20000,
+    "hp": 0,
     "image_url": "images/monsters/Fat_Porker.gif",
     "damageTypes": [
       {
@@ -16223,7 +23398,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -16270,7 +23445,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       }
     ]
   },
@@ -16278,6 +23453,76 @@ var allMonstersData = [
     "name": "Fazzrah",
     "hp": 2955,
     "image_url": "images/monsters/Fazzrah.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.01
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Fazzrah",
+    "hp": 2955,
+    "image_url": "images/monsters/Fazzrah.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.01
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Fear",
+    "hp": 9000,
+    "image_url": "images/monsters/Fear.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16425,7 +23670,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "death",
@@ -16437,7 +23682,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "energy",
@@ -16450,9 +23695,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Feroxa (Killable Werewolf)",
-    "hp": 150000,
-    "image_url": "images/monsters/Feroxa__Killable_Werewolf_.gif",
+    "name": "Fernfang",
+    "hp": 400,
+    "image_url": "images/monsters/Fernfang.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16460,7 +23705,287 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.08
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Gloom Wolf)",
+    "hp": 25000,
+    "image_url": "images/monsters/Feroxa_(Gloom_Wolf).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Gloom Wolf)",
+    "hp": 25000,
+    "image_url": "images/monsters/Feroxa_(Gloom_Wolf).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Humana)",
+    "hp": 25000,
+    "image_url": "images/monsters/Feroxa_(Humana).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Humana)",
+    "hp": 25000,
+    "image_url": "images/monsters/Feroxa_(Humana).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Imune)",
+    "hp": 40000,
+    "image_url": "images/monsters/Feroxa_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Imune)",
+    "hp": 40000,
+    "image_url": "images/monsters/Feroxa_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Mortal)",
+    "hp": 150000,
+    "image_url": "images/monsters/Feroxa_(Mortal).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.8
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Feroxa (Mortal)",
+    "hp": 150000,
+    "image_url": "images/monsters/Feroxa_(Mortal).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -16491,31 +24016,136 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ferumbras",
+    "hp": 90000,
+    "image_url": "images/monsters/Ferumbras.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ferumbras Essence",
+    "hp": 0,
+    "image_url": "images/monsters/Ferumbras_Essence.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ferumbras Essence",
+    "hp": 0,
+    "image_url": "images/monsters/Ferumbras_Essence.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -16530,27 +24160,62 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.35
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.35
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.35
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.35
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.35
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.35
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ferumbras Mortal Shell",
+    "hp": 300000,
+    "image_url": "images/monsters/Ferumbras_Mortal_Shell.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -16590,8 +24255,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Festival Cake (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Festival_Cake_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Fetter",
-    "hp": 5500,
+    "hp": 5800,
     "image_url": "images/monsters/Fetter.gif",
     "damageTypes": [
       {
@@ -16620,7 +24320,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -16674,7 +24374,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "fire",
@@ -16696,7 +24396,7 @@ var allMonstersData = [
   },
   {
     "name": "Fiery Blood",
-    "hp": 25000,
+    "hp": 0,
     "image_url": "images/monsters/Fiery_Blood.gif",
     "damageTypes": [
       {
@@ -16717,7 +24417,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.25
       },
       {
         "type": "energy",
@@ -16730,9 +24430,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Fiery Heart (Creature)",
-    "hp": 7500,
-    "image_url": "images/monsters/Fiery_Heart__Creature_.gif",
+    "name": "Fiery Heart (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Fiery_Heart_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16748,7 +24448,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -16900,7 +24600,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Fire Overlord",
+    "hp": 4000,
+    "image_url": "images/monsters/Fire_Overlord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.25
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Fireling",
+    "hp": 0,
+    "image_url": "images/monsters/Fireling.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -16940,9 +24710,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Fish (Creature)",
+    "name": "Fish (Criatura)",
     "hp": 25,
-    "image_url": "images/monsters/Fish__Creature_.gif",
+    "image_url": "images/monsters/Fish_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -16967,6 +24737,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Flame of Burning Hatred",
+    "hp": 0,
+    "image_url": "images/monsters/Flame_of_Burning_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -17011,7 +24816,7 @@ var allMonstersData = [
   },
   {
     "name": "Flameborn",
-    "hp": 3500,
+    "hp": 4000,
     "image_url": "images/monsters/Flameborn.gif",
     "damageTypes": [
       {
@@ -17040,7 +24845,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Flameborn",
+    "hp": 4000,
+    "image_url": "images/monsters/Flameborn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.6
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
       }
     ]
   },
@@ -17063,11 +24903,46 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 1
       },
       {
         "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Flamecaller Zazrak",
+    "hp": 2690,
+    "image_url": "images/monsters/Flamecaller_Zazrak.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
       },
       {
         "type": "energy",
@@ -17081,7 +24956,7 @@ var allMonstersData = [
   },
   {
     "name": "Flamethrower",
-    "hp": 100,
+    "hp": 0,
     "image_url": "images/monsters/Flamethrower.gif",
     "damageTypes": [
       {
@@ -17185,6 +25060,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Fleabringer",
+    "hp": 265,
+    "image_url": "images/monsters/Fleabringer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Fleeting Thought",
+    "hp": 5500,
+    "image_url": "images/monsters/Fleeting_Thought.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Fleshcrawler",
+    "hp": 1450,
+    "image_url": "images/monsters/Fleshcrawler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Fleshcrawler",
     "hp": 1450,
     "image_url": "images/monsters/Fleshcrawler.gif",
@@ -17243,6 +25223,76 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Fleshslicer",
+    "hp": 5700,
+    "image_url": "images/monsters/Fleshslicer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Flickering Spirit Elemental",
+    "hp": 600,
+    "image_url": "images/monsters/Flickering_Spirit_Elemental.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
       },
       {
         "type": "energy",
@@ -17325,6 +25375,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Floor Blob",
+    "hp": 0,
+    "image_url": "images/monsters/Floor_Blob.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Fluffy",
+    "hp": 4500,
+    "image_url": "images/monsters/Fluffy.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Flying Book",
     "hp": 500,
     "image_url": "images/monsters/Flying_Book.gif",
@@ -17335,7 +25455,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "death",
@@ -17378,7 +25498,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -17395,13 +25515,153 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Font Of Refreshment",
+    "hp": 0,
+    "image_url": "images/monsters/Font_Of_Refreshment.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Food Wagon",
+    "hp": 0,
+    "image_url": "images/monsters/Food_Wagon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Football (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Football_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Force Field",
+    "hp": 0,
+    "image_url": "images/monsters/Force_Field.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Foreman Kneebiter",
     "hp": 570,
     "image_url": "images/monsters/Foreman_Kneebiter.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -17409,11 +25669,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -17421,11 +25681,81 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Foreman Kneebiter",
+    "hp": 570,
+    "image_url": "images/monsters/Foreman_Kneebiter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Foreshock",
+    "hp": 105000,
+    "image_url": "images/monsters/Foreshock.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.2
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -17535,6 +25865,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Foxmouse",
+    "hp": 0,
+    "image_url": "images/monsters/Foxmouse.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Frazzlemaw",
     "hp": 4100,
     "image_url": "images/monsters/Frazzlemaw.gif",
@@ -17600,42 +25965,112 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       }
     ]
   },
   {
-    "name": "Frenzied Plant Thing",
-    "hp": 100000,
-    "image_url": "images/monsters/Frenzied_Plant_Thing.gif",
+    "name": "Freed Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Freed_Soul.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.55
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Freegoiz",
+    "hp": 0,
+    "image_url": "images/monsters/Freegoiz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Freegoiz",
+    "hp": 0,
+    "image_url": "images/monsters/Freegoiz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -17646,31 +26081,31 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -17860,11 +26295,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -17872,11 +26307,11 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.2
       },
       {
         "type": "earth",
@@ -17895,7 +26330,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "death",
@@ -17903,15 +26338,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.2
       },
       {
         "type": "earth",
@@ -17985,7 +26420,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Frozen Minion",
+    "hp": 3725,
+    "image_url": "images/monsters/Frozen_Minion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Frozen Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Frozen_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -18021,6 +26526,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.95
+      }
+    ]
+  },
+  {
+    "name": "Fryclops",
+    "hp": 0,
+    "image_url": "images/monsters/Fryclops.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Fugue",
+    "hp": 32000,
+    "image_url": "images/monsters/Fugue.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -18061,7 +26636,7 @@ var allMonstersData = [
   },
   {
     "name": "Fungosaurus",
-    "hp": 30000,
+    "hp": 0,
     "image_url": "images/monsters/Fungosaurus.gif",
     "damageTypes": [
       {
@@ -18070,7 +26645,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -18078,7 +26653,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -18086,7 +26661,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -18136,31 +26711,101 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Furious Morshabaal",
+    "hp": 1000000,
+    "image_url": "images/monsters/Furious_Morshabaal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Furious Orc Berserker",
+    "hp": 0,
+    "image_url": "images/monsters/Furious_Orc_Berserker.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -18183,11 +26828,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.2
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -18195,7 +26840,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 1
       }
     ]
   },
@@ -18292,7 +26937,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "energy",
@@ -18311,7 +26956,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -18319,7 +26964,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.6
+      },
+      {
+        "type": "energy",
         "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Furyosa",
+    "hp": 25000,
+    "image_url": "images/monsters/Furyosa.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
       },
       {
         "type": "fire",
@@ -18341,12 +27021,12 @@ var allMonstersData = [
   },
   {
     "name": "Gaffir",
-    "hp": 48500,
+    "hp": 48000,
     "image_url": "images/monsters/Gaffir.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 0.6
       },
       {
         "type": "holy",
@@ -18367,6 +27047,76 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gaffir",
+    "hp": 48000,
+    "image_url": "images/monsters/Gaffir.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.6
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gamemaster (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Gamemaster_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -18445,9 +27195,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Gaz'haragoth",
+    "name": "Gaz'Haragoth",
     "hp": 350000,
-    "image_url": "images/monsters/Gaz'haragoth.gif",
+    "image_url": "images/monsters/Gaz'Haragoth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Gaz'Haragoth",
+    "hp": 350000,
+    "image_url": "images/monsters/Gaz'Haragoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18521,7 +27306,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "holy",
@@ -18533,7 +27318,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "ice",
@@ -18564,11 +27349,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1.3
       },
       {
         "type": "fire",
-        "multiplier": 1.2
+        "multiplier": 1.3
       },
       {
         "type": "ice",
@@ -18603,7 +27388,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -18612,6 +27397,76 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "General Murius",
+    "hp": 550,
+    "image_url": "images/monsters/General_Murius.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Generator",
+    "hp": 6500,
+    "image_url": "images/monsters/Generator.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -18656,12 +27511,12 @@ var allMonstersData = [
   },
   {
     "name": "Ghazbaran",
-    "hp": 77000,
+    "hp": 60000,
     "image_url": "images/monsters/Ghazbaran.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.7
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -18669,7 +27524,77 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.99
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ghazbaran",
+    "hp": 60000,
+    "image_url": "images/monsters/Ghazbaran.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ghazbaran",
+    "hp": 60000,
+    "image_url": "images/monsters/Ghazbaran.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
       },
       {
         "type": "fire",
@@ -18725,13 +27650,48 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Ghost of a Planegazer",
-    "hp": 1450,
-    "image_url": "images/monsters/Ghost_of_a_Planegazer.gif",
+    "name": "Ghost Duster (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Ghost_Duster_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ghost Of A Planegazer",
+    "hp": 1450,
+    "image_url": "images/monsters/Ghost_Of_A_Planegazer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -18739,11 +27699,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -18756,6 +27716,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ghost Rat",
+    "hp": 0,
+    "image_url": "images/monsters/Ghost_Rat.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -18796,7 +27791,7 @@ var allMonstersData = [
   },
   {
     "name": "Ghostly Apparition",
-    "hp": 150,
+    "hp": 0,
     "image_url": "images/monsters/Ghostly_Apparition.gif",
     "damageTypes": [
       {
@@ -18900,6 +27895,146 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ghulosh",
+    "hp": 0,
+    "image_url": "images/monsters/Ghulosh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ghulosh",
+    "hp": 0,
+    "image_url": "images/monsters/Ghulosh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ghulosh' Deathgaze",
+    "hp": 0,
+    "image_url": "images/monsters/Ghulosh'_Deathgaze.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Giant Beaver",
+    "hp": 0,
+    "image_url": "images/monsters/Giant_Beaver.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Giant Spider",
     "hp": 1300,
     "image_url": "images/monsters/Giant_Spider.gif",
@@ -18937,7 +28072,7 @@ var allMonstersData = [
   {
     "name": "Giant Spider (Nostalgia)",
     "hp": 1300,
-    "image_url": "images/monsters/Giant_Spider__Nostalgia_.gif",
+    "image_url": "images/monsters/Giant_Spider_(Nostalgia).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18972,217 +28107,7 @@ var allMonstersData = [
   {
     "name": "Giant Spider (Wyda)",
     "hp": 20,
-    "image_url": "images/monsters/Giant_Spider__Wyda_.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Spider 7.4",
-    "hp": 3250,
-    "image_url": "images/monsters/Giant_Spider_7.4.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Spider Brood 7.4",
-    "hp": 1050,
-    "image_url": "images/monsters/Giant_Spider_Brood_7.4.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Spider Brood 7.6",
-    "hp": 1100,
-    "image_url": "images/monsters/Giant_Spider_Brood_7.6.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Spider Brood 8.1",
-    "hp": 1700,
-    "image_url": "images/monsters/Giant_Spider_Brood_8.1.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Spider Drone 7.4",
-    "hp": 1150,
-    "image_url": "images/monsters/Giant_Spider_Drone_7.4.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Giant Spider Hatchling 7.4",
-    "hp": 950,
-    "image_url": "images/monsters/Giant_Spider_Hatchling_7.4.gif",
+    "image_url": "images/monsters/Giant_Spider_(Wyda).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19342,22 +28267,22 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
   {
-    "name": "Gloom Maw",
-    "hp": 8700,
-    "image_url": "images/monsters/Gloom_Maw.gif",
+    "name": "Glitterscale",
+    "hp": 1111,
+    "image_url": "images/monsters/Glitterscale.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19365,15 +28290,15 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -19381,11 +28306,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 0.2
       }
     ]
   },
@@ -19426,7 +28351,7 @@ var allMonstersData = [
   },
   {
     "name": "Gloombringer",
-    "hp": 50000,
+    "hp": 0,
     "image_url": "images/monsters/Gloombringer.gif",
     "damageTypes": [
       {
@@ -19443,7 +28368,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -19540,7 +28465,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -19548,19 +28473,19 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 1
       }
     ]
   },
@@ -19601,36 +28526,36 @@ var allMonstersData = [
   },
   {
     "name": "Glooth Bomb",
-    "hp": 250000,
+    "hp": 0,
     "image_url": "images/monsters/Glooth_Bomb.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "holy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "death",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "earth",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       }
     ]
   },
@@ -19680,15 +28605,15 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -19696,11 +28621,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Glooth Fairy",
+    "hp": 59000,
+    "image_url": "images/monsters/Glooth_Fairy.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -19775,9 +28735,184 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Glooth Masher",
+    "hp": 25000,
+    "image_url": "images/monsters/Glooth_Masher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Glooth Powered Minotaur",
+    "hp": 0,
+    "image_url": "images/monsters/Glooth_Powered_Minotaur.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.2
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0.2
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.2
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Glooth Slasher",
+    "hp": 25000,
+    "image_url": "images/monsters/Glooth_Slasher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Glooth Trasher",
+    "hp": 25000,
+    "image_url": "images/monsters/Glooth_Trasher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Glooth-Generator",
     "hp": 12000,
     "image_url": "images/monsters/Glooth-Generator.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Glowing Lava",
+    "hp": 0,
+    "image_url": "images/monsters/Glowing_Lava.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -19845,13 +28980,48 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Gnome Pack Crawler",
+    "hp": 5,
+    "image_url": "images/monsters/Gnome_Pack_Crawler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Gnomevil",
     "hp": 250000,
     "image_url": "images/monsters/Gnomevil.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0.85
       },
       {
         "type": "holy",
@@ -19859,7 +29029,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.73
+        "multiplier": 0.7
       },
       {
         "type": "fire",
@@ -19880,17 +29050,87 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Gnomevil",
+    "hp": 250000,
+    "image_url": "images/monsters/Gnomevil.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.85
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "death",
+        "multiplier": 0.7
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gnomish Explorer",
+    "hp": 0,
+    "image_url": "images/monsters/Gnomish_Explorer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Gnorre Chyllson",
     "hp": 7150,
     "image_url": "images/monsters/Gnorre_Chyllson.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "death",
@@ -19906,7 +29146,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1.05
       },
       {
         "type": "earth",
@@ -20120,7 +29360,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -20155,7 +29395,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -20231,16 +29471,16 @@ var allMonstersData = [
   },
   {
     "name": "Golgordan",
-    "hp": 40000,
+    "hp": 23750,
     "image_url": "images/monsters/Golgordan.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "death",
@@ -20252,15 +29492,85 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Golgordan",
+    "hp": 23750,
+    "image_url": "images/monsters/Golgordan.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Golgordan",
+    "hp": 23750,
+    "image_url": "images/monsters/Golgordan.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -20353,15 +29663,50 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gorga",
+    "hp": 15000,
+    "image_url": "images/monsters/Gorga.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
       },
       {
         "type": "earth",
@@ -20406,7 +29751,7 @@ var allMonstersData = [
   },
   {
     "name": "Gorgo",
-    "hp": 4500,
+    "hp": 6900,
     "image_url": "images/monsters/Gorgo.gif",
     "damageTypes": [
       {
@@ -20436,6 +29781,601 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gorgo",
+    "hp": 6900,
+    "image_url": "images/monsters/Gorgo.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gorzindel",
+    "hp": 350000,
+    "image_url": "images/monsters/Gorzindel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gorzindel",
+    "hp": 350000,
+    "image_url": "images/monsters/Gorzindel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Cruelty",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Cruelty.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Cruelty",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Cruelty.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Greed",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Greed.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Greed",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Greed.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Greed (feeding)",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Greed_(feeding).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Greed (feeding)",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Greed_(feeding).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Hatred",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Hatred",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Malice",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Malice.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Malice",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Malice.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Megalomania",
+    "hp": 0,
+    "image_url": "images/monsters/Goshnar's_Megalomania.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Megalomania",
+    "hp": 0,
+    "image_url": "images/monsters/Goshnar's_Megalomania.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Spite",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Spite.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Goshnar's Spite",
+    "hp": 550000,
+    "image_url": "images/monsters/Goshnar's_Spite.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -20481,7 +30421,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -20489,7 +30429,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
+        "multiplier": 1.15
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.95
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.15
+      }
+    ]
+  },
+  {
+    "name": "Grand Canon Dominus",
+    "hp": 15000,
+    "image_url": "images/monsters/Grand_Canon_Dominus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
         "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
       },
       {
         "type": "fire",
@@ -20501,7 +30476,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "earth",
@@ -20516,7 +30491,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.4
+        "multiplier": 0.5
       },
       {
         "type": "holy",
@@ -20528,11 +30503,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -20540,7 +30515,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
       }
     ]
   },
@@ -20551,7 +30526,77 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.45
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.85
+      }
+    ]
+  },
+  {
+    "name": "Grand Chaplain Gaunder",
+    "hp": 18000,
+    "image_url": "images/monsters/Grand_Chaplain_Gaunder.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.45
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.85
+      }
+    ]
+  },
+  {
+    "name": "Grand Commander Soeren",
+    "hp": 17000,
+    "image_url": "images/monsters/Grand_Commander_Soeren.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
       },
       {
         "type": "holy",
@@ -20590,7 +30635,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.25
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -20625,7 +30670,42 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.2
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Grand Master Oberon",
+    "hp": 30000,
+    "image_url": "images/monsters/Grand_Master_Oberon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -20676,11 +30756,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Grand Mother Foulscale",
+    "hp": 1850,
+    "image_url": "images/monsters/Grand_Mother_Foulscale.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -20703,7 +30818,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -20711,11 +30826,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Grandfather Tridian",
+    "hp": 1800,
+    "image_url": "images/monsters/Grandfather_Tridian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.65
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -20750,7 +30900,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       }
     ]
   },
@@ -20826,7 +30976,7 @@ var allMonstersData = [
   },
   {
     "name": "Gravelord Oshuran",
-    "hp": 3100,
+    "hp": 2000,
     "image_url": "images/monsters/Gravelord_Oshuran.gif",
     "damageTypes": [
       {
@@ -20835,7 +30985,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1.01
       },
       {
         "type": "death",
@@ -20843,15 +30993,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.65
+        "multiplier": 0.5
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -20860,9 +31010,79 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Great Timedisplaced Anomaly",
-    "hp": 250000,
-    "image_url": "images/monsters/Great_Timedisplaced_Anomaly.gif",
+    "name": "Gravelord Oshuran",
+    "hp": 2000,
+    "image_url": "images/monsters/Gravelord_Oshuran.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Great Timedisplaced Anomaly (Roshamuul)",
+    "hp": 300000,
+    "image_url": "images/monsters/Great_Timedisplaced_Anomaly_(Roshamuul).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Great Timedisplaced Anomaly (Roshamuul)",
+    "hp": 300000,
+    "image_url": "images/monsters/Great_Timedisplaced_Anomaly_(Roshamuul).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -20944,11 +31164,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -21035,9 +31255,79 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Greedok",
-    "hp": 50000,
-    "image_url": "images/monsters/Greedok.gif",
+    "name": "Greater Splinter of Madness",
+    "hp": 0,
+    "image_url": "images/monsters/Greater_Splinter_of_Madness.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Greed",
+    "hp": 0,
+    "image_url": "images/monsters/Greed.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Greed Worm",
+    "hp": 0,
+    "image_url": "images/monsters/Greed_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21049,7 +31339,77 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -0.5
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Greedbeast",
+    "hp": 0,
+    "image_url": "images/monsters/Greedbeast.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Greedok",
+    "hp": 50000,
+    "image_url": "images/monsters/Greedok.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": -1
       },
       {
         "type": "fire",
@@ -21065,7 +31425,112 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Greedok",
+    "hp": 50000,
+    "image_url": "images/monsters/Greedok.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": -1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Green Collector Unit",
+    "hp": 0,
+    "image_url": "images/monsters/Green_Collector_Unit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Container",
+    "hp": 0,
+    "image_url": "images/monsters/Green_Container.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -21088,7 +31553,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -21140,6 +31605,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Green Mutagen",
+    "hp": 0,
+    "image_url": "images/monsters/Green_Mutagen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Soul Stealer",
+    "hp": 0,
+    "image_url": "images/monsters/Green_Soul_Stealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Green Tube",
+    "hp": 0,
+    "image_url": "images/monsters/Green_Tube.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Grim Reaper",
     "hp": 3900,
     "image_url": "images/monsters/Grim_Reaper.gif",
@@ -21154,7 +31724,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "fire",
@@ -21240,14 +31810,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Grims Little Hamster",
-    "hp": 5500,
-    "image_url": "images/monsters/Grims_Little_Hamster.gif",
+    "name": "Grimrat",
+    "hp": 0,
+    "image_url": "images/monsters/Grimrat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21275,7 +31845,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.9
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Groam",
+    "hp": 400,
+    "image_url": "images/monsters/Groam.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.1
       }
     ]
   },
@@ -21316,7 +31921,7 @@ var allMonstersData = [
   },
   {
     "name": "Grorlam",
-    "hp": 3000,
+    "hp": 2700,
     "image_url": "images/monsters/Grorlam.gif",
     "damageTypes": [
       {
@@ -21350,8 +31955,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Grorlam",
+    "hp": 2700,
+    "image_url": "images/monsters/Grorlam.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "death",
+        "multiplier": 1.01
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Groupie of Skyrr",
+    "hp": 0,
+    "image_url": "images/monsters/Groupie_of_Skyrr.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Grove Guardian",
-    "hp": 20000,
+    "hp": 0,
     "image_url": "images/monsters/Grove_Guardian.gif",
     "damageTypes": [
       {
@@ -21380,7 +32055,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -21461,11 +32136,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.2
+        "multiplier": 1.1
       },
       {
         "type": "death",
@@ -21485,13 +32160,48 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Guard Captain Quaid",
+    "hp": 55000,
+    "image_url": "images/monsters/Guard_Captain_Quaid.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Guardian Golem",
-    "hp": 2500,
+    "hp": 0,
     "image_url": "images/monsters/Guardian_Golem.gif",
     "damageTypes": [
       {
@@ -21525,9 +32235,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Guardian of Tales",
+    "name": "Guardian Of Tales",
     "hp": 15000,
-    "image_url": "images/monsters/Guardian_of_Tales.gif",
+    "image_url": "images/monsters/Guardian_Of_Tales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21548,6 +32258,76 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1.12
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Guilt",
+    "hp": 0,
+    "image_url": "images/monsters/Guilt.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Gust Of Wind",
+    "hp": 0,
+    "image_url": "images/monsters/Gust_Of_Wind.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -21595,9 +32375,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Hairman the Huge",
+    "name": "Hairman The Huge",
     "hp": 600,
-    "image_url": "images/monsters/Hairman_the_Huge.gif",
+    "image_url": "images/monsters/Hairman_The_Huge.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21613,7 +32393,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 0.99
       },
       {
         "type": "ice",
@@ -21621,11 +32401,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.99
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Hairman The Huge",
+    "hp": 600,
+    "image_url": "images/monsters/Hairman_The_Huge.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.01
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.01
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.99
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.99
       }
     ]
   },
@@ -21666,7 +32481,7 @@ var allMonstersData = [
   },
   {
     "name": "Harbinger of Darkness",
-    "hp": 120000,
+    "hp": 0,
     "image_url": "images/monsters/Harbinger_of_Darkness.gif",
     "damageTypes": [
       {
@@ -21700,8 +32515,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Hard Times",
+    "hp": 0,
+    "image_url": "images/monsters/Hard_Times.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Hardened Usurper Archer",
-    "hp": 7300,
+    "hp": 0,
     "image_url": "images/monsters/Hardened_Usurper_Archer.gif",
     "damageTypes": [
       {
@@ -21718,7 +32568,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -21736,7 +32586,7 @@ var allMonstersData = [
   },
   {
     "name": "Hardened Usurper Knight",
-    "hp": 8200,
+    "hp": 0,
     "image_url": "images/monsters/Hardened_Usurper_Knight.gif",
     "damageTypes": [
       {
@@ -21753,7 +32603,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -21771,7 +32621,7 @@ var allMonstersData = [
   },
   {
     "name": "Hardened Usurper Warlock",
-    "hp": 7500,
+    "hp": 0,
     "image_url": "images/monsters/Hardened_Usurper_Warlock.gif",
     "damageTypes": [
       {
@@ -21788,7 +32638,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -21840,13 +32690,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Hatebreeder",
-    "hp": 18000,
-    "image_url": "images/monsters/Hatebreeder.gif",
+    "name": "Harsky (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Harsky_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -21854,11 +32704,46 @@ var allMonstersData = [
       },
       {
         "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Hatebreeder",
+    "hp": 18000,
+    "image_url": "images/monsters/Hatebreeder.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "death",
         "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 0.7
+        "multiplier": 0.9
       },
       {
         "type": "ice",
@@ -21866,7 +32751,77 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Hatebreeder",
+    "hp": 18000,
+    "image_url": "images/monsters/Hatebreeder.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
         "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Hateful Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Hateful_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -22002,7 +32957,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -22015,8 +32970,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Hazard Golem",
+    "hp": 0,
+    "image_url": "images/monsters/Hazard_Golem.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Hazardous Phantom",
-    "hp": 70000,
+    "hp": 0,
     "image_url": "images/monsters/Hazardous_Phantom.gif",
     "damageTypes": [
       {
@@ -22121,7 +33111,7 @@ var allMonstersData = [
   },
   {
     "name": "Hell Hole",
-    "hp": 120,
+    "hp": 0,
     "image_url": "images/monsters/Hell_Hole.gif",
     "damageTypes": [
       {
@@ -22208,7 +33198,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "ice",
@@ -22231,31 +33221,101 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
       },
       {
         "type": "holy",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.02
       },
       {
         "type": "death",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
       },
       {
         "type": "fire",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
       },
       {
         "type": "ice",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
       },
       {
         "type": "energy",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
       },
       {
         "type": "earth",
-        "multiplier": 0.020000000000000018
+        "multiplier": 0.02
+      }
+    ]
+  },
+  {
+    "name": "Hellgorak",
+    "hp": 25850,
+    "image_url": "images/monsters/Hellgorak.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.02
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.02
+      },
+      {
+        "type": "death",
+        "multiplier": 0.02
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.02
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.02
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.02
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.02
+      }
+    ]
+  },
+  {
+    "name": "Hellgorak",
+    "hp": 25850,
+    "image_url": "images/monsters/Hellgorak.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.02
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.02
+      },
+      {
+        "type": "death",
+        "multiplier": 0.02
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.02
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.02
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.02
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.02
       }
     ]
   },
@@ -22313,7 +33373,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -22360,7 +33420,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -22379,7 +33439,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Hemming",
+    "hp": 3000,
+    "image_url": "images/monsters/Hemming.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
       },
       {
         "type": "fire",
@@ -22422,11 +33517,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Heoni",
+    "hp": 900,
+    "image_url": "images/monsters/Heoni.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -22465,13 +33595,13 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       }
     ]
   },
   {
     "name": "Herd Weevil",
-    "hp": 3700,
+    "hp": 3800,
     "image_url": "images/monsters/Herd_Weevil.gif",
     "damageTypes": [
       {
@@ -22500,7 +33630,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -22610,6 +33740,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Hide",
+    "hp": 500,
+    "image_url": "images/monsters/Hide.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.6
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.15
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Hideous Fungus",
     "hp": 4600,
     "image_url": "images/monsters/Hideous_Fungus.gif",
@@ -22637,6 +33802,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "High Templar Cobrass",
+    "hp": 410,
+    "image_url": "images/monsters/High_Templar_Cobrass.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.99
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
       },
       {
         "type": "earth",
@@ -22721,11 +33921,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -22733,7 +33933,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -22741,7 +33941,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.2
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Hirintror",
+    "hp": 1500,
+    "image_url": "images/monsters/Hirintror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -22777,6 +34012,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Hive Pore",
+    "hp": 0,
+    "image_url": "images/monsters/Hive_Pore.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -22891,7 +34161,7 @@ var allMonstersData = [
   },
   {
     "name": "Hoodinion",
-    "hp": 800,
+    "hp": 0,
     "image_url": "images/monsters/Hoodinion.gif",
     "damageTypes": [
       {
@@ -22931,11 +34201,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.4
+        "multiplier": 1.2
       },
       {
         "type": "death",
@@ -22943,19 +34213,54 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Horadron",
+    "hp": 30000,
+    "image_url": "images/monsters/Horadron.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -22966,7 +34271,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "holy",
@@ -22978,11 +34283,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.7
+        "multiplier": 0.8
       },
       {
         "type": "energy",
@@ -22995,9 +34300,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Horse (Brown)",
-    "hp": 75,
-    "image_url": "images/monsters/Horse__Brown_.gif",
+    "name": "Horrible Dream",
+    "hp": 3800,
+    "image_url": "images/monsters/Horrible_Dream.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23030,9 +34335,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Horse (Grey)",
-    "hp": 75,
-    "image_url": "images/monsters/Horse__Grey_.gif",
+    "name": "Horror",
+    "hp": 0,
+    "image_url": "images/monsters/Horror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23065,9 +34370,79 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Horse (Taupe)",
+    "name": "Horse (Cinza)",
     "hp": 75,
-    "image_url": "images/monsters/Horse__Taupe_.gif",
+    "image_url": "images/monsters/Horse_(Cinza).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Horse (Marrom Escuro)",
+    "hp": 75,
+    "image_url": "images/monsters/Horse_(Marrom_Escuro).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Horse (Marrom)",
+    "hp": 75,
+    "image_url": "images/monsters/Horse_(Marrom).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23205,41 +34580,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Human (Creature)",
-    "hp": 150,
-    "image_url": "images/monsters/Human__Creature_.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
     "name": "Humongous Fungus",
     "hp": 3400,
     "image_url": "images/monsters/Humongous_Fungus.gif",
@@ -23289,7 +34629,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.65
       },
       {
         "type": "fire",
@@ -23306,6 +34646,111 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Hunger Worm",
+    "hp": 0,
+    "image_url": "images/monsters/Hunger_Worm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Hungry Brood",
+    "hp": 0,
+    "image_url": "images/monsters/Hungry_Brood.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Hungry Menace",
+    "hp": 0,
+    "image_url": "images/monsters/Hungry_Menace.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -23450,6 +34895,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ice Barricade",
+    "hp": 0,
+    "image_url": "images/monsters/Ice_Barricade.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Ice Dragon",
     "hp": 2500,
     "image_url": "images/monsters/Ice_Dragon.gif",
@@ -23555,6 +35035,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ice Overlord",
+    "hp": 4000,
+    "image_url": "images/monsters/Ice_Overlord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.25
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Ice Witch",
     "hp": 650,
     "image_url": "images/monsters/Ice_Witch.gif",
@@ -23621,6 +35136,111 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ichgahal",
+    "hp": 0,
+    "image_url": "images/monsters/Ichgahal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ichgahal",
+    "hp": 0,
+    "image_url": "images/monsters/Ichgahal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Icicle (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Icicle_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -23835,9 +35455,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Imp Warden",
-    "hp": 10500,
-    "image_url": "images/monsters/Imp_Warden.gif",
+    "name": "Imp Intruder",
+    "hp": 3000,
+    "image_url": "images/monsters/Imp_Intruder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -23845,7 +35465,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -23858,6 +35478,41 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Imp Warden",
+    "hp": 10500,
+    "image_url": "images/monsters/Imp_Warden.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.95
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.4
       },
       {
         "type": "energy",
@@ -23906,7 +35561,42 @@ var allMonstersData = [
   },
   {
     "name": "Incredibly Old Witch",
-    "hp": 620,
+    "hp": 0,
+    "image_url": "images/monsters/Incredibly_Old_Witch.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Incredibly Old Witch",
+    "hp": 0,
     "image_url": "images/monsters/Incredibly_Old_Witch.gif",
     "damageTypes": [
       {
@@ -23941,7 +35631,7 @@ var allMonstersData = [
   },
   {
     "name": "Infected Weeper",
-    "hp": 3000,
+    "hp": 6800,
     "image_url": "images/monsters/Infected_Weeper.gif",
     "damageTypes": [
       {
@@ -24063,7 +35753,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -24110,7 +35800,112 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Infernatil",
+    "hp": 160000,
+    "image_url": "images/monsters/Infernatil.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Infernatil",
+    "hp": 160000,
+    "image_url": "images/monsters/Infernatil.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Infernatil",
+    "hp": 160000,
+    "image_url": "images/monsters/Infernatil.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -24250,7 +36045,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Inky",
+    "hp": 750,
+    "image_url": "images/monsters/Inky.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Innocent Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Innocent_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -24273,7 +36138,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "ice",
@@ -24444,11 +36309,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -24460,7 +36325,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Instable Lavaling",
+    "hp": 0,
+    "image_url": "images/monsters/Instable_Lavaling.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -24491,7 +36391,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -24500,8 +36400,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Invader Bug",
+    "hp": 0,
+    "image_url": "images/monsters/Invader_Bug.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Invading Demon",
+    "hp": 8000,
+    "image_url": "images/monsters/Invading_Demon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.12
+      },
+      {
+        "type": "death",
+        "multiplier": 0.7
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.12
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
     "name": "Irahsae",
-    "hp": 35000,
+    "hp": 45000,
     "image_url": "images/monsters/Irahsae.gif",
     "damageTypes": [
       {
@@ -24514,7 +36484,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.2
+        "multiplier": 1.15
       },
       {
         "type": "fire",
@@ -24522,7 +36492,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -24541,7 +36511,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.25
       },
       {
         "type": "holy",
@@ -24561,7 +36531,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Irgix the Flimsy",
+    "hp": 24000,
+    "image_url": "images/monsters/Irgix_the_Flimsy.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.25
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
         "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
       },
       {
         "type": "earth",
@@ -24710,6 +36715,216 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Izcandar Champion of Summer",
+    "hp": 320000,
+    "image_url": "images/monsters/Izcandar_Champion_of_Summer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Izcandar Champion of Summer",
+    "hp": 320000,
+    "image_url": "images/monsters/Izcandar_Champion_of_Summer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Izcandar Champion of Winter",
+    "hp": 320000,
+    "image_url": "images/monsters/Izcandar_Champion_of_Winter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Izcandar Champion of Winter",
+    "hp": 320000,
+    "image_url": "images/monsters/Izcandar_Champion_of_Winter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Izcandar the Banished",
+    "hp": 0,
+    "image_url": "images/monsters/Izcandar_the_Banished.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Izcandar the Banished",
+    "hp": 0,
+    "image_url": "images/monsters/Izcandar_the_Banished.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Jagged Earth Elemental",
     "hp": 1500,
     "image_url": "images/monsters/Jagged_Earth_Elemental.gif",
@@ -24736,7 +36951,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "earth",
@@ -24755,11 +36970,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.01
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -24776,6 +36991,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Jailer",
+    "hp": 65,
+    "image_url": "images/monsters/Jailer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Jaul",
+    "hp": 90000,
+    "image_url": "images/monsters/Jaul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.85
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.99
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -25008,7 +37293,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -25016,7 +37301,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -25031,11 +37316,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -25051,11 +37336,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Katex Blood Tongue",
+    "hp": 6300,
+    "image_url": "images/monsters/Katex_Blood_Tongue.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -25130,6 +37450,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Kerberos",
+    "hp": 11000,
+    "image_url": "images/monsters/Kerberos.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.25
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Kesar (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Kesar_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Killer Caiman",
     "hp": 1500,
     "image_url": "images/monsters/Killer_Caiman.gif",
@@ -25200,6 +37590,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "King Chuck",
+    "hp": 0,
+    "image_url": "images/monsters/King_Chuck.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "King Tibianus (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/King_Tibianus_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "King Zelos",
     "hp": 480000,
     "image_url": "images/monsters/King_Zelos.gif",
@@ -25235,9 +37695,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Knight Familiar",
-    "hp": 10000,
-    "image_url": "images/monsters/Knight_Familiar.gif",
+    "name": "King Zelos",
+    "hp": 480000,
+    "image_url": "images/monsters/King_Zelos.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25249,7 +37709,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": -1
       },
       {
         "type": "fire",
@@ -25266,6 +37726,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Kitty",
+    "hp": 0,
+    "image_url": "images/monsters/Kitty.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -25332,6 +37827,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Knowledge Raider",
+    "hp": 0,
+    "image_url": "images/monsters/Knowledge_Raider.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -25411,7 +37941,7 @@ var allMonstersData = [
   },
   {
     "name": "Koshei the Deathless",
-    "hp": 3000,
+    "hp": 1200,
     "image_url": "images/monsters/Koshei_the_Deathless.gif",
     "damageTypes": [
       {
@@ -25420,7 +37950,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.15
+        "multiplier": 1.5
       },
       {
         "type": "death",
@@ -25436,7 +37966,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.99
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Koshei the Deathless",
+    "hp": 1200,
+    "image_url": "images/monsters/Koshei_the_Deathless.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.5
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.99
       },
       {
         "type": "earth",
@@ -25480,6 +38045,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Kraknaknork",
+    "hp": 80,
+    "image_url": "images/monsters/Kraknaknork.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Kraknaknork's Demon",
+    "hp": 0,
+    "image_url": "images/monsters/Kraknaknork's_Demon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Kreebosh the Exile",
     "hp": 705,
     "image_url": "images/monsters/Kreebosh_the_Exile.gif",
@@ -25506,7 +38141,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "earth",
@@ -25525,33 +38160,68 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
-      },
-      {
-        "type": "death",
         "multiplier": 1
       },
       {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Kroazur",
+    "hp": 3000,
+    "image_url": "images/monsters/Kroazur.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Kusuma",
-    "hp": 7650,
+    "hp": 4850,
     "image_url": "images/monsters/Kusuma.gif",
     "damageTypes": [
       {
@@ -25568,7 +38238,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1.2
       },
       {
         "type": "ice",
@@ -25576,17 +38246,52 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1.3
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Kusuma",
+    "hp": 4850,
+    "image_url": "images/monsters/Kusuma.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
       }
     ]
   },
   {
     "name": "Lab Assistant",
-    "hp": 4000,
+    "hp": 0,
     "image_url": "images/monsters/Lab_Assistant.gif",
     "damageTypes": [
       {
@@ -25603,7 +38308,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -25611,11 +38316,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
       }
     ]
   },
@@ -25661,15 +38366,15 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.65
       },
       {
         "type": "death",
-        "multiplier": 0.4
+        "multiplier": 0.95
       },
       {
         "type": "fire",
@@ -25677,15 +38382,50 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Lady Tenebris",
+    "hp": 250000,
+    "image_url": "images/monsters/Lady_Tenebris.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.65
+      },
+      {
+        "type": "death",
+        "multiplier": 0.95
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.95
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.3
       }
     ]
   },
@@ -25844,29 +38584,64 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.30000000000000004
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Last Planegazer",
+    "hp": 50000,
+    "image_url": "images/monsters/Last_Planegazer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Latrivan",
-    "hp": 25000,
+    "hp": 23750,
     "image_url": "images/monsters/Latrivan.gif",
     "damageTypes": [
       {
@@ -25883,19 +38658,124 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 0.95
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Latrivan",
+    "hp": 23750,
+    "image_url": "images/monsters/Latrivan.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
         "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Latrivan",
+    "hp": 23750,
+    "image_url": "images/monsters/Latrivan.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lava Creature",
+    "hp": 0,
+    "image_url": "images/monsters/Lava_Creature.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -25970,9 +38850,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Lava Puddle (Creature)",
-    "hp": 6000,
-    "image_url": "images/monsters/Lava_Puddle__Creature_.gif",
+    "name": "Lava Lurker Attendant",
+    "hp": 3000,
+    "image_url": "images/monsters/Lava_Lurker_Attendant.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -25988,7 +38868,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -25996,7 +38876,77 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lava Puddle",
+    "hp": 0,
+    "image_url": "images/monsters/Lava_Puddle.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lava Wall (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Lava_Wall_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -26028,6 +38978,76 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1.2
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lavahole (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Lavahole_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Lavaling",
+    "hp": 0,
+    "image_url": "images/monsters/Lavaling.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -26111,42 +39131,77 @@ var allMonstersData = [
   },
   {
     "name": "Leiden",
-    "hp": 30000,
+    "hp": 380000,
     "image_url": "images/monsters/Leiden.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": -1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": -1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": -1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": -1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": -1
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Leiden",
+    "hp": 380000,
+    "image_url": "images/monsters/Leiden.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
   {
     "name": "Lersatio",
-    "hp": 1645,
+    "hp": 1600,
     "image_url": "images/monsters/Lersatio.gif",
     "damageTypes": [
       {
@@ -26159,7 +39214,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -26171,7 +39226,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.6
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lersatio",
+    "hp": 1600,
+    "image_url": "images/monsters/Lersatio.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.01
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -26194,11 +39284,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -26221,7 +39311,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.5
       },
       {
         "type": "holy",
@@ -26233,7 +39323,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -26241,7 +39331,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -26251,7 +39341,7 @@ var allMonstersData = [
   },
   {
     "name": "Lesser Magma Crystal",
-    "hp": 15000,
+    "hp": 37000,
     "image_url": "images/monsters/Lesser_Magma_Crystal.gif",
     "damageTypes": [
       {
@@ -26268,7 +39358,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -26276,7 +39366,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -26285,9 +39375,79 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Lesser Splinter of Madness",
+    "hp": 0,
+    "image_url": "images/monsters/Lesser_Splinter_of_Madness.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Lesser Swarmer",
     "hp": 230,
     "image_url": "images/monsters/Lesser_Swarmer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.25
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.25
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.25
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.25
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.25
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Lethal Lissy",
+    "hp": 1450,
+    "image_url": "images/monsters/Lethal_Lissy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26356,7 +39516,7 @@ var allMonstersData = [
   },
   {
     "name": "Leviathan",
-    "hp": 6000,
+    "hp": 10000,
     "image_url": "images/monsters/Leviathan.gif",
     "damageTypes": [
       {
@@ -26369,7 +39529,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
         "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Leviathan",
+    "hp": 10000,
+    "image_url": "images/monsters/Leviathan.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.15
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -26391,7 +39586,7 @@ var allMonstersData = [
   },
   {
     "name": "Librarian",
-    "hp": 11000,
+    "hp": 0,
     "image_url": "images/monsters/Librarian.gif",
     "damageTypes": [
       {
@@ -26451,7 +39646,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -26566,7 +39761,7 @@ var allMonstersData = [
   },
   {
     "name": "Lion Commander",
-    "hp": 8500,
+    "hp": 0,
     "image_url": "images/monsters/Lion_Commander.gif",
     "damageTypes": [
       {
@@ -26705,9 +39900,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Lionet (Creature)",
-    "hp": 100000,
-    "image_url": "images/monsters/Lionet__Creature_.gif",
+    "name": "Lionet (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Lionet_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -26715,7 +39910,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -26723,7 +39918,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -26731,7 +39926,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.5
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Liqour Spirit",
+    "hp": 0,
+    "image_url": "images/monsters/Liqour_Spirit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -26754,23 +39984,58 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.03
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lisa",
+    "hp": 55000,
+    "image_url": "images/monsters/Lisa.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -26806,6 +40071,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lizard Abomination",
+    "hp": 95000,
+    "image_url": "images/monsters/Lizard_Abomination.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.85
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -26898,7 +40198,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "ice",
@@ -26933,7 +40233,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -26941,11 +40241,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lizard Gate Guardian",
+    "hp": 5000,
+    "image_url": "images/monsters/Lizard_Gate_Guardian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -27038,7 +40373,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "ice",
@@ -27073,7 +40408,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "ice",
@@ -27230,13 +40565,573 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Lloyd",
+    "hp": 65000,
+    "image_url": "images/monsters/Lloyd.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lloyd",
+    "hp": 65000,
+    "image_url": "images/monsters/Lloyd.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Locked Door",
+    "hp": 1000,
+    "image_url": "images/monsters/Locked_Door.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lokathmor",
+    "hp": 0,
+    "image_url": "images/monsters/Lokathmor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lokathmor",
+    "hp": 0,
+    "image_url": "images/monsters/Lokathmor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Deer",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Deer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Frazzlemaw",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Frazzlemaw.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Polar Bear",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Polar_Bear.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Rotworm",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Rotworm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Scorpion",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Scorpion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Snake",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Snake.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Souleater",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Souleater.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lonely Yielothax",
+    "hp": 0,
+    "image_url": "images/monsters/Lonely_Yielothax.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lord Azaram",
+    "hp": 300000,
+    "image_url": "images/monsters/Lord_Azaram.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": -2.6
+      }
+    ]
+  },
+  {
+    "name": "Lord Azaram",
+    "hp": 300000,
+    "image_url": "images/monsters/Lord_Azaram.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": -2.6
+      }
+    ]
+  },
+  {
     "name": "Lord of the Elements",
     "hp": 8000,
     "image_url": "images/monsters/Lord_of_the_Elements.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.55
+      }
+    ]
+  },
+  {
+    "name": "Lord of the Elements",
+    "hp": 8000,
+    "image_url": "images/monsters/Lord_of_the_Elements.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
       },
       {
         "type": "holy",
@@ -27271,31 +41166,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lord Retro",
+    "hp": 2500,
+    "image_url": "images/monsters/Lord_Retro.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -27440,6 +41370,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Lost Ghost of A Planegazer",
+    "hp": 0,
+    "image_url": "images/monsters/Lost_Ghost_of_A_Planegazer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Lost Gnome",
     "hp": 10000,
     "image_url": "images/monsters/Lost_Gnome.gif",
@@ -27454,11 +41419,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -27551,7 +41516,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -27616,8 +41581,43 @@ var allMonstersData = [
   },
   {
     "name": "Lucifuga Aranea",
-    "hp": 12000,
+    "hp": 0,
     "image_url": "images/monsters/Lucifuga_Aranea.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Lucky Dragon",
+    "hp": 0,
+    "image_url": "images/monsters/Lucky_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27685,9 +41685,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Lyxoph (Creature)",
+    "name": "Lyxoph (Criatura)",
     "hp": 45000,
-    "image_url": "images/monsters/Lyxoph__Creature_.gif",
+    "image_url": "images/monsters/Lyxoph_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -27734,7 +41734,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.2
       },
       {
         "type": "fire",
@@ -27742,7 +41742,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
+        "multiplier": 1.2
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mad Mage",
+    "hp": 2500,
+    "image_url": "images/monsters/Mad_Mage.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.2
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.2
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.2
       },
       {
         "type": "energy",
@@ -27820,7 +41855,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 0
       }
     ]
   },
@@ -27847,7 +41882,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mad Technomancer",
+    "hp": 1800,
+    "image_url": "images/monsters/Mad_Technomancer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -27861,7 +41931,7 @@ var allMonstersData = [
   },
   {
     "name": "Madareth",
-    "hp": 75000,
+    "hp": 33500,
     "image_url": "images/monsters/Madareth.gif",
     "damageTypes": [
       {
@@ -27874,19 +41944,159 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1.05
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "energy",
-        "multiplier": 0.010000000000000009
+        "multiplier": 0.01
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Madareth",
+    "hp": 33500,
+    "image_url": "images/monsters/Madareth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.95
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.01
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Madareth",
+    "hp": 33500,
+    "image_url": "images/monsters/Madareth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.95
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.01
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Magic Pillar",
+    "hp": 0,
+    "image_url": "images/monsters/Magic_Pillar.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Magical Sphere",
+    "hp": 9000,
+    "image_url": "images/monsters/Magical_Sphere.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -27896,7 +42106,7 @@ var allMonstersData = [
   },
   {
     "name": "Magicthrower",
-    "hp": 100,
+    "hp": 0,
     "image_url": "images/monsters/Magicthrower.gif",
     "damageTypes": [
       {
@@ -27960,7 +42170,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Magma Bubble",
+    "hp": 150000,
+    "image_url": "images/monsters/Magma_Bubble.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -28001,7 +42246,7 @@ var allMonstersData = [
   },
   {
     "name": "Magma Crystal",
-    "hp": 22000,
+    "hp": 0,
     "image_url": "images/monsters/Magma_Crystal.gif",
     "damageTypes": [
       {
@@ -28018,7 +42263,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -28026,7 +42271,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -28049,15 +42294,15 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -28065,7 +42310,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -28119,7 +42364,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -28135,13 +42380,83 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": -1
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Magnor Mournbringer",
+    "hp": 250000,
+    "image_url": "images/monsters/Magnor_Mournbringer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Mahatheb",
-    "hp": 650,
+    "hp": 645,
+    "image_url": "images/monsters/Mahatheb.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mahatheb",
+    "hp": 645,
     "image_url": "images/monsters/Mahatheb.gif",
     "damageTypes": [
       {
@@ -28185,7 +42500,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.2
+        "multiplier": 1.01
       },
       {
         "type": "death",
@@ -28201,18 +42516,123 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.99
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mahrdis",
+    "hp": 3900,
+    "image_url": "images/monsters/Mahrdis.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.99
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Major Bug",
+    "hp": 0,
+    "image_url": "images/monsters/Major_Bug.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Major Timedisplaced Anomaly (Fiehonja)",
     "hp": 75000,
-    "image_url": "images/monsters/Major_Timedisplaced_Anomaly__Fiehonja_.gif",
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly_(Fiehonja).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Major Timedisplaced Anomaly (Fiehonja)",
+    "hp": 75000,
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly_(Fiehonja).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28247,7 +42667,42 @@ var allMonstersData = [
   {
     "name": "Major Timedisplaced Anomaly (Issavi)",
     "hp": 70000,
-    "image_url": "images/monsters/Major_Timedisplaced_Anomaly__Issavi_.gif",
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly_(Issavi).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Major Timedisplaced Anomaly (Issavi)",
+    "hp": 70000,
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly_(Issavi).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28282,7 +42737,42 @@ var allMonstersData = [
   {
     "name": "Major Timedisplaced Anomaly (Rascacoon)",
     "hp": 65000,
-    "image_url": "images/monsters/Major_Timedisplaced_Anomaly__Rascacoon_.gif",
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly_(Rascacoon).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Major Timedisplaced Anomaly (Rascacoon)",
+    "hp": 65000,
+    "image_url": "images/monsters/Major_Timedisplaced_Anomaly_(Rascacoon).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28364,19 +42854,19 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "fire",
-        "multiplier": 1.4
+        "multiplier": 1.25
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "earth",
@@ -28386,7 +42876,7 @@ var allMonstersData = [
   },
   {
     "name": "Malicious Minion",
-    "hp": 4000,
+    "hp": 0,
     "image_url": "images/monsters/Malicious_Minion.gif",
     "damageTypes": [
       {
@@ -28403,7 +42893,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -28411,11 +42901,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.85
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Malicious Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Malicious_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -28423,6 +42948,76 @@ var allMonstersData = [
     "name": "Maliz",
     "hp": 50000,
     "image_url": "images/monsters/Maliz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": -10
+      }
+    ]
+  },
+  {
+    "name": "Maliz",
+    "hp": 50000,
+    "image_url": "images/monsters/Maliz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": -10
+      }
+    ]
+  },
+  {
+    "name": "Malkhar Deathbringer",
+    "hp": 0,
+    "image_url": "images/monsters/Malkhar_Deathbringer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28438,11 +43033,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -28450,7 +43045,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": -10
+        "multiplier": 1
       }
     ]
   },
@@ -28481,7 +43076,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 0.65
       },
       {
         "type": "earth",
@@ -28490,9 +43085,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Malvaroth",
-    "hp": 40000,
-    "image_url": "images/monsters/Malvaroth.gif",
+    "name": "Malofur Mangrinder",
+    "hp": 320000,
+    "image_url": "images/monsters/Malofur_Mangrinder.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28508,7 +43103,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": -1
       },
       {
         "type": "ice",
@@ -28516,7 +43111,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 0.65
+      },
+      {
+        "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Malvaroth",
+    "hp": 40000,
+    "image_url": "images/monsters/Malvaroth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.95
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
       },
       {
         "type": "earth",
@@ -28543,15 +43173,50 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.85
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mamma Longlegs",
+    "hp": 1800,
+    "image_url": "images/monsters/Mamma_Longlegs.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -28595,9 +43260,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Man in the Cave",
+    "name": "Man In The Cave",
     "hp": 485,
-    "image_url": "images/monsters/Man_in_the_Cave.gif",
+    "image_url": "images/monsters/Man_In_The_Cave.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Man In The Cave",
+    "hp": 485,
+    "image_url": "images/monsters/Man_In_The_Cave.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -28788,7 +43488,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "ice",
@@ -28846,7 +43546,42 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5700000000000001
+        "multiplier": 0.57
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Marziel",
+    "hp": 1900,
+    "image_url": "images/monsters/Marziel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.57
       },
       {
         "type": "holy",
@@ -28876,12 +43611,12 @@ var allMonstersData = [
   },
   {
     "name": "Massacre",
-    "hp": 32000,
+    "hp": 30000,
     "image_url": "images/monsters/Massacre.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -28889,11 +43624,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 0.5
       },
       {
         "type": "ice",
@@ -28901,11 +43636,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.01
+        "multiplier": 1.08
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Massacre",
+    "hp": 30000,
+    "image_url": "images/monsters/Massacre.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.08
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
       }
     ]
   },
@@ -28936,7 +43706,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
@@ -29015,6 +43785,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Massive Magmaoid",
+    "hp": 52000,
+    "image_url": "images/monsters/Massive_Magmaoid.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Massive Water Elemental",
     "hp": 1250,
     "image_url": "images/monsters/Massive_Water_Elemental.gif",
@@ -29085,37 +43890,107 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Maw",
+    "hp": 8200,
+    "image_url": "images/monsters/Maw.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.4
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Mawhawk",
     "hp": 45000,
     "image_url": "images/monsters/Mawhawk.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1.1
       },
       {
         "type": "death",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mawhawk",
+    "hp": 45000,
+    "image_url": "images/monsters/Mawhawk.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -29126,7 +44001,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -29134,7 +44009,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -29142,11 +44017,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": -6
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Maxxenius",
+    "hp": 320000,
+    "image_url": "images/monsters/Maxxenius.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -29174,6 +44084,111 @@ var allMonstersData = [
       {
         "type": "fire",
         "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mazoran",
+    "hp": 290000,
+    "image_url": "images/monsters/Mazoran.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mazzinor",
+    "hp": 350000,
+    "image_url": "images/monsters/Mazzinor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mazzinor",
+    "hp": 350000,
+    "image_url": "images/monsters/Mazzinor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
       },
       {
         "type": "ice",
@@ -29231,7 +44246,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "holy",
@@ -29260,8 +44275,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Mean Maw",
+    "hp": 0,
+    "image_url": "images/monsters/Mean_Maw.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mean Minion",
+    "hp": 0,
+    "image_url": "images/monsters/Mean_Minion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Mean Termite",
-    "hp": 4300,
+    "hp": 0,
     "image_url": "images/monsters/Mean_Termite.gif",
     "damageTypes": [
       {
@@ -29331,7 +44416,7 @@ var allMonstersData = [
   },
   {
     "name": "Mearidion",
-    "hp": 850,
+    "hp": 0,
     "image_url": "images/monsters/Mearidion.gif",
     "damageTypes": [
       {
@@ -29470,9 +44555,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Megasylvan Sapling (Creature)",
+    "name": "Megasylvan Sapling (Criatura)",
     "hp": 10000,
-    "image_url": "images/monsters/Megasylvan_Sapling__Creature_.gif",
+    "image_url": "images/monsters/Megasylvan_Sapling_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29511,7 +44596,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.15000000000000002
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -29519,30 +44604,30 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.30000000000000004
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.4
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Memory of a Banshee",
-    "hp": 3600,
-    "image_url": "images/monsters/Memory_of_a_Banshee.gif",
+    "name": "Megasylvan Yselda",
+    "hp": 32000,
+    "image_url": "images/monsters/Megasylvan_Yselda.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29554,6 +44639,111 @@ var allMonstersData = [
       },
       {
         "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Melting Frozen Horror",
+    "hp": 70000,
+    "image_url": "images/monsters/Melting_Frozen_Horror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Melting Frozen Horror",
+    "hp": 70000,
+    "image_url": "images/monsters/Melting_Frozen_Horror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Memory Of A Banshee",
+    "hp": 3600,
+    "image_url": "images/monsters/Memory_Of_A_Banshee.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.25
+      },
+      {
+        "type": "death",
         "multiplier": 0
       },
       {
@@ -29575,9 +44765,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Book",
+    "name": "Memory Of A Book",
     "hp": 3670,
-    "image_url": "images/monsters/Memory_of_a_Book.gif",
+    "image_url": "images/monsters/Memory_Of_A_Book.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29585,7 +44775,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "death",
@@ -29610,9 +44800,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Carnisylvan",
+    "name": "Memory Of A Carnisylvan",
     "hp": 3800,
-    "image_url": "images/monsters/Memory_of_a_Carnisylvan.gif",
+    "image_url": "images/monsters/Memory_Of_A_Carnisylvan.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29645,13 +44835,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Dwarf",
+    "name": "Memory Of A Dwarf",
     "hp": 3730,
-    "image_url": "images/monsters/Memory_of_a_Dwarf.gif",
+    "image_url": "images/monsters/Memory_Of_A_Dwarf.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "holy",
@@ -29659,11 +44849,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -29675,30 +44865,30 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.8
       }
     ]
   },
   {
-    "name": "Memory of a Faun",
+    "name": "Memory Of A Faun",
     "hp": 3500,
-    "image_url": "images/monsters/Memory_of_a_Faun.gif",
+    "image_url": "images/monsters/Memory_Of_A_Faun.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -29706,53 +44896,53 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.3
       }
     ]
   },
   {
-    "name": "Memory of a Frazzlemaw",
+    "name": "Memory Of A Frazzlemaw",
     "hp": 3770,
-    "image_url": "images/monsters/Memory_of_a_Frazzlemaw.gif",
+    "image_url": "images/monsters/Memory_Of_A_Frazzlemaw.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.8
       }
     ]
   },
   {
-    "name": "Memory of a Fungus",
+    "name": "Memory Of A Fungus",
     "hp": 3580,
-    "image_url": "images/monsters/Memory_of_a_Fungus.gif",
+    "image_url": "images/monsters/Memory_Of_A_Fungus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29760,50 +44950,50 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.65
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
   {
-    "name": "Memory of a Golem",
+    "name": "Memory Of A Golem",
     "hp": 3660,
-    "image_url": "images/monsters/Memory_of_a_Golem.gif",
+    "image_url": "images/monsters/Memory_Of_A_Golem.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -29811,53 +45001,88 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
   {
-    "name": "Memory of a Hero",
+    "name": "Memory Of A Hero",
     "hp": 3850,
-    "image_url": "images/monsters/Memory_of_a_Hero.gif",
+    "image_url": "images/monsters/Memory_Of_A_Hero.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.2
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.5
       }
     ]
   },
   {
-    "name": "Memory of a Hydra",
+    "name": "Memory Of A Hydra",
     "hp": 3550,
-    "image_url": "images/monsters/Memory_of_a_Hydra.gif",
+    "image_url": "images/monsters/Memory_Of_A_Hydra.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.05
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Memory Of A Lizard",
+    "hp": 3520,
+    "image_url": "images/monsters/Memory_Of_A_Lizard.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29873,11 +45098,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.55
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "energy",
@@ -29890,48 +45115,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Lizard",
-    "hp": 3520,
-    "image_url": "images/monsters/Memory_of_a_Lizard.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Memory of a Mammoth",
+    "name": "Memory Of A Mammoth",
     "hp": 3850,
-    "image_url": "images/monsters/Memory_of_a_Mammoth.gif",
+    "image_url": "images/monsters/Memory_Of_A_Mammoth.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -29943,11 +45133,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "energy",
@@ -29955,14 +45145,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.8
       }
     ]
   },
   {
-    "name": "Memory of a Manticore",
+    "name": "Memory Of A Manticore",
     "hp": 3730,
-    "image_url": "images/monsters/Memory_of_a_Manticore.gif",
+    "image_url": "images/monsters/Memory_Of_A_Manticore.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -29995,48 +45185,48 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Pirate",
+    "name": "Memory Of A Pirate",
     "hp": 3750,
-    "image_url": "images/monsters/Memory_of_a_Pirate.gif",
+    "image_url": "images/monsters/Memory_Of_A_Pirate.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.9
       }
     ]
   },
   {
-    "name": "Memory of a Scarab",
+    "name": "Memory Of A Scarab",
     "hp": 3620,
-    "image_url": "images/monsters/Memory_of_a_Scarab.gif",
+    "image_url": "images/monsters/Memory_Of_A_Scarab.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -30048,7 +45238,77 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Memory Of A Shaper",
+    "hp": 3710,
+    "image_url": "images/monsters/Memory_Of_A_Shaper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Memory Of A Vampire",
+    "hp": 3650,
+    "image_url": "images/monsters/Memory_Of_A_Vampire.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.75
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.25
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -30065,79 +45325,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Shaper",
-    "hp": 3710,
-    "image_url": "images/monsters/Memory_of_a_Shaper.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Memory of a Vampire",
-    "hp": 3650,
-    "image_url": "images/monsters/Memory_of_a_Vampire.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Memory of a Werelion",
+    "name": "Memory Of A Werelion",
     "hp": 3880,
-    "image_url": "images/monsters/Memory_of_a_Werelion.gif",
+    "image_url": "images/monsters/Memory_Of_A_Werelion.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30170,9 +45360,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Wolf",
-    "hp": 3640,
-    "image_url": "images/monsters/Memory_of_a_Wolf.gif",
+    "name": "Memory Of A Wolf",
+    "hp": 3820,
+    "image_url": "images/monsters/Memory_Of_A_Wolf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30180,11 +45370,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "fire",
@@ -30192,7 +45382,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "energy",
@@ -30205,13 +45395,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of a Yalahari",
+    "name": "Memory Of A Yalahari",
     "hp": 3540,
-    "image_url": "images/monsters/Memory_of_a_Yalahari.gif",
+    "image_url": "images/monsters/Memory_Of_A_Yalahari.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
@@ -30240,13 +45430,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of an Amazon",
+    "name": "Memory Of An Amazon",
     "hp": 3600,
-    "image_url": "images/monsters/Memory_of_an_Amazon.gif",
+    "image_url": "images/monsters/Memory_Of_An_Amazon.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "holy",
@@ -30254,7 +45444,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "fire",
@@ -30275,9 +45465,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of an Elf",
+    "name": "Memory Of An Elf",
     "hp": 3440,
-    "image_url": "images/monsters/Memory_of_an_Elf.gif",
+    "image_url": "images/monsters/Memory_Of_An_Elf.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30285,15 +45475,15 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "ice",
@@ -30301,7 +45491,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "earth",
@@ -30310,13 +45500,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Memory of an Insectoid",
+    "name": "Memory Of An Insectoid",
     "hp": 3630,
-    "image_url": "images/monsters/Memory_of_an_Insectoid.gif",
+    "image_url": "images/monsters/Memory_Of_An_Insectoid.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -30328,54 +45518,54 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
   {
-    "name": "Memory of an Ogre",
+    "name": "Memory Of An Ogre",
     "hp": 3570,
-    "image_url": "images/monsters/Memory_of_an_Ogre.gif",
+    "image_url": "images/monsters/Memory_Of_An_Ogre.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -30398,7 +45588,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -30450,9 +45640,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Mental-Nexus",
+    "name": "Mental-nexus",
     "hp": 70,
-    "image_url": "images/monsters/Mental-Nexus.gif",
+    "image_url": "images/monsters/Mental-nexus.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30520,6 +45710,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Mephiles",
+    "hp": 415,
+    "image_url": "images/monsters/Mephiles.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.5
+      }
+    ]
+  },
+  {
     "name": "Mercurial Menace",
     "hp": 18500,
     "image_url": "images/monsters/Mercurial_Menace.gif",
@@ -30530,7 +45755,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -30625,6 +45850,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Merikh the Slaughterer",
+    "hp": 2000,
+    "image_url": "images/monsters/Merikh_the_Slaughterer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 0.99
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.01
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Merlkin",
     "hp": 235,
     "image_url": "images/monsters/Merlkin.gif",
@@ -30674,7 +45934,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "fire",
@@ -30691,6 +45951,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mezlon The Defiler",
+    "hp": 0,
+    "image_url": "images/monsters/Mezlon_The_Defiler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -30795,7 +46090,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       }
     ]
   },
@@ -30835,8 +46130,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Mighty Splinter of Madness",
+    "hp": 0,
+    "image_url": "images/monsters/Mighty_Splinter_of_Madness.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Mimic",
-    "hp": 1200,
+    "hp": 0,
     "image_url": "images/monsters/Mimic.gif",
     "damageTypes": [
       {
@@ -30862,6 +46192,76 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mind-wrecking Dream",
+    "hp": 3800,
+    "image_url": "images/monsters/Mind-wrecking_Dream.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mindmasher",
+    "hp": 9500,
+    "image_url": "images/monsters/Mindmasher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -30905,9 +46305,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Minion of Gaz'haragoth",
+    "name": "Minion of Gaz'Haragoth",
     "hp": 5500,
-    "image_url": "images/monsters/Minion_of_Gaz'haragoth.gif",
+    "image_url": "images/monsters/Minion_of_Gaz'Haragoth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Minion of Skyrr",
+    "hp": 0,
+    "image_url": "images/monsters/Minion_of_Skyrr.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -30923,15 +46358,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 2
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -30975,9 +46410,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Minor Timedisplaced Anomaly (Ankrahmun)",
-    "hp": 48000,
-    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly__Ankrahmun_.gif",
+    "name": "Minishabaal",
+    "hp": 6000,
+    "image_url": "images/monsters/Minishabaal.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31010,9 +46445,79 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Minor Timedisplaced Anomaly (Greenshore)",
-    "hp": 44000,
-    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly__Greenshore_.gif",
+    "name": "Minor Bug",
+    "hp": 0,
+    "image_url": "images/monsters/Minor_Bug.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Minor Timedisplaced Anomaly (Ankrahmun)",
+    "hp": 48000,
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly_(Ankrahmun).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Minor Timedisplaced Anomaly (Ankrahmun)",
+    "hp": 48000,
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly_(Ankrahmun).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31047,7 +46552,112 @@ var allMonstersData = [
   {
     "name": "Minor Timedisplaced Anomaly (Rookgaard)",
     "hp": 40000,
-    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly__Rookgaard_.gif",
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly_(Rookgaard).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Minor Timedisplaced Anomaly (Rookgaard)",
+    "hp": 40000,
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly_(Rookgaard).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Minor Timedisplaced Anomaly (Thais)",
+    "hp": 44000,
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly_(Thais).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Minor Timedisplaced Anomaly (Thais)",
+    "hp": 44000,
+    "image_url": "images/monsters/Minor_Timedisplaced_Anomaly_(Thais).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31203,7 +46813,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -31401,11 +47011,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.3
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "death",
@@ -31413,7 +47023,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -31518,7 +47128,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -31526,7 +47136,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -31536,7 +47146,7 @@ var allMonstersData = [
   },
   {
     "name": "Minotaur Poacher",
-    "hp": 160,
+    "hp": 125,
     "image_url": "images/monsters/Minotaur_Poacher.gif",
     "damageTypes": [
       {
@@ -31553,7 +47163,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -31561,11 +47171,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
       }
     ]
   },
@@ -31605,9 +47215,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Mint Drop",
-    "hp": 20,
-    "image_url": "images/monsters/Mint_Drop.gif",
+    "name": "Mintwarella Cheese",
+    "hp": 300,
+    "image_url": "images/monsters/Mintwarella_Cheese.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31640,9 +47250,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Mirade (Creature)",
-    "hp": 100000,
-    "image_url": "images/monsters/Mirade__Creature_.gif",
+    "name": "Mirade (Criatura)",
+    "hp": 50000,
+    "image_url": "images/monsters/Mirade_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -31681,23 +47291,23 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 0.9
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.9
       },
       {
         "type": "death",
-        "multiplier": 1.01
+        "multiplier": 1.1
       },
       {
         "type": "fire",
-        "multiplier": 1.01
+        "multiplier": 1.1
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 0.9
       },
       {
         "type": "energy",
@@ -31751,11 +47361,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.3
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "death",
@@ -31811,6 +47421,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Mister Catkiller",
+    "hp": 40000,
+    "image_url": "images/monsters/Mister_Catkiller.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mister Catkiller",
+    "hp": 40000,
+    "image_url": "images/monsters/Mister_Catkiller.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -31886,7 +47566,7 @@ var allMonstersData = [
   },
   {
     "name": "Mitmah Vanguard",
-    "hp": 65000,
+    "hp": 50000,
     "image_url": "images/monsters/Mitmah_Vanguard.gif",
     "damageTypes": [
       {
@@ -31899,11 +47579,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 0.3
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "ice",
@@ -31911,7 +47591,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mitmah Vanguard",
+    "hp": 50000,
+    "image_url": "images/monsters/Mitmah_Vanguard.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
       },
       {
         "type": "earth",
@@ -31926,7 +47641,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0
       },
       {
         "type": "holy",
@@ -31938,15 +47653,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
@@ -31990,9 +47705,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Monk (Creature)",
+    "name": "Monk (Criatura)",
     "hp": 240,
-    "image_url": "images/monsters/Monk__Creature_.gif",
+    "image_url": "images/monsters/Monk_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32031,15 +47746,15 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.01
+        "multiplier": 1.1
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "death",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "fire",
@@ -32096,7 +47811,7 @@ var allMonstersData = [
   },
   {
     "name": "Monstor",
-    "hp": 960,
+    "hp": 800,
     "image_url": "images/monsters/Monstor.gif",
     "damageTypes": [
       {
@@ -32126,6 +47841,111 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Monstor",
+    "hp": 800,
+    "image_url": "images/monsters/Monstor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.03
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Mooh'Tah Master",
+    "hp": 0,
+    "image_url": "images/monsters/Mooh'Tah_Master.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mooh'Tah Master",
+    "hp": 0,
+    "image_url": "images/monsters/Mooh'Tah_Master.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -32201,36 +48021,71 @@ var allMonstersData = [
   },
   {
     "name": "Moohtant Wallbreaker",
-    "hp": 250000,
+    "hp": 120000,
     "image_url": "images/monsters/Moohtant_Wallbreaker.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "holy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.1
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.15
       },
       {
         "type": "ice",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.15
+      }
+    ]
+  },
+  {
+    "name": "Moohtant Wallbreaker",
+    "hp": 120000,
+    "image_url": "images/monsters/Moohtant_Wallbreaker.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.15
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.15
       }
     ]
   },
@@ -32241,15 +48096,15 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.7
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "fire",
@@ -32261,7 +48116,77 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Morgaroth",
+    "hp": 55000,
+    "image_url": "images/monsters/Morgaroth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.2
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Morgaroth",
+    "hp": 55000,
+    "image_url": "images/monsters/Morgaroth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.2
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -32276,7 +48201,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -32288,15 +48213,50 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.75
+        "multiplier": 0.99
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 0.99
       },
       {
         "type": "energy",
-        "multiplier": 0.75
+        "multiplier": 0.99
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Morguthis",
+    "hp": 4800,
+    "image_url": "images/monsters/Morguthis.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.99
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.99
       },
       {
         "type": "earth",
@@ -32319,7 +48279,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.01
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Morik the Gladiator",
+    "hp": 1235,
+    "image_url": "images/monsters/Morik_the_Gladiator.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
       },
       {
         "type": "fire",
@@ -32393,7 +48388,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -32401,7 +48396,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Morshabaal",
+    "hp": 1000000,
+    "image_url": "images/monsters/Morshabaal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -32451,7 +48481,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -32459,15 +48489,15 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -32475,7 +48505,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mounted Thorn Knight",
+    "hp": 90000,
+    "image_url": "images/monsters/Mounted_Thorn_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mounted Thorn Knight",
+    "hp": 90000,
+    "image_url": "images/monsters/Mounted_Thorn_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -32494,19 +48594,54 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.3
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Mozradek",
+    "hp": 28000,
+    "image_url": "images/monsters/Mozradek.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -32516,7 +48651,42 @@ var allMonstersData = [
   },
   {
     "name": "Mr. Punish",
-    "hp": 22000,
+    "hp": 10000,
+    "image_url": "images/monsters/Mr._Punish.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mr. Punish",
+    "hp": 10000,
     "image_url": "images/monsters/Mr._Punish.gif",
     "damageTypes": [
       {
@@ -32576,7 +48746,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "earth",
@@ -32634,7 +48804,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -32760,6 +48930,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Munster",
+    "hp": 58,
+    "image_url": "images/monsters/Munster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Murcion",
+    "hp": 0,
+    "image_url": "images/monsters/Murcion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Murcion",
+    "hp": 0,
+    "image_url": "images/monsters/Murcion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Murderous Ghost",
     "hp": 1500,
     "image_url": "images/monsters/Murderous_Ghost.gif",
@@ -32770,7 +49045,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -32778,15 +49053,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -32796,43 +49071,8 @@ var allMonstersData = [
   },
   {
     "name": "Murmillion",
-    "hp": 1100,
+    "hp": 0,
     "image_url": "images/monsters/Murmillion.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Muse of Penciljack",
-    "hp": 1200,
-    "image_url": "images/monsters/Muse_of_Penciljack.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32871,7 +49111,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "holy",
@@ -32879,23 +49119,23 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -32935,9 +49175,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Mushroom",
-    "hp": 10000,
-    "image_url": "images/monsters/Mushroom.gif",
+    "name": "Mushroom (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Mushroom_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -32976,31 +49216,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "holy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "death",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Mutated Abomination",
+    "hp": 0,
+    "image_url": "images/monsters/Mutated_Abomination.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -33140,7 +49415,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Mutated Zalamon",
+    "hp": 155000,
+    "image_url": "images/monsters/Mutated_Zalamon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -33215,6 +49525,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Mystic Energy",
+    "hp": 28000,
+    "image_url": "images/monsters/Mystic_Energy.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Mystic Jaguar",
+    "hp": 0,
+    "image_url": "images/monsters/Mystic_Jaguar.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Naga Archer",
     "hp": 4640,
     "image_url": "images/monsters/Naga_Archer.gif",
@@ -33285,9 +49665,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Nargol the Impaler",
+    "name": "Nargol The Impaler",
     "hp": 250000,
-    "image_url": "images/monsters/Nargol_the_Impaler.gif",
+    "image_url": "images/monsters/Nargol_The_Impaler.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33299,7 +49679,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Nargol The Impaler",
+    "hp": 250000,
+    "image_url": "images/monsters/Nargol_The_Impaler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -33356,7 +49771,7 @@ var allMonstersData = [
   },
   {
     "name": "Necromancer Servant",
-    "hp": 600,
+    "hp": 580,
     "image_url": "images/monsters/Necromancer_Servant.gif",
     "damageTypes": [
       {
@@ -33386,6 +49801,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Necromantic Focus",
+    "hp": 0,
+    "image_url": "images/monsters/Necromantic_Focus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Necropharus",
+    "hp": 750,
+    "image_url": "images/monsters/Necropharus.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -33439,7 +49924,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -33447,7 +49932,77 @@ var allMonstersData = [
       },
       {
         "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
         "multiplier": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Neferi The Spy",
+    "hp": 28000,
+    "image_url": "images/monsters/Neferi_The_Spy.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Negative Spark",
+    "hp": 0,
+    "image_url": "images/monsters/Negative_Spark.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -33461,7 +50016,7 @@ var allMonstersData = [
   },
   {
     "name": "Neutral Deepling Warrior",
-    "hp": 1600,
+    "hp": 0,
     "image_url": "images/monsters/Neutral_Deepling_Warrior.gif",
     "damageTypes": [
       {
@@ -33474,23 +50029,23 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
       }
     ]
   },
@@ -33587,7 +50142,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -33635,9 +50190,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Nightmare of Gaz'haragoth",
+    "name": "Nightmare of Gaz'Haragoth",
     "hp": 5500,
-    "image_url": "images/monsters/Nightmare_of_Gaz'haragoth.gif",
+    "image_url": "images/monsters/Nightmare_of_Gaz'Haragoth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33645,7 +50200,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "death",
@@ -33657,15 +50212,15 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.9
       }
     ]
   },
@@ -33701,6 +50256,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Nightmare Tendril",
+    "hp": 8000,
+    "image_url": "images/monsters/Nightmare_Tendril.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Nightmarish Dream",
+    "hp": 3800,
+    "image_url": "images/monsters/Nightmarish_Dream.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -33810,9 +50435,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Nomad (Basic)",
+    "name": "Nomad",
     "hp": 160,
-    "image_url": "images/monsters/Nomad__Basic_.gif",
+    "image_url": "images/monsters/Nomad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33847,7 +50472,7 @@ var allMonstersData = [
   {
     "name": "Nomad (Blue)",
     "hp": 160,
-    "image_url": "images/monsters/Nomad__Blue_.gif",
+    "image_url": "images/monsters/Nomad_(Blue).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33882,7 +50507,7 @@ var allMonstersData = [
   {
     "name": "Nomad (Female)",
     "hp": 160,
-    "image_url": "images/monsters/Nomad__Female_.gif",
+    "image_url": "images/monsters/Nomad_(Female).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -33915,72 +50540,72 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Norcferatu Heartless",
-    "hp": 5700,
-    "image_url": "images/monsters/Norcferatu_Heartless.gif",
+    "name": "Norcferatu Abomination",
+    "hp": 150,
+    "image_url": "images/monsters/Norcferatu_Abomination.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 0
       }
     ]
   },
   {
-    "name": "Norcferatu Nightweaver",
-    "hp": 6100,
-    "image_url": "images/monsters/Norcferatu_Nightweaver.gif",
+    "name": "Norcferatu Monstrosity",
+    "hp": 1150,
+    "image_url": "images/monsters/Norcferatu_Monstrosity.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 0.95
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 0.75
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1.05
+        "multiplier": 0
       }
     ]
   },
@@ -34011,7 +50636,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -34020,9 +50645,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Northern Pike (Creature)",
+    "name": "Northern Pike (Criatura)",
     "hp": 95,
-    "image_url": "images/monsters/Northern_Pike__Creature_.gif",
+    "image_url": "images/monsters/Northern_Pike_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -34195,6 +50820,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Obujos",
+    "hp": 35000,
+    "image_url": "images/monsters/Obujos.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.75
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.4
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Ocyakao",
     "hp": 700,
     "image_url": "images/monsters/Ocyakao.gif",
@@ -34209,11 +50869,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 0.6
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -34221,7 +50881,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ocyakao",
+    "hp": 700,
+    "image_url": "images/monsters/Ocyakao.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -34440,6 +51135,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ominous Pillar",
+    "hp": 0,
+    "image_url": "images/monsters/Ominous_Pillar.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Omnivora",
     "hp": 1200,
     "image_url": "images/monsters/Omnivora.gif",
@@ -34476,36 +51206,71 @@ var allMonstersData = [
   },
   {
     "name": "Omrafir",
-    "hp": 322000,
+    "hp": 200000,
     "image_url": "images/monsters/Omrafir.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": -1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Omrafir",
+    "hp": 200000,
+    "image_url": "images/monsters/Omrafir.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -34520,7 +51285,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -34528,19 +51293,89 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Omruc",
+    "hp": 4300,
+    "image_url": "images/monsters/Omruc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Oodok Witchmaster",
+    "hp": 450,
+    "image_url": "images/monsters/Oodok_Witchmaster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.65
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
         "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -34965,6 +51800,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Orc Musician",
+    "hp": 0,
+    "image_url": "images/monsters/Orc_Musician.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Orc Rider",
     "hp": 180,
     "image_url": "images/monsters/Orc_Rider.gif",
@@ -35088,7 +51958,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -35163,41 +52033,6 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 0.9
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Orclops Bloodbreaker",
-    "hp": 10300,
-    "image_url": "images/monsters/Orclops_Bloodbreaker.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 0.95
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 0.7
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -35350,6 +52185,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Organic Matter",
+    "hp": 33500,
+    "image_url": "images/monsters/Organic_Matter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Orger",
     "hp": 700,
     "image_url": "images/monsters/Orger.gif",
@@ -35426,11 +52296,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -35442,11 +52312,46 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Orshabaal",
+    "hp": 22500,
+    "image_url": "images/monsters/Orshabaal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -35461,7 +52366,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.3
       },
       {
         "type": "holy",
@@ -35469,19 +52374,54 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.1
-      },
-      {
-        "type": "ice",
         "multiplier": 1
       },
       {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.3
+      },
+      {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Outburst",
+    "hp": 290000,
+    "image_url": "images/monsters/Outburst.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.3
       },
       {
         "type": "earth",
@@ -35525,9 +52465,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Overcharged Energy Element",
+    "name": "Overcharged Disruption",
+    "hp": 0,
+    "image_url": "images/monsters/Overcharged_Disruption.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Overcharged Energy Elemental",
     "hp": 1200,
-    "image_url": "images/monsters/Overcharged_Energy_Element.gif",
+    "image_url": "images/monsters/Overcharged_Energy_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35560,25 +52535,25 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Owin (Creature)",
-    "hp": 9600,
-    "image_url": "images/monsters/Owin__Creature_.gif",
+    "name": "Owin (Criatura)",
+    "hp": 4800,
+    "image_url": "images/monsters/Owin_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
         "multiplier": 0.5
       },
       {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -35586,11 +52561,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.9
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Owin (Criatura)",
+    "hp": 4800,
+    "image_url": "images/monsters/Owin_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
       }
     ]
   },
@@ -35601,7 +52611,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -35613,7 +52623,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -35621,7 +52631,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -35630,9 +52640,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Paladin Familiar",
-    "hp": 15000,
-    "image_url": "images/monsters/Paladin_Familiar.gif",
+    "name": "Paiz the Pauperizer",
+    "hp": 8500,
+    "image_url": "images/monsters/Paiz_the_Pauperizer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35745,7 +52755,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.2
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -35753,7 +52763,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Parcel Castle",
+    "hp": 0,
+    "image_url": "images/monsters/Parcel_Castle.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -35875,9 +52920,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Penciljack (Creature)",
-    "hp": 150000,
-    "image_url": "images/monsters/Penciljack__Creature_.gif",
+    "name": "Penciljack (Criatura)",
+    "hp": 50000,
+    "image_url": "images/monsters/Penciljack_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -35885,15 +52930,15 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -35901,11 +52946,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.39
+        "multiplier": 1
       }
     ]
   },
@@ -35980,6 +53025,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Percht Minion",
+    "hp": 0,
+    "image_url": "images/monsters/Percht_Minion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Phant",
+    "hp": 0,
+    "image_url": "images/monsters/Phant.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Phantasm",
     "hp": 3950,
     "image_url": "images/monsters/Phantasm.gif",
@@ -36015,37 +53130,37 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Phantasm (Weak)",
-    "hp": 65,
-    "image_url": "images/monsters/Phantasm__Weak_.gif",
+    "name": "Phobia",
+    "hp": 0,
+    "image_url": "images/monsters/Phobia.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -36056,7 +53171,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 0.6
       },
       {
         "type": "holy",
@@ -36064,7 +53179,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 0.4
       },
       {
         "type": "fire",
@@ -36072,7 +53187,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.4
+        "multiplier": 0.3
       },
       {
         "type": "energy",
@@ -36104,41 +53219,6 @@ var allMonstersData = [
       {
         "type": "fire",
         "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
-    "name": "Pig (Nostalgia)",
-    "hp": 25,
-    "image_url": "images/monsters/Pig__Nostalgia_.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.01
       },
       {
         "type": "ice",
@@ -36190,9 +53270,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Pillar (Zugurosh)",
-    "hp": 120,
-    "image_url": "images/monsters/Pillar__Zugurosh_.gif",
+    "name": "Pillar",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36225,9 +53305,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Pillar of Dark Energy",
-    "hp": 37500,
-    "image_url": "images/monsters/Pillar_of_Dark_Energy.gif",
+    "name": "Pillar Of Dark Energy",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar_Of_Dark_Energy.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36260,9 +53340,149 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Pillar of Healing",
-    "hp": 7300,
-    "image_url": "images/monsters/Pillar_of_Healing.gif",
+    "name": "Pillar Of Death",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar_Of_Death.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Pillar Of Draining",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar_Of_Draining.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Pillar Of Healing",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar_Of_Healing.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Pillar Of Protection",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar_Of_Protection.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Pillar Of Summoning",
+    "hp": 0,
+    "image_url": "images/monsters/Pillar_Of_Summoning.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36297,11 +53517,46 @@ var allMonstersData = [
   {
     "name": "Piñata Dragon",
     "hp": 10000,
-    "image_url": "images/monsters/Pi_ata_Dragon.gif",
+    "image_url": "images/monsters/Piñata_Dragon.gif",
     "damageTypes": [
       {
         "type": "physical",
         "multiplier": 1.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Pirat Artillerist",
+    "hp": 0,
+    "image_url": "images/monsters/Pirat_Artillerist.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -36426,7 +53681,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 0.8
       },
       {
         "type": "earth",
@@ -36645,6 +53900,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Pirate Ship",
+    "hp": 300,
+    "image_url": "images/monsters/Pirate_Ship.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Pirate Skeleton",
     "hp": 190,
     "image_url": "images/monsters/Pirate_Skeleton.gif",
@@ -36750,6 +54040,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Plagirath",
+    "hp": 290000,
+    "image_url": "images/monsters/Plagirath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.25
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Plagueroot",
+    "hp": 320000,
+    "image_url": "images/monsters/Plagueroot.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Plagueroot",
+    "hp": 320000,
+    "image_url": "images/monsters/Plagueroot.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Plaguesmith",
     "hp": 8250,
     "image_url": "images/monsters/Plaguesmith.gif",
@@ -36786,7 +54181,7 @@ var allMonstersData = [
   },
   {
     "name": "Plaguethrower",
-    "hp": 100,
+    "hp": 0,
     "image_url": "images/monsters/Plaguethrower.gif",
     "damageTypes": [
       {
@@ -36820,9 +54215,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Planestrider",
-    "hp": 30000,
-    "image_url": "images/monsters/Planestrider.gif",
+    "name": "Planedweller",
+    "hp": 1000,
+    "image_url": "images/monsters/Planedweller.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -36830,7 +54225,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -36855,9 +54250,149 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Planestrider",
+    "hp": 0,
+    "image_url": "images/monsters/Planestrider.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Planestrider",
+    "hp": 0,
+    "image_url": "images/monsters/Planestrider.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Plant Abomination",
     "hp": 3900,
     "image_url": "images/monsters/Plant_Abomination.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Plant Attendant",
+    "hp": 3900,
+    "image_url": "images/monsters/Plant_Attendant.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": -1
+      }
+    ]
+  },
+  {
+    "name": "Plunder Patriarch",
+    "hp": 0,
+    "image_url": "images/monsters/Plunder_Patriarch.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37095,13 +54630,13 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       }
     ]
   },
   {
     "name": "Poor Soul",
-    "hp": 1000,
+    "hp": 0,
     "image_url": "images/monsters/Poor_Soul.gif",
     "damageTypes": [
       {
@@ -37131,6 +54666,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Positive Spark",
+    "hp": 0,
+    "image_url": "images/monsters/Positive_Spark.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -37170,8 +54740,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Powerful Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Powerful_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Preceptor Lazare",
-    "hp": 16000,
+    "hp": 15000,
+    "image_url": "images/monsters/Preceptor_Lazare.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Preceptor Lazare",
+    "hp": 15000,
     "image_url": "images/monsters/Preceptor_Lazare.gif",
     "damageTypes": [
       {
@@ -37235,14 +54875,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       }
     ]
   },
   {
-    "name": "Priestess of the Wild Sun",
+    "name": "Priestess Of The Wild Sun",
     "hp": 8500,
-    "image_url": "images/monsters/Priestess_of_the_Wild_Sun.gif",
+    "image_url": "images/monsters/Priestess_Of_The_Wild_Sun.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37275,37 +54915,142 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Primal Pack Beast",
+    "hp": 0,
+    "image_url": "images/monsters/Primal_Pack_Beast.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Prince Drazzak",
     "hp": 330000,
     "image_url": "images/monsters/Prince_Drazzak.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.65
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Prince Drazzak",
+    "hp": 330000,
+    "image_url": "images/monsters/Prince_Drazzak.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Princess Lumelia (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Princess_Lumelia_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -37316,23 +55061,23 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -37340,14 +55085,119 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Professor Maxxen",
+    "hp": 90000,
+    "image_url": "images/monsters/Professor_Maxxen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Psychic Spirit Elemental",
+    "hp": 1400,
+    "image_url": "images/monsters/Psychic_Spirit_Elemental.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Pupated Rootthing",
-    "hp": 15000,
+    "hp": 0,
     "image_url": "images/monsters/Pupated_Rootthing.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Purple Mutagen",
+    "hp": 0,
+    "image_url": "images/monsters/Purple_Mutagen.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37415,9 +55265,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Pythius the Rotten (Creature)",
+    "name": "Pythius the Rotten (Criatura)",
     "hp": 9000,
-    "image_url": "images/monsters/Pythius_the_Rotten__Creature_.gif",
+    "image_url": "images/monsters/Pythius_the_Rotten_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -37590,13 +55440,48 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Quara Kindler",
+    "hp": 0,
+    "image_url": "images/monsters/Quara_Kindler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Quara Looter",
     "hp": 11500,
     "image_url": "images/monsters/Quara_Looter.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -37608,7 +55493,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 0.9
       },
       {
         "type": "ice",
@@ -37771,7 +55656,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "holy",
@@ -37876,7 +55761,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -37906,43 +55791,8 @@ var allMonstersData = [
   },
   {
     "name": "Quara Saboteur",
-    "hp": 7000,
+    "hp": 0,
     "image_url": "images/monsters/Quara_Saboteur.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 0
-      },
-      {
-        "type": "ice",
-        "multiplier": 0
-      },
-      {
-        "type": "energy",
-        "multiplier": 1.25
-      },
-      {
-        "type": "earth",
-        "multiplier": 1.1
-      }
-    ]
-  },
-  {
-    "name": "Queen Nostalgia (2)",
-    "hp": 1700,
-    "image_url": "images/monsters/Queen_Nostalgia__2_.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38045,37 +55895,72 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Raccoon Supplies",
+    "hp": 0,
+    "image_url": "images/monsters/Raccoon_Supplies.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Radicular Totem",
-    "hp": 50000,
+    "hp": 0,
     "image_url": "images/monsters/Radicular_Totem.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
@@ -38168,6 +56053,41 @@ var allMonstersData = [
       },
       {
         "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ragiaz",
+    "hp": 290000,
+    "image_url": "images/monsters/Ragiaz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
         "multiplier": 1
       },
       {
@@ -38199,7 +56119,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 0.9
       },
       {
         "type": "fire",
@@ -38215,7 +56135,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       }
     ]
   },
@@ -38290,6 +56210,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Raging Mage",
+    "hp": 3500,
+    "image_url": "images/monsters/Raging_Mage.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.25
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.85
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Raging Monster",
+    "hp": 0,
+    "image_url": "images/monsters/Raging_Monster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Rahemos",
     "hp": 3700,
     "image_url": "images/monsters/Rahemos.gif",
@@ -38308,7 +56298,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "ice",
@@ -38316,7 +56306,77 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Rahemos",
+    "hp": 3700,
+    "image_url": "images/monsters/Rahemos.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.4
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Rampaging Beer Elemental",
+    "hp": 0,
+    "image_url": "images/monsters/Rampaging_Beer_Elemental.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -38356,6 +56416,251 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Rateye Ric",
+    "hp": 0,
+    "image_url": "images/monsters/Rateye_Ric.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rateye Ric",
+    "hp": 0,
+    "image_url": "images/monsters/Rateye_Ric.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ratmiral Blackwhiskers",
+    "hp": 220000,
+    "image_url": "images/monsters/Ratmiral_Blackwhiskers.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ratmiral Blackwhiskers",
+    "hp": 220000,
+    "image_url": "images/monsters/Ratmiral_Blackwhiskers.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ravenous Beyondling",
+    "hp": 8000,
+    "image_url": "images/monsters/Ravenous_Beyondling.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ravenous Hunger",
+    "hp": 190000,
+    "image_url": "images/monsters/Ravenous_Hunger.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ravenous Hunger",
+    "hp": 190000,
+    "image_url": "images/monsters/Ravenous_Hunger.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -38430,6 +56735,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Raxias",
+    "hp": 1100,
+    "image_url": "images/monsters/Raxias.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.4
+      }
+    ]
+  },
+  {
     "name": "Razzagorn",
     "hp": 290000,
     "image_url": "images/monsters/Razzagorn.gif",
@@ -38440,7 +56780,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -38448,7 +56788,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.6
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Razzagorn",
+    "hp": 290000,
+    "image_url": "images/monsters/Razzagorn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -38491,7 +56866,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "earth",
@@ -38503,6 +56878,216 @@ var allMonstersData = [
     "name": "Realityquake",
     "hp": 110000,
     "image_url": "images/monsters/Realityquake.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Realityquake",
+    "hp": 110000,
+    "image_url": "images/monsters/Realityquake.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Collector Unit",
+    "hp": 0,
+    "image_url": "images/monsters/Red_Collector_Unit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Container",
+    "hp": 0,
+    "image_url": "images/monsters/Red_Container.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Red Mutagen",
+    "hp": 0,
+    "image_url": "images/monsters/Red_Mutagen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Soul Stealer",
+    "hp": 0,
+    "image_url": "images/monsters/Red_Soul_Stealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Red Tube",
+    "hp": 0,
+    "image_url": "images/monsters/Red_Tube.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38570,13 +57155,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Reflection of a Mage",
+    "name": "Reflection Of A Mage",
     "hp": 3500,
-    "image_url": "images/monsters/Reflection_of_a_Mage.gif",
+    "image_url": "images/monsters/Reflection_Of_A_Mage.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.25
       },
       {
         "type": "holy",
@@ -38584,11 +57169,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.85
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -38596,7 +57181,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -38605,9 +57190,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Reflection of Mawhawk",
+    "name": "Reflection Of A Mage",
+    "hp": 3500,
+    "image_url": "images/monsters/Reflection_Of_A_Mage.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.25
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.85
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Reflection Of Mawhawk",
     "hp": 45000,
-    "image_url": "images/monsters/Reflection_of_Mawhawk.gif",
+    "image_url": "images/monsters/Reflection_Of_Mawhawk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38615,7 +57235,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "death",
@@ -38640,9 +57260,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Reflection of Obujos",
-    "hp": 35000,
-    "image_url": "images/monsters/Reflection_of_Obujos.gif",
+    "name": "Reflection Of Mawhawk",
+    "hp": 45000,
+    "image_url": "images/monsters/Reflection_Of_Mawhawk.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38650,7 +57270,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "death",
@@ -38671,6 +57291,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Reflection Of Obujos",
+    "hp": 33000,
+    "image_url": "images/monsters/Reflection_Of_Obujos.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.4
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Reflection Of Obujos",
+    "hp": 33000,
+    "image_url": "images/monsters/Reflection_Of_Obujos.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.4
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -38710,9 +57400,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Rejana (Creature)",
-    "hp": 100000,
-    "image_url": "images/monsters/Rejana__Creature_.gif",
+    "name": "Rejana (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Rejana_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -38776,6 +57466,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Renegade Orc",
+    "hp": 450,
+    "image_url": "images/monsters/Renegade_Orc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -38990,6 +57715,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Retainer Of Baeloc",
+    "hp": 5500,
+    "image_url": "images/monsters/Retainer_Of_Baeloc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Retching Horror",
     "hp": 5300,
     "image_url": "images/monsters/Retching_Horror.gif",
@@ -39004,11 +57764,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.8
+        "multiplier": 0.78
       },
       {
         "type": "fire",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "ice",
@@ -39060,9 +57820,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Rewar the Bloody",
+    "name": "Rewar The Bloody",
     "hp": 250000,
-    "image_url": "images/monsters/Rewar_the_Bloody.gif",
+    "image_url": "images/monsters/Rewar_The_Bloody.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39074,7 +57834,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rewar The Bloody",
+    "hp": 250000,
+    "image_url": "images/monsters/Rewar_The_Bloody.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -39165,8 +57960,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ribstride",
+    "hp": 1000,
+    "image_url": "images/monsters/Ribstride.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Rift Breacher",
+    "hp": 16500,
+    "image_url": "images/monsters/Rift_Breacher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Rift Brood",
-    "hp": 2950,
+    "hp": 3000,
     "image_url": "images/monsters/Rift_Brood.gif",
     "damageTypes": [
       {
@@ -39183,11 +58048,46 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rift Fragment",
+    "hp": 0,
+    "image_url": "images/monsters/Rift_Fragment.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -39210,7 +58110,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -39222,7 +58122,112 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rift Lord",
+    "hp": 0,
+    "image_url": "images/monsters/Rift_Lord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rift Minion",
+    "hp": 3000,
+    "image_url": "images/monsters/Rift_Minion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Rift Phantom",
+    "hp": 0,
+    "image_url": "images/monsters/Rift_Phantom.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -39245,7 +58250,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1.01
       },
       {
         "type": "death",
@@ -39257,7 +58262,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.35
+        "multiplier": 0.99
       },
       {
         "type": "energy",
@@ -39265,7 +58270,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Rift Spawn",
+    "hp": 16500,
+    "image_url": "images/monsters/Rift_Spawn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -39311,7 +58351,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "holy",
@@ -39341,7 +58381,7 @@ var allMonstersData = [
   },
   {
     "name": "Risen Soldier",
-    "hp": 6000,
+    "hp": 7000,
     "image_url": "images/monsters/Risen_Soldier.gif",
     "damageTypes": [
       {
@@ -39358,7 +58398,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -39371,6 +58411,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1.2
+      }
+    ]
+  },
+  {
+    "name": "Ritualwater",
+    "hp": 0,
+    "image_url": "images/monsters/Ritualwater.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -39411,20 +58486,20 @@ var allMonstersData = [
   },
   {
     "name": "Roaring Water Elemental",
-    "hp": 1750,
+    "hp": 1400,
     "image_url": "images/monsters/Roaring_Water_Elemental.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.55
+        "multiplier": 0.99
       },
       {
         "type": "holy",
-        "multiplier": 0.6
+        "multiplier": 0.99
       },
       {
         "type": "death",
-        "multiplier": 0.99
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -39568,7 +58643,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.01
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -39586,7 +58661,7 @@ var allMonstersData = [
   },
   {
     "name": "Rogue Naga",
-    "hp": 6200,
+    "hp": 0,
     "image_url": "images/monsters/Rogue_Naga.gif",
     "damageTypes": [
       {
@@ -39603,7 +58678,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -39611,7 +58686,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -39620,9 +58695,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Ron the Ripper",
+    "name": "Ron The Ripper",
     "hp": 1500,
-    "image_url": "images/monsters/Ron_the_Ripper.gif",
+    "image_url": "images/monsters/Ron_The_Ripper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ron The Ripper",
+    "hp": 1500,
+    "image_url": "images/monsters/Ron_The_Ripper.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -39686,6 +58796,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Rootthing Buckler",
+    "hp": 12000,
+    "image_url": "images/monsters/Rootthing_Buckler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -39830,6 +58975,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Rotrender",
+    "hp": 12000000,
+    "image_url": "images/monsters/Rotrender.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rotspit",
+    "hp": 6800,
+    "image_url": "images/monsters/Rotspit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Rotspit",
     "hp": 6800,
     "image_url": "images/monsters/Rotspit.gif",
@@ -39926,7 +59141,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "earth",
@@ -39935,37 +59150,37 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Rotten Plant Thing",
-    "hp": 100000,
-    "image_url": "images/monsters/Rotten_Plant_Thing.gif",
+    "name": "Rottie the Rotworm",
+    "hp": 65,
+    "image_url": "images/monsters/Rottie_the_Rotworm.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.55
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.55
+        "multiplier": 1
       }
     ]
   },
@@ -40058,11 +59273,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.2
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -40070,7 +59285,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rotworm Queen",
+    "hp": 105,
+    "image_url": "images/monsters/Rotworm_Queen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -40081,7 +59331,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -40093,7 +59343,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -40101,11 +59351,116 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rukor Zad",
+    "hp": 380,
+    "image_url": "images/monsters/Rukor_Zad.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.95
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Rum Barrel",
+    "hp": 0,
+    "image_url": "images/monsters/Rum_Barrel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Running Elite Orc Guard",
+    "hp": 0,
+    "image_url": "images/monsters/Running_Elite_Orc_Guard.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -40132,7 +59487,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -40140,7 +59495,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Rupture",
+    "hp": 290000,
+    "image_url": "images/monsters/Rupture.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
       }
     ]
   },
@@ -40163,7 +59553,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "ice",
@@ -40180,9 +59570,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Sabretooth (Creature)",
+    "name": "Sabretooth (Criatura)",
     "hp": 17300,
-    "image_url": "images/monsters/Sabretooth__Creature_.gif",
+    "image_url": "images/monsters/Sabretooth_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40241,11 +59631,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.99
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 0.5
       }
     ]
   },
@@ -40326,6 +59716,76 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Salamander Trainer",
+    "hp": 220,
+    "image_url": "images/monsters/Salamander_Trainer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Sand Brood",
+    "hp": 0,
+    "image_url": "images/monsters/Sand_Brood.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
       },
       {
@@ -40338,7 +59798,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -40346,18 +59806,18 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.85
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Sand Brood",
-    "hp": 2100,
-    "image_url": "images/monsters/Sand_Brood.gif",
+    "name": "Sand Vortex",
+    "hp": 0,
+    "image_url": "images/monsters/Sand_Vortex.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -40455,13 +59915,13 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       }
     ]
   },
   {
     "name": "Scar Tribe Shaman",
-    "hp": 115,
+    "hp": 147,
     "image_url": "images/monsters/Scar_Tribe_Shaman.gif",
     "damageTypes": [
       {
@@ -40571,31 +60031,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Scarlett Etzel",
+    "hp": 30000,
+    "image_url": "images/monsters/Scarlett_Etzel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -40636,7 +60131,7 @@ var allMonstersData = [
   },
   {
     "name": "Scissorion",
-    "hp": 950,
+    "hp": 0,
     "image_url": "images/monsters/Scissorion.gif",
     "damageTypes": [
       {
@@ -40863,7 +60358,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -40871,11 +60366,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": -1.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
       }
     ]
   },
@@ -40916,7 +60411,7 @@ var allMonstersData = [
   },
   {
     "name": "Servant Golem",
-    "hp": 1400,
+    "hp": 0,
     "image_url": "images/monsters/Servant_Golem.gif",
     "damageTypes": [
       {
@@ -40946,6 +60441,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Servant Imp",
+    "hp": 0,
+    "image_url": "images/monsters/Servant_Imp.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Servant of Tentugly",
+    "hp": 3000,
+    "image_url": "images/monsters/Servant_of_Tentugly.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -41042,15 +60607,50 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "energy",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "earth",
         "multiplier": 1.15
+      }
+    ]
+  },
+  {
+    "name": "Shadow Fiend",
+    "hp": 3200,
+    "image_url": "images/monsters/Shadow_Fiend.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.59
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -41091,7 +60691,7 @@ var allMonstersData = [
   },
   {
     "name": "Shadow of Boreth",
-    "hp": 600,
+    "hp": 0,
     "image_url": "images/monsters/Shadow_of_Boreth.gif",
     "damageTypes": [
       {
@@ -41125,9 +60725,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Shadow of Lersatio",
-    "hp": 600,
-    "image_url": "images/monsters/Shadow_of_Lersatio.gif",
+    "name": "Shadow of Boreth",
+    "hp": 0,
+    "image_url": "images/monsters/Shadow_of_Boreth.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -41161,7 +60761,42 @@ var allMonstersData = [
   },
   {
     "name": "Shadow of Marziel",
-    "hp": 600,
+    "hp": 0,
+    "image_url": "images/monsters/Shadow_of_Marziel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Shadow of Marziel",
+    "hp": 0,
     "image_url": "images/monsters/Shadow_of_Marziel.gif",
     "damageTypes": [
       {
@@ -41230,6 +60865,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Shadow Tentacle",
+    "hp": 120000,
+    "image_url": "images/monsters/Shadow_Tentacle.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.6
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Shadowpelt",
     "hp": 6000,
     "image_url": "images/monsters/Shadowpelt.gif",
@@ -41260,7 +60930,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Shadowpelt",
+    "hp": 6000,
+    "image_url": "images/monsters/Shadowpelt.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -41295,7 +61000,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Shadowstalker",
+    "hp": 6100,
+    "image_url": "images/monsters/Shadowstalker.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -41353,7 +61093,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -41361,7 +61101,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.75
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Shard of Corruption",
+    "hp": 600,
+    "image_url": "images/monsters/Shard_of_Corruption.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.4
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
       },
       {
         "type": "earth",
@@ -41384,7 +61159,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -41400,7 +61175,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": -1
+        "multiplier": 1
       }
     ]
   },
@@ -41423,7 +61198,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Shardhead",
+    "hp": 800,
+    "image_url": "images/monsters/Shardhead.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -41458,7 +61268,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "ice",
@@ -41489,23 +61299,58 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Sharpclaw",
+    "hp": 3300,
+    "image_url": "images/monsters/Sharpclaw.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
       }
     ]
   },
@@ -41540,7 +61385,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Sharptooth",
+    "hp": 3100,
+    "image_url": "images/monsters/Sharptooth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
       }
     ]
   },
@@ -41625,7 +61505,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.01
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -41672,11 +61552,81 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Shlorg",
+    "hp": 10000,
+    "image_url": "images/monsters/Shlorg.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Shlorg",
+    "hp": 10000,
+    "image_url": "images/monsters/Shlorg.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -41721,7 +61671,7 @@ var allMonstersData = [
   },
   {
     "name": "Shredderthrower",
-    "hp": 100,
+    "hp": 0,
     "image_url": "images/monsters/Shredderthrower.gif",
     "damageTypes": [
       {
@@ -41796,7 +61746,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.3
       },
       {
         "type": "holy",
@@ -41808,19 +61758,54 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1.3
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1.3
+      }
+    ]
+  },
+  {
+    "name": "Shulgrax",
+    "hp": 290000,
+    "image_url": "images/monsters/Shulgrax.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.3
+      },
+      {
+        "type": "holy",
         "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.3
       }
     ]
   },
@@ -41965,6 +61950,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Sin Devourer",
+    "hp": 0,
+    "image_url": "images/monsters/Sin_Devourer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Sineater Inferniarch",
     "hp": 9150,
     "image_url": "images/monsters/Sineater_Inferniarch.gif",
@@ -41975,7 +61995,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1.1
       },
       {
         "type": "death",
@@ -41996,6 +62016,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Sir Baeloc",
+    "hp": 150000,
+    "image_url": "images/monsters/Sir_Baeloc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": -0.2
+      }
+    ]
+  },
+  {
+    "name": "Sir Baeloc",
+    "hp": 150000,
+    "image_url": "images/monsters/Sir_Baeloc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": -0.2
       }
     ]
   },
@@ -42070,13 +62160,83 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Sir Nictros",
+    "hp": 150000,
+    "image_url": "images/monsters/Sir_Nictros.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Sir Nictros",
+    "hp": 150000,
+    "image_url": "images/monsters/Sir_Nictros.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.97
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
     "name": "Sir Valorcrest",
     "hp": 1600,
     "image_url": "images/monsters/Sir_Valorcrest.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "holy",
@@ -42096,7 +62256,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -42105,25 +62265,25 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Siramal (Creature)",
-    "hp": 100000,
-    "image_url": "images/monsters/Siramal__Creature_.gif",
+    "name": "Sir Valorcrest",
+    "hp": 1600,
+    "image_url": "images/monsters/Sir_Valorcrest.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.45
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -42135,7 +62295,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -42146,7 +62306,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -42162,7 +62322,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.25
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Sister Hetai",
+    "hp": 25000,
+    "image_url": "images/monsters/Sister_Hetai.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -42315,8 +62510,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Skyrr (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Skyrr_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Slick Water Elemental",
-    "hp": 550,
+    "hp": 500,
     "image_url": "images/monsters/Slick_Water_Elemental.gif",
     "damageTypes": [
       {
@@ -42385,9 +62615,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Slime",
+    "name": "Slime (Criatura)",
     "hp": 150,
-    "image_url": "images/monsters/Slime.gif",
+    "image_url": "images/monsters/Slime_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -42420,8 +62650,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Slime Puddle",
+    "hp": 0,
+    "image_url": "images/monsters/Slime_Puddle.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Slippery Northern Pike",
-    "hp": 100,
+    "hp": 95,
     "image_url": "images/monsters/Slippery_Northern_Pike.gif",
     "damageTypes": [
       {
@@ -42447,6 +62712,76 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Sloth Wraith",
+    "hp": 0,
+    "image_url": "images/monsters/Sloth_Wraith.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Slowing Slime",
+    "hp": 0,
+    "image_url": "images/monsters/Slowing_Slime.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -42486,6 +62821,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Smelly Cheese",
+    "hp": 0,
+    "image_url": "images/monsters/Smelly_Cheese.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -42560,8 +62930,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Smuggler Baron Silvertoe",
+    "hp": 280,
+    "image_url": "images/monsters/Smuggler_Baron_Silvertoe.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Snail Slime",
-    "hp": 5000,
+    "hp": 0,
     "image_url": "images/monsters/Snail_Slime.gif",
     "damageTypes": [
       {
@@ -42578,7 +62983,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -42586,7 +62991,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -42665,6 +63070,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Snake God Essence",
+    "hp": 65000,
+    "image_url": "images/monsters/Snake_God_Essence.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Snake Thing",
     "hp": 70000,
     "image_url": "images/monsters/Snake_Thing.gif",
@@ -42700,6 +63140,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Snake Thing",
+    "hp": 70000,
+    "image_url": "images/monsters/Snake_Thing.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Solid Frozen Horror",
+    "hp": 0,
+    "image_url": "images/monsters/Solid_Frozen_Horror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Solitary Frost Dragon",
     "hp": 1800,
     "image_url": "images/monsters/Solitary_Frost_Dragon.gif",
@@ -42731,6 +63241,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Somewhat Beatable Dragon",
+    "hp": 0,
+    "image_url": "images/monsters/Somewhat_Beatable_Dragon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -42784,7 +63329,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.4
+        "multiplier": 0.5
       },
       {
         "type": "fire",
@@ -42815,7 +63360,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 0.95
       },
       {
         "type": "death",
@@ -42836,41 +63381,6 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.5
-      }
-    ]
-  },
-  {
-    "name": "Sorcerer Familiar",
-    "hp": 20000,
-    "image_url": "images/monsters/Sorcerer_Familiar.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
       }
     ]
   },
@@ -42910,13 +63420,118 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Soul Scourge",
-    "hp": 6900,
-    "image_url": "images/monsters/Soul_Scourge.gif",
+    "name": "Soul Cage",
+    "hp": 0,
+    "image_url": "images/monsters/Soul_Cage.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.7
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Soul of Dragonking Zyrtarch",
+    "hp": 60000,
+    "image_url": "images/monsters/Soul_of_Dragonking_Zyrtarch.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Soul of Dragonking Zyrtarch",
+    "hp": 60000,
+    "image_url": "images/monsters/Soul_of_Dragonking_Zyrtarch.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Soul Reaper",
+    "hp": 11000,
+    "image_url": "images/monsters/Soul_Reaper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -42941,6 +63556,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Soul Scourge",
+    "hp": 6900,
+    "image_url": "images/monsters/Soul_Scourge.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -42971,7 +63621,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "earth",
@@ -42981,36 +63631,36 @@ var allMonstersData = [
   },
   {
     "name": "Soul Sphere",
-    "hp": 15,
+    "hp": 0,
     "image_url": "images/monsters/Soul_Sphere.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -43037,7 +63687,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "energy",
@@ -43046,6 +63696,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Soulcatcher",
+    "hp": 0,
+    "image_url": "images/monsters/Soulcatcher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.3
       }
     ]
   },
@@ -43085,6 +63770,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Soulless Minion",
+    "hp": 10000,
+    "image_url": "images/monsters/Soulless_Minion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Soulsnatcher",
+    "hp": 0,
+    "image_url": "images/monsters/Soulsnatcher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Spark of Burning Hatred",
+    "hp": 0,
+    "image_url": "images/monsters/Spark_of_Burning_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Spark of Destruction",
     "hp": 3900,
     "image_url": "images/monsters/Spark_of_Destruction.gif",
@@ -43103,19 +63893,19 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1.15
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.15
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 1.15
       }
     ]
   },
@@ -43142,11 +63932,11 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "earth",
@@ -43156,7 +63946,7 @@ var allMonstersData = [
   },
   {
     "name": "Spawn of Despair",
-    "hp": 35000,
+    "hp": 0,
     "image_url": "images/monsters/Spawn_of_Despair.gif",
     "damageTypes": [
       {
@@ -43191,8 +63981,43 @@ var allMonstersData = [
   },
   {
     "name": "Spawn of Devovorga",
-    "hp": 8900,
+    "hp": 8000,
     "image_url": "images/monsters/Spawn_of_Devovorga.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Spawn of Havoc",
+    "hp": 0,
+    "image_url": "images/monsters/Spawn_of_Havoc.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43260,13 +64085,83 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Spawn of the Welter",
+    "hp": 1850,
+    "image_url": "images/monsters/Spawn_of_the_Welter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Spectral Scum",
+    "hp": 0,
+    "image_url": "images/monsters/Spectral_Scum.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Spectre",
     "hp": 1350,
     "image_url": "images/monsters/Spectre.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "holy",
@@ -43313,7 +64208,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -43326,6 +64221,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1.15
+      }
+    ]
+  },
+  {
+    "name": "Sphere of Wrath",
+    "hp": 0,
+    "image_url": "images/monsters/Sphere_of_Wrath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -43402,7 +64332,7 @@ var allMonstersData = [
   {
     "name": "Spider (Nostalgia)",
     "hp": 20,
-    "image_url": "images/monsters/Spider__Nostalgia_.gif",
+    "image_url": "images/monsters/Spider_(Nostalgia).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43418,7 +64348,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "ice",
@@ -43445,23 +64375,58 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1.15
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Spider Queen",
+    "hp": 10000,
+    "image_url": "images/monsters/Spider_Queen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -43575,9 +64540,79 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Spirit Container (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Spirit_Container_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Spirit of Earth",
     "hp": 1200,
     "image_url": "images/monsters/Spirit_of_Earth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Spirit of Fertility",
+    "hp": 0,
+    "image_url": "images/monsters/Spirit_of_Fertility.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43597,11 +64632,11 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -43645,17 +64680,52 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Spirit of Light",
+    "hp": 0,
+    "image_url": "images/monsters/Spirit_of_Light.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Spirit of Water",
     "hp": 1400,
     "image_url": "images/monsters/Spirit_of_Water.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -43672,6 +64742,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Spirit Overlord",
+    "hp": 4000,
+    "image_url": "images/monsters/Spirit_Overlord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -43785,6 +64890,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Spiteful Spitter",
+    "hp": 0,
+    "image_url": "images/monsters/Spiteful_Spitter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Spitter",
     "hp": 1500,
     "image_url": "images/monsters/Spitter.gif",
@@ -43855,9 +64995,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Spyrat (Facing East)",
-    "hp": 3000,
-    "image_url": "images/monsters/Spyrat__Facing_East_.gif",
+    "name": "Splasher",
+    "hp": 1700,
+    "image_url": "images/monsters/Splasher.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43873,26 +65013,26 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 1.25
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1.15
       }
     ]
   },
   {
-    "name": "Spyrat (Facing North)",
-    "hp": 3000,
-    "image_url": "images/monsters/Spyrat__Facing_North_.gif",
+    "name": "Spoiler (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Spoiler_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43920,14 +65060,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Spyrat (Facing South)",
-    "hp": 3000,
-    "image_url": "images/monsters/Spyrat__Facing_South_.gif",
+    "name": "Spy Rat",
+    "hp": 0,
+    "image_url": "images/monsters/Spy_Rat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43955,14 +65095,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Spyrat (Facing West)",
+    "name": "Spyrat",
     "hp": 3000,
-    "image_url": "images/monsters/Spyrat__Facing_West_.gif",
+    "image_url": "images/monsters/Spyrat.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -43990,7 +65130,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.7
+        "multiplier": 1
       }
     ]
   },
@@ -44065,6 +65205,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Squire Of Nictros",
+    "hp": 5500,
+    "image_url": "images/monsters/Squire_Of_Nictros.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Squirrel",
     "hp": 20,
     "image_url": "images/monsters/Squirrel.gif",
@@ -44122,7 +65297,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Srezz Yellow Eyes",
+    "hp": 6200,
+    "image_url": "images/monsters/Srezz_Yellow_Eyes.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
       },
       {
         "type": "energy",
@@ -44149,7 +65359,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "fire",
@@ -44161,7 +65371,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -44196,7 +65406,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "earth",
@@ -44266,7 +65476,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.10
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -44333,6 +65543,251 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Stolen Knowledge Of Armor",
+    "hp": 0,
+    "image_url": "images/monsters/Stolen_Knowledge_Of_Armor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Stolen Knowledge Of Healing",
+    "hp": 0,
+    "image_url": "images/monsters/Stolen_Knowledge_Of_Healing.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Stolen Knowledge Of Lifesteal",
+    "hp": 0,
+    "image_url": "images/monsters/Stolen_Knowledge_Of_Lifesteal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Stolen Knowledge Of Spells",
+    "hp": 0,
+    "image_url": "images/monsters/Stolen_Knowledge_Of_Spells.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Stolen Knowledge Of Summoning",
+    "hp": 0,
+    "image_url": "images/monsters/Stolen_Knowledge_Of_Summoning.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Stolen Soul",
+    "hp": 4500,
+    "image_url": "images/monsters/Stolen_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Stolen Tome Of Portals",
+    "hp": 0,
+    "image_url": "images/monsters/Stolen_Tome_Of_Portals.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -44456,11 +65911,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.9
       },
       {
         "type": "death",
@@ -44472,7 +65927,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.25
+      }
+    ]
+  },
+  {
+    "name": "Stonecracker",
+    "hp": 6500,
+    "image_url": "images/monsters/Stonecracker.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
         "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.6
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -44516,6 +66006,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Storm",
+    "hp": 0,
+    "image_url": "images/monsters/Storm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Strange Machine (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Strange_Machine_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -44625,8 +66185,113 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Strong Orger Beer",
+    "hp": 0,
+    "image_url": "images/monsters/Strong_Orger_Beer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Strong Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Strong_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Stutch (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Stutch_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Sugar Cube",
-    "hp": 28,
+    "hp": 68,
     "image_url": "images/monsters/Sugar_Cube.gif",
     "damageTypes": [
       {
@@ -44800,8 +66465,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Sulphur Geysir",
+    "hp": 0,
+    "image_url": "images/monsters/Sulphur_Geysir.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Sulphur Menace",
+    "hp": 0,
+    "image_url": "images/monsters/Sulphur_Menace.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Sulphur Scuttler",
-    "hp": 1300,
+    "hp": 2000,
     "image_url": "images/monsters/Sulphur_Scuttler.gif",
     "damageTypes": [
       {
@@ -44830,13 +66565,48 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Sulphur Scuttler",
+    "hp": 2000,
+    "image_url": "images/monsters/Sulphur_Scuttler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
   {
     "name": "Sulphur Spouter",
-    "hp": 19000,
+    "hp": 17100,
     "image_url": "images/monsters/Sulphur_Spouter.gif",
     "damageTypes": [
       {
@@ -44870,9 +66640,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Sun-Marked Goanna",
+    "name": "Sun-marked Goanna",
     "hp": 7800,
-    "image_url": "images/monsters/Sun-Marked_Goanna.gif",
+    "image_url": "images/monsters/Sun-marked_Goanna.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44900,7 +66670,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Sun-marked Goanna",
+    "hp": 7800,
+    "image_url": "images/monsters/Sun-marked_Goanna.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Supercharged Mazzinor",
+    "hp": 0,
+    "image_url": "images/monsters/Supercharged_Mazzinor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -44923,7 +66763,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "ice",
@@ -44940,9 +66780,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Svoren the Mad",
+    "name": "Svoren The Mad",
     "hp": 6310,
-    "image_url": "images/monsters/Svoren_the_Mad.gif",
+    "image_url": "images/monsters/Svoren_The_Mad.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -44962,7 +66802,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -45150,6 +66990,146 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Sword Of Vengeance",
+    "hp": 0,
+    "image_url": "images/monsters/Sword_Of_Vengeance.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Symbol Of Fear",
+    "hp": 13000,
+    "image_url": "images/monsters/Symbol_Of_Fear.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Symbol of Hatred",
+    "hp": 0,
+    "image_url": "images/monsters/Symbol_of_Hatred.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Symbol Of Pain",
+    "hp": 0,
+    "image_url": "images/monsters/Symbol_Of_Pain.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Tainted Soul",
     "hp": 250,
     "image_url": "images/monsters/Tainted_Soul.gif",
@@ -45185,6 +67165,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Tainted Soul Splinter",
+    "hp": 3500,
+    "image_url": "images/monsters/Tainted_Soul_Splinter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": -0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Tame Terror Bird",
     "hp": 300,
     "image_url": "images/monsters/Tame_Terror_Bird.gif",
@@ -45199,23 +67214,23 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
       }
     ]
   },
@@ -45238,11 +67253,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -45250,13 +67265,83 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Tamru the Black",
+    "hp": 15500,
+    "image_url": "images/monsters/Tamru_the_Black.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
       }
     ]
   },
   {
     "name": "Tanjis",
-    "hp": 30000,
+    "hp": 25000,
+    "image_url": "images/monsters/Tanjis.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.01
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.05
+      }
+    ]
+  },
+  {
+    "name": "Tanjis",
+    "hp": 25000,
     "image_url": "images/monsters/Tanjis.gif",
     "damageTypes": [
       {
@@ -45360,6 +67445,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Tarbaz",
+    "hp": 290000,
+    "image_url": "images/monsters/Tarbaz.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Tarnished Spirit",
     "hp": 150,
     "image_url": "images/monsters/Tarnished_Spirit.gif",
@@ -45405,11 +67525,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.01
       },
       {
         "type": "fire",
@@ -45417,15 +67537,50 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1.01
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Teleskor",
+    "hp": 80,
+    "image_url": "images/monsters/Teleskor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -45466,7 +67621,7 @@ var allMonstersData = [
   },
   {
     "name": "Teneshpar",
-    "hp": 15000,
+    "hp": 20000,
     "image_url": "images/monsters/Teneshpar.gif",
     "damageTypes": [
       {
@@ -45535,6 +67690,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Tentacle of the Deep Terror",
+    "hp": 25000,
+    "image_url": "images/monsters/Tentacle_of_the_Deep_Terror.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Tentugly's Head",
+    "hp": 75000,
+    "image_url": "images/monsters/Tentugly's_Head.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.3
+      }
+    ]
+  },
+  {
     "name": "Tentugly's Head",
     "hp": 75000,
     "image_url": "images/monsters/Tentugly's_Head.gif",
@@ -45580,27 +67805,62 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Terofar",
+    "hp": 40000,
+    "image_url": "images/monsters/Terofar.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -45646,7 +67906,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0.75
       },
       {
         "type": "holy",
@@ -45724,7 +67984,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "fire",
@@ -45751,31 +68011,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.15000000000000002
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Thaian",
+    "hp": 50000,
+    "image_url": "images/monsters/Thaian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -45811,6 +68106,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Thaian's Ghost",
+    "hp": 5000,
+    "image_url": "images/monsters/Thaian's_Ghost.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Thalas",
+    "hp": 4100,
+    "image_url": "images/monsters/Thalas.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -45920,72 +68285,212 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Thawing Dragon Lord",
+    "hp": 25000,
+    "image_url": "images/monsters/Thawing_Dragon_Lord.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "The Abomination",
-    "hp": 750000,
+    "hp": 0,
     "image_url": "images/monsters/The_Abomination.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Abomination",
+    "hp": 0,
+    "image_url": "images/monsters/The_Abomination.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "The Armored Voidborn",
-    "hp": 60000,
+    "hp": 225000,
     "image_url": "images/monsters/The_Armored_Voidborn.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.030000000000000027
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Armored Voidborn",
+    "hp": 225000,
+    "image_url": "images/monsters/The_Armored_Voidborn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Astral Source",
+    "hp": 95000,
+    "image_url": "images/monsters/The_Astral_Source.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.85
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
       }
     ]
   },
@@ -45993,6 +68498,111 @@ var allMonstersData = [
     "name": "The Axeorcist",
     "hp": 5100,
     "image_url": "images/monsters/The_Axeorcist.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Baron from Below",
+    "hp": 350000,
+    "image_url": "images/monsters/The_Baron_from_Below.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Baron from Below",
+    "hp": 350000,
+    "image_url": "images/monsters/The_Baron_from_Below.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Big Bad One",
+    "hp": 300,
+    "image_url": "images/monsters/The_Big_Bad_One.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46055,14 +68665,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "The Blazing Time Guardian",
-    "hp": 290000,
-    "image_url": "images/monsters/The_Blazing_Time_Guardian.gif",
+    "name": "The Blazing Rose",
+    "hp": 18000,
+    "image_url": "images/monsters/The_Blazing_Rose.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46078,11 +68688,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": -2
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -46091,6 +68701,146 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Blazing Rose",
+    "hp": 18000,
+    "image_url": "images/monsters/The_Blazing_Rose.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Blazing Time Guardian",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Blazing_Time_Guardian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "The Blazing Time Guardian",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Blazing_Time_Guardian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "The Blightfather",
+    "hp": 400,
+    "image_url": "images/monsters/The_Blightfather.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -46165,6 +68915,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Bloodtusk",
+    "hp": 600,
+    "image_url": "images/monsters/The_Bloodtusk.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.85
+      }
+    ]
+  },
+  {
+    "name": "The Bloodweb",
+    "hp": 1750,
+    "image_url": "images/monsters/The_Bloodweb.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
     "name": "The Bloodweb",
     "hp": 1750,
     "image_url": "images/monsters/The_Bloodweb.gif",
@@ -46206,15 +69026,15 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -46222,22 +69042,162 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "The Book of Secrets",
-    "hp": 8000,
+    "hp": 0,
     "image_url": "images/monsters/The_Book_of_Secrets.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Brainstealer",
+    "hp": 300000,
+    "image_url": "images/monsters/The_Brainstealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Brainstealer",
+    "hp": 300000,
+    "image_url": "images/monsters/The_Brainstealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Cold Of Winter",
+    "hp": 3000,
+    "image_url": "images/monsters/The_Cold_Of_Winter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Collection Container",
+    "hp": 0,
+    "image_url": "images/monsters/The_Collection_Container.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46305,6 +69265,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Corruptor Of Souls",
+    "hp": 0,
+    "image_url": "images/monsters/The_Corruptor_Of_Souls.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Corruptor Of Souls",
+    "hp": 0,
+    "image_url": "images/monsters/The_Corruptor_Of_Souls.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "The Count",
     "hp": 1250,
     "image_url": "images/monsters/The_Count.gif",
@@ -46315,7 +69345,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.01
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -46340,9 +69370,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "The Count of the Core",
-    "hp": 500000,
-    "image_url": "images/monsters/The_Count_of_the_Core.gif",
+    "name": "The Count",
+    "hp": 1250,
+    "image_url": "images/monsters/The_Count.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.4
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Count Of The Core",
+    "hp": 50000,
+    "image_url": "images/monsters/The_Count_Of_The_Core.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46358,7 +69423,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": -0.75
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Count Of The Core",
+    "hp": 50000,
+    "image_url": "images/monsters/The_Count_Of_The_Core.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
       },
       {
         "type": "ice",
@@ -46389,11 +69489,151 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "fire",
         "multiplier": 0.6
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Destruction",
+    "hp": 0,
+    "image_url": "images/monsters/The_Destruction.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Destruction",
+    "hp": 0,
+    "image_url": "images/monsters/The_Destruction.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Devourer of Secrets",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Devourer_of_Secrets.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Devourer of Secrets",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Devourer_of_Secrets.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -46424,7 +69664,147 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Diamond Blossom",
+    "hp": 20000,
+    "image_url": "images/monsters/The_Diamond_Blossom.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Distorted Astral Source",
+    "hp": 0,
+    "image_url": "images/monsters/The_Distorted_Astral_Source.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Draccoon (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/The_Draccoon_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Dread Maiden",
+    "hp": 300000,
+    "image_url": "images/monsters/The_Dread_Maiden.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -46459,11 +69839,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": -1
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -46498,7 +69878,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -46515,9 +69895,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "The End of Days",
-    "hp": 90000,
-    "image_url": "images/monsters/The_End_of_Days.gif",
+    "name": "The Duke Of The Depths",
+    "hp": 350000,
+    "image_url": "images/monsters/The_Duke_Of_The_Depths.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46541,7 +69921,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -46550,8 +69930,148 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Duke Of The Depths",
+    "hp": 350000,
+    "image_url": "images/monsters/The_Duke_Of_The_Depths.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The End of Days",
+    "hp": 0,
+    "image_url": "images/monsters/The_End_of_Days.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Enraged Thorn Knight",
+    "hp": 90000,
+    "image_url": "images/monsters/The_Enraged_Thorn_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.84
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.93
+      },
+      {
+        "type": "death",
+        "multiplier": 0.65
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.79
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.41
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.79
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Enraged Thorn Knight",
+    "hp": 90000,
+    "image_url": "images/monsters/The_Enraged_Thorn_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.84
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.93
+      },
+      {
+        "type": "death",
+        "multiplier": 0.65
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.79
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.41
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.79
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "The Evil Eye",
-    "hp": 1200,
+    "hp": 1100,
     "image_url": "images/monsters/The_Evil_Eye.gif",
     "damageTypes": [
       {
@@ -46560,7 +70080,42 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.01
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Evil Eye",
+    "hp": 1100,
+    "image_url": "images/monsters/The_Evil_Eye.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -46586,12 +70141,12 @@ var allMonstersData = [
   },
   {
     "name": "The False God",
-    "hp": 300000,
+    "hp": 290000,
     "image_url": "images/monsters/The_False_God.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -46599,11 +70154,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -46611,7 +70166,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -46620,9 +70175,254 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "The First Dragon",
-    "hp": 50000,
-    "image_url": "images/monsters/The_First_Dragon.gif",
+    "name": "The False God",
+    "hp": 290000,
+    "image_url": "images/monsters/The_False_God.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Fear Feaster",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Fear_Feaster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Fear Feaster",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Fear_Feaster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Fettered Shatterer",
+    "hp": 0,
+    "image_url": "images/monsters/The_Fettered_Shatterer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Fire Empowered Duke",
+    "hp": 0,
+    "image_url": "images/monsters/The_Fire_Empowered_Duke.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Fire Empowered Duke",
+    "hp": 0,
+    "image_url": "images/monsters/The_Fire_Empowered_Duke.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The First Dragon (Criatura)",
+    "hp": 220000,
+    "image_url": "images/monsters/The_First_Dragon_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Flame Of Hope",
+    "hp": 0,
+    "image_url": "images/monsters/The_Flame_Of_Hope.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46669,15 +70469,15 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -46690,9 +70490,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "The Forgemaster (Creature)",
-    "hp": 10500,
-    "image_url": "images/monsters/The_Forgemaster__Creature_.gif",
+    "name": "The Flaming Orchid",
+    "hp": 4000,
+    "image_url": "images/monsters/The_Flaming_Orchid.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -46721,6 +70521,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Forgemaster (Criatura)",
+    "hp": 10500,
+    "image_url": "images/monsters/The_Forgemaster_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.65
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.65
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.77
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
       }
     ]
   },
@@ -46731,31 +70566,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.3
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.3
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.3
       },
       {
         "type": "fire",
-        "multiplier": 1.01
+        "multiplier": 1.3
       },
       {
         "type": "ice",
-        "multiplier": -2
+        "multiplier": 0.3
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0.3
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "The Freezing Time Guardian",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Freezing_Time_Guardian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
       }
     ]
   },
@@ -46766,7 +70636,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.020000000000000018
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -46778,25 +70648,60 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.03
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.06
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Frog Prince",
+    "hp": 55,
+    "image_url": "images/monsters/The_Frog_Prince.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.03
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.06
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
   {
     "name": "The Great Schnitzel",
-    "hp": 110000,
+    "hp": 0,
     "image_url": "images/monsters/The_Great_Schnitzel.gif",
     "damageTypes": [
       {
@@ -46852,7 +70757,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 0.95
       },
       {
         "type": "energy",
@@ -46901,7 +70806,7 @@ var allMonstersData = [
   },
   {
     "name": "The Halloween Hare",
-    "hp": 2000,
+    "hp": 0,
     "image_url": "images/monsters/The_Halloween_Hare.gif",
     "damageTypes": [
       {
@@ -46941,7 +70846,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -46949,7 +70854,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -46970,6 +70875,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Handmaiden",
+    "hp": 19500,
+    "image_url": "images/monsters/The_Handmaiden.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.85
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Heat Of Summer",
+    "hp": 3000,
+    "image_url": "images/monsters/The_Heat_Of_Summer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "The Horned Fox",
     "hp": 265,
     "image_url": "images/monsters/The_Horned_Fox.gif",
@@ -46984,7 +70959,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.01
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -46992,7 +70967,112 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Horned Fox",
+    "hp": 265,
+    "image_url": "images/monsters/The_Horned_Fox.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Hunger",
+    "hp": 0,
+    "image_url": "images/monsters/The_Hunger.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Hunger",
+    "hp": 0,
+    "image_url": "images/monsters/The_Hunger.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -47019,19 +71099,19 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.11
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -47040,9 +71120,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "The Imperor",
-    "hp": 15000,
-    "image_url": "images/monsters/The_Imperor.gif",
+    "name": "The Hungerer",
+    "hp": 2000,
+    "image_url": "images/monsters/The_Hungerer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47058,7 +71138,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -47067,6 +71147,146 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Hungry Baron from Below",
+    "hp": 0,
+    "image_url": "images/monsters/The_Hungry_Baron_from_Below.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Hungry Baron from Below",
+    "hp": 0,
+    "image_url": "images/monsters/The_Hungry_Baron_from_Below.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Imperor",
+    "hp": 4750,
+    "image_url": "images/monsters/The_Imperor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.2
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Imperor",
+    "hp": 4750,
+    "image_url": "images/monsters/The_Imperor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.4
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.2
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
       },
       {
         "type": "earth",
@@ -47110,9 +71330,149 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "The Lily of Night",
+    "name": "The Keeper",
+    "hp": 40000,
+    "image_url": "images/monsters/The_Keeper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.5
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Last Lore Keeper",
+    "hp": 500000,
+    "image_url": "images/monsters/The_Last_Lore_Keeper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "The Last Lore Keeper",
+    "hp": 500000,
+    "image_url": "images/monsters/The_Last_Lore_Keeper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.3
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 0.3
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "The Lily Of Night",
     "hp": 19000,
-    "image_url": "images/monsters/The_Lily_of_Night.gif",
+    "image_url": "images/monsters/The_Lily_Of_Night.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Lily Of Night",
+    "hp": 19000,
+    "image_url": "images/monsters/The_Lily_Of_Night.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47160,6 +71520,76 @@ var allMonstersData = [
       {
         "type": "death",
         "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Lord of the Lice",
+    "hp": 80000,
+    "image_url": "images/monsters/The_Lord_of_the_Lice.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Manhunter",
+    "hp": 4500,
+    "image_url": "images/monsters/The_Manhunter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -47237,7 +71667,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Many",
+    "hp": 5000,
+    "image_url": "images/monsters/The_Many.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -47276,7 +71741,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -47299,11 +71764,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -47311,7 +71776,77 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Mean Masher",
+    "hp": 8000,
+    "image_url": "images/monsters/The_Mean_Masher.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Mega Magmaoid",
+    "hp": 104000,
+    "image_url": "images/monsters/The_Mega_Magmaoid.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -47334,11 +71869,11 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": -6
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -47346,17 +71881,52 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "The Monster",
-    "hp": 45000,
+    "hp": 0,
+    "image_url": "images/monsters/The_Monster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Monster",
+    "hp": 0,
     "image_url": "images/monsters/The_Monster.gif",
     "damageTypes": [
       {
@@ -47404,23 +71974,58 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 1.1
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Moonlight Aster",
+    "hp": 4500,
+    "image_url": "images/monsters/The_Moonlight_Aster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -47461,16 +72066,16 @@ var allMonstersData = [
   },
   {
     "name": "The Nightmare Beast",
-    "hp": 750000,
+    "hp": 550000,
     "image_url": "images/monsters/The_Nightmare_Beast.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.85
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -47478,7 +72083,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.65
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Nightmare Beast",
+    "hp": 550000,
+    "image_url": "images/monsters/The_Nightmare_Beast.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -47496,7 +72136,7 @@ var allMonstersData = [
   },
   {
     "name": "The Noxious Spawn",
-    "hp": 9500,
+    "hp": 8500,
     "image_url": "images/monsters/The_Noxious_Spawn.gif",
     "damageTypes": [
       {
@@ -47513,7 +72153,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -47521,7 +72161,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Noxious Spawn",
+    "hp": 8500,
+    "image_url": "images/monsters/The_Noxious_Spawn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -47600,8 +72275,78 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Old Whopper",
+    "hp": 785,
+    "image_url": "images/monsters/The_Old_Whopper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "The Old Widow",
-    "hp": 3200,
+    "hp": 3550,
+    "image_url": "images/monsters/The_Old_Widow.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.8
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Old Widow",
+    "hp": 3550,
     "image_url": "images/monsters/The_Old_Widow.gif",
     "damageTypes": [
       {
@@ -47636,16 +72381,16 @@ var allMonstersData = [
   },
   {
     "name": "The Pale Count",
-    "hp": 50000,
+    "hp": 25000,
     "image_url": "images/monsters/The_Pale_Count.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.7
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -47653,11 +72398,46 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.85
+        "multiplier": 1.1
       },
       {
         "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
         "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Pale Count",
+    "hp": 25000,
+    "image_url": "images/monsters/The_Pale_Count.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
       },
       {
         "type": "energy",
@@ -47671,36 +72451,71 @@ var allMonstersData = [
   },
   {
     "name": "The Pale Worm",
-    "hp": 435000,
+    "hp": 420000,
     "image_url": "images/monsters/The_Pale_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "holy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "death",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "ice",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "energy",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Pale Worm",
+    "hp": 420000,
+    "image_url": "images/monsters/The_Pale_Worm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.05
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.05
+      },
+      {
+        "type": "death",
+        "multiplier": 0.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.05
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.05
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.05
       }
     ]
   },
@@ -47711,19 +72526,19 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.05
       },
       {
         "type": "holy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "death",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       },
       {
         "type": "fire",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
       },
       {
         "type": "ice",
@@ -47731,11 +72546,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.25
+      }
+    ]
+  },
+  {
+    "name": "The Percht Queen",
+    "hp": 2300,
+    "image_url": "images/monsters/The_Percht_Queen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.05
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "death",
+        "multiplier": 0.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": -1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.2
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.25
       }
     ]
   },
@@ -47762,7 +72612,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "energy",
@@ -47770,22 +72620,22 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 0.95
       }
     ]
   },
   {
     "name": "The Plasmother",
-    "hp": 7500,
+    "hp": 7350,
     "image_url": "images/monsters/The_Plasmother.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -47806,6 +72656,181 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Plasmother",
+    "hp": 7350,
+    "image_url": "images/monsters/The_Plasmother.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Primal Menace",
+    "hp": 0,
+    "image_url": "images/monsters/The_Primal_Menace.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.75
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Primal Menace",
+    "hp": 0,
+    "image_url": "images/monsters/The_Primal_Menace.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.75
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Rage",
+    "hp": 0,
+    "image_url": "images/monsters/The_Rage.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Rage",
+    "hp": 0,
+    "image_url": "images/monsters/The_Rage.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -47836,11 +72861,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Ravager",
+    "hp": 53500,
+    "image_url": "images/monsters/The_Ravager.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -47848,6 +72908,146 @@ var allMonstersData = [
     "name": "The Red Knight",
     "hp": 200000,
     "image_url": "images/monsters/The_Red_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Red Knight",
+    "hp": 200000,
+    "image_url": "images/monsters/The_Red_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Remorseless Corruptor",
+    "hp": 0,
+    "image_url": "images/monsters/The_Remorseless_Corruptor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Remorseless Corruptor",
+    "hp": 0,
+    "image_url": "images/monsters/The_Remorseless_Corruptor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Rest of Ratha",
+    "hp": 0,
+    "image_url": "images/monsters/The_Rest_of_Ratha.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -47880,6 +73080,251 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Rootkraken",
+    "hp": 0,
+    "image_url": "images/monsters/The_Rootkraken.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Sandking",
+    "hp": 0,
+    "image_url": "images/monsters/The_Sandking.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Sandking",
+    "hp": 0,
+    "image_url": "images/monsters/The_Sandking.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Scion of Havoc",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Scion_of_Havoc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Scion of Havoc",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Scion_of_Havoc.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Scourge of Oblivion",
+    "hp": 650000,
+    "image_url": "images/monsters/The_Scourge_of_Oblivion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Scourge of Oblivion",
+    "hp": 650000,
+    "image_url": "images/monsters/The_Scourge_of_Oblivion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "The Shatterer",
     "hp": 80000,
     "image_url": "images/monsters/The_Shatterer.gif",
@@ -47898,7 +73343,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -47910,7 +73355,287 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Shatterer",
+    "hp": 80000,
+    "image_url": "images/monsters/The_Shatterer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Shielded Thorn Knight",
+    "hp": 0,
+    "image_url": "images/monsters/The_Shielded_Thorn_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
         "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Shielded Thorn Knight",
+    "hp": 0,
+    "image_url": "images/monsters/The_Shielded_Thorn_Knight.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Sinister Hermit",
+    "hp": 80000,
+    "image_url": "images/monsters/The_Sinister_Hermit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.55
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.55
+      },
+      {
+        "type": "death",
+        "multiplier": 1.55
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.55
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.55
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.55
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.55
+      }
+    ]
+  },
+  {
+    "name": "The Sinister Hermit",
+    "hp": 80000,
+    "image_url": "images/monsters/The_Sinister_Hermit.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.55
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.55
+      },
+      {
+        "type": "death",
+        "multiplier": 1.55
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.55
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.55
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.55
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.55
+      }
+    ]
+  },
+  {
+    "name": "The Sinister Hermit (Imune)",
+    "hp": 80000,
+    "image_url": "images/monsters/The_Sinister_Hermit_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.16
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "The Sinister Hermit (Imune)",
+    "hp": 80000,
+    "image_url": "images/monsters/The_Sinister_Hermit_(Imune).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.15
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.16
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.2
+      }
+    ]
+  },
+  {
+    "name": "The Snapper",
+    "hp": 300,
+    "image_url": "images/monsters/The_Snapper.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.05
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.85
       }
     ]
   },
@@ -47976,7 +73701,182 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Souldespoiler",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Souldespoiler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Source Of Corruption",
+    "hp": 0,
+    "image_url": "images/monsters/The_Source_Of_Corruption.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Source Of Corruption",
+    "hp": 0,
+    "image_url": "images/monsters/The_Source_Of_Corruption.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Spellstealer",
+    "hp": 280000,
+    "image_url": "images/monsters/The_Spellstealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Spellstealer",
+    "hp": 280000,
+    "image_url": "images/monsters/The_Spellstealer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -47991,31 +73891,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 0.3
       },
       {
         "type": "death",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.3
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 0.3
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.3
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "The Time Guardian",
+    "hp": 290000,
+    "image_url": "images/monsters/The_Time_Guardian.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.3
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.3
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
       }
     ]
   },
@@ -48026,31 +73961,171 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 4
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 4
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 4
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 3.55
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 4
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 3.55
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 3.55
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Unarmored Voidborn",
+    "hp": 250000,
+    "image_url": "images/monsters/The_Unarmored_Voidborn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Unwelcome",
+    "hp": 0,
+    "image_url": "images/monsters/The_Unwelcome.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Unwelcome",
+    "hp": 0,
+    "image_url": "images/monsters/The_Unwelcome.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "The Voice of Ruin",
+    "hp": 5500,
+    "image_url": "images/monsters/The_Voice_of_Ruin.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -48125,25 +74200,60 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "The Weakened Count",
+    "hp": 740,
+    "image_url": "images/monsters/The_Weakened_Count.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.01
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.01
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "The Welter",
     "hp": 25000,
     "image_url": "images/monsters/The_Welter.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "death",
-        "multiplier": 0.75
+        "multiplier": 0.7
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.8
       },
       {
         "type": "ice",
@@ -48151,7 +74261,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "The Welter",
+    "hp": 25000,
+    "image_url": "images/monsters/The_Welter.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "death",
+        "multiplier": 0.7
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.8
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
       },
       {
         "type": "earth",
@@ -48195,9 +74340,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Thief (Creature)",
+    "name": "The Winter Bloom",
+    "hp": 4750,
+    "image_url": "images/monsters/The_Winter_Bloom.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.8
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "Thief",
     "hp": 60,
-    "image_url": "images/monsters/Thief__Creature_.gif",
+    "image_url": "images/monsters/Thief.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48266,7 +74446,7 @@ var allMonstersData = [
   },
   {
     "name": "Thorn Lily",
-    "hp": 15000,
+    "hp": 0,
     "image_url": "images/monsters/Thorn_Lily.gif",
     "damageTypes": [
       {
@@ -48296,6 +74476,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Thorn Minion",
+    "hp": 3600,
+    "image_url": "images/monsters/Thorn_Minion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.9
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Thorn Steed",
+    "hp": 90000,
+    "image_url": "images/monsters/Thorn_Steed.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -48405,6 +74655,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Thul",
+    "hp": 2950,
+    "image_url": "images/monsters/Thul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.15
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Tiger",
     "hp": 75,
     "image_url": "images/monsters/Tiger.gif",
@@ -48428,6 +74713,41 @@ var allMonstersData = [
       {
         "type": "ice",
         "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Time Distortion",
+    "hp": 0,
+    "image_url": "images/monsters/Time_Distortion.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -48475,9 +74795,44 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Time Waster",
+    "hp": 0,
+    "image_url": "images/monsters/Time_Waster.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Timedisplaced Anomaly (Banuta)",
     "hp": 52500,
-    "image_url": "images/monsters/Timedisplaced_Anomaly__Banuta_.gif",
+    "image_url": "images/monsters/Timedisplaced_Anomaly_(Banuta).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48510,9 +74865,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Timedisplaced Anomaly (Chazorai)",
-    "hp": 56000,
-    "image_url": "images/monsters/Timedisplaced_Anomaly__Chazorai_.gif",
+    "name": "Timedisplaced Anomaly (Banuta)",
+    "hp": 52500,
+    "image_url": "images/monsters/Timedisplaced_Anomaly_(Banuta).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48545,9 +74900,114 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Timedisplaced Anomaly (Warzone)",
+    "name": "Timedisplaced Anomaly (Warzone I)",
     "hp": 60000,
-    "image_url": "images/monsters/Timedisplaced_Anomaly__Warzone_.gif",
+    "image_url": "images/monsters/Timedisplaced_Anomaly_(Warzone_I).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Timedisplaced Anomaly (Warzone I)",
+    "hp": 60000,
+    "image_url": "images/monsters/Timedisplaced_Anomaly_(Warzone_I).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Timedisplaced Anomaly (Zao)",
+    "hp": 56000,
+    "image_url": "images/monsters/Timedisplaced_Anomaly_(Zao).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Timedisplaced Anomaly (Zao)",
+    "hp": 56000,
+    "image_url": "images/monsters/Timedisplaced_Anomaly_(Zao).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48594,19 +75054,54 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Timira the Many-Headed",
+    "hp": 75000,
+    "image_url": "images/monsters/Timira_the_Many-Headed.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -48621,7 +75116,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "holy",
@@ -48629,15 +75124,50 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.99
+        "multiplier": 0.9
       },
       {
         "type": "fire",
-        "multiplier": 1.01
+        "multiplier": 1.1
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 0.95
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Tiquandas Revenge",
+    "hp": 1800,
+    "image_url": "images/monsters/Tiquandas_Revenge.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.9
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.95
       },
       {
         "type": "energy",
@@ -48681,6 +75211,76 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Titano Dragon",
+    "hp": 3500,
+    "image_url": "images/monsters/Titano_Dragon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Titano Dragon",
+    "hp": 3500,
+    "image_url": "images/monsters/Titano_Dragon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -48769,7 +75369,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "fire",
@@ -48777,7 +75377,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.99
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -48808,19 +75408,54 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Tormentor",
+    "hp": 4100,
+    "image_url": "images/monsters/Tormentor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
         "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -48861,8 +75496,43 @@ var allMonstersData = [
   },
   {
     "name": "Toxic Swarm",
-    "hp": 9000,
+    "hp": 0,
     "image_url": "images/monsters/Toxic_Swarm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Toxic Tibia Troll",
+    "hp": 0,
+    "image_url": "images/monsters/Toxic_Tibia_Troll.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -48901,31 +75571,31 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1.05
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
       }
     ]
   },
@@ -48966,36 +75636,71 @@ var allMonstersData = [
   },
   {
     "name": "Tremor Worm",
-    "hp": 125000,
+    "hp": 0,
     "image_url": "images/monsters/Tremor_Worm.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.25
+        "multiplier": 0.6
       },
       {
         "type": "holy",
-        "multiplier": 0.25
+        "multiplier": 0.6
       },
       {
         "type": "death",
-        "multiplier": 0.25
+        "multiplier": 0.6
       },
       {
         "type": "fire",
-        "multiplier": 0.25
+        "multiplier": 0.6
       },
       {
         "type": "ice",
-        "multiplier": 0.25
+        "multiplier": 0.6
       },
       {
         "type": "energy",
-        "multiplier": 0.25
+        "multiplier": 0.6
       },
       {
         "type": "earth",
-        "multiplier": 0.25
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Tremor Worm",
+    "hp": 0,
+    "image_url": "images/monsters/Tremor_Worm.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.6
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 0.6
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.6
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.6
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -49026,7 +75731,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.15000000000000002
+        "multiplier": 0.15
       },
       {
         "type": "earth",
@@ -49181,27 +75886,27 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.15
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -49228,7 +75933,42 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.85
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Trollwut",
+    "hp": 280,
+    "image_url": "images/monsters/Trollwut.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -49281,12 +76021,12 @@ var allMonstersData = [
   },
   {
     "name": "Tromphonyte",
-    "hp": 3000,
+    "hp": 2900,
     "image_url": "images/monsters/Tromphonyte.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 1.3
       },
       {
         "type": "holy",
@@ -49294,7 +76034,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.1
       },
       {
         "type": "fire",
@@ -49302,7 +76042,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.1
       },
       {
         "type": "energy",
@@ -49310,13 +76050,48 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Tromphonyte",
+    "hp": 2900,
+    "image_url": "images/monsters/Tromphonyte.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.3
+      },
+      {
+        "type": "holy",
         "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.1
       }
     ]
   },
   {
     "name": "Tropical Desolator",
-    "hp": 15500,
+    "hp": 20500,
     "image_url": "images/monsters/Tropical_Desolator.gif",
     "damageTypes": [
       {
@@ -49525,48 +76300,13 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Truffle Worker",
-    "hp": 26,
-    "image_url": "images/monsters/Truffle_Worker.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
     "name": "Tunnel Devourer",
-    "hp": 10000,
+    "hp": 0,
     "image_url": "images/monsters/Tunnel_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -49586,11 +76326,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.9
+        "multiplier": 1
       }
     ]
   },
@@ -49741,7 +76481,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "holy",
@@ -49749,23 +76489,23 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 1.15
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "energy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 1.15
       }
     ]
   },
@@ -49835,13 +76575,48 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Tyrn",
+    "hp": 12000,
+    "image_url": "images/monsters/Tyrn.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.9
       }
     ]
   },
   {
     "name": "Tzumrah the Dazzler",
-    "hp": 1700,
+    "hp": 2100,
     "image_url": "images/monsters/Tzumrah_the_Dazzler.gif",
     "damageTypes": [
       {
@@ -49858,7 +76633,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -49866,11 +76641,46 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.8
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Tzumrah the Dazzler",
+    "hp": 2100,
+    "image_url": "images/monsters/Tzumrah_the_Dazzler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -49885,7 +76695,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -49910,13 +76720,83 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ugly Monster (Maze)",
+    "hp": 10000,
+    "image_url": "images/monsters/Ugly_Monster_(Maze).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Ugly Monster (Maze)",
+    "hp": 10000,
+    "image_url": "images/monsters/Ugly_Monster_(Maze).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Unaz the Mean",
     "hp": 28000,
     "image_url": "images/monsters/Unaz_the_Mean.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.25
       },
       {
         "type": "holy",
@@ -49937,6 +76817,251 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Unaz the Mean",
+    "hp": 28000,
+    "image_url": "images/monsters/Unaz_the_Mean.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.25
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Unbeatable Dragon",
+    "hp": 0,
+    "image_url": "images/monsters/Unbeatable_Dragon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Unbound Blightwalker",
+    "hp": 8900,
+    "image_url": "images/monsters/Unbound_Blightwalker.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.3
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Unbound Defiler",
+    "hp": 3650,
+    "image_url": "images/monsters/Unbound_Defiler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.25
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Unbound Demon",
+    "hp": 8200,
+    "image_url": "images/monsters/Unbound_Demon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.12
+      },
+      {
+        "type": "death",
+        "multiplier": 0.7
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.12
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Unbound Demon Outcast",
+    "hp": 6900,
+    "image_url": "images/monsters/Unbound_Demon_Outcast.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.99
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.99
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Unchained Fire",
+    "hp": 0,
+    "image_url": "images/monsters/Unchained_Fire.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -50033,7 +77158,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -50068,7 +77193,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -50155,41 +77280,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Undead Pet of Chayenne",
-    "hp": 8350,
-    "image_url": "images/monsters/Undead_Pet_of_Chayenne.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 0
-      },
-      {
-        "type": "fire",
-        "multiplier": 0
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 1
-      }
-    ]
-  },
-  {
     "name": "Undead Prospector",
     "hp": 100,
     "image_url": "images/monsters/Undead_Prospector.gif",
@@ -50260,41 +77350,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Unexpected",
-    "hp": 3500,
-    "image_url": "images/monsters/Unexpected.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 1.1
-      },
-      {
-        "type": "death",
-        "multiplier": 1
-      },
-      {
-        "type": "fire",
-        "multiplier": 0
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 0.5
-      },
-      {
-        "type": "earth",
-        "multiplier": 0.6
-      }
-    ]
-  },
-  {
     "name": "Ungreez",
     "hp": 8200,
     "image_url": "images/monsters/Ungreez.gif",
@@ -50321,7 +77376,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "earth",
@@ -50340,7 +77395,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.25
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -50348,7 +77403,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -50356,7 +77411,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -50365,9 +77420,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Unsolicited",
-    "hp": 3700,
-    "image_url": "images/monsters/Unsolicited.gif",
+    "name": "Unleashed Hex",
+    "hp": 0,
+    "image_url": "images/monsters/Unleashed_Hex.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50383,7 +77438,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -50391,26 +77446,96 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Unlit Bonfire",
+    "hp": 0,
+    "image_url": "images/monsters/Unlit_Bonfire.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Unpleasant Dream",
+    "hp": 7600,
+    "image_url": "images/monsters/Unpleasant_Dream.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Unstable Spark",
-    "hp": 10500,
+    "hp": 0,
     "image_url": "images/monsters/Unstable_Spark.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -50418,15 +77543,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -50435,9 +77560,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Unwanted",
-    "hp": 3750,
-    "image_url": "images/monsters/Unwanted.gif",
+    "name": "Unstable Tunnel",
+    "hp": 0,
+    "image_url": "images/monsters/Unstable_Tunnel.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50445,7 +77570,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.35
       },
       {
         "type": "death",
@@ -50453,7 +77578,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -50461,18 +77586,88 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
   {
     "name": "Urmahlullu the Immaculate",
-    "hp": 120000,
+    "hp": 0,
     "image_url": "images/monsters/Urmahlullu_the_Immaculate.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Urmahlullu the Immaculate",
+    "hp": 0,
+    "image_url": "images/monsters/Urmahlullu_the_Immaculate.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Urmahlullu the Tamed",
+    "hp": 0,
+    "image_url": "images/monsters/Urmahlullu_the_Tamed.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -50496,11 +77691,221 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Urmahlullu the Tamed",
+    "hp": 0,
+    "image_url": "images/monsters/Urmahlullu_the_Tamed.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Urmahlullu the Weakened",
+    "hp": 500000,
+    "image_url": "images/monsters/Urmahlullu_the_Weakened.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Urmahlullu the Weakened",
+    "hp": 500000,
+    "image_url": "images/monsters/Urmahlullu_the_Weakened.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Used Food Wagon",
+    "hp": 0,
+    "image_url": "images/monsters/Used_Food_Wagon.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Ushuriel",
+    "hp": 31500,
+    "image_url": "images/monsters/Ushuriel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.75
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.7
+      }
+    ]
+  },
+  {
+    "name": "Ushuriel",
+    "hp": 31500,
+    "image_url": "images/monsters/Ushuriel.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.75
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.7
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.7
       }
     ]
   },
@@ -50581,15 +77986,15 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.99
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.99
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 1.01
+        "multiplier": 1.1
       },
       {
         "type": "fire",
@@ -50655,7 +78060,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 0.6799999999999999
+        "multiplier": 0.68
       },
       {
         "type": "death",
@@ -50676,6 +78081,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Utua Stone Sting",
+    "hp": 6400,
+    "image_url": "images/monsters/Utua_Stone_Sting.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.75
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -50781,6 +78221,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Vampire Bat",
+    "hp": 0,
+    "image_url": "images/monsters/Vampire_Bat.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -50925,33 +78400,103 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Varg",
-    "hp": 5400,
-    "image_url": "images/monsters/Varg.gif",
+    "name": "Vampiric Essence",
+    "hp": 20000,
+    "image_url": "images/monsters/Vampiric_Essence.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 0.95
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.75
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.05
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.9
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Vampiric Flesh",
+    "hp": 10000,
+    "image_url": "images/monsters/Vampiric_Flesh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Vampiric Heart",
+    "hp": 100000,
+    "image_url": "images/monsters/Vampiric_Heart.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -51005,7 +78550,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -51021,7 +78566,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.95
       },
       {
         "type": "earth",
@@ -51030,8 +78575,113 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Vashresamun",
+    "hp": 4000,
+    "image_url": "images/monsters/Vashresamun.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.8
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Vemiath",
+    "hp": 0,
+    "image_url": "images/monsters/Vemiath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Vemiath",
+    "hp": 0,
+    "image_url": "images/monsters/Vemiath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Venerable Foam Stalker",
-    "hp": 5650,
+    "hp": 0,
     "image_url": "images/monsters/Venerable_Foam_Stalker.gif",
     "damageTypes": [
       {
@@ -51048,15 +78698,15 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 1.3
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -51110,7 +78760,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "death",
@@ -51126,17 +78776,52 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.75
+        "multiplier": 0.76
       },
       {
         "type": "earth",
-        "multiplier": 0.75
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Vengar",
+    "hp": 50000,
+    "image_url": "images/monsters/Vengar.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": -10
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.76
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
   {
     "name": "Vermin Swarm",
-    "hp": 2800,
+    "hp": 0,
     "image_url": "images/monsters/Vermin_Swarm.gif",
     "damageTypes": [
       {
@@ -51170,9 +78855,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Versperoth",
-    "hp": 100000,
-    "image_url": "images/monsters/Versperoth.gif",
+    "name": "Verminor",
+    "hp": 110000,
+    "image_url": "images/monsters/Verminor.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -51188,7 +78873,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.09999999999999998
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -51197,6 +78882,146 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Verminor",
+    "hp": 110000,
+    "image_url": "images/monsters/Verminor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Verminor",
+    "hp": 110000,
+    "image_url": "images/monsters/Verminor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Versperoth",
+    "hp": 125000,
+    "image_url": "images/monsters/Versperoth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 0.45
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.55
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.55
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Versperoth",
+    "hp": 125000,
+    "image_url": "images/monsters/Versperoth.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.7
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 0.45
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.5
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.55
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.55
       },
       {
         "type": "earth",
@@ -51275,41 +79100,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Vicious Ink Splash",
-    "hp": 1950,
-    "image_url": "images/monsters/Vicious_Ink_Splash.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 0.9
-      },
-      {
-        "type": "holy",
-        "multiplier": 1
-      },
-      {
-        "type": "death",
-        "multiplier": 0.85
-      },
-      {
-        "type": "fire",
-        "multiplier": 1.05
-      },
-      {
-        "type": "ice",
-        "multiplier": 1
-      },
-      {
-        "type": "energy",
-        "multiplier": 1.1
-      },
-      {
-        "type": "earth",
-        "multiplier": 0.85
-      }
-    ]
-  },
-  {
     "name": "Vicious Lich",
     "hp": 880,
     "image_url": "images/monsters/Vicious_Lich.gif",
@@ -51320,11 +79110,11 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.2
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -51336,7 +79126,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "earth",
@@ -51495,7 +79285,7 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.6
       },
       {
         "type": "death",
@@ -51503,7 +79293,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "ice",
@@ -51515,7 +79305,112 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.75
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Vilear",
+    "hp": 50000,
+    "image_url": "images/monsters/Vilear.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.6
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.45
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": -10
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Vladrukh",
+    "hp": 390000,
+    "image_url": "images/monsters/Vladrukh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Voidshard",
+    "hp": 0,
+    "image_url": "images/monsters/Voidshard.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -51526,7 +79421,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 0.25
       },
       {
         "type": "holy",
@@ -51546,7 +79441,42 @@ var allMonstersData = [
       },
       {
         "type": "energy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Vok the Freakish",
+    "hp": 32000,
+    "image_url": "images/monsters/Vok_the_Freakish.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.25
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
         "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.5
       },
       {
         "type": "earth",
@@ -51612,7 +79542,7 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 1.05
+        "multiplier": 1.15
       },
       {
         "type": "energy",
@@ -51626,7 +79556,7 @@ var allMonstersData = [
   },
   {
     "name": "Vulnerable Cocoon",
-    "hp": 200000,
+    "hp": 0,
     "image_url": "images/monsters/Vulnerable_Cocoon.gif",
     "damageTypes": [
       {
@@ -51835,6 +79765,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Wandering Prospector",
+    "hp": 0,
+    "image_url": "images/monsters/Wandering_Prospector.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "War Golem",
     "hp": 4300,
     "image_url": "images/monsters/War_Golem.gif",
@@ -51866,6 +79831,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.5
+      }
+    ]
+  },
+  {
+    "name": "War Servant",
+    "hp": 0,
+    "image_url": "images/monsters/War_Servant.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -51970,13 +79970,13 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       }
     ]
   },
   {
     "name": "Warlord Ruzad",
-    "hp": 1500,
+    "hp": 2500,
     "image_url": "images/monsters/Warlord_Ruzad.gif",
     "damageTypes": [
       {
@@ -51993,7 +79993,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.19999999999999996
+        "multiplier": 0.2
       },
       {
         "type": "ice",
@@ -52001,7 +80001,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.99
+        "multiplier": 0.95
       },
       {
         "type": "earth",
@@ -52010,9 +80010,44 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Wasp",
-    "hp": 35,
-    "image_url": "images/monsters/Wasp.gif",
+    "name": "Warlord Ruzad",
+    "hp": 2500,
+    "image_url": "images/monsters/Warlord_Ruzad.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.9
+      },
+      {
+        "type": "death",
+        "multiplier": 1.1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.95
+      },
+      {
+        "type": "earth",
+        "multiplier": 1.1
+      }
+    ]
+  },
+  {
+    "name": "Warm Fire",
+    "hp": 200,
+    "image_url": "images/monsters/Warm_Fire.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52028,7 +80063,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1.1
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -52040,14 +80075,14 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Wasp (Nostalgia)",
+    "name": "Wasp",
     "hp": 35,
-    "image_url": "images/monsters/Wasp__Nostalgia_.gif",
+    "image_url": "images/monsters/Wasp.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -52185,6 +80220,111 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Water Vortex (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Water_Vortex_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Weak Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Weak_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Weak Spot",
+    "hp": 0,
+    "image_url": "images/monsters/Weak_Spot.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Weakened Demon",
     "hp": 5,
     "image_url": "images/monsters/Weakened_Demon.gif",
@@ -52296,11 +80436,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0.95
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -52308,11 +80448,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0.2
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 1.1
       },
       {
         "type": "energy",
@@ -52320,7 +80460,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Weakened Shlorg",
+    "hp": 10000,
+    "image_url": "images/monsters/Weakened_Shlorg.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.95
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
         "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.2
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -52335,15 +80510,15 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0.9
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -52351,11 +80526,11 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.01
+        "multiplier": 1.1
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0.8
       }
     ]
   },
@@ -52387,6 +80562,41 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Weeping Soul",
+    "hp": 0,
+    "image_url": "images/monsters/Weeping_Soul.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
       },
       {
         "type": "earth",
@@ -52794,7 +81004,7 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.44999999999999996
+        "multiplier": 0.45
       },
       {
         "type": "fire",
@@ -52811,6 +81021,41 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0.25
+      }
+    ]
+  },
+  {
+    "name": "Whirling Blades",
+    "hp": 0,
+    "image_url": "images/monsters/Whirling_Blades.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -52899,7 +81144,42 @@ var allMonstersData = [
       },
       {
         "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
         "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "White Pale",
+    "hp": 500,
+    "image_url": "images/monsters/White_Pale.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
       },
       {
         "type": "fire",
@@ -52926,7 +81206,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.050000000000000044
+        "multiplier": 0.05
       },
       {
         "type": "holy",
@@ -53061,7 +81341,7 @@ var allMonstersData = [
   },
   {
     "name": "Wild Dog",
-    "hp": 20,
+    "hp": 26,
     "image_url": "images/monsters/Wild_Dog.gif",
     "damageTypes": [
       {
@@ -53070,19 +81350,19 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "energy",
@@ -53090,7 +81370,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 1
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Wild Fire Magic",
+    "hp": 0,
+    "image_url": "images/monsters/Wild_Fire_Magic.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Wild Fury Magic",
+    "hp": 0,
+    "image_url": "images/monsters/Wild_Fury_Magic.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -53130,6 +81480,76 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Wild Knowledge",
+    "hp": 0,
+    "image_url": "images/monsters/Wild_Knowledge.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Wild Nature Magic",
+    "hp": 0,
+    "image_url": "images/monsters/Wild_Nature_Magic.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Wild Warrior",
     "hp": 135,
     "image_url": "images/monsters/Wild_Warrior.gif",
@@ -53161,6 +81581,181 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Wild Water Magic",
+    "hp": 0,
+    "image_url": "images/monsters/Wild_Water_Magic.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Wildly Growing Plant",
+    "hp": 0,
+    "image_url": "images/monsters/Wildly_Growing_Plant.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Wildness of Urmahlullu",
+    "hp": 0,
+    "image_url": "images/monsters/Wildness_of_Urmahlullu.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Wildness of Urmahlullu",
+    "hp": 0,
+    "image_url": "images/monsters/Wildness_of_Urmahlullu.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Willi Wasp",
+    "hp": 250,
+    "image_url": "images/monsters/Willi_Wasp.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1.1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -53235,6 +81830,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Wine Cask (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Wine_Cask_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
     "name": "Winter Wolf",
     "hp": 30,
     "image_url": "images/monsters/Winter_Wolf.gif",
@@ -53262,6 +81892,76 @@ var allMonstersData = [
       {
         "type": "energy",
         "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Wisdom of Urmahlullu",
+    "hp": 0,
+    "image_url": "images/monsters/Wisdom_of_Urmahlullu.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Wisdom of Urmahlullu",
+    "hp": 0,
+    "image_url": "images/monsters/Wisdom_of_Urmahlullu.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -53300,7 +82000,7 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
       }
     ]
   },
@@ -53375,41 +82075,6 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Wolf (Nostalgia)",
-    "hp": 25,
-    "image_url": "images/monsters/Wolf__Nostalgia_.gif",
-    "damageTypes": [
-      {
-        "type": "physical",
-        "multiplier": 1
-      },
-      {
-        "type": "holy",
-        "multiplier": 0.99
-      },
-      {
-        "type": "death",
-        "multiplier": 1.01
-      },
-      {
-        "type": "fire",
-        "multiplier": 1
-      },
-      {
-        "type": "ice",
-        "multiplier": 1.01
-      },
-      {
-        "type": "energy",
-        "multiplier": 1
-      },
-      {
-        "type": "earth",
-        "multiplier": 0.99
-      }
-    ]
-  },
-  {
     "name": "Woodling",
     "hp": 80,
     "image_url": "images/monsters/Woodling.gif",
@@ -53480,9 +82145,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Worker Imp",
-    "hp": 13500,
-    "image_url": "images/monsters/Worker_Imp.gif",
+    "name": "World Devourer",
+    "hp": 500000,
+    "image_url": "images/monsters/World_Devourer.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53506,7 +82171,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -53516,7 +82181,7 @@ var allMonstersData = [
   },
   {
     "name": "World Devourer",
-    "hp": 25000,
+    "hp": 500000,
     "image_url": "images/monsters/World_Devourer.gif",
     "damageTypes": [
       {
@@ -53585,8 +82250,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Wormling",
+    "hp": 0,
+    "image_url": "images/monsters/Wormling.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Wounded Cave Draptor",
-    "hp": 5,
+    "hp": 10,
     "image_url": "images/monsters/Wounded_Cave_Draptor.gif",
     "damageTypes": [
       {
@@ -53620,9 +82320,9 @@ var allMonstersData = [
     ]
   },
   {
-    "name": "Wrath of the Emperor",
-    "hp": 55000,
-    "image_url": "images/monsters/Wrath_of_the_Emperor.gif",
+    "name": "Wrath of the Emperor (Criatura)",
+    "hp": 78000,
+    "image_url": "images/monsters/Wrath_of_the_Emperor_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53638,11 +82338,11 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.4
+        "multiplier": 0.9
       },
       {
         "type": "ice",
-        "multiplier": 1
+        "multiplier": 0.5
       },
       {
         "type": "energy",
@@ -53795,6 +82495,41 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Xenia",
+    "hp": 200,
+    "image_url": "images/monsters/Xenia.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Xogixath",
     "hp": 35000,
     "image_url": "images/monsters/Xogixath.gif",
@@ -53809,15 +82544,50 @@ var allMonstersData = [
       },
       {
         "type": "death",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 1.15
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Xogixath",
+    "hp": 35000,
+    "image_url": "images/monsters/Xogixath.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
       },
       {
         "type": "energy",
@@ -53836,7 +82606,7 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.01
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -53860,7 +82630,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.99
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Yaga the Crone",
+    "hp": 620,
+    "image_url": "images/monsters/Yaga_the_Crone.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -53895,14 +82700,49 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.19999999999999996
+        "multiplier": 1
       }
     ]
   },
   {
-    "name": "Yalahari (Creature)",
+    "name": "Yakchal",
+    "hp": 5750,
+    "image_url": "images/monsters/Yakchal.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.5
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Yalahari (Criatura)",
     "hp": 150,
-    "image_url": "images/monsters/Yalahari__Creature_.gif",
+    "image_url": "images/monsters/Yalahari_(Criatura).gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -53931,6 +82771,111 @@ var allMonstersData = [
       {
         "type": "earth",
         "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Yalahari Despoiler",
+    "hp": 8150,
+    "image_url": "images/monsters/Yalahari_Despoiler.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Mutagen",
+    "hp": 0,
+    "image_url": "images/monsters/Yellow_Mutagen.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Yellow Toilet Paper Man",
+    "hp": 0,
+    "image_url": "images/monsters/Yellow_Toilet_Paper_Man.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -54040,8 +82985,43 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Yirkas Blue Scales",
+    "hp": 6300,
+    "image_url": "images/monsters/Yirkas_Blue_Scales.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.9
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.85
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
     "name": "Young Goanna",
-    "hp": 6950,
+    "hp": 6944,
     "image_url": "images/monsters/Young_Goanna.gif",
     "damageTypes": [
       {
@@ -54136,7 +83116,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 0.75
       },
       {
         "type": "earth",
@@ -54145,8 +83125,113 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Ysbasra (Criatura)",
+    "hp": 0,
+    "image_url": "images/monsters/Ysbasra_(Criatura).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Zamulosh",
+    "hp": 290000,
+    "image_url": "images/monsters/Zamulosh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Zamulosh",
+    "hp": 290000,
+    "image_url": "images/monsters/Zamulosh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Zanakeph",
-    "hp": 13000,
+    "hp": 12600,
     "image_url": "images/monsters/Zanakeph.gif",
     "damageTypes": [
       {
@@ -54167,7 +83252,42 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.5
+        "multiplier": -0.5
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Zanakeph",
+    "hp": 12600,
+    "image_url": "images/monsters/Zanakeph.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.8
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": -0.5
       },
       {
         "type": "energy",
@@ -54186,11 +83306,11 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "holy",
-        "multiplier": 1.01
+        "multiplier": 1.05
       },
       {
         "type": "death",
@@ -54210,7 +83330,77 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.09999999999999998
+        "multiplier": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Zarabustor",
+    "hp": 5100,
+    "image_url": "images/monsters/Zarabustor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1.05
+      },
+      {
+        "type": "holy",
+        "multiplier": 1.05
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.1
+      }
+    ]
+  },
+  {
+    "name": "Zarcorix Of Yalahar",
+    "hp": 0,
+    "image_url": "images/monsters/Zarcorix_Of_Yalahar.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
       }
     ]
   },
@@ -54221,31 +83411,66 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 1
       },
       {
         "type": "holy",
-        "multiplier": 1.2
+        "multiplier": 1
       },
       {
         "type": "death",
-        "multiplier": 0.65
+        "multiplier": 1
       },
       {
         "type": "fire",
-        "multiplier": 0.7
+        "multiplier": 1
       },
       {
         "type": "ice",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "energy",
-        "multiplier": 0.6
+        "multiplier": 1
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Zavarash",
+    "hp": 35000,
+    "image_url": "images/monsters/Zavarash.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
       }
     ]
   },
@@ -54260,7 +83485,42 @@ var allMonstersData = [
       },
       {
         "type": "holy",
-        "multiplier": 1.05
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Zevelon Duskbringer",
+    "hp": 1400,
+    "image_url": "images/monsters/Zevelon_Duskbringer.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.5
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
       },
       {
         "type": "death",
@@ -54315,7 +83575,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.6
+        "multiplier": 0.8
+      }
+    ]
+  },
+  {
+    "name": "Zomba",
+    "hp": 300,
+    "image_url": "images/monsters/Zomba.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "death",
+        "multiplier": 1.08
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1.15
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.8
       }
     ]
   },
@@ -54355,17 +83650,122 @@ var allMonstersData = [
     ]
   },
   {
+    "name": "Zoralurk",
+    "hp": 0,
+    "image_url": "images/monsters/Zoralurk.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Zoralurk",
+    "hp": 0,
+    "image_url": "images/monsters/Zoralurk.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
+    "name": "Zoralurk",
+    "hp": 0,
+    "image_url": "images/monsters/Zoralurk.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 1
+      },
+      {
+        "type": "death",
+        "multiplier": 1
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 1
+      },
+      {
+        "type": "energy",
+        "multiplier": 1
+      },
+      {
+        "type": "earth",
+        "multiplier": 1
+      }
+    ]
+  },
+  {
     "name": "Zorvorax",
     "hp": 10000,
     "image_url": "images/monsters/Zorvorax.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.9
+        "multiplier": 0.8
       },
       {
         "type": "holy",
-        "multiplier": 1.35
+        "multiplier": 1.3
       },
       {
         "type": "death",
@@ -54373,7 +83773,7 @@ var allMonstersData = [
       },
       {
         "type": "fire",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "ice",
@@ -54381,7 +83781,7 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 0.8
+        "multiplier": 1
       },
       {
         "type": "earth",
@@ -54391,12 +83791,12 @@ var allMonstersData = [
   },
   {
     "name": "Zugurosh",
-    "hp": 90500,
+    "hp": 52500,
     "image_url": "images/monsters/Zugurosh.gif",
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 0.5
+        "multiplier": 1
       },
       {
         "type": "holy",
@@ -54412,15 +83812,85 @@ var allMonstersData = [
       },
       {
         "type": "ice",
-        "multiplier": 0.7
+        "multiplier": 0.75
       },
       {
         "type": "energy",
-        "multiplier": 0.7
+        "multiplier": 0.8
       },
       {
         "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Zugurosh",
+    "hp": 52500,
+    "image_url": "images/monsters/Zugurosh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
         "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.75
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Zugurosh",
+    "hp": 52500,
+    "image_url": "images/monsters/Zugurosh.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.7
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0.7
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.75
+      },
+      {
+        "type": "energy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   },
@@ -54455,7 +83925,42 @@ var allMonstersData = [
       },
       {
         "type": "earth",
-        "multiplier": 0.30000000000000004
+        "multiplier": 0.3
+      }
+    ]
+  },
+  {
+    "name": "Zulazza the Corruptor",
+    "hp": 46500,
+    "image_url": "images/monsters/Zulazza_the_Corruptor.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 1
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.8
+      },
+      {
+        "type": "death",
+        "multiplier": 0.7
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0.8
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.3
       }
     ]
   },
@@ -54466,19 +83971,19 @@ var allMonstersData = [
     "damageTypes": [
       {
         "type": "physical",
-        "multiplier": 1
+        "multiplier": 0
       },
       {
         "type": "holy",
-        "multiplier": 0.7
+        "multiplier": 0
       },
       {
         "type": "death",
-        "multiplier": 1.1
+        "multiplier": 0
       },
       {
         "type": "fire",
-        "multiplier": 0.5
+        "multiplier": 0
       },
       {
         "type": "ice",
@@ -54486,11 +83991,116 @@ var allMonstersData = [
       },
       {
         "type": "energy",
-        "multiplier": 1.1
+        "multiplier": 0
       },
       {
         "type": "earth",
-        "multiplier": 0.5
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Zushuka",
+    "hp": 15000,
+    "image_url": "images/monsters/Zushuka.gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0
+      },
+      {
+        "type": "holy",
+        "multiplier": 0
+      },
+      {
+        "type": "death",
+        "multiplier": 0
+      },
+      {
+        "type": "fire",
+        "multiplier": 0
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 0
+      },
+      {
+        "type": "earth",
+        "multiplier": 0
+      }
+    ]
+  },
+  {
+    "name": "Zushuka (Mortal)",
+    "hp": 15000,
+    "image_url": "images/monsters/Zushuka_(Mortal).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Zushuka (Mortal)",
+    "hp": 15000,
+    "image_url": "images/monsters/Zushuka_(Mortal).gif",
+    "damageTypes": [
+      {
+        "type": "physical",
+        "multiplier": 0.9
+      },
+      {
+        "type": "holy",
+        "multiplier": 0.3
+      },
+      {
+        "type": "death",
+        "multiplier": 1.05
+      },
+      {
+        "type": "fire",
+        "multiplier": 1
+      },
+      {
+        "type": "ice",
+        "multiplier": 0
+      },
+      {
+        "type": "energy",
+        "multiplier": 1.07
+      },
+      {
+        "type": "earth",
+        "multiplier": 0.6
       }
     ]
   }
