@@ -351,6 +351,5 @@ window.addEventListener('load', () => {
         }
     });
 
-    // CORRIGE O TEXTO "CARREGANDO..."
     monsterSearchInput.placeholder = "Digite para buscar um monstro...";
 });

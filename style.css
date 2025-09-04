@@ -471,9 +471,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     font-size: 1.4em;
 }
 
-/* --- ESTILOS CORRIGIDOS E HARMONIZADOS PARA O MONSTRO INDIVIDUAL --- */
-
-/* Container que segura tudo (resistências, gif e nome) */
 .selected-monster-display {
     display: none;
     flex-direction: column;
@@ -486,14 +483,12 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     margin-top: 20px; 
 }
 
-/* Imagem do monstro (GIF) */
 #selectedMonsterImage {
     width: 64px;
     height: 64px;
     image-rendering: pixelated;
 }
 
-/* Nome do monstro */
 #selectedMonsterName {
     font-weight: 700;
     font-size: 1.2em;
@@ -501,7 +496,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     margin: 0; 
 }
 
-/* Fieldset para agrupar as resistências */
 .resistance-fieldset {
     width: 100%;
     border: 1px solid #4a3c28;
@@ -516,17 +510,15 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     padding: 0 5px;
 }
 
-/* Grade de resistências (agora centralizada) */
 .resistance-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 8px;
     width: 100%;
-    max-width: 480px; /* Largura ajustada */
-    margin: 0 auto; /* Centraliza a grade dentro do fieldset */
+    max-width: 480px; 
+    margin: 0 auto; 
 }
 
-/* Item individual da resistência (mais compacto) */
 .resistance-item {
     display: flex;
     align-items: center;
@@ -537,14 +529,12 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     gap: 4px;
 }
 
-/* Ícone do elemento (menor) */
 .resistance-item img {
     width: 12px;
     height: 12px;
     flex-shrink: 0;
 }
 
-/* Container da barra e do texto */
 .resistance-bar-container {
     position: relative;
     display: flex;
@@ -557,7 +547,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     overflow: hidden;
 }
 
-/* A barra de progresso colorida */
 .resistance-bar {
     position: absolute;
     left: 0;
@@ -566,7 +555,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     border-radius: 2px;
 }
 
-/* O texto da porcentagem (fica em cima da barra) */
 .resistance-bar-container span {
     position: relative;
     z-index: 1;

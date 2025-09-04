@@ -148,8 +148,6 @@ window.addEventListener('load', () => {
         resultDiv.innerHTML = html;
     }
 
-    // Encontre a função 'runHuntAnalysis' e substitua-a inteiramente por esta:
-// Encontre a função 'runHuntAnalysis' e substitua-a inteiramente por esta:
 function runHuntAnalysis() {
     if (!modeHuntBtn.classList.contains('active')) return;
 
@@ -175,7 +173,6 @@ function runHuntAnalysis() {
     }
 
     if (optionalMissing.length > 0) {
-        // A LINHA ABAIXO FOI ADICIONADA PARA CORRIGIR A ALTURA
         resultDiv.style.height = 'auto'; 
         resultDiv.innerHTML = `<div style="text-align: center; color: #a0937d; padding: 20px 0;">${optionalMissing.join('<br>')}</div>`;
         return;
