@@ -264,30 +264,6 @@ textarea#hunt-log {
 .search-results div:hover { background-color: #c89b3c; color: #1a1a1a; }
 .search-results img { width: 32px; height: 32px; margin-right: 15px; image-rendering: pixelated; }
 
-.selected-monster-display {
-    display: none; 
-    background: rgba(0,0,0,0.3); 
-    border: 1px solid #4a3c28; 
-    border-radius: 4px; 
-    padding: 15px; 
-    margin-top: 20px; 
-    text-align: center; 
-}
-
-.selected-monster-display img {
-    width: 80px;  
-    height: 80px; 
-    margin-bottom: 10px; 
-    image-rendering: pixelated;
-}
-
-.selected-monster-display h3 {
-    font-weight: 700;
-    font-size: 1.2em;
-    color: #c89b3c;
-    margin: 0; 
-}
-
 button {
     grid-column: 1 / -1;
     padding: 12px;
@@ -493,4 +469,129 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
 
 .recommendation-box p > .damage-value {
     font-size: 1.4em;
+}
+
+/* --- ESTILOS CORRIGIDOS E HARMONIZADOS PARA O MONSTRO INDIVIDUAL --- */
+
+/* Container que segura tudo (resistências, gif e nome) */
+.selected-monster-display {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: rgba(0,0,0,0.3); 
+    border: 1px solid #4a3c28; 
+    border-radius: 4px; 
+    padding: 15px; 
+    margin-top: 20px; 
+}
+
+/* Imagem do monstro (GIF) */
+#selectedMonsterImage {
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+}
+
+/* Nome do monstro */
+#selectedMonsterName {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #c89b3c;
+    margin: 0; 
+}
+
+/* Fieldset para agrupar as resistências */
+.resistance-fieldset {
+    width: 100%;
+    border: 1px solid #4a3c28;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.resistance-fieldset legend {
+    color: #c89b3c;
+    font-size: 0.9em;
+    padding: 0 5px;
+}
+
+/* Grade de resistências (agora centralizada) */
+.resistance-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    width: 100%;
+    max-width: 480px; /* Largura ajustada */
+    margin: 0 auto; /* Centraliza a grade dentro do fieldset */
+}
+
+/* Item individual da resistência (mais compacto) */
+.resistance-item {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    border: 1px solid #3a2c18;
+    border-radius: 4px;
+    padding: 3px;
+    gap: 4px;
+}
+
+/* Ícone do elemento (menor) */
+.resistance-item img {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+/* Container da barra e do texto */
+.resistance-bar-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 16px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+/* A barra de progresso colorida */
+.resistance-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 2px;
+}
+
+/* O texto da porcentagem (fica em cima da barra) */
+.resistance-bar-container span {
+    position: relative;
+    z-index: 1;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #f0e6d2;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.resistance-value {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+    padding: 3px;
+}
+
+.resistance-green { background-color: #2ecc71; }
+.resistance-yellow { background-color: #f1c40f; }
+.resistance-red { background-color: #e74c3c; }
+.resistance-white { background-color: #f0e6d2; }
+
+.ranking-list.centered li {
+    justify-content: center;
+    gap: 15px; 
 }

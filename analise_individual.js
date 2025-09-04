@@ -21,8 +21,6 @@ window.addEventListener('load', () => {
     const monsterSearchInput = page.querySelector('#monsterSearch');
     const searchResultsDiv = page.querySelector('#searchResults');
     const selectedMonsterDisplay = page.querySelector('#selectedMonsterDisplay');
-    const selectedMonsterImage = page.querySelector('#selectedMonsterImage');
-    const selectedMonsterName = page.querySelector('#selectedMonsterName');
     const clearSearchBtn = page.querySelector('#clearSearchBtn');
     const resultDiv = page.querySelector('#result');
     const modeIndividualBtn = page.querySelector('#mode-individual-btn');
@@ -113,74 +111,109 @@ window.addEventListener('load', () => {
         return num.toFixed(0);
     }
 
-    // Encontre a função 'displayIndividualResults' e substitua-a por esta:
-// Encontre a função 'displayIndividualResults' e substitua-a por esta:
-function displayIndividualResults(data) {
-    let html = '';
-    const viableResults = data.viable || [];
-    const inviableResults = data.inviable || [];
+    function displayIndividualResults(data) {
+        let html = '';
+        const viableResults = data.viable || [];
+        const inviableResults = data.inviable || [];
 
-    if (viableResults.length > 0) {
-        const bestOption = viableResults[0];
-        const otherOptions = viableResults.slice(1); 
+        if (viableResults.length > 0) {
+            const bestOption = viableResults[0];
+            const otherOptions = viableResults.slice(1); 
 
-        // Alterado para colocar o nome e o dano na mesma linha, usando a classe existente
-        html += `<div class="recommendation-box">
-                    <p>Melhor Opção:</p>
-                    <p>
-                        <span class="charm-name">${bestOption.name}</span>
-                        <span class="damage-value" style="font-size: 1.4em;"> +${formatNumber(bestOption.bonusDamage)}</span>
-                    </p>
-                </div>`;
+            html += `<div class="recommendation-box">
+                        <p>Melhor Opção:</p>
+                        <p>
+                            <span class="charm-name">${bestOption.name}</span>
+                            <span class="damage-value"> +${formatNumber(bestOption.bonusDamage)}</span>
+                        </p>
+                    </div>`;
 
-        if (otherOptions.length > 0) {
-            html += `<h4>Demais Opções (Ranking):</h4><ul class="ranking-list centered">`;
-            otherOptions.forEach(result => {
-                // Adicionando a classe 'charm-name' para manter o estilo
-                html += `<li><span class="charm-name">${result.name}</span><span class="damage-value">+${formatNumber(result.bonusDamage)}</span></li>`;
+            if (otherOptions.length > 0) {
+                html += `<h4>Demais Opções (Ranking):</h4><ul class="ranking-list centered">`;
+                otherOptions.forEach(result => {
+                    html += `<li><span class="charm-name">${result.name}</span><span class="damage-value">+${formatNumber(result.bonusDamage)}</span></li>`;
+                });
+                html += '</ul>';
+            }
+        }
+        
+        if (inviableResults.length > 0) {
+            html += `<h4 style="margin-top: 20px;">Opções Inviáveis:</h4><ul class="ranking-list centered">`;
+            inviableResults.forEach(result => {
+                const lostDamage = result.potentialDamage - result.bonusDamage;
+                html += `<li><span class="charm-name">${result.name}</span><span class="lost-damage-value">-${formatNumber(lostDamage)}</span></li>`;
             });
             html += '</ul>';
         }
-    }
-    
-    if (inviableResults.length > 0) {
-        html += `<h4 style="margin-top: 20px;">Opções Inviáveis:</h4><ul class="ranking-list centered">`;
-        inviableResults.forEach(result => {
-            const lostDamage = result.potentialDamage - result.bonusDamage;
-            // Adicionando a classe 'charm-name' para manter o estilo
-            html += `<li><span class="charm-name">${result.name}</span><span class="lost-damage-value">-${formatNumber(lostDamage)}</span></li>`;
-        });
-        html += '</ul>';
+
+        resultDiv.innerHTML = html;
     }
 
-    if (html) {
-        resultDiv.style.height = 'auto';
-    } else {
-        resultDiv.style.height = '50px'; 
+    function generateResistancesHtml(monster) {
+        if (!monster) return '';
+
+        const elementOrder = ['physical', 'holy', 'death', 'earth', 'fire', 'ice', 'energy'];
+        const elementIcons = {
+            physical: 'images/elementos/Fisico.png',
+            holy: 'images/elementos/Dazzled_Icon.gif',
+            death: 'images/elementos/Cursed_Icon.gif',
+            earth: 'images/elementos/Poisoned_Icon.gif',
+            fire: 'images/elementos/Burning_Icon.gif',
+            ice: 'images/elementos/Freezing_Icon.gif',
+            energy: 'images/elementos/Electrified_Icon.gif'
+        };
+        
+        const colorMap = {
+            green: '#27ae60',
+            yellow: '#f1c40f',
+            red: '#c0392b',
+            white: '#a0937d'
+        };
+
+        let resistanceItemsHtml = '';
+        elementOrder.forEach(element => {
+            const multiplier = getDamageMultiplier(element, monster);
+            const percentage = Math.round(multiplier * 100);
+            
+            let color = colorMap.white;
+            if (percentage >= 101) {
+                color = colorMap.green;
+            } else if (percentage >= 70 && percentage <= 99) {
+                color = colorMap.yellow;
+            } else if (percentage <= 69) {
+                color = colorMap.red;
+            }
+
+            resistanceItemsHtml += `
+                <div class="resistance-item">
+                    <img src="${elementIcons[element]}" title="${element}" alt="${element}">
+                    <div class="resistance-bar-container">
+                        <div class="resistance-bar" style="width: ${percentage}%; background-color: ${color};"></div>
+                        <span>${percentage}%</span>
+                    </div>
+                </div>
+            `;
+        });
+
+        return `
+            <fieldset class="resistance-fieldset">
+                <legend>Resistências</legend>
+                <div class="resistance-grid">${resistanceItemsHtml}</div>
+            </fieldset>
+        `;
     }
-    resultDiv.innerHTML = html;
-}
+
     function runIndividualAnalysis() {
         if (!modeIndividualBtn.classList.contains('active')) return;
 
         const playerStats = getPlayerStats();
         const selectedCharms = getSelectedCharms();
-        const missing = [];
         
-        if (selectedCharms.length === 0) {
-            displayIndividualResults({});
+        if (selectedCharms.length === 0 || !currentMonsterData) {
+            resultDiv.innerHTML = '';
             return;
         }
-        if (!currentMonsterData) {
-            missing.push("um Monstro Alvo");
-        }
-
-        if (missing.length > 0) {
-            resultDiv.style.height = '50px';
-            resultDiv.innerHTML = `<p style="text-align: center; color: #a0937d; padding-top: 5px;">Preencha: ${missing.join(', ')}</p>`;
-            return;
-        }
-
+        
         const selectedNames = selectedCharms.map(c => c.name);
         const optionalMissing = [];
         if ((selectedNames.includes('Low Blow') || selectedNames.includes('Savage Blow')) && playerStats.level <= 0) {
@@ -194,7 +227,6 @@ function displayIndividualResults(data) {
         }
 
         if (optionalMissing.length > 0) {
-            resultDiv.style.height = 'auto';
             resultDiv.innerHTML = `<div style="text-align: center; color: #a0937d; padding-top: 5px;">${optionalMissing.join('<br>')}</div>`;
             return;
         }
@@ -229,10 +261,15 @@ function displayIndividualResults(data) {
         monsterSearchInput.value = name;
         searchResultsDiv.style.display = 'none';
         currentMonsterData = allMonsters.find(m => m.name.toLowerCase() === name.toLowerCase());
+        
         if (currentMonsterData) {
-            selectedMonsterImage.src = currentMonsterData.image_url;
-            selectedMonsterName.textContent = currentMonsterData.name;
-            selectedMonsterDisplay.style.display = 'block';
+            const resistancesHTML = generateResistancesHtml(currentMonsterData);
+            selectedMonsterDisplay.innerHTML = `
+                ${resistancesHTML}
+                <img id="selectedMonsterImage" src="${currentMonsterData.image_url}" alt="${currentMonsterData.name}">
+                <h3 id="selectedMonsterName">${currentMonsterData.name}</h3>
+            `;
+            selectedMonsterDisplay.style.display = 'flex';
             clearSearchBtn.style.display = 'block';
         }
         runIndividualAnalysis(); 
@@ -283,10 +320,7 @@ function displayIndividualResults(data) {
         if (!query) {
             searchResultsDiv.style.display = 'none';
             if (currentMonsterData) { 
-                currentMonsterData = null;
-                selectedMonsterDisplay.style.display = 'none';
-                clearSearchBtn.style.display = 'none';
-                runIndividualAnalysis();
+               resetSelection();
             }
             return;
         }
@@ -316,9 +350,7 @@ function displayIndividualResults(data) {
             searchResultsDiv.style.display = 'none';
         }
     });
-    
-    modeIndividualBtn.addEventListener('click', runIndividualAnalysis);
 
+    // CORRIGE O TEXTO "CARREGANDO..."
     monsterSearchInput.placeholder = "Digite para buscar um monstro...";
-    runIndividualAnalysis();
 });
