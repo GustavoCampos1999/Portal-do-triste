@@ -31,20 +31,20 @@ window.addEventListener('load', () => {
     let currentMonsterData = null;
 
     function getPlayerStats() {
-    const levelInput = page.querySelector('#level').value;
-    const level = parseFloat(levelInput) || 0;
-    const finalLevel = levelInput === '' ? 0 : level;
-    const hpValue = page.querySelector('#maxHp').value.replace(/\./g, '');
-    const manaValue = page.querySelector('#maxMana').value.replace(/\./g, '');
+        const levelInput = page.querySelector('#level').value;
+        const level = parseFloat(levelInput) || 0;
+        const finalLevel = levelInput === '' ? 0 : level;
+        const hpValue = page.querySelector('#maxHp').value.replace(/\./g, '');
+        const manaValue = page.querySelector('#maxMana').value.replace(/\./g, '');
 
-    return {
-        hp: parseFloat(hpValue) || 0,
-        mana: parseFloat(manaValue) || 0,
-        level: finalLevel,
-        baseDamage: (finalLevel > 0 ? (finalLevel * 2.5) + 50 : 0),
-        baseCritChance: 0.10
-    };
-}
+        return {
+            hp: parseFloat(hpValue) || 0,
+            mana: parseFloat(manaValue) || 0,
+            level: finalLevel,
+            baseDamage: (finalLevel > 0 ? (finalLevel * 2.5) + 50 : 0),
+            baseCritChance: 0.10
+        };
+    }
     
     function getSelectedCharms() {
         const selected = [];
@@ -113,47 +113,53 @@ window.addEventListener('load', () => {
         return num.toFixed(0);
     }
 
-    function displayIndividualResults(data) {
-        let html = '';
-        const viableResults = data.viable || [];
-        const inviableResults = data.inviable || [];
+    // Encontre a função 'displayIndividualResults' e substitua-a por esta:
+// Encontre a função 'displayIndividualResults' e substitua-a por esta:
+function displayIndividualResults(data) {
+    let html = '';
+    const viableResults = data.viable || [];
+    const inviableResults = data.inviable || [];
 
-        if (viableResults.length > 0) {
-            const bestOption = viableResults[0];
-            const otherOptions = viableResults.slice(1); 
+    if (viableResults.length > 0) {
+        const bestOption = viableResults[0];
+        const otherOptions = viableResults.slice(1); 
 
-            html += `<div class="recommendation-box">
-                        <p>Melhor Opção:</p>
-                        <p class="charm-name">${bestOption.name}</p>
-                        <p><span class="damage-value">+${formatNumber(bestOption.bonusDamage)}</span></p>
-                    </div>`;
+        // Alterado para colocar o nome e o dano na mesma linha, usando a classe existente
+        html += `<div class="recommendation-box">
+                    <p>Melhor Opção:</p>
+                    <p>
+                        <span class="charm-name">${bestOption.name}</span>
+                        <span class="damage-value" style="font-size: 1.4em;"> +${formatNumber(bestOption.bonusDamage)}</span>
+                    </p>
+                </div>`;
 
-            if (otherOptions.length > 0) {
-                html += `<h4>Demais Opções (Ranking):</h4><ul class="ranking-list">`;
-                otherOptions.forEach(result => {
-                    html += `<li><span>${result.name}</span><span class="damage-value">+${formatNumber(result.bonusDamage)}</span></li>`;
-                });
-                html += '</ul>';
-            }
-        }
-        
-        if (inviableResults.length > 0) {
-            html += `<h4 style="margin-top: 20px;">Opções Inviáveis:</h4><ul class="ranking-list">`;
-            inviableResults.forEach(result => {
-                const lostDamage = result.potentialDamage - result.bonusDamage;
-                html += `<li><span>${result.name}</span><span class="lost-damage-value">-${formatNumber(lostDamage)}</span></li>`;
+        if (otherOptions.length > 0) {
+            html += `<h4>Demais Opções (Ranking):</h4><ul class="ranking-list centered">`;
+            otherOptions.forEach(result => {
+                // Adicionando a classe 'charm-name' para manter o estilo
+                html += `<li><span class="charm-name">${result.name}</span><span class="damage-value">+${formatNumber(result.bonusDamage)}</span></li>`;
             });
             html += '</ul>';
         }
-
-        if (html) {
-            resultDiv.style.height = 'auto';
-        } else {
-            resultDiv.style.height = '50px'; 
-        }
-        resultDiv.innerHTML = html;
+    }
+    
+    if (inviableResults.length > 0) {
+        html += `<h4 style="margin-top: 20px;">Opções Inviáveis:</h4><ul class="ranking-list centered">`;
+        inviableResults.forEach(result => {
+            const lostDamage = result.potentialDamage - result.bonusDamage;
+            // Adicionando a classe 'charm-name' para manter o estilo
+            html += `<li><span class="charm-name">${result.name}</span><span class="lost-damage-value">-${formatNumber(lostDamage)}</span></li>`;
+        });
+        html += '</ul>';
     }
 
+    if (html) {
+        resultDiv.style.height = 'auto';
+    } else {
+        resultDiv.style.height = '50px'; 
+    }
+    resultDiv.innerHTML = html;
+}
     function runIndividualAnalysis() {
         if (!modeIndividualBtn.classList.contains('active')) return;
 

@@ -23,22 +23,21 @@ window.addEventListener('load', () => {
     const modeHuntBtn = page.querySelector('#mode-hunt-btn');
     const allMonsters = window.allMonstersData;
 
- function getPlayerStats() {
-    const levelInput = page.querySelector('#level').value;
-    const level = parseFloat(levelInput) || 0;
-    const finalLevel = levelInput === '' ? 0 : level;
+    function getPlayerStats() {
+        const levelInput = page.querySelector('#level').value;
+        const level = parseFloat(levelInput) || 0;
+        const finalLevel = levelInput === '' ? 0 : level;
+        const hpValue = page.querySelector('#maxHp').value.replace(/\./g, '');
+        const manaValue = page.querySelector('#maxMana').value.replace(/\./g, '');
 
-    const hpValue = page.querySelector('#maxHp').value.replace(/\./g, '');
-    const manaValue = page.querySelector('#maxMana').value.replace(/\./g, '');
-
-    return {
-        hp: parseFloat(hpValue) || 0,
-        mana: parseFloat(manaValue) || 0,
-        level: finalLevel,
-        baseDamage: (finalLevel > 0 ? (finalLevel * 2.5) + 50 : 0),
-        baseCritChance: 0.10
-    };
-}
+        return {
+            hp: parseFloat(hpValue) || 0,
+            mana: parseFloat(manaValue) || 0,
+            level: finalLevel,
+            baseDamage: (finalLevel > 0 ? (finalLevel * 2.5) + 50 : 0),
+            baseCritChance: 0.10
+        };
+    }
     
     function getSelectedCharms() {
         const selected = [];
@@ -62,7 +61,7 @@ window.addEventListener('load', () => {
         return damageType ? damageType.multiplier : 1.0;
     }
     
-    function calculateBonusDamage(charm, tier, monster, playerStats) {
+    function calculateBonusDamage(charm, tier, monster, playerStats, ignoreResistance = false) {
         let bonusDamage = 0;
         const charmData = charm.data;
         if (!charmData) return 0;
@@ -70,7 +69,7 @@ window.addEventListener('load', () => {
             case 'elemental_hp': {
                 const procChance = charmData.chance[tier] / 100;
                 const baseProcDamage = monster.hp * charmData.damageMultiplier;
-                const damageMultiplier = getDamageMultiplier(charmData.element, monster);
+                const damageMultiplier = ignoreResistance ? 1.0 : getDamageMultiplier(charmData.element, monster);
                 bonusDamage = procChance * (baseProcDamage * damageMultiplier);
                 break;
             }
@@ -108,104 +107,189 @@ window.addEventListener('load', () => {
 
     function displayHuntResults(data) {
         let html = '';
-        if (data && data.totalDamage > 0) {
+        if (data && data.length > 0) {
             resultDiv.style.height = 'auto';
-            html += `
-            <div class="recommendation-box">
-                <p>Aumento de Dano Total na Hunt:</p>
-                <p class="charm-name" style="font-size: 1.8em;"><span class="damage-value">+${formatNumber(data.totalDamage)}</span></p>
-            </div>
-            <h4>Configuração Otimizada de Charms:</h4>
-            <ul class="ranking-list">`;
-            data.optimized.forEach(item => {
-                html += `
-                    <li>
-                        <span>${item.monsterName}</span>
-                        <span class="charm-name" style="font-size: 1em;">${item.bestCharm} (+${formatNumber(item.bonusDamage)})</span>
-                    </li>`;
+            html += `<h4>Charms recomendado:</h4>`;
+            html += `<ul class="ranking-list">`;
+
+            data.forEach(monster => {
+                html += `<li style="display: flex; justify-content: center; align-items: center;">`;
+                
+                html += `<div class="hunt-col-monster">
+                            <img class="hunt-monster-image" src="${monster.monsterData.image_url}" alt="${monster.monsterName}">
+                            <span class="hunt-monster-name">${monster.count}x ${monster.monsterName}</span>
+                         </div>`;
+                
+                html += `<div class="hunt-col-charm">`;
+
+                const charm = monster.bestCharm;
+                const bonus = charm.totalBonus;
+
+                if (charm.isViable) {
+                    const sign = bonus > 0 ? '+' : ''; 
+                    const colorClass = bonus > 0 ? 'damage-value' : ''; 
+                    html += `<strong class="charm-name">${charm.name}</strong>
+                             <span class="${colorClass}"> ${sign}${formatNumber(bonus)}</span>`;
+                } else {
+                    const lostDamage = charm.potentialBonus - bonus;
+                    html += `<strong class="charm-name">${charm.name}</strong>
+                             <span class="lost-damage-value"> -${formatNumber(lostDamage)}</span>`;
+                }
+
+                html += `</div>`;
+                html += `</li>`;
             });
+
             html += '</ul>';
         } else {
             resultDiv.style.height = '50px';
+            resultDiv.innerHTML = '';
         }
         resultDiv.innerHTML = html;
     }
- 
-    function runHuntAnalysis() {
-        if (!modeHuntBtn.classList.contains('active')) return;
 
-        const playerStats = getPlayerStats();
-        const selectedCharms = getSelectedCharms();
-        const huntLog = huntLogTextarea.value;
+    // Encontre a função 'runHuntAnalysis' e substitua-a inteiramente por esta:
+// Encontre a função 'runHuntAnalysis' e substitua-a inteiramente por esta:
+function runHuntAnalysis() {
+    if (!modeHuntBtn.classList.contains('active')) return;
 
-        if (!huntLog.trim() || selectedCharms.length === 0) {
-            displayHuntResults(null);
-            return;
-        }
-        
-        const needsPlayerStats = selectedCharms.some(c => c.data && ['player_proc', 'crit_chance', 'crit_damage'].includes(c.data.type));
-        if (needsPlayerStats && playerStats.level <= 0) {
-            resultDiv.style.height = 'auto';
-            resultDiv.innerHTML = `<p style="text-align: center; color: #a0937d; padding-top: 5px;">Para calcular com charms de crítico/jogador, preencha seus atributos.</p>`;
-            return;
-        }
+    const playerStats = getPlayerStats();
+    const selectedCharms = getSelectedCharms();
+    const huntLog = huntLogTextarea.value;
 
-        const parseHuntLog = (log) => {
-            const killedList = [];
-            const killedSection = log.split(/killed monsters:/i)[1];
-            if (!killedSection) return [];
-            const monsterRegex = /(\d+)x\s+([a-z\s'-]+)/gi;
-            let match;
-            while ((match = monsterRegex.exec(killedSection)) !== null) {
-                killedList.push({ count: parseInt(match[1]), name: match[2].trim().toLowerCase() });
-            }
-            return killedList;
-        };
-
-        const killedMonsters = parseHuntLog(huntLog);
-        if (killedMonsters.length === 0) {
-            displayHuntResults(null);
-            return;
-        }
-
-        let allPossibilities = [];
-        killedMonsters.forEach(killedMonster => {
-            const monsterData = allMonsters.find(m => m.name.toLowerCase() === killedMonster.name);
-            if (monsterData) {
-                selectedCharms.forEach(charm => {
-                    const bonusPerKill = calculateBonusDamage(charm, charm.tier, monsterData, playerStats);
-                    const totalBonus = bonusPerKill * killedMonster.count;
-                    allPossibilities.push({
-                        monsterName: monsterData.name,
-                        charmName: charm.name,
-                        totalBonusDamage: totalBonus
-                    });
-                });
-            }
-        });
-
-        allPossibilities.sort((a, b) => b.totalBonusDamage - a.totalBonusDamage);
- 
-        const finalAssignments = [];
-        const usedMonsters = new Set();
-        const usedCharms = new Set();
-        let totalDamageIncrease = 0;
-        
-        allPossibilities.forEach(p => {
-            if (!usedMonsters.has(p.monsterName) && !usedCharms.has(p.charmName)) {
-                finalAssignments.push({
-                    monsterName: p.monsterName,
-                    bestCharm: p.charmName,
-                    bonusDamage: p.totalBonusDamage
-                });
-                totalDamageIncrease += p.totalBonusDamage;
-                usedMonsters.add(p.monsterName);
-                usedCharms.add(p.charmName);
-            }
-        });
-        
-        displayHuntResults({ optimized: finalAssignments, totalDamage: totalDamageIncrease });
+    if (!huntLog.trim() || selectedCharms.length === 0) {
+        displayHuntResults(null);
+        return;
     }
+    
+    const selectedNames = selectedCharms.map(c => c.name);
+    const optionalMissing = [];
+    if ((selectedNames.includes('Low Blow') || selectedNames.includes('Savage Blow')) && playerStats.level <= 0) {
+        optionalMissing.push("Para calcular charms de crítico, preencha o <b>Level</b>");
+    }
+    if (selectedNames.includes('Overpower') && playerStats.hp <= 0) {
+        optionalMissing.push("Para calcular <b>Overpower</b>, preencha o <b>Max HP</b>");
+    }
+    if (selectedNames.includes('Overflux') && playerStats.mana <= 0) {
+        optionalMissing.push("Para calcular <b>Overflux</b>, preencha a <b>Max Mana</b>");
+    }
+
+    if (optionalMissing.length > 0) {
+        // A LINHA ABAIXO FOI ADICIONADA PARA CORRIGIR A ALTURA
+        resultDiv.style.height = 'auto'; 
+        resultDiv.innerHTML = `<div style="text-align: center; color: #a0937d; padding: 20px 0;">${optionalMissing.join('<br>')}</div>`;
+        return;
+    }
+    
+    const parseHuntLog = (log) => {
+        const killedList = [];
+        const monsterRegex = /(\d+)x\s+([a-z\s'-]+)/gi;
+        let match;
+        while ((match = monsterRegex.exec(log)) !== null) {
+            killedList.push({ count: parseInt(match[1]), name: match[2].trim().toLowerCase() });
+        }
+        return killedList;
+    };
+
+    const killedMonsters = parseHuntLog(huntLog);
+    if (killedMonsters.length === 0) {
+        displayHuntResults(null);
+        return;
+    }
+
+    const allPossibilities = [];
+    killedMonsters.forEach(killedMonster => {
+        const monsterData = allMonsters.find(m => m.name.toLowerCase() === killedMonster.name);
+        if (monsterData) {
+            selectedCharms.forEach(charm => {
+                const bonusPerKill = calculateBonusDamage({data: charmsData[charm.name]}, charm.tier, monsterData, playerStats);
+                const totalBonus = bonusPerKill * killedMonster.count;
+
+                const possibility = {
+                    monsterName: monsterData.name,
+                    charmName: charm.name,
+                    totalBonusDamage: totalBonus,
+                    isViable: true,
+                    potentialBonus: totalBonus
+                };
+
+                const charmInfo = charmsData[charm.name];
+                if (charmInfo && charmInfo.type === 'elemental_hp') {
+                    const multiplier = getDamageMultiplier(charmInfo.element, monsterData);
+                    if (multiplier < 0.3) {
+                        possibility.isViable = false;
+                        const potentialBonusPerKill = calculateBonusDamage({data: charmInfo}, charm.tier, monsterData, playerStats, true);
+                        possibility.potentialBonus = potentialBonusPerKill * killedMonster.count;
+                    }
+                }
+                allPossibilities.push(possibility);
+            });
+        }
+    });
+    
+    const viablePossibilities = allPossibilities.filter(p => p.isViable);
+    viablePossibilities.sort((a, b) => b.totalBonusDamage - a.totalBonusDamage);
+
+    const finalAssignments = [];
+    const usedMonsters = new Set();
+    const usedCharms = new Set();
+    
+    viablePossibilities.forEach(p => {
+        if (!usedMonsters.has(p.monsterName) && !usedCharms.has(p.charmName)) {
+            finalAssignments.push({
+                monsterName: p.monsterName,
+                bestCharm: { name: p.charmName, totalBonus: p.totalBonusDamage, isViable: true }
+            });
+            usedMonsters.add(p.monsterName);
+            usedCharms.add(p.charmName);
+        }
+    });
+
+    killedMonsters.forEach(km => {
+        const monsterData = allMonsters.find(m => m.name.toLowerCase() === km.name);
+        if (monsterData && !usedMonsters.has(monsterData.name)) {
+            const bestOverallOption = allPossibilities
+                .filter(p => p.monsterName === monsterData.name && !usedCharms.has(p.charmName))
+                .sort((a, b) => b.totalBonusDamage - a.totalBonusDamage)[0];
+
+            if (bestOverallOption) {
+                 finalAssignments.push({
+                    monsterName: monsterData.name,
+                    bestCharm: { 
+                        name: bestOverallOption.charmName, 
+                        totalBonus: bestOverallOption.totalBonusDamage,
+                        isViable: bestOverallOption.isViable,
+                        potentialBonus: bestOverallOption.potentialBonus
+                    }
+                });
+                usedMonsters.add(monsterData.name);
+                usedCharms.add(bestOverallOption.charmName);
+            }
+        }
+    });
+    
+    const monsterDisplayData = [];
+    finalAssignments.forEach(assignment => {
+        const monsterData = allMonsters.find(m => m.name === assignment.monsterName);
+        const killedMonster = killedMonsters.find(km => km.name === assignment.monsterName.toLowerCase());
+        if (monsterData && killedMonster) {
+            monsterDisplayData.push({
+                monsterName: monsterData.name,
+                monsterData: monsterData,
+                count: killedMonster.count,
+                bestCharm: assignment.bestCharm
+            });
+        }
+    });
+
+    monsterDisplayData.sort((a, b) => {
+        const indexA = killedMonsters.findIndex(km => km.name === a.monsterName.toLowerCase());
+        const indexB = killedMonsters.findIndex(km => km.name === b.monsterName.toLowerCase());
+        return indexA - indexB;
+    });
+
+    displayHuntResults(monsterDisplayData);
+}
     
     huntLogTextarea.addEventListener('input', runHuntAnalysis);
     charmSelectionGrid.addEventListener('click', runHuntAnalysis);

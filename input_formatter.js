@@ -1,18 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    /**
-     * Formata um número inteiro com pontos como separador de milhar.
-     */
     function formatInteger(value) {
         let digits = value.replace(/\D/g, '');
         if (digits === '') return '';
         return digits.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
     }
 
-    /**
-     * Formata um valor como moeda, tratando a entrada como centavos.
-     * A vírgula é inserida automaticamente. Ex: 070 -> 0,70
-     */
     function formatPrice(value) {
         let digits = value.replace(/\D/g, '');
         if (!digits) return '';
@@ -25,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Aplica as máscaras aos campos de input ---
     const integerInputs = [
         document.getElementById('maxHp'),
         document.getElementById('maxMana'),
@@ -49,8 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const value = e.target.value;
             const digits = value.replace(/\D/g, '');
 
-            // LÓGICA CORRIGIDA: Verifica se o usuário está apagando o conteúdo
-            // e se o resultado disso é zero. Se sim, limpa o campo.
             if (e.inputType.includes('delete') && (!digits || parseFloat(digits) === 0)) {
                 e.target.value = '';
                 return;
