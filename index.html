@@ -61,11 +61,11 @@
                     </div>
                     <div class="input-group">
                         <label for="maxHp">Seu Max HP:</label>
-                        <input type="number" id="maxHp" placeholder="Ex: 4000">
+                        <input type="text" inputmode="numeric" id="maxHp" placeholder="Ex: 7.000">
                     </div>
                     <div class="input-group">
                         <label for="maxMana">Sua Max Mana:</label>
-                        <input type="number" id="maxMana" placeholder="Ex: 8000">
+                        <input type="text" inputmode="numeric" id="maxMana" placeholder="Ex: 28.000">
                     </div>
                 </fieldset>
                 <div class="mode-switcher">
@@ -110,22 +110,22 @@
                     <legend>Valores da Transação</legend>
                     <div class="input-group">
                         <label for="gold-needed">Gold que você precisa (kk):</label>
-                        <input type="number" id="gold-needed" placeholder="Ex: 50">
+                        <input type="text" inputmode="numeric" id="gold-needed" placeholder="Ex: 50">
                     </div>
                     <div class="input-group">
                         <label for="rc-price-ingame">Preço de 1 TC (em gold):</label>
-                        <input type="number" id="rc-price-ingame" placeholder="Ex: 110000">
+                        <input type="text" inputmode="numeric" id="rc-price-ingame" placeholder="Ex: 110.000">
                     </div>
                 </fieldset>
                 <fieldset class="rc-converter-fieldset">
                     <legend>Comparação de Custo (Opcional)</legend>
                     <div class="input-group optional">
                         <label for="rc-price-real">Preço de 1.000 TCs (R$):</label>
-                        <input type="number" id="rc-price-real" placeholder="Ex: 88">
+                        <input type="text" inputmode="numeric" id="rc-price-real" placeholder="Ex: 88">
                     </div>
                     <div class="input-group optional">
                         <label for="kk-price-real">Preço do KK (R$):</label>
-                        <input type="number" id="kk-price-real" placeholder="Ex: 0.67">
+                        <input type="text" inputmode="decimal" id="kk-price-real" placeholder="Ex: 0,70">
                     </div>
                 </fieldset>
                 <button id="calculate-rc-btn" class="full-width">Calcular</button>
@@ -141,5 +141,6 @@
     <script src="analise_hunt.js"></script>     
     <script src="conversor_rc.js"></script>
     <script src="responsive.js"></script>
+    <script src="input_formatter.js"></script> </body>
 </body>
 </html>

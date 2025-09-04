@@ -9,10 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const rcResultDiv = page.querySelector('#rc-result');
 
     function calculateTcConversion() {
-        const rcPriceInGold = parseFloat(rcPriceIngameInput.value);
-        const goldNeededInKk = parseFloat(goldNeededInput.value);
-        const rcPriceReal = parseFloat(rcPriceRealInput.value);
-        const kkPriceReal = parseFloat(kkPriceRealInput.value);
+        // 1. Limpa e converte todos os valores dos inputs para números
+        const goldNeededInKk = parseFloat(goldNeededInput.value.replace(/\./g, '')) || 0;
+        const rcPriceInGold = parseFloat(rcPriceIngameInput.value.replace(/\./g, '')) || 0;
+        const rcPriceReal = parseFloat(rcPriceRealInput.value.replace(/\./g, '').replace(',', '.')) || 0;
+        const kkPriceReal = parseFloat(kkPriceRealInput.value.replace(',', '.')) || 0;
 
         if (!goldNeededInKk || goldNeededInKk <= 0) {
             rcResultDiv.innerHTML = "Por favor, insira quanto gold (kk) você precisa.";
@@ -33,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             if (rcPriceReal > 0 && kkPriceReal > 0) {
+                // 2. Fórmulas de cálculo
                 const costViaRc = (finalRcNeeded / 1000) * rcPriceReal;
                 const costViaKk = goldNeededInKk * kkPriceReal;
                 
@@ -40,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultHTML += `<div>Custo via TCs: <strong class="${costViaRc <= costViaKk ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaRc.toFixed(2).replace('.', ',')}</strong></div>`;
                 resultHTML += `<div style="margin-top: 5px;">Custo via KKs: <strong class="${costViaKk < costViaRc ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaKk.toFixed(2).replace('.', ',')}</strong></div>`;
                 
+                // 3. Lógica de comparação corrigida
                 if (costViaRc < costViaKk) {
                     resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar TCs e vender no jogo!</strong></p>`;
                 } else if (costViaKk < costViaRc) {
@@ -55,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         rcResultDiv.innerHTML = resultHTML;
     }
 
+    // Adiciona os listeners para acionar o cálculo automaticamente
     const inputs = [goldNeededInput, rcPriceIngameInput, rcPriceRealInput, kkPriceRealInput];
     inputs.forEach(input => {
         if (input) {
@@ -62,10 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Esconde o botão de calcular que não está sendo usado
     const calculateBtn = page.querySelector('#calculate-rc-btn');
     if (calculateBtn) {
         calculateBtn.style.display = 'none';
     }
     
+    // Mensagem inicial
     rcResultDiv.innerHTML = 'Preencha os campos para calcular.';
 });

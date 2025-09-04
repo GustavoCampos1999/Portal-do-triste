@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: 'Cinzel', serif;
     background-color: #1a1a1a;
@@ -71,8 +75,8 @@ main {
 }
 
 .container {
-    width: 100%;
-    max-width: 700px;
+    width: 750px; 
+    box-sizing: border-box; 
     background-color: rgba(18, 12, 8, 0.85);
     padding: 25px 35px;
     border-radius: 30px;
@@ -118,7 +122,7 @@ main p {
     min-height: 30px;
 }
 .charm-item label {
-    width: 120px;
+    width: 117px;
     flex-shrink: 0; 
     cursor: pointer;
     white-space: nowrap;
@@ -167,13 +171,10 @@ main p {
 #individual-analyzer,
 #hunt-analyzer {
     grid-area: 1 / 1; 
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
 }
 
 .analyzer-content.hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    display: none;
 }
 
 #calculateBtn {
@@ -289,8 +290,8 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
   padding: 20px;
   margin-top: 15px;
   text-align: left;
-  min-height: 50px; /* Alterado de height para min-height */
-  height: auto;       /* Garante que a altura possa ser automática */
+  min-height: 50px; 
+  height: auto;      
 }
 
 .result-container h3, .result-container h4 { text-align: center; margin-top: 0; color: #c89b3c; }

@@ -31,17 +31,20 @@ window.addEventListener('load', () => {
     let currentMonsterData = null;
 
     function getPlayerStats() {
-        const levelInput = page.querySelector('#level').value;
-        const level = parseFloat(levelInput) || 0;
-        const finalLevel = levelInput === '' ? 0 : level;
-        return {
-            hp: parseFloat(page.querySelector('#maxHp').value) || 0,
-            mana: parseFloat(page.querySelector('#maxMana').value) || 0,
-            level: finalLevel,
-            baseDamage: (finalLevel > 0 ? (finalLevel * 2.5) + 50 : 0),
-            baseCritChance: 0.10
-        };
-    }
+    const levelInput = page.querySelector('#level').value;
+    const level = parseFloat(levelInput) || 0;
+    const finalLevel = levelInput === '' ? 0 : level;
+    const hpValue = page.querySelector('#maxHp').value.replace(/\./g, '');
+    const manaValue = page.querySelector('#maxMana').value.replace(/\./g, '');
+
+    return {
+        hp: parseFloat(hpValue) || 0,
+        mana: parseFloat(manaValue) || 0,
+        level: finalLevel,
+        baseDamage: (finalLevel > 0 ? (finalLevel * 2.5) + 50 : 0),
+        baseCritChance: 0.10
+    };
+}
     
     function getSelectedCharms() {
         const selected = [];
@@ -122,7 +125,7 @@ window.addEventListener('load', () => {
             html += `<div class="recommendation-box">
                         <p>Melhor Opção:</p>
                         <p class="charm-name">${bestOption.name}</p>
-                        <p>Aumento de Dano Médio por Hit: <span class="damage-value">+${formatNumber(bestOption.bonusDamage)}</span></p>
+                        <p><span class="damage-value">+${formatNumber(bestOption.bonusDamage)}</span></p>
                     </div>`;
 
             if (otherOptions.length > 0) {

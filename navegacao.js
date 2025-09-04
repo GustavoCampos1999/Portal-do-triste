@@ -15,10 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 targetPage.classList.remove('hidden');
             }
 
-            if (targetPageId === 'calculadora') {
-                setTimeout(adjustCalculatorHeight, 0);
-            }
-
             navLinks.forEach(nav => nav.classList.remove('active'));
             link.classList.add('active');
         });
