@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8" />    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal do Triste</title>
-<meta name="description" content="Portal do Triste: um site com ferramentas úteis para Tibia.">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Triste</title>
+    <meta name="description" content="Portal do Triste: um site com ferramentas úteis para Tibia.">
 
-  <link rel="icon" type="image/png" href="images/icon/favicon.png">
-  <link rel="apple-touch-icon" href="images/icon/logo180.png"> 
-  <meta property="og:title" content="Ferramentas para a comunidade de Tibia">
-  <meta property="og:description" content="Calculadora de Charms, Conversor de TC e outras ferramentas para a comunidade de Tibia.">
-  <meta property="og:image" content="https://portaldotriste.site/images/icon/preview-social.png">
-  <meta property="og:url" content="https://portaldotriste.site/">
-  <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="images/icon/favicon.png">
+    <link rel="apple-touch-icon" href="images/icon/logo180.png">
+    <meta property="og:title" content="Ferramentas para a comunidade de Tibia">
+    <meta property="og:description" content="Calculadora de Charms, Conversor de TC e outras ferramentas para a comunidade de Tibia.">
+    <meta property="og:image" content="https://portaldotriste.site/images/icon/preview-social.png">
+    <meta property="og:url" content="https://portaldotriste.site/">
+    <meta property="og:type" content="website">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ferramentas para a comunidade de Tibia">
-  <meta name="twitter:description" content="Calculadora de Charms, Conversor de TC e outras ferramentas para a comunidade de Tibia.">
-  <meta name="twitter:image" content="https://portaldotriste.site/images/icon/preview-social.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ferramentas para a comunidade de Tibia">
+    <meta name="twitter:description" content="Calculadora de Charms, Conversor de TC e outras ferramentas para a comunidade de Tibia.">
+    <meta name="twitter:image" content="https://portaldotriste.site/images/icon/preview-social.png">
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/bestiario.css">
+    <link rel="stylesheet" href="css/conversor-rc.css">
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YY5QBY471X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YY5QBY471X');
-</script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YY5QBY471X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-YY5QBY471X');
+    </script>
 </head>
 
 <body>
-<header class="site-header">
-    <h1>
-        <img src="images/icon/tibia-ferumbras-ferumbras.gif" alt="Ícone Ferumbras">
-        Portal do Triste
-    </h1>
-    <nav class="main-nav">
-        <a href="#" class="nav-link active" data-page="inicio">Início</a>
-        <a href="#" class="nav-link" data-page="calculadora">Calculadora de Charms</a>
-        <a href="#" class="nav-link" data-page="conversor-rc">Conversão TC</a>
-        <a href="#" class="nav-link disabled">(Em Breve)</a>
-    </nav>
-</header>
+    <header class="site-header">
+        <h1>
+            <img src="images/icon/tibia-ferumbras-ferumbras.gif" alt="Ícone Ferumbras">
+            Portal do Triste
+        </h1>
+        <nav class="main-nav">
+            <div class="nav-links-center">
+                <a href="#" class="nav-link active" data-page="inicio">Início</a>
+                <a href="#" class="nav-link" data-page="calculadora">Calculadora de Charms</a>
+                <a href="#" class="nav-link" data-page="conversor-rc">Conversão TC</a>
+                <a href="#" class="nav-link disabled" data-page="imbuements">Imbuements</a>
+                <a href="#" id="nav-bestiary" class="nav-link disabled" data-page="bestiary">Meu Bestiário</a>
+            </div>
+            <div id="auth-links" class="nav-auth-links">
+                <div id="logged-out-links">
+                    <a href="#" class="nav-link-auth" data-page="login">Login</a>
+                    <a href="#" class="nav-link-auth register-btn" data-page="register">Cadastre-se</a>
+                </div>
+                <div id="logged-in-links" class="hidden">
+                    <span id="user-email-display"></span>
+                    <a href="#" id="logout-link" class="nav-link-auth">Sair</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <main>
+        <div id="page-login" class="page-content hidden">
+            <div class="container auth-page-container">
+                <header class="tool-header">
+                    <h1>Login</h1>
+                </header>
+                <form id="login-form-page" class="auth-form">
+                    <input type="text" id="login-identifier" placeholder="E-mail ou Usuário" required>
+                    <input type="password" id="login-password" placeholder="Sua senha" required>
+                    <div class="login-options">
+                        <label><input type="checkbox" id="remember-me"> Lembrar-me</label>
+                    </div>
+                    <button type="submit" id="login-btn">Entrar</button>
+                    <div class="separator">OU</div>
+                    <button type="button" id="login-google-btn" class="google-btn">
+                        <img src="images/icon/google-icon.svg" alt="Google icon">
+                        Entrar com Google
+                    </button>
+                    <div id="login-error" class="auth-error"></div>
+                </form>
+            </div>
+        </div>
+
+        <div id="page-register" class="page-content hidden">
+            <div class="container auth-page-container">
+                <header class="tool-header">
+                    <h1>Cadastre-se</h1>
+                </header>
+                <form id="register-form-page" class="auth-form" novalidate>
+                    <input type="text" id="register-username" placeholder="Crie um nome de usuário" required>
+                    <input type="email" id="register-email" placeholder="Seu e-mail" required>
+                    <input type="password" id="register-password" placeholder="Sua senha (mínimo 6 caracteres)" required>
+                    <input type="password" id="register-password-confirm" placeholder="Confirme sua senha" required>
+                    <button type="submit" id="register-btn">Criar Conta</button>
+                    <div class="separator">OU</div>
+                    <button type="button" id="register-google-btn" class="google-btn">
+                        <img src="images/icon/google-icon.svg" alt="Google icon">
+                        Cadastrar com Google
+                    </button>
+                    <div id="register-error" class="auth-error"></div>
+                </form>
+            </div>
+        </div>
+
         <div id="page-inicio" class="page-content">
             <div class="container">
                 <h2>Bem-vindo ao Portal do Triste!</h2>
@@ -82,8 +142,7 @@
                     <button id="mode-individual-btn" class="mode-btn active">Análise Individual</button>
                     <button id="mode-hunt-btn" class="mode-btn">Analisador de Hunt</button>
                 </div>
-                
-                <div class="analyzer-container"> 
+                <div class="analyzer-container">
                     <div id="individual-analyzer" class="analyzer-content">
                         <fieldset class="full-width">
                             <legend>Informações do Alvo</legend>
@@ -106,11 +165,10 @@
                         <button id="analyze-hunt-btn" class="full-width">Analisar Hunt</button>
                     </div>
                 </div>
-                
                 <div id="result" class="result-container"></div>
             </div>
         </div>
-        
+
         <div id="page-conversor-rc" class="page-content hidden">
             <div class="container">
                 <header class="tool-header">
@@ -142,15 +200,63 @@
                 <div id="rc-result" class="result-container"></div>
             </div>
         </div>
+
+        <div id="page-bestiary" class="page-content hidden">
+            <div class="container">
+                <header class="tool-header">
+                    <h1>Meu Bestiário</h1>
+                </header>
+                <div class="bestiary-toolbar">
+                    <input type="search" id="bestiary-search" placeholder="Pesquisar monstro...">
+                    <fieldset class="bestiary-filters">
+                        <legend>Filtros</legend>
+                        <label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label>
+                        <label><input type="radio" name="bestiary-filter" value="completed"> Bestiário Feito</label>
+                        <label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore Feito</label>
+                    </fieldset>
+                </div>
+                <div id="bestiary-list"></div>
+            </div>
+        </div>
     </main>
+
+    <div id="username-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h2>Escolha seu nome de usuário</h2>
+            <p>Este nome será público e não poderá ser alterado depois.</p>
+            <input type="text" id="username-input" placeholder="Usuário (letras, números e _)">
+            <button id="save-username-btn">Salvar e Continuar</button>
+            <div id="username-error" class="auth-error"></div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDwdciSnRd792GgjRwcaq1wBP2Aa4D8ErM",
+            authDomain: "portal-do-triste.firebaseapp.com",
+            projectId: "portal-do-triste",
+            storageBucket: "portal-do-triste.firebasestorage.app",
+            messagingSenderId: "494817509776",
+            appId: "1:494817509776:web:99bee487d406a516cc7315",
+            measurementId: "G-LHQNWFC5N5"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
 
     <script src="tibia-monsters-db.js"></script>
     <script src="navegacao.js"></script>
-    <script src="calculadora_navegacao.js"></script> 
-    <script src="analise_individual.js"></script> 
-    <script src="analise_hunt.js"></script>     
+    <script src="calculadora_navegacao.js"></script>
+    <script src="analise_individual.js"></script>
+    <script src="analise_hunt.js"></script>
     <script src="conversor_rc.js"></script>
     <script src="responsive.js"></script>
-    <script src="input_formatter.js"></script> </body>
+    <script src="input_formatter.js"></script>
+    <script src="auth.js"></script>
+    <script src="bestiary.js"></script>
 </body>
+
 </html>

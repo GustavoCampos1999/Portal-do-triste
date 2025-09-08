@@ -1,0 +1,45 @@
+.rc-converter-fieldset {
+    border: 1px solid #4a3c28;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+.rc-converter-fieldset legend {
+    color: #c89b3c;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+.rc-converter-fieldset {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.input-group.optional label::after {
+    content: " (opcional)";
+    font-style: italic;
+    color: #a0937d;
+    font-size: 0.8em;
+}
+
+#rc-result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(200, 155, 60, 0.1);
+    border: 1px solid #c89b3c;
+    border-radius: 4px;
+    font-size: 1.2em;
+    color: #f0e6d2;
+    text-align: center;
+}
+
+#calculate-rc-btn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .rc-converter-fieldset {
+        grid-template-columns: 1fr; 
+    }
+}

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const navLinks = document.querySelectorAll('.nav-link:not(.disabled)');
+    const navLinks = document.querySelectorAll('.nav-link:not(.disabled), .nav-link-auth');
     const pages = document.querySelectorAll('.page-content');
 
     navLinks.forEach(link => {

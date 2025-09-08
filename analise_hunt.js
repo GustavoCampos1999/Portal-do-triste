@@ -106,25 +106,23 @@ window.addEventListener('load', () => {
     }
 
     function displayHuntResults(data) {
-        let html = '';
-        if (data && data.length > 0) {
-            resultDiv.style.height = 'auto';
-            html += `<h4>Charms recomendado:</h4>`;
-            html += `<ul class="ranking-list">`;
+    let html = '';
+    
+    resultDiv.classList.remove('individual-result'); 
 
+    if (data && data.length > 0) {
+        resultDiv.style.height = 'auto';
+        html += `<h4>Charms recomendado:</h4>`;
+        html += `<ul class="ranking-list">`;
             data.forEach(monster => {
                 html += `<li style="display: flex; justify-content: center; align-items: center;">`;
-                
                 html += `<div class="hunt-col-monster">
                             <img class="hunt-monster-image" src="${monster.monsterData.image_url}" alt="${monster.monsterName}">
                             <span class="hunt-monster-name">${monster.count}x ${monster.monsterName}</span>
                          </div>`;
-                
                 html += `<div class="hunt-col-charm">`;
-
                 const charm = monster.bestCharm;
                 const bonus = charm.totalBonus;
-
                 if (charm.isViable) {
                     const sign = bonus > 0 ? '+' : ''; 
                     const colorClass = bonus > 0 ? 'damage-value' : ''; 
@@ -135,11 +133,9 @@ window.addEventListener('load', () => {
                     html += `<strong class="charm-name">${charm.name}</strong>
                              <span class="lost-damage-value"> -${formatNumber(lostDamage)}</span>`;
                 }
-
                 html += `</div>`;
                 html += `</li>`;
             });
-
             html += '</ul>';
         } else {
             resultDiv.style.height = '50px';

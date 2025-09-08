@@ -1,0 +1,93 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-link {
+    color: #a0937d;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-links-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-link:not(.disabled):hover {
+    color: #f0e6d2;
+    background-color: #4a3c28;
+}
+
+.nav-link.active {
+    color: #f0e6d2;
+    background-color: #8c6b2c;
+    border-color: #c89b3c;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.nav-link.disabled {
+    color: #5c4b28;
+    cursor: not-allowed;
+}
+
+.nav-auth-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-link-auth {
+    color: #a0937d;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #4a3c28;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav-link-auth.register-btn {
+    background-color: #8c6b2c;
+    color: #f0e6d2;
+}
+.nav-link-auth.register-btn:hover {
+    background-color: #c89b3c;
+}
+
+#user-email-display {
+    font-size: 0.9em;
+    color: #f0e6d2;
+}
+
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .nav-links-center {
+        flex-direction: column;
+    }
+    .nav-link {
+        width: 95%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .nav-auth-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+}

@@ -15,7 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
         modeIndividualBtn.classList.add('active');
         huntAnalyzer.classList.add('hidden');
         individualAnalyzer.classList.remove('hidden');
+        
+        // Limpa o conteúdo e os estilos para evitar conflitos
         resultDiv.innerHTML = '';
+        resultDiv.removeAttribute('style'); // Adicione esta linha
+
+        if (typeof runIndividualAnalysis === 'function') {
+            runIndividualAnalysis();
+        }
     });
 
     modeHuntBtn.addEventListener('click', (e) => {
@@ -25,6 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
         modeHuntBtn.classList.add('active');
         individualAnalyzer.classList.add('hidden');
         huntAnalyzer.classList.remove('hidden');
-        resultDiv.innerHTML = ''; 
+        
+        // Limpa o conteúdo e os estilos para evitar conflitos
+        resultDiv.innerHTML = '';
+        resultDiv.removeAttribute('style'); // Adicione esta linha
     });
 });

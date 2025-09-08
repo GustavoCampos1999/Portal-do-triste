@@ -112,30 +112,32 @@ window.addEventListener('load', () => {
     }
 
     function displayIndividualResults(data) {
-        let html = '';
-        const viableResults = data.viable || [];
-        const inviableResults = data.inviable || [];
+    let html = '';
+    const viableResults = data.viable || [];
+    const inviableResults = data.inviable || [];
 
-        if (viableResults.length > 0) {
-            const bestOption = viableResults[0];
-            const otherOptions = viableResults.slice(1); 
+    // Adiciona a classe individual-result aqui para isolar estilos
+    resultDiv.classList.add('individual-result'); // Garante que a classe está sempre presente
 
-            html += `<div class="recommendation-box">
-                        <p>Melhor Opção:</p>
-                        <p>
-                            <span class="charm-name">${bestOption.name}</span>
-                            <span class="damage-value"> +${formatNumber(bestOption.bonusDamage)}</span>
-                        </p>
-                    </div>`;
+    if (viableResults.length > 0) {
+        const bestOption = viableResults[0];
+        const otherOptions = viableResults.slice(1);
 
-            if (otherOptions.length > 0) {
-                html += `<h4>Demais Opções (Ranking):</h4><ul class="ranking-list centered">`;
-                otherOptions.forEach(result => {
-                    html += `<li><span class="charm-name">${result.name}</span><span class="damage-value">+${formatNumber(result.bonusDamage)}</span></li>`;
-                });
-                html += '</ul>';
-            }
+            html += `<div class="recommendation-box highlight-best-option"> <p>Melhor Opção:</p>
+                <p>
+                    <span class="charm-name">${bestOption.name}</span>
+                    <span class="damage-value"> +${formatNumber(bestOption.bonusDamage)}</span>
+                </p>
+            </div>`;
+
+        if (otherOptions.length > 0) {
+            html += `<h4>Demais Opções (Ranking):</h4><ul class="ranking-list centered">`;
+            otherOptions.forEach(result => {
+                html += `<li><span class="charm-name">${result.name}</span><span class="damage-value">+${formatNumber(result.bonusDamage)}</span></li>`;
+            });
+            html += '</ul>';
         }
+    }
         
         if (inviableResults.length > 0) {
             html += `<h4 style="margin-top: 20px;">Opções Inviáveis:</h4><ul class="ranking-list centered">`;
@@ -210,10 +212,11 @@ window.addEventListener('load', () => {
         const selectedCharms = getSelectedCharms();
         
         if (selectedCharms.length === 0 || !currentMonsterData) {
-            resultDiv.innerHTML = '';
-            return;
+        resultDiv.innerHTML = '';
+        resultDiv.classList.remove('individual-result'); // Remova a classe quando o container está vazio
+        return;
         }
-        
+
         const selectedNames = selectedCharms.map(c => c.name);
         const optionalMissing = [];
         if ((selectedNames.includes('Low Blow') || selectedNames.includes('Savage Blow')) && playerStats.level <= 0) {
@@ -255,6 +258,7 @@ window.addEventListener('load', () => {
         inviableResults.sort((a, b) => (b.potentialDamage - b.bonusDamage) - (a.potentialDamage - a.bonusDamage));
 
         displayIndividualResults({ viable: viableResults, inviable: inviableResults });
+        window.runIndividualAnalysis = runIndividualAnalysis;
     }
     
     function selectMonster(name) {

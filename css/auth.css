@@ -1,0 +1,203 @@
+.nav-auth-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-link-auth {
+    color: #a0937d;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #4a3c28;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nav-link-auth.register-btn {
+    background-color: #8c6b2c;
+    color: #f0e6d2;
+}
+.nav-link-auth.register-btn:hover {
+    background-color: #c89b3c;
+}
+
+#user-email-display {
+    font-size: 0.9em;
+    color: #f0e6d2;
+}
+
+.auth-page-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 1px solid #4a3c28;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"],
+.auth-form button {
+    padding: 12px 15px;
+    border: 1px solid #4a3c28;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+    background-color: #1a1a1a;
+    color: #f0e6d2;
+    border: 1px solid #4a3c28;
+    border-radius: 5px;
+    padding: 12px 15px;
+    font-size: 1em;
+    font-family: 'Arvo', serif;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.auth-form input::placeholder {
+    color: #a0937d;
+    opacity: 1; 
+}
+
+.auth-form input:focus {
+    border-color: #c89b3c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(200, 155, 60, 0.5);
+}
+
+.auth-form button[type="submit"] {
+    background-color: #c89b3c;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.auth-form button[type="submit"]:hover {
+    background-color: #e6b84e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #a0937d;
+    font-size: 0.8em;
+    margin: 20px 0;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #4a3c28;
+}
+.separator:not(:empty)::before {
+    margin-right: .5em;
+}
+.separator:not(:empty)::after {
+    margin-left: .5em;
+}
+
+.google-btn {
+    background-color: #f0e6d2;
+    color: #1a1a1a;
+    border: 1px solid #4a3c28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    text-shadow: none;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.google-btn:hover {
+    background-color: #fff;
+    border-color: #c89b3c;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.google-btn img {
+    height: 18px;
+    width: 18px;
+}
+
+.login-options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.9em;
+    color: #a0937d;
+}
+
+.login-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+.modal-content {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #4a3c28;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+.modal-content h2 {
+    color: #c89b3c;
+    margin-top: 0;
+}
+.modal-content p {
+    font-size: 0.9em;
+    color: #a0937d;
+}
+.modal-content input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    text-align: left;
+    padding-left: 15px;
+}
+.modal-content .auth-error {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+    min-height: 20px;
+}
