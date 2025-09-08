@@ -1,34 +1,26 @@
-// Arquivo: auth.js
 document.addEventListener('DOMContentLoaded', () => {
     const auth = firebase.auth();
     const db = firebase.firestore();
     
-    // --- Funções de Navegação ---
     function navigateTo(page) {
         const link = document.querySelector(`.nav-link[data-page="${page}"], .nav-link-auth[data-page="${page}"]`);
         if (link) link.click();
     }
 
-    // --- Referências do Modal de Usuário ---
     const usernameModal = document.getElementById('username-modal');
     const usernameInput = document.getElementById('username-input');
     const saveUsernameBtn = document.getElementById('save-username-btn');
     const usernameError = document.getElementById('username-error');
 
-    // --- Lógica de Login com Google (ATUALIZADA) ---
     function signInWithGoogle() {
         const provider = new firebase.auth.GoogleAuthProvider();
         auth.signInWithPopup(provider)
             .then((result) => {
                 const user = result.user;
-                // Verifica se é um usuário NOVO
                 if (result.additionalUserInfo.isNewUser) {
-                    // Se for novo, abre o modal para escolher o username
                     usernameModal.classList.remove('hidden');
-                    // Adiciona um listener para o botão Salvar do modal
                     saveUsernameBtn.onclick = () => saveGoogleUserUsername(user);
                 } else {
-                    // Se for um usuário existente, navega para a página inicial
                     navigateTo('inicio');
                 }
             }).catch((error) => {
@@ -38,12 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // --- Nova Função para Salvar o Usuário do Google com Username ---
     async function saveGoogleUserUsername(user) {
         const username = usernameInput.value.trim();
         usernameError.textContent = '';
 
-        // Validações do nome de usuário
         if (username.length < 3) return usernameError.textContent = "O usuário deve ter pelo menos 3 caracteres.";
         if (!/^[a-zA-Z0-9_]+$/.test(username)) return usernameError.textContent = "Usuário pode conter apenas letras, números e underline.";
 
@@ -53,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error("Este nome de usuário já está em uso.");
             }
 
-            // Salva os dados no Firestore (username e documento do usuário)
             const batch = db.batch();
             const userDocRef = db.collection('users').doc(user.uid);
             const usernameDocRef = db.collection('usernames').doc(username.toLowerCase());
@@ -67,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
             
             await batch.commit();
 
-            // Fecha o modal e continua
             usernameModal.classList.add('hidden');
             navigateTo('inicio');
 
@@ -76,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // O resto do seu arquivo auth.js (com pequenas modificações para referenciar as funções)
     const loggedOutLinks = document.getElementById('logged-out-links');
     const loggedInLinks = document.getElementById('logged-in-links');
     const userEmailDisplay = document.getElementById('user-email-display');

@@ -16,9 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         huntAnalyzer.classList.add('hidden');
         individualAnalyzer.classList.remove('hidden');
         
-        // Limpa o conteúdo e os estilos para evitar conflitos
         resultDiv.innerHTML = '';
-        resultDiv.removeAttribute('style'); // Adicione esta linha
+        resultDiv.removeAttribute('style'); 
 
         if (typeof runIndividualAnalysis === 'function') {
             runIndividualAnalysis();
@@ -33,8 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         individualAnalyzer.classList.add('hidden');
         huntAnalyzer.classList.remove('hidden');
         
-        // Limpa o conteúdo e os estilos para evitar conflitos
         resultDiv.innerHTML = '';
-        resultDiv.removeAttribute('style'); // Adicione esta linha
+        resultDiv.removeAttribute('style'); 
     });
 });

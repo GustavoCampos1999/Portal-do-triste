@@ -116,8 +116,7 @@ window.addEventListener('load', () => {
     const viableResults = data.viable || [];
     const inviableResults = data.inviable || [];
 
-    // Adiciona a classe individual-result aqui para isolar estilos
-    resultDiv.classList.add('individual-result'); // Garante que a classe está sempre presente
+    resultDiv.classList.add('individual-result'); 
 
     if (viableResults.length > 0) {
         const bestOption = viableResults[0];
@@ -213,7 +212,7 @@ window.addEventListener('load', () => {
         
         if (selectedCharms.length === 0 || !currentMonsterData) {
         resultDiv.innerHTML = '';
-        resultDiv.classList.remove('individual-result'); // Remova a classe quando o container está vazio
+        resultDiv.classList.remove('individual-result'); 
         return;
         }
 

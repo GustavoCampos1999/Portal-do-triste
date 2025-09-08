@@ -39,7 +39,6 @@ main {
     display: none;
 }
 
-/* Regra ajustada: a largura fixa de 750px só se aplica a partir de 769px */
 .container {
     width: 100%;
     box-sizing: border-box;
@@ -113,7 +112,7 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     .tool-header h1 {
         font-size: 1.5em;
     }
-    
+
     .page-content {
     width: 100%;
 }
