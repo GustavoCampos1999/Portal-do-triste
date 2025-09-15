@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 resultHTML += `<div style="margin-top: 5px;">Custo via KKs: <strong class="${costViaKk < costViaRc ? 'cheaper-value' : 'expensive-value'}">R$ ${costViaKk.toFixed(2).replace('.', ',')}</strong></div>`;
               
                 if (costViaRc < costViaKk) {
-                    resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar TCs e vender no jogo!</strong></p>`;
+                    resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar TC's e vender no jogo!</strong></p>`;
                 } else if (costViaKk < costViaRc) {
-                    resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar os kks diretamente!</strong></p>`;
+                    resultHTML += `<p style="margin-top: 15px;"><strong class="cheaper-value">É mais barato comprar os KK's diretamente!</strong></p>`;
                 } else {
                     resultHTML += `<p style="margin-top: 15px;">Os custos são equivalentes.</p>`;
                 }

@@ -6,34 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal do Triste</title>
     <meta name="description" content="Portal do Triste: um site com ferramentas úteis para Tibia.">
-
     <link rel="icon" type="image/png" href="images/icon/favicon.png">
-    <link rel="apple-touch-icon" href="images/icon/logo180.png">
-    <meta property="og:title" content="Ferramentas para a comunidade de Tibia">
-    <meta property="og:description" content="Calculadora de Charms, Conversor de TC e outras ferramentas para a comunidade de Tibia.">
-    <meta property="og:image" content="https://portaldotriste.site/images/icon/preview-social.png">
-    <meta property="og:url" content="https://portaldotriste.site/">
-    <meta property="og:type" content="website">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ferramentas para a comunidade de Tibia">
-    <meta name="twitter:description" content="Calculadora de Charms, Conversor de TC e outras ferramentas para a comunidade de Tibia.">
-    <meta name="twitter:image" content="https://portaldotriste.site/images/icon/preview-social.png">
-
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navegacao.css">
     <link rel="stylesheet" href="css/calculadora.css">
     <link rel="stylesheet" href="css/auth.css">
     <link rel="stylesheet" href="css/bestiario.css">
     <link rel="stylesheet" href="css/conversor-rc.css">
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YY5QBY471X"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-YY5QBY471X');
-    </script>
 </head>
 
 <body>
@@ -46,8 +25,8 @@
             <div class="nav-links-center">
                 <a href="#" class="nav-link active" data-page="inicio">Início</a>
                 <a href="#" class="nav-link" data-page="calculadora">Calculadora de Charms</a>
-                <a href="#" class="nav-link" data-page="conversor-rc">Conversão TC</a>
-                <a href="#" class="nav-link disabled" data-page="imbuements">Imbuements</a>
+                <a href="#" class="nav-link" data-page="conversor-rc">Conversor de TC</a>
+                <a href="#" class="nav-link disabled" data-page="Imbuements">Imbuements</a>
                 <a href="#" id="nav-bestiary" class="nav-link disabled" data-page="bestiary">Meu Bestiário</a>
             </div>
             <div id="auth-links" class="nav-auth-links">
@@ -64,6 +43,13 @@
     </header>
 
     <main>
+        <div id="page-inicio" class="page-content">
+            <div class="container">
+                <h2>Bem-vindo ao Portal do Triste!</h2>
+                <p>Esta página está em construção e novas funcionalidades serão adicionadas em breve!</p>
+            </div>
+        </div>
+
         <div id="page-login" class="page-content hidden">
             <div class="container auth-page-container">
                 <header class="tool-header">
@@ -73,13 +59,13 @@
                     <input type="text" id="login-identifier" placeholder="E-mail ou Usuário" required>
                     <input type="password" id="login-password" placeholder="Sua senha" required>
                     <div class="login-options">
-                        <label><input type="checkbox" id="remember-me"> Lembrar-me</label>
+                        <label><input type="checkbox" id="remember-user"> Lembrar meu usuário</label>
+                        <label><input type="checkbox" id="remember-me"> Conectar automaticamente</label>
                     </div>
                     <button type="submit" id="login-btn">Entrar</button>
                     <div class="separator">OU</div>
                     <button type="button" id="login-google-btn" class="google-btn">
-                        <img src="images/icon/google-icon.svg" alt="Google icon">
-                        Entrar com Google
+                        <img src="images/icon/google-icon.svg" alt="Google icon"> Entrar com Google
                     </button>
                     <div id="login-error" class="auth-error"></div>
                 </form>
@@ -99,18 +85,10 @@
                     <button type="submit" id="register-btn">Criar Conta</button>
                     <div class="separator">OU</div>
                     <button type="button" id="register-google-btn" class="google-btn">
-                        <img src="images/icon/google-icon.svg" alt="Google icon">
-                        Cadastrar com Google
+                        <img src="images/icon/google-icon.svg" alt="Google icon"> Cadastrar com Google
                     </button>
                     <div id="register-error" class="auth-error"></div>
                 </form>
-            </div>
-        </div>
-
-        <div id="page-inicio" class="page-content">
-            <div class="container">
-                <h2>Bem-vindo ao Portal do Triste!</h2>
-                <p>Esta página está em construção e novas funcionalidades serão adicionadas em breve!</p>
             </div>
         </div>
 
@@ -118,24 +96,52 @@
             <div class="container">
                 <header class="tool-header">
                     <h1>Calculadora de Charms Avançada</h1>
+                    <div id="notification-container" class="hidden"></div>
                 </header>
+                <fieldset id="presets-fieldset">
+                    <legend>Presets de Charms</legend>
+                    <div id="presets-logged-out" class="hidden">
+                        <p>Faça <a href="#" class="nav-link-auth" data-page="login">login</a> para usar os presets.</p>
+                    </div>
+                    <div id="presets-logged-in" class="hidden">
+                        <div id="saved-presets-list"></div>
+                    </div>
+                </fieldset>
                 <fieldset class="charms-fieldset">
-                    <legend>Selecione Seus Charms</legend>
+                    <div class="fieldset-header">
+                        <legend>Selecione Seus Charms</legend>
+                        <div class="header-buttons">
+                            <button id="savePresetBtn" class="clear-btn hidden">Salvar</button>
+                            <button id="clearAllBtn" class="clear-btn">Limpar</button>
+                        </div>
+                    </div>
                     <div id="charm-selection-grid" class="charm-grid"></div>
                 </fieldset>
                 <fieldset class="player-stats-fieldset">
-                    <legend>Seus Atributos (Opcional)</legend>
-                    <div class="input-group">
-                        <label for="level">Seu Level:</label>
-                        <input type="number" id="level" placeholder="Ex: 300">
+                    <legend>Seus Atributos</legend>
+                    <div class="stats-row-top">
+                        <div class="input-group">
+                            <label for="vocation">Sua Vocação:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">A seleção da vocação ajusta a fórmula de dano base para maior precisão nos cálculos de crítico.</span></span></label>
+                            <select id="vocation" required><option value="" disabled selected>Selecione</option><option value="knight">Knight</option><option value="paladin">Paladin</option><option value="sorcerer">Sorcerer</option><option value="druid">Druid</option><option value="knight">Monk</option></select>
+                        </div>
+                        <div class="input-group">
+                            <label for="level">Seu Level:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">Necessário para o dano máximo de charms elementais (Freeze, Wound, etc.).</span></span></label>
+                            <input type="number" id="level" placeholder="Ex: 300">
+                        </div>
+                        <div class="input-group">
+                            <label for="skillLevel">Seu Skill:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">Seu skill base (Melee, Distance ou ML), sem equipamentos. Essencial para Low Blow e Savage Blow.</span></span></label>
+                            <input type="number" id="skillLevel" placeholder="Ex: 120">
+                        </div>
                     </div>
-                    <div class="input-group">
-                        <label for="maxHp">Seu Max HP:</label>
-                        <input type="text" inputmode="numeric" id="maxHp" placeholder="Ex: 7.000">
-                    </div>
-                    <div class="input-group">
-                        <label for="maxMana">Sua Max Mana:</label>
-                        <input type="text" inputmode="numeric" id="maxMana" placeholder="Ex: 28.000">
+                    <div class="stats-row-bottom">
+                        <div class="input-group">
+                            <label for="maxHp">Seu Max HP:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">Necessário para calcular o dano do charm Overpower.</span></span></label>
+                            <input type="text" inputmode="numeric" id="maxHp" placeholder="Ex: 9.700">
+                        </div>
+                        <div class="input-group">
+                            <label for="maxMana">Sua Max Mana:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">Necessário para calcular o dano do charm Overflux.</span></span></label>
+                            <input type="text" inputmode="numeric" id="maxMana" placeholder="Ex: 15.500">
+                        </div>
                     </div>
                 </fieldset>
                 <div class="mode-switcher">
@@ -152,68 +158,38 @@
                                 <span class="clear-button" id="clearSearchBtn">&times;</span>
                                 <div class="search-results" id="searchResults"></div>
                             </div>
-                            <div class="selected-monster-display" id="selectedMonsterDisplay">
-                                <img id="selectedMonsterImage" src="" alt="Imagem do Monstro">
-                                <h3 id="selectedMonsterName"></h3>
-                            </div>
+                            <div class="selected-monster-display" id="selectedMonsterDisplay"></div>
                         </fieldset>
-                        <button id="calculateBtn" class="full-width" disabled>Calcular Melhor Dano</button>
                     </div>
                     <div id="hunt-analyzer" class="analyzer-content hidden">
                         <p>Copie e cole seu log do Hunting Analyser (incluindo "Killed Monsters").</p>
                         <textarea id="hunt-log" placeholder="Exemplo:&#10;25x dragon&#10;10x dragon lord"></textarea>
-                        <button id="analyze-hunt-btn" class="full-width">Analisar Hunt</button>
                     </div>
                 </div>
                 <div id="result" class="result-container"></div>
             </div>
         </div>
-
         <div id="page-conversor-rc" class="page-content hidden">
             <div class="container">
-                <header class="tool-header">
-                    <h1>Conversor TC</h1>
-                </header>
+                <header class="tool-header"><h1>Conversor de TC</h1></header>
                 <fieldset class="rc-converter-fieldset">
                     <legend>Valores da Transação</legend>
-                    <div class="input-group">
-                        <label for="gold-needed">Gold que você precisa (kk):</label>
-                        <input type="text" inputmode="numeric" id="gold-needed" placeholder="Ex: 50">
-                    </div>
-                    <div class="input-group">
-                        <label for="rc-price-ingame">Preço de 1 TC (em gold):</label>
-                        <input type="text" inputmode="numeric" id="rc-price-ingame" placeholder="Ex: 110.000">
-                    </div>
+                    <div class="input-group"><label for="gold-needed">Gold que você precisa (em KK):</label><input type="text" inputmode="numeric" id="gold-needed" placeholder="Ex: 50"></div>
+                    <div class="input-group"><label for="rc-price-ingame">Preço de 1 TC (em GP):</label><input type="text" inputmode="numeric" id="rc-price-ingame" placeholder="Ex: 25.000"></div>
                 </fieldset>
                 <fieldset class="rc-converter-fieldset">
                     <legend>Comparação de Custo (Opcional)</legend>
-                    <div class="input-group optional">
-                        <label for="rc-price-real">Preço de 1.000 TCs (R$):</label>
-                        <input type="text" inputmode="numeric" id="rc-price-real" placeholder="Ex: 88">
-                    </div>
-                    <div class="input-group optional">
-                        <label for="kk-price-real">Preço do KK (R$):</label>
-                        <input type="text" inputmode="decimal" id="kk-price-real" placeholder="Ex: 0,70">
-                    </div>
+                    <div class="input-group optional"><label for="rc-price-real">Preço de 1k de TC (R$):</label><input type="text" inputmode="numeric" id="rc-price-real" placeholder="Ex: 82"></div>
+                    <div class="input-group optional"><label for="kk-price-real">Preço do KK (R$):</label><input type="text" inputmode="decimal" id="kk-price-real" placeholder="Ex: 0,70"></div>
                 </fieldset>
-                <button id="calculate-rc-btn" class="full-width">Calcular</button>
                 <div id="rc-result" class="result-container"></div>
             </div>
         </div>
-
         <div id="page-bestiary" class="page-content hidden">
             <div class="container">
-                <header class="tool-header">
-                    <h1>Meu Bestiário</h1>
-                </header>
+                <header class="tool-header"><h1>Meu Bestiário</h1></header>
                 <div class="bestiary-toolbar">
-                    <input type="search" id="bestiary-search" placeholder="Pesquisar monstro...">
-                    <fieldset class="bestiary-filters">
-                        <legend>Filtros</legend>
-                        <label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label>
-                        <label><input type="radio" name="bestiary-filter" value="completed"> Bestiário Feito</label>
-                        <label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore Feito</label>
-                    </fieldset>
+                    <input type="search" id="bestiary-search" placeholder="Pesquisar monstro..."><fieldset class="bestiary-filters"><legend>Filtros</legend><label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label><label><input type="radio" name="bestiary-filter" value="completed"> Completo</label><label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore</label></fieldset>
                 </div>
                 <div id="bestiary-list"></div>
             </div>
@@ -229,26 +205,42 @@
             <div id="username-error" class="auth-error"></div>
         </div>
     </div>
-
+  <div id="save-preset-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+        <h2 id="save-modal-title">Salvar Preset</h2>
+        <p id="save-modal-text">Digite um nome para o seu novo preset.</p>
+        <input type="text" id="save-preset-name-input" placeholder="Nome do Preset">
+        <div id="save-preset-options" class="hidden" style="text-align: left; margin-top: 15px;">
+            <p>Este nome de preset já existe. Deseja sobrescrevê-lo?</p>
+        </div>
+       <div class="modal-buttons">
+    <div class="modal-buttons-main">
+        <button id="save-preset-confirm-btn">Salvar</button>
+        <button id="save-preset-cancel-btn" class="cancel-btn">Cancelar</button>
+    </div>
+    <button id="save-as-new-btn" class="hidden">Salvar como novo</button>
+</div>
+        <div id="save-preset-error" class="auth-error"></div>
+    </div>
+</div>
+    <div id="confirm-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h2 id="confirm-modal-title">Atenção</h2>
+            <p id="confirm-modal-text">Você tem certeza?</p>
+            <div class="modal-buttons">
+                <button id="confirm-modal-confirm-btn">Confirmar</button>
+                <button id="confirm-modal-cancel-btn" class="cancel-btn">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-
-    <script>
-        const firebaseConfig = {
-            apiKey: "AIzaSyDwdciSnRd792GgjRwcaq1wBP2Aa4D8ErM",
-            authDomain: "portal-do-triste.firebaseapp.com",
-            projectId: "portal-do-triste",
-            storageBucket: "portal-do-triste.firebasestorage.app",
-            messagingSenderId: "494817509776",
-            appId: "1:494817509776:web:99bee487d406a516cc7315",
-            measurementId: "G-LHQNWFC5N5"
-        };
-        firebase.initializeApp(firebaseConfig);
-    </script>
-
+    <script src="firebase-config.js"></script>
     <script src="tibia-monsters-db.js"></script>
     <script src="navegacao.js"></script>
+    <script src="calculadora_core.js"></script> 
     <script src="calculadora_navegacao.js"></script>
     <script src="analise_individual.js"></script>
     <script src="analise_hunt.js"></script>
@@ -258,5 +250,4 @@
     <script src="auth.js"></script>
     <script src="bestiary.js"></script>
 </body>
-
 </html>
