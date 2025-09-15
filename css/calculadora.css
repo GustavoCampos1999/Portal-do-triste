@@ -735,27 +735,41 @@ input[type=number] {
 }
 
 @media (max-width: 768px) {
-    .charm-grid {
-        grid-template-columns: 1fr;
-    }
-    .stats-row-top, .stats-row-bottom {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-    .preset-controls {
-        flex-wrap: wrap;
-    }
-    .preset-controls input {
-        width: 100%;
-        flex-grow: 0;
-    }
-    .preset-controls button {
-        flex-grow: 1;
+    .charm-grid,
+    .stats-row-top, 
+    .stats-row-bottom {
+        grid-template-columns: 1fr; 
+        width: 100%; 
     }
 
-.fieldset-header {
+    .fieldset-header {
         flex-direction: column;
         align-items: stretch;
         gap: 10px;
+    }
+
+    .resistance-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+    }
+
+    .resistance-item {
+        padding: 5px;
+    }
+
+    .modal-content {
+        width: 90vw;
+        max-width: 450px;
+        padding: 20px; 
+    }
+
+    .modal-content .modal-buttons #save-as-new-btn,
+    .modal-content .modal-buttons .modal-buttons-main button {
+        min-height: 44px;
+        font-size: 1em;
+    }
+
+    .modal-content .modal-buttons #save-as-new-btn {
+        width: 100%;
     }
 }
