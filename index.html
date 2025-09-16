@@ -27,7 +27,7 @@
                 <a href="#" class="nav-link" data-page="calculadora">Calculadora de Charms</a>
                 <a href="#" class="nav-link" data-page="conversor-rc">Conversor de TC</a>
                 <a href="#" class="nav-link disabled" data-page="Imbuements">Imbuements</a>
-                <a href="#" id="nav-bestiary" class="nav-link disabled" data-page="bestiary">Meu Bestiário</a>
+                <a href="#" id="nav-bestiary" class="nav-link" data-page="bestiary">Bestiário</a>
             </div>
             <div id="auth-links" class="nav-auth-links">
                 <div id="logged-out-links">
@@ -189,8 +189,18 @@
             <div class="container">
                 <header class="tool-header"><h1>Meu Bestiário</h1></header>
                 <div class="bestiary-toolbar">
-                    <input type="search" id="bestiary-search" placeholder="Pesquisar monstro..."><fieldset class="bestiary-filters"><legend>Filtros</legend><label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label><label><input type="radio" name="bestiary-filter" value="completed"> Completo</label><label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore</label></fieldset>
-                </div>
+    <div class="input-group search-container">
+        <label for="bestiary-search">Pesquisar Monstro:</label>
+        <input type="search" id="bestiary-search" placeholder="Digite o nome do monstro...">
+    </div>
+    <fieldset class="bestiary-filters">
+    <legend>Filtros</legend>
+    <label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label>
+    <label><input type="radio" name="bestiary-filter" value="completed"> Completo</label>
+    <label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore</label>
+</fieldset>
+</div>
+                <div id="bestiary-stats" class="bestiary-stats"></div>
                 <div id="bestiary-list"></div>
             </div>
         </div>

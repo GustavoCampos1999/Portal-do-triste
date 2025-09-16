@@ -1,4 +1,3 @@
-// Arquivo: analise_hunt.js (Versão Final Completa)
 document.addEventListener('DOMContentLoaded', () => {
     const page = document.getElementById('page-calculadora');
     if (!page) return;

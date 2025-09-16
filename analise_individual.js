@@ -1,4 +1,3 @@
-// Arquivo: analise_individual.js (Versão estável e funcional)
 document.addEventListener('DOMContentLoaded', () => {
     const page = document.getElementById('page-calculadora');
     if (!page) return;
