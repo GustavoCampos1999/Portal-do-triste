@@ -19,21 +19,31 @@ document.addEventListener('DOMContentLoaded', () => {
     let userBestiaryProgress = {};
     let currentUserId = null;
 
-    function setPageState(isLoggedIn) {
+      function setPageState(isLoggedIn) {
         if (isLoggedIn) {
             bestiaryPage.classList.add('logged-in');
             bestiaryPage.classList.remove('logged-out');
-            bestiaryToolbar.style.display = 'flex';
-            statsDiv.style.display = 'flex';
+            bestiaryToolbar.style.display = 'flex'; 
         } else {
             bestiaryPage.classList.add('logged-out');
             bestiaryPage.classList.remove('logged-in');
-            bestiaryToolbar.style.display = 'none';
-            statsDiv.style.display = 'none';
-            bestiaryList.innerHTML = '';
-            bestiaryList.appendChild(loggedOutMessage);
+            bestiaryToolbar.style.display = 'flex'; 
+            statsDiv.innerHTML = 'Você precisa estar logado para salvar seu bestiário.';
         }
     }
+
+    auth.onAuthStateChanged(user => {
+        if (user) {
+            currentUserId = user.uid;
+            setPageState(true);
+            loadBestiaryData(user.uid); 
+        } else {
+            currentUserId = null;
+            userBestiaryProgress = {};
+            setPageState(false);
+            updateAndDisplay(); 
+        }
+    });
 
     auth.onAuthStateChanged(user => {
         if (user) {
@@ -147,7 +157,6 @@ function displayBestiary(monstersToDisplay) {
     }
 
     function updateAndDisplay() {
-        if (!currentUserId) return;
         const searchTerm = searchInput.value.toLowerCase();
         const activeFilter = document.querySelector('input[name="bestiary-filter"]:checked').value;
         const filteredMonsters = allMonstersData.filter(monster => {
@@ -155,6 +164,10 @@ function displayBestiary(monstersToDisplay) {
             const progress = userBestiaryProgress[monster.name] || { soulcore: false, completed: false };
             const nameMatch = monster.name.toLowerCase().includes(searchTerm);
             if (!nameMatch) return false;
+            if (!currentUserId && (activeFilter === 'completed' || activeFilter === 'soulcore')) {
+                return true; 
+            }
+            
             switch (activeFilter) {
                 case 'completed': return progress.completed;
                 case 'soulcore': return progress.soulcore;
