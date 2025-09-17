@@ -223,7 +223,7 @@
     display: none;
 }
 #page-bestiary.logged-out #bestiary-stats {
-    display: block; /* Garante que o container da mensagem seja visível */
+    display: block; 
     text-align: center;
     font-style: italic;
     color: #a0937d;
