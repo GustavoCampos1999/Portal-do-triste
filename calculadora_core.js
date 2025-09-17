@@ -452,6 +452,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    if (target.classList.contains('tier-btn')) {
+        const tierSelector = target.parentElement;
+        tierSelector.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
+        target.classList.add('active');
+    }
     if (target.type === 'checkbox' || target.classList.contains('tier-btn')) {
         handleUserInputChange();
     }

@@ -96,7 +96,6 @@ function generateResistancesHtmlForCard(monster) {
     return `<div class="bestiary-resistance-grid">${resistanceItemsHtml}</div>`;
 }
 
-// Substitua a sua função displayBestiary por esta:
 function displayBestiary(monstersToDisplay) {
     bestiaryList.innerHTML = '';
     if (monstersToDisplay.length === 0) {
@@ -187,27 +186,24 @@ bestiaryList.addEventListener('change', (e) => {
         updateStats();
     }
 });
-
-    bestiaryList.addEventListener('click', (e) => {
+bestiaryList.addEventListener('click', (e) => {
     if (e.target.type === 'checkbox' || e.target.tagName === 'LABEL') {
         return;
     }
+    const clickedCardItem = e.target.closest('.bestiary-item');
+    if (!clickedCardItem) return;
 
-    const clickedCard = e.target.closest('.bestiary-item');
-    if (!clickedCard) return;
+    const clickedCardWrapper = clickedCardItem.closest('.bestiary-card-wrapper');
 
-    const isAlreadyActive = clickedCard.classList.contains('is-active');
+    clickedCardItem.classList.toggle('is-active');
+    if (clickedCardWrapper) {
+        clickedCardWrapper.classList.toggle('is-active');
+    }
 
-    bestiaryList.querySelectorAll('.bestiary-item.is-active').forEach(card => {
-        card.classList.remove('is-active');
-    });
-
-    if (!isAlreadyActive) {
-        clickedCard.classList.add('is-active');
-        const monsterName = clickedCard.dataset.monsterName;
-        const resistanceContainer = clickedCard.querySelector('.bestiary-item-resistances');
-
+    if (clickedCardItem.classList.contains('is-active')) {
+        const resistanceContainer = clickedCardItem.querySelector('.bestiary-item-resistances');
         if (resistanceContainer.innerHTML === '') {
+            const monsterName = clickedCardItem.dataset.monsterName;
             const monsterData = allMonstersData.find(m => m.name === monsterName);
             if (monsterData) {
                 resistanceContainer.innerHTML = generateResistancesHtmlForCard(monsterData);

@@ -71,7 +71,13 @@
     flex-direction: column;
     transition: all 0.3s ease;
 }
-.bestiary-card-wrapper:hover {
+@media (hover: hover) and (pointer: fine) {
+    .bestiary-card-wrapper:hover {
+        border-color: #c89b3c;
+        box-shadow: 0 5px 15px rgba(200, 155, 60, 0.3);
+    }
+}
+.bestiary-card-wrapper.is-active {
     border-color: #c89b3c;
     box-shadow: 0 5px 15px rgba(200, 155, 60, 0.3);
 }
@@ -146,7 +152,6 @@
     transition: all 0.3s ease-in-out;
     visibility: hidden;
 }
-.bestiary-item:hover .bestiary-item-content,
 .bestiary-item.is-active .bestiary-item-content {
     transform: scale(0.7) translateY(-65px); 
 }
@@ -157,7 +162,6 @@
     visibility: hidden;
 }
 
-.bestiary-item:hover .bestiary-item-resistances,
 .bestiary-item.is-active .bestiary-item-resistances {
     opacity: 1;
     transform: translateY(0);
@@ -219,6 +223,7 @@
 .auth-message.error { color: #e74c3c; }
 
 @media (max-width: 768px) {
+    
     #page-bestiary .container { 
         display: flex; 
         flex-direction: column; 
@@ -235,7 +240,7 @@
     }
     .bestiary-filters { 
         padding: 10px; 
-        justify-content: center; 
+        justify-content: space-evenly; 
         flex-wrap: wrap; 
         height: auto; 
     }
@@ -244,49 +249,46 @@
         gap: 15px; 
         font-size: 0.9em; 
     }
-    
-    #bestiary-list { 
-        grid-template-columns: 1fr; 
-        gap: 15px; 
+     #bestiary-list { 
+        grid-template-columns: 1fr 1fr; 
+        gap: 6px;
+        align-self: center;
     }
-
-    .bestiary-card-wrapper {
-        min-height: auto;
+    .bestiary-item {
+        min-height: 145px; 
+        padding: 6px;
+        gap: 8px;        
     }
-    
-    .bestiary-item { 
-        min-height: 190px; 
-        padding: 15px;
-        gap: 10px; 
-    }
-    
-    .bestiary-item img {
-        width: 100px;
-        height: 100px;
+    .bestiary-item-resistances {
+        bottom: 6px;
+        left: 6px;
+        right: 6px;
     }
     .bestiary-item-name {
-        font-size: 1.1em;
+        font-size: 0.95em; 
     }
-    
-    .bestiary-item:hover .bestiary-item-content,
+    .bestiary-item-options {
+        gap: 8px; 
+        font-size: 0.8em;
+        padding-top: 8px; 
+        padding-bottom: 8px;
+    }
     .bestiary-item.is-active .bestiary-item-content {
-        transform: scale(0.7) translateY(-65px);
+        transform: scale(0.7) translateY(-50px);
     }
-
     .bestiary-resistance-grid {
-        height: 95px; 
-        gap: 2px;
+        height: 75px; 
+        gap: 1px;
     }
-
     .bestiary-resistance-grid .resistance-item img {
-        width: 14px;
-        height: 14px;
+        width: 12px;
+        height: 12px;
     }
     .bestiary-resistance-grid .resistance-bar-container {
-        max-width: 18px; 
+        max-width: 12px;
     }
     .bestiary-resistance-grid .resistance-bar-container span {
-        font-size: 0.7em; 
+        font-size: 0.65em;
         text-shadow: 0 0 2px #000, 0 0 3px #000, 0 0 4px #000;
-    }
-}
+    }   
+ }
