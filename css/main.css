@@ -2,6 +2,7 @@
 
 html {
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,14 @@ main {
     box-shadow: 0 0 15px #000, inset 0 0 10px rgba(0,0,0,0.5);
     text-align: center;
     position: relative;
+}
+
+.page-content {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.page-content.is-hiding {
+    opacity: 0;
 }
 
 @media (min-width: 769px) {

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/auth.css">
     <link rel="stylesheet" href="css/bestiario.css">
     <link rel="stylesheet" href="css/conversor-rc.css">
+    <link rel="stylesheet" href="css/imbuements.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                 <a href="#" class="nav-link active" data-page="inicio">Início</a>
                 <a href="#" class="nav-link" data-page="calculadora">Calculadora de Charms</a>
                 <a href="#" class="nav-link" data-page="conversor-rc">Conversor de TC</a>
-                <a href="#" class="nav-link disabled" data-page="Imbuements">Imbuements</a>
+                <a href="#" class="nav-link" data-page="Imbuements">Imbuements</a>
                 <a href="#" id="nav-bestiary" class="nav-link" data-page="bestiary">Bestiário</a>
             </div>
             <div id="auth-links" class="nav-auth-links">
@@ -204,6 +205,53 @@
                 <div id="bestiary-list"></div>
             </div>
         </div>
+
+        <div id="page-Imbuements" class="page-content hidden">
+    <div class="container">
+        <header class="tool-header">
+            <h1>Imbuements</h1>
+        </header>
+
+        <p style="color: #a0937d; margin-bottom: 25px;">Selecione um equipamento para ver os imbuements disponíveis.</p>
+
+        <div id="imbuement-inventory-grid">
+    <div class="inventory-slot empty"></div>
+    <div class="inventory-slot" data-slot="head">
+        <img src="images/imbue/slot/head.png" alt="Capacete">
+    </div>
+    <div class="inventory-slot" data-slot="bag">
+        <img src="images/imbue/slot/bag.png" alt="Mochila">
+    </div>
+
+    <div class="inventory-slot" data-slot="weapon">
+        <img src="images/imbue/slot/weapon.png" alt="Arma">
+    </div>
+    <div class="inventory-slot" data-slot="armor">
+        <img src="images/imbue/slot/armor.png" alt="Armadura">
+    </div>
+    <div class="inventory-slot" data-slot="shield">
+        <img src="images/imbue/slot/shield.png" alt="Escudo">
+    </div>
+    
+    <div class="inventory-slot empty"></div>
+    <div class="inventory-slot" data-slot="boots">
+        <img src="images/imbue/slot/boots.png" alt="Botas">
+    </div>
+    <div class="inventory-slot empty"></div>
+</div>
+
+        <div id="imbuement-details-container" class="hidden">
+            <h3 id="imbuement-slot-title"></h3>
+            <div id="imbuement-icons-grid"></div>
+        </div>
+
+        <div id="imbuement-materials-container" class="hidden">
+    <h4 id="imbuement-materials-title"></h4>
+    <div id="imbuement-materials-list"></div>
+</div>
+    </div>
+</div>
+
     </main>
 
     <div id="username-modal" class="modal-overlay hidden">
@@ -259,5 +307,7 @@
     <script src="input_formatter.js"></script>
     <script src="auth.js"></script>
     <script src="bestiary.js"></script>
+    <script src="imbuements.js"></script>
+    <script src="animations.js"></script>
 </body>
 </html>

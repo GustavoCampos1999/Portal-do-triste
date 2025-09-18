@@ -7,16 +7,29 @@ document.addEventListener('DOMContentLoaded', () => {
             event.preventDefault();
             
             const targetPageId = link.dataset.page;
-
-            pages.forEach(page => page.classList.add('hidden'));
-            
             const targetPage = document.getElementById(`page-${targetPageId}`);
-            if (targetPage) {
-                targetPage.classList.remove('hidden');
+            const currentPage = document.querySelector('.page-content:not(.hidden)');
+
+            if (!targetPage || currentPage === targetPage) {
+                return;
             }
 
-            navLinks.forEach(nav => nav.classList.remove('active'));
-            link.classList.add('active');
+            if (currentPage) {
+                currentPage.classList.add('is-hiding');
+            }
+
+            setTimeout(() => {
+                if (currentPage) {
+                    currentPage.classList.add('hidden');
+                    currentPage.classList.remove('is-hiding');
+                }
+                
+                targetPage.classList.remove('hidden');
+                smoothScrollToY(0, 600);
+                
+                navLinks.forEach(nav => nav.classList.remove('active'));
+                link.classList.add('active');
+            }, 300);
         });
     });
 });
