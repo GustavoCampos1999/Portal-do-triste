@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBm1YrgHlmqeHHQAB8RR0ZR3kGLIoBl5_4",
+    apiKey: "AIzaSyCHsfFxCchrPd1Mfxadsq0CmUB28Qg21O4",
     authDomain: "portal-do-triste.firebaseapp.com",
     projectId: "portal-do-triste",
     storageBucket: "portal-do-triste.firebasestorage.app",
