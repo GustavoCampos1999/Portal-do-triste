@@ -175,6 +175,7 @@
     width: 100%;
     height: 95px;
     align-items: end;
+    justify-content: center;
 }
 .bestiary-resistance-grid .resistance-item { 
     display: flex; 

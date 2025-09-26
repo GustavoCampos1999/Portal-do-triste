@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const charmsData = {
-        "Curse": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'death' },
-        "Divine Wrath": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'holy' },
-        "Enflame": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'fire' },
-        "Freeze": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'ice' },
-        "Poison": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'earth' },
-        "Wound": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'physical' },
-        "Zap": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'energy' },
-        "Low Blow": { type: 'crit_chance', bonus: [4, 8, 9] },
-        "Savage Blow": { type: 'crit_damage', bonus: [20, 40, 44] },
-        "Overpower": { type: 'player_proc', chance: [5, 10, 11], damageMultiplier: 0.05, basis: 'hp' },
-        "Overflux": { type: 'player_proc', chance: [5, 10, 11], damageMultiplier: 0.025, basis: 'mana' }
+      const charmsData = {
+        "Curse": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'death', icon: 'images/charms/Curse_Icon.gif' },
+        "Divine Wrath": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'holy', icon: 'images/charms/Divine_Wrath_Icon.gif' },
+        "Enflame": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'fire', icon: 'images/charms/Enflame_Icon.gif' },
+        "Freeze": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'ice', icon: 'images/charms/Freeze_Icon.gif' },
+        "Poison": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'earth', icon: 'images/charms/Poison_Icon.gif' },
+        "Wound": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'physical', icon: 'images/charms/Wound_Icon.gif' },
+        "Zap": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'energy', icon: 'images/charms/Zap_Icon.gif' },
+        "Low Blow": { type: 'crit_chance', bonus: [4, 8, 9], icon: 'images/charms/Low_Blow_Icon.gif' },
+        "Savage Blow": { type: 'crit_damage', bonus: [20, 40, 44], icon: 'images/charms/Savage_Blow_Icon.gif' },
+        "Overpower": { type: 'player_proc', chance: [5, 10, 11], damageMultiplier: 0.05, basis: 'hp', icon: 'images/charms/Overpower_Icon.gif' },
+        "Overflux": { type: 'player_proc', chance: [5, 10, 11], damageMultiplier: 0.025, basis: 'mana', icon: 'images/charms/Overflux_Icon.gif' }
     };
 
     const page = document.getElementById('page-calculadora');
@@ -49,15 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     window.getSelectedCharms = function() {
         const selected = [];
-        const checkedBoxes = charmSelectionGrid.querySelectorAll('input[type="checkbox"]:checked');
-        checkedBoxes.forEach(cb => {
-            const charmItem = cb.closest('.charm-item');
-            if (!charmItem) return;
-            const activeTierButton = charmItem.querySelector('.tier-btn.active');
+        const activeCharms = charmSelectionGrid.querySelectorAll('.charm-icon-container.active');
+        activeCharms.forEach(charmDiv => {
+            const charmName = charmDiv.dataset.charmName;
+            const activeTierButton = charmDiv.querySelector('.tier-btn.active');
             selected.push({
-                name: cb.value,
+                name: charmName,
                 tier: activeTierButton ? parseInt(activeTierButton.dataset.tier) : 0,
-                data: charmsData[cb.value]
+                data: charmsData[charmName]
             });
         });
         return selected;
@@ -113,11 +112,22 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const charmNames = Object.keys(charmsData).sort();
-    charmNames.forEach(charmName => {
-        const charmItem = document.createElement('div');
-        charmItem.className = 'charm-item';
-        charmItem.innerHTML = `<input type="checkbox" id="charm-check-${charmName}" value="${charmName}"><label for="charm-check-${charmName}">${charmName}</label><div class="tier-selector"><button data-tier="0" class="tier-btn active">Tier 1</button><button data-tier="1" class="tier-btn">Tier 2</button><button data-tier="2" class="tier-btn">Tier 3</button></div>`;
-        charmSelectionGrid.appendChild(charmItem);
+     charmNames.forEach(charmName => {
+        const charmInfo = charmsData[charmName];
+        const charmElement = document.createElement('div');
+        charmElement.className = 'charm-icon-container';
+        charmElement.dataset.charmName = charmName; 
+
+        charmElement.innerHTML = `
+            <img src="${charmInfo.icon}" alt="${charmName}" class="charm-icon">
+            <span class="charm-icon-label">${charmName}</span>
+            <div class="tier-selector">
+                <button data-tier="0" class="tier-btn active">Tier 1</button>
+                <button data-tier="1" class="tier-btn">Tier 2</button>
+                <button data-tier="2" class="tier-btn">Tier 3</button>
+            </div>
+        `;
+        charmSelectionGrid.appendChild(charmElement);
     });
 
     const db = firebase.firestore();
@@ -339,18 +349,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function clearAll(clearMonster = true) {
-        activePresetName = null;
-        ['vocation', 'level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => { page.querySelector(`#${id}`).value = ''; });
-        charmSelectionGrid.querySelectorAll('input[type="checkbox"]').forEach(cb => { 
-            cb.checked = false;
-            cb.closest('.charm-item').querySelector('.tier-selector').classList.remove('visible');
-        });
-        
-        updateUiForStateChange(false); 
+    activePresetName = null;
+    ['vocation', 'level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => { page.querySelector(`#${id}`).value = ''; });
 
-        if (clearMonster && typeof window.resetSelection === 'function') { window.resetSelection(); }
-        runAnyAnalysis();
-    }
+    charmSelectionGrid.querySelectorAll('.charm-icon-container.active').forEach(container => {
+        container.classList.remove('active');
+        const tierSelector = container.querySelector('.tier-selector');
+        if (tierSelector) {
+            tierSelector.classList.remove('visible');
+        }
+    });
+    
+    updateUiForStateChange(false); 
+
+    if (clearMonster && typeof window.resetSelection === 'function') { window.resetSelection(); }
+    runAnyAnalysis();
+}
     
     function showNotification(message, type = 'success') {
         const container = document.getElementById('notification-container');
@@ -436,31 +450,29 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
    charmSelectionGrid.addEventListener('click', (event) => {
-    const target = event.target;
+        const target = event.target;
+        const charmContainer = target.closest('.charm-icon-container');
 
-    if (target.type === 'checkbox') {
-        const charmItem = target.closest('.charm-item');
-        if (charmItem) {
-            const tierSelector = charmItem.querySelector('.tier-selector');
-            if (tierSelector) {
-                if (target.checked) {
-                    tierSelector.classList.add('visible');
-                } else {
-                    tierSelector.classList.remove('visible');
-                }
-            }
+        if (target.classList.contains('tier-btn')) {
+            const tierSelector = target.parentElement;
+            tierSelector.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
+            target.classList.add('active');
+            handleUserInputChange(); 
+            return; 
         }
-    }
 
-    if (target.classList.contains('tier-btn')) {
-        const tierSelector = target.parentElement;
-        tierSelector.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
-        target.classList.add('active');
-    }
-    if (target.type === 'checkbox' || target.classList.contains('tier-btn')) {
-        handleUserInputChange();
-    }
-});
+        if (charmContainer) {
+            charmContainer.classList.toggle('active');
+            const tierSelector = charmContainer.querySelector('.tier-selector');
+            
+            if (charmContainer.classList.contains('active')) {
+                tierSelector.classList.add('visible');
+            } else {
+                tierSelector.classList.remove('visible');
+            }
+            handleUserInputChange(); 
+        }
+    });
     
     ['vocation', 'level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => {
         page.querySelector(`#${id}`).addEventListener('input', handleUserInputChange);

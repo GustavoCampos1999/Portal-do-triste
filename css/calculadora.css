@@ -1,3 +1,8 @@
+.charms-fieldset {
+    position: relative;
+    padding-top: 25px;
+    border-top-color: transparent; /* Deixa a borda de cima invisível, mas mantém seu espaço */
+}
 .charms-fieldset, .player-stats-fieldset {
     border: 1px solid #4a3c28;
     border-radius: 4px;
@@ -9,30 +14,8 @@
     padding: 0 10px;
     font-weight: 700;
 }
-.charm-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 10px;
-    text-align: left;
-}
-.charm-item {
-    display: flex;
-    align-items: center;
-    gap: 1px;
-    font-size: 1em;
-    min-height: 30px;
-}
-.charm-item label {
-    width: 112px;
-    flex-shrink: 0;
-    cursor: pointer;
-    white-space: nowrap;
-}
-.charm-item input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    flex-shrink: 0;
-}
+/* Regra antiga do .charm-item removida/alterada abaixo */
+
 .mode-switcher {
     margin-bottom: 25px;
     display: flex;
@@ -260,21 +243,10 @@ textarea#hunt-log {
 .cheaper-value { font-weight: bold; color: #2ecc71; }
 .expensive-value { font-weight: bold; color: #e74c3c; }
 .lost-damage-value { font-weight: bold; color: #e74c3c; }
-.tier-selector {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    display: flex;
-    gap: 4px;
-    flex-shrink: 0;
-}
-.tier-selector.visible {
-    visibility: visible;
-    opacity: 1;
-}
+
 .tier-btn {
-    padding: 4px 7px;
-    font-size: 0.8em;
+    padding: 5px 5px;
+    font-size: 0.75em;
     background-color: #3a2c18;
     color: #a0937d;
     border: 1px solid #4a3c28;
@@ -603,16 +575,23 @@ select option[disabled] {
     display: none;
 }
 .fieldset-header {
+    /* position: relative; FOI REMOVIDO */
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end; /* Alinha os botões à direita */
     align-items: center;
     margin-bottom: 15px;
 }
 .fieldset-header legend {
-    padding-left: 0;
+    position: absolute;
+    top: 0; /* Alinha no topo do fieldset */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza e move para cima, sobre a borda */
+    background: rgba(18, 12, 8, 0.85); /* Cor para cobrir a linha do fieldset. Use a cor de fundo do seu container. */
+    padding: 0 10px; /* Adiciona respiro lateral */
 }
 .header-buttons {
     display: flex;
+   justify-content: right;
     gap: 10px;
 }
 .clear-btn {
@@ -734,18 +713,101 @@ input[type=number] {
     appearance: textfield;     
 }
 
+/* --- INÍCIO DAS REGRAS PARA ÍCONES DE CHARM --- */
+.charm-grid {
+    display: flex; /* MUDANÇA PRINCIPAL */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px 5px;
+}
+.charm-item {
+    display: none; /* Esconde a estrutura antiga de checkbox */
+}
+.charm-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 30px; /* Espaço para o seletor de tier */
+    flex-basis: calc(25% - 5px); /* SUBSTITUA A LINHA ANTERIOR POR ESTA */
+}
+.charm-icon {
+    width: 48px;  /* ALTERADO de 56px */
+    height: 48px; /* ALTERADO de 56px */
+    border: 2px solid #4a3c28;
+    border-radius: 5px;
+    background-color: #111;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+.charm-icon-label {
+    font-size: 0.9em;
+    color: #a0937d;
+    transition: color 0.3s ease;
+}
+.charm-icon-container:hover .charm-icon {
+    filter: grayscale(30%); /* Cor parcial no hover */
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(200, 155, 60, 0.6);
+}
+.charm-icon-container.active {
+    z-index: 10; /* ADICIONADO AQUI */
+}
+.charm-icon-container.active .charm-icon {
+    filter: grayscale(0%);
+    border-color: #c89b3c;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(200, 155, 60, 0.6);
+}
+
+.charm-icon-container.active .charm-icon-label {
+    color: #f0e6d2;
+    font-weight: bold;
+}
+.tier-selector {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    gap: 2px;
+    transition: opacity 0.3s ease;
+    width: max-content;
+}
+.tier-selector.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* --- FIM DAS REGRAS PARA ÍCONES DE CHARM --- */
+
+
 @media (max-width: 768px) {
-    .charm-grid,
     .stats-row-top, 
     .stats-row-bottom {
         grid-template-columns: 1fr; 
         width: 100%; 
     }
 
+    .charm-icon-container {
+        flex-basis: calc(50% - 5px); /* Faz os ícones ficarem em 2 colunas */
+    }
+    
     .fieldset-header {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
         gap: 10px;
+    }
+     .fieldset-header legend {
+        position: static; /* Remove o posicionamento absoluto */
+        transform: none;  /* Remove a translação */
+        background: none; /* Remove o fundo que escondia a borda */
+        text-align: center;
+        width: 100%;
     }
 
     .resistance-grid {
@@ -773,3 +835,4 @@ input[type=number] {
         width: 100%;
     }
 }
+
