@@ -119,30 +119,6 @@
     margin-left: .5em;
 }
 
-.google-btn {
-    background-color: #f0e6d2;
-    color: #1a1a1a;
-    border: 1px solid #4a3c28;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-weight: bold;
-    text-shadow: none;
-    width: 100%;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-.google-btn:hover {
-    background-color: #fff;
-    border-color: #c89b3c;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-.google-btn img {
-    height: 18px;
-    width: 18px;
-}
-
 .login-options {
     display: flex;
     flex-direction: column;
