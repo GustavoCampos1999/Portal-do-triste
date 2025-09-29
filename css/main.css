@@ -103,7 +103,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     min-height: 90px;  
     margin: 25px auto;
     background-color: rgba(0, 0, 0, 0.2);
-    border: 1px dashed #4a3c28;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +116,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     min-height: 600px;
     margin-top: 25px;
     background-color: rgba(0, 0, 0, 0.2);
-    border: 1px dashed #4a3c28;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +161,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     min-height: 90px;
     margin: 0 auto 20px auto;
     background-color: rgba(0, 0, 0, 0.2);
-    border: 1px dashed #4a3c28;
     display: flex;
     align-items: center;
     justify-content: center;
