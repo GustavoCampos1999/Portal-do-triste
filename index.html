@@ -54,12 +54,71 @@
     </header>
 
     <main>
+         <div id="ad-sidebar-left" class="ad-container-vertical">
+        <p>Publicidade</p>
+    </div>
+    <div id="ad-sidebar-right" class="ad-container-vertical">
+        <p>Publicidade</p>
+    </div>
+    <div class="main-content-column"> 
+    <div class="ad-container-horizontal">
+        <p>Publicidade</p> 
+    </div>
         <div id="page-inicio" class="page-content">
-            <div class="container">
-                <h2>Bem-vindo ao Portal do Triste!</h2>
-                <p>Esta página está em construção e novas funcionalidades serão adicionadas em breve!</p>
-            </div>
+    <div class="container">
+        <div class="hero-section">
+            <h1>Portal do Triste</h1> 
+            <h1>Todas as ferramentas que um Tibiano precisa para sofrer um pouco menos.</h1>
         </div>
+ <div class="section-divider">
+            <h2>Informações do Dia</h2>
+        </div>
+        <div class="dynamic-content-grid">
+            <div class="dynamic-card">
+                <h3>Criatura Boostada</h3>
+                <p class="coming-soon">Em Breve</p>
+            </div>
+            <div class="dynamic-card">
+                <h3>Boss Boostado</h3>
+                <p class="coming-soon">Em Breve</p>
+            </div>  
+        </div>
+        <div class="section-divider">
+            <h2>Nossas Ferramentas</h2>
+        </div>
+      <div class="tools-grid">
+    <a href="#" class="tool-card" data-page="calculadora">
+        <div class="tool-icon-container">
+            <img src="images/charms/Wound_Icon.gif" alt="Ícone de Charm" class="tool-icon">
+        </div>
+        <h3>Calculadora de Charms</h3>
+        <p>Descubra o melhor charm para cada criatura e maximize seu dano em qualquer hunt.</p>
+    </a>
+    <a href="#" class="tool-card" data-page="conversor-rc">
+        <div class="tool-icon-container">
+            <img src="images/icon/coin.gif" alt="Ícone de Tibia Coin" class="tool-icon">
+        </div>
+        <h3>Conversor de TC</h3>
+        <p>Planeje seus gastos e saiba exatamente quantas Tibia Coins você precisa comprar para lançar aquele set BIS.</p>
+    </a>
+    <a href="#" class="tool-card" data-page="Imbuements">
+        <div class="tool-icon-container">
+            <img src="images/icon/imbuement.gif" alt="Ícone de Imbuement" class="tool-icon">
+        </div>
+        <h3>Imbuements</h3>
+        <p>Veja todos os materiais necessários para cada imbuement e organize seus itens com antecedência.</p>
+    </a>
+    <a href="#" class="tool-card" data-page="bestiary">
+        <div class="tool-icon-container">
+            <img src="images/icon/Bestiary.gif" alt="Ícone de Bestiário" class="tool-icon">
+        </div>
+        <h3>Meu Bestiário</h3>
+        <p>Controle seu progresso, descubra os pontos fracos das criaturas e planeje seus próximos charms.</p>
+    </a>
+</div>
+
+    </div>
+</div>
 
         <div id="page-login" class="page-content hidden">
             <div class="container auth-page-container">
@@ -71,7 +130,6 @@
                     <input type="password" id="login-password" placeholder="Sua senha" required>
                     <div class="login-options">
                         <label><input type="checkbox" id="remember-user"> Lembrar meu usuário</label>
-                        <label><input type="checkbox" id="remember-me"> Conectar automaticamente</label>
                     </div>
                     <button type="submit" id="login-btn">Entrar</button>
                     <div id="login-error" class="auth-error"></div>
@@ -253,13 +311,23 @@
 </div>
     </div>
 </div>
-
+ <footer class="site-footer-main">
+    <div class="footer-ad-container">
+        <p>Publicidade</p>
+    </div>
+    <div class="footer-links">
+        <a href="#" id="contact-link">Contato</a> | 
+        <a href="#" id="pix-link">Apoie o Desenvolvedor 💕☕</a>
+    </div>
+    <p>&copy; 2025 Portal do Triste. Todos os direitos reservados.</p>
+</footer>
+    </div>
     </main>
 
     <div id="username-modal" class="modal-overlay hidden">
         <div class="modal-content">
             <h2>Escolha seu nome de usuário</h2>
-            <p>Este nome será público e não poderá ser alterado depois.</p>
+            <p>Este não poderá ser alterado depois.</p>
             <input type="text" id="username-input" placeholder="Usuário (letras, números e _)">
             <button id="save-username-btn">Salvar e Continuar</button>
             <div id="username-error" class="auth-error"></div>
@@ -311,5 +379,30 @@
     <script src="bestiary.js"></script>
     <script src="imbuements.js"></script>
     <script src="animations.js"></script>
+    <script src="modals.js"></script>
+
+    <div id="contact-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+        <h2>Contato</h2>
+        <div class="contact-info">
+            <p><strong>E-mail:</strong> thezarosplayer@gmail.com</p>
+            <p><strong>WhatsApp:</strong> +55 (21) 96525-5559</p>
+        </div>
+        <button class="modal-close-btn">Fechar</button>
+    </div>
+</div>
+
+<div id="pix-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+        <h2>Apoie o Desenvolvedor 💕☕</h2>
+        <p>Sua contribuição ajuda o site em desenvolvimento e a comprar um cafézinho.</p>
+
+        <p>Muito Obrigado!</p>
+        <img src="/images/icon/qrcode-pix.png" alt="QR Code Pix" class="pix-qrcode">
+        <img src="images/icon/pix.png" alt="Pix" class="pix">
+        <p>Gustavo Campos Viana</p>
+        <button class="modal-close-btn">Fechar</button>
+    </div>
+</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 .charms-fieldset {
     position: relative;
     padding-top: 25px;
-    border-top-color: transparent; /* Deixa a borda de cima invisível, mas mantém seu espaço */
+    border-top-color: transparent; 
 }
 .charms-fieldset, .player-stats-fieldset {
     border: 1px solid #4a3c28;
@@ -14,8 +14,6 @@
     padding: 0 10px;
     font-weight: 700;
 }
-/* Regra antiga do .charm-item removida/alterada abaixo */
-
 .mode-switcher {
     margin-bottom: 25px;
     display: flex;
@@ -575,19 +573,17 @@ select option[disabled] {
     display: none;
 }
 .fieldset-header {
-    /* position: relative; FOI REMOVIDO */
     display: flex;
-    justify-content: flex-end; /* Alinha os botões à direita */
+    justify-content: flex-end; 
     align-items: center;
     margin-bottom: 15px;
 }
 .fieldset-header legend {
     position: absolute;
-    top: 0; /* Alinha no topo do fieldset */
+    top: 0; 
     left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza e move para cima, sobre a borda */
-    background: rgba(18, 12, 8, 0.85); /* Cor para cobrir a linha do fieldset. Use a cor de fundo do seu container. */
-    padding: 0 10px; /* Adiciona respiro lateral */
+    transform: translate(-50%, -50%);
+    padding: 0 10px; 
 }
 .header-buttons {
     display: flex;
@@ -713,15 +709,14 @@ input[type=number] {
     appearance: textfield;     
 }
 
-/* --- INÍCIO DAS REGRAS PARA ÍCONES DE CHARM --- */
 .charm-grid {
-    display: flex; /* MUDANÇA PRINCIPAL */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
     gap: 20px 5px;
 }
 .charm-item {
-    display: none; /* Esconde a estrutura antiga de checkbox */
+    display: none; 
 }
 .charm-icon-container {
     display: flex;
@@ -730,12 +725,12 @@ input[type=number] {
     gap: 5px;
     cursor: pointer;
     position: relative;
-    padding-bottom: 30px; /* Espaço para o seletor de tier */
-    flex-basis: calc(25% - 5px); /* SUBSTITUA A LINHA ANTERIOR POR ESTA */
+    padding-bottom: 30px; 
+    flex-basis: calc(25% - 5px); 
 }
 .charm-icon {
-    width: 48px;  /* ALTERADO de 56px */
-    height: 48px; /* ALTERADO de 56px */
+    width: 48px; 
+    height: 48px; 
     border: 2px solid #4a3c28;
     border-radius: 5px;
     background-color: #111;
@@ -748,12 +743,12 @@ input[type=number] {
     transition: color 0.3s ease;
 }
 .charm-icon-container:hover .charm-icon {
-    filter: grayscale(30%); /* Cor parcial no hover */
+    filter: grayscale(30%);
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(200, 155, 60, 0.6);
 }
 .charm-icon-container.active {
-    z-index: 10; /* ADICIONADO AQUI */
+    z-index: 10; 
 }
 .charm-icon-container.active .charm-icon {
     filter: grayscale(0%);
@@ -782,10 +777,6 @@ input[type=number] {
     visibility: visible;
     opacity: 1;
 }
-
-/* --- FIM DAS REGRAS PARA ÍCONES DE CHARM --- */
-
-
 @media (max-width: 768px) {
     .stats-row-top, 
     .stats-row-bottom {
@@ -794,7 +785,7 @@ input[type=number] {
     }
 
     .charm-icon-container {
-        flex-basis: calc(50% - 5px); /* Faz os ícones ficarem em 2 colunas */
+        flex-basis: calc(50% - 5px);
     }
     
     .fieldset-header {
@@ -803,9 +794,9 @@ input[type=number] {
         gap: 10px;
     }
      .fieldset-header legend {
-        position: static; /* Remove o posicionamento absoluto */
-        transform: none;  /* Remove a translação */
-        background: none; /* Remove o fundo que escondia a borda */
+        position: static; 
+        transform: none;  
+        background: none; 
         text-align: center;
         width: 100%;
     }
