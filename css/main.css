@@ -437,6 +437,12 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     image-rendering: pixelated;
     margin-bottom: 10px;
 }
+.loading-image {
+    width: 30px;
+    height: 20px;
+    image-rendering: pixelated;
+    margin-bottom: 10px;
+}
 
 .boosted-name {
     font-size: 1.1em;

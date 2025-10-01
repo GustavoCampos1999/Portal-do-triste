@@ -1,3 +1,5 @@
+// Em js/boosted_info.js (VERSÃO FINAL COMPLETA)
+
 document.addEventListener('DOMContentLoaded', () => {
     const creatureCard = document.getElementById('boosted-creature-card');
     const bossCard = document.getElementById('boosted-boss-card');
@@ -5,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const boostedDataCache = {
         global: { creature: null, boss: null, fetched: false },
-        rubinot: { creature: "EM BREVE!", boss: "EM BREVE!", fetched: true } 
+        rubinot: { creature: null, boss: null, fetched: false } 
     };
 
     function updateCard(cardElement, title, data) {
@@ -27,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = boostedDataCache[server];
         
         if (!data.fetched) {
-            creatureCard.innerHTML = `<h3>Criatura Boostada</h3><div class="boosted-info"><img src="images/icon/loading.gif" alt="Carregando..." class="boosted-image"><span class="boosted-name">Carregando...</span></div>`;
-            bossCard.innerHTML = `<h3>Boss Boostado</h3><div class="boosted-info"><img src="images/icon/loading.gif" alt="Carregando..." class="boosted-image"><span class="boosted-name">Carregando...</span></div>`;
+            creatureCard.innerHTML = `<h3>Criatura Boostada</h3><div class="boosted-info"><img src="images/icon/loading.gif" alt="Carregando..." class="loading-image"><span class="boosted-name">Carregando...</span></div>`;
+            bossCard.innerHTML = `<h3>Boss Boostado</h3><div class="boosted-info"><img src="images/icon/loading.gif" alt="Carregando..." class="loading-image"><span class="boosted-name">Carregando...</span></div>`;
         } else {
             updateCard(creatureCard, 'Criatura Boostada', data.creature);
             updateCard(bossCard, 'Boss Boostado', data.boss);
@@ -40,45 +42,28 @@ document.addEventListener('DOMContentLoaded', () => {
             displayBoostedInfo('global');
             return;
         }
-
         displayBoostedInfo('global');
-
         try {
             const [creaturesResponse, bossesResponse] = await Promise.all([
                 fetch('https://api.tibiadata.com/v4/creatures'),
                 fetch('https://api.tibiadata.com/v4/boostablebosses')
             ]);
-
             if (!creaturesResponse.ok) throw new Error('Falha ao buscar dados das criaturas');
             if (!bossesResponse.ok) throw new Error('Falha ao buscar dados dos bosses');
-
             const creaturesData = await creaturesResponse.json();
             const bossesData = await bossesResponse.json();
 
-            const creatureName = creaturesData.creatures?.boosted?.name;
-            if (creatureName) {
-                const localMonsterData = window.allMonstersData.find(m => m.name.toLowerCase() === creatureName.toLowerCase());
-                
-                if (localMonsterData) {
-                    boostedDataCache.global.creature = localMonsterData;
-                } else {
-                    console.warn(`Criatura "${creatureName}" da API não encontrada na DB local.`);
-                    boostedDataCache.global.creature = { name: creatureName, image_url: 'images/icon/favicon.png' };
-                }
+            const boostedCreatureInfo = creaturesData.creatures?.boosted;
+            if (boostedCreatureInfo) {
+                const localMonsterData = window.allMonstersData.find(m => m.name.toLowerCase() === boostedCreatureInfo.name.toLowerCase());
+                boostedDataCache.global.creature = localMonsterData || { name: boostedCreatureInfo.name, image_url: boostedCreatureInfo.image_url };
             }
 
-            const bossName = bossesData.boostable_bosses?.boosted?.name;
-            if (bossName) {
-                const localBossData = window.allBossesData.find(b => b.name.toLowerCase() === bossName.toLowerCase());
-                
-                if (localBossData) {
-                    boostedDataCache.global.boss = localBossData;
-                } else {
-                    console.warn(`Boss "${bossName}" da API não encontrado na DB local.`);
-                    boostedDataCache.global.boss = { name: bossName, image_url: 'images/icon/favicon.png' };
-                }
+            const boostedBossInfo = bossesData.boostable_bosses?.boosted;
+            if (boostedBossInfo) {
+                const localBossData = window.allBossesData.find(b => b.name.toLowerCase() === boostedBossInfo.name.toLowerCase());
+                boostedDataCache.global.boss = localBossData || { name: boostedBossInfo.name, image_url: boostedBossInfo.image_url };
             }
-
         } catch (error) {
             console.error('Erro ao buscar dados de "Global":', error);
         } finally {
@@ -87,18 +72,45 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    async function fetchRubinotData() {
+        if (boostedDataCache.rubinot.fetched) {
+            displayBoostedInfo('rubinot');
+            return;
+        }
+        displayBoostedInfo('rubinot');
+        try {
+            const response = await fetch('https://rubinot-backend.onrender.com/api/rubinot-boosted'); // Sua URL da Render
+            const data = await response.json();
+            if (data.error || (!data.creature && !data.boss)) throw new Error(data.error || 'Nenhum dado retornado pela API do Rubinot');
+
+            if (data.creature) {
+                const monsterData = window.allMonstersData.find(m => m.name.toLowerCase() === data.creature.toLowerCase());
+                if (monsterData) boostedDataCache.rubinot.creature = monsterData;
+            }
+            if (data.boss) {
+                const bossData = window.allBossesData.find(b => b.name.toLowerCase() === data.boss.toLowerCase());
+                if (bossData) boostedDataCache.rubinot.boss = bossData;
+            }
+        } catch (error) {
+            console.error('Erro ao buscar dados de "Rubinot":', error);
+            boostedDataCache.rubinot.creature = 'Indisponível';
+            boostedDataCache.rubinot.boss = 'Indisponível';
+        } finally {
+            boostedDataCache.rubinot.fetched = true;
+            displayBoostedInfo('rubinot');
+        }
+    }
+
     serverButtons.forEach(button => {
         button.addEventListener('click', () => {
             if (button.classList.contains('active')) return;
-
             serverButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
             const server = button.dataset.server;
-
             if (server === 'global') {
                 fetchGlobalData();
             } else {
-                displayBoostedInfo('rubinot');
+                fetchRubinotData();
             }
         });
     });
