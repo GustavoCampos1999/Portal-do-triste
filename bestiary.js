@@ -32,32 +32,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    auth.onAuthStateChanged(user => {
-        if (user) {
-            currentUserId = user.uid;
-            setPageState(true);
-            loadBestiaryData(user.uid); 
-        } else {
-            currentUserId = null;
-            userBestiaryProgress = {};
-            setPageState(false);
-            updateAndDisplay(); 
-        }
-    });
+    window.handleBestiaryLogin = function(uid) {
+    currentUserId = uid;
+    setPageState(true);
+    loadBestiaryData(uid);
+};
 
-    auth.onAuthStateChanged(user => {
-        if (user) {
-            currentUserId = user.uid;
-            setPageState(true);
-            loadBestiaryData(user.uid);
-        } else {
-            currentUserId = null;
-            userBestiaryProgress = {};
-            setPageState(false);
-        }
-    });
-
-    function loadBestiaryData(uid) {
+    window.loadBestiaryData = function(uid) {
         const userDocRef = db.collection('users').doc(uid);
         userDocRef.get().then(doc => {
             if (doc.exists && doc.data().bestiary_progress) {
@@ -72,6 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
             bestiaryList.innerHTML = '<p class="auth-message error">Ocorreu um erro ao carregar seus dados.</p>';
         });
     };
+
+     window.handleBestiaryLogout = function() {
+    currentUserId = null;
+     userBestiaryProgress = {};
+     setPageState(false);
+     updateAndDisplay();
+ };
 
 function generateResistancesHtmlForCard(monster) {
     if (!monster || typeof window.getDamageMultiplier !== 'function') return '';

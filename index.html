@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/calculadora.css">
     <link rel="stylesheet" href="css/auth.css">
     <link rel="stylesheet" href="css/bestiario.css">
+    <link rel="stylesheet" href="css/bosstiary.css">
     <link rel="stylesheet" href="css/conversor-rc.css">
     <link rel="stylesheet" href="css/imbuements.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2319819253460562"
@@ -41,6 +42,7 @@
                 <a href="#" class="nav-link" data-page="conversor-rc">Conversor de TC</a>
                 <a href="#" class="nav-link" data-page="Imbuements">Imbuements</a>
                 <a href="#" id="nav-bestiary" class="nav-link" data-page="bestiary">Bestiário</a>
+                <a href="#" class="nav-link" data-page="bosstiary">Bosstiário</a>
             </div>
             <div id="auth-links" class="nav-auth-links">
                 <div id="logged-out-links">
@@ -58,34 +60,28 @@
     <main>
          <div id="ad-sidebar-left" class="ad-container-vertical">
         <ins class="adsbygoogle"
-     style="display:block"
+     style="display:inline-block;width:160px;height:600px"
      data-ad-client="ca-pub-2319819253460562"
-     data-ad-slot="1087280254"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="1087280254"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
     </div>
     <div id="ad-sidebar-right" class="ad-container-vertical">
         <ins class="adsbygoogle"
-     style="display:block"
+     style="display:inline-block;width:160px;height:600px"
      data-ad-client="ca-pub-2319819253460562"
-     data-ad-slot="1087280254"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="1087280254"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
     </div>
     <div class="main-content-column"> 
     <div class="ad-container-horizontal">
-        <ins class="adsbygoogle"
-     style="display:block"
+       <ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-2319819253460562"
-     data-ad-slot="4834953571"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="4834953571"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -132,14 +128,21 @@
             <img src="images/icon/imbuement.gif" alt="Ícone de Imbuement" class="tool-icon">
         </div>
         <h3>Imbuements</h3>
-        <p>Veja todos os materiais necessários para cada imbuement e organize seus itens com antecedência.</p>
+        <p>Veja todos os materiais necessários para cada imbuement.</p>
     </a>
     <a href="#" class="tool-card" data-page="bestiary">
         <div class="tool-icon-container">
             <img src="images/icon/Bestiary.gif" alt="Ícone de Bestiário" class="tool-icon">
         </div>
         <h3>Meu Bestiário</h3>
-        <p>Controle seu progresso, descubra os pontos fracos das criaturas e planeje seus próximos charms.</p>
+        <p>Controle seu progresso, veja as resistências de cada criaturas e salve seus soulcores.</p>
+    </a>
+     <a href="#" class="tool-card" data-page="bosstiary">
+        <div class="tool-icon-container">
+            <img src="images/bosstiary/Gaz_Haragoth.gif" alt="Ícone de Bosstiário" class="tool-icon" style="width: 48px; height: 48px;">
+        </div>
+        <h3>Meu Bosstiário</h3>
+        <p>Monitore os bosses que você já derrotou e veja as resistências de cada um para otimizar suas caçadas.</p>
     </a>
 </div>
 
@@ -209,7 +212,7 @@
                     <div class="stats-row-top">
                         <div class="input-group">
                             <label for="vocation">Sua Vocação:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">A seleção da vocação ajusta a fórmula de dano base para maior precisão nos cálculos de crítico.</span></span></label>
-                            <select id="vocation" required><option value="" disabled selected>Selecione</option><option value="knight">Knight</option><option value="paladin">Paladin</option><option value="sorcerer">Sorcerer</option><option value="druid">Druid</option><option value="knight">Monk</option></select>
+                            <select id="vocation" required><option value="" disabled selected>Selecione</option><option value="knight">Knight</option><option value="paladin">Paladin</option><option value="sorcerer">Sorcerer</option><option value="druid">Druid</option><option value="monk">Monk</option></select>
                         </div>
                         <div class="input-group">
                             <label for="level">Seu Level:<span class="tooltip-container"><span class="tooltip-icon">?</span><span class="tooltip-text">Necessário para o dano máximo de charms elementais (Freeze, Wound, etc.).</span></span></label>
@@ -276,22 +279,46 @@
             <div class="container">
                 <header class="tool-header"><h1>Meu Bestiário</h1></header>
                 <div class="bestiary-toolbar">
-    <div class="input-group search-container">
-        <label for="bestiary-search">Pesquisar Monstro:</label>
-        <input type="search" id="bestiary-search" placeholder="Digite o nome do monstro...">
-    </div>
-    <fieldset class="bestiary-filters">
-    <legend>Filtros</legend>
-    <label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label>
-    <label><input type="radio" name="bestiary-filter" value="completed"> Completo</label>
-    <label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore</label>
-</fieldset>
-</div>
+                    <div class="input-group search-container">
+                        <label for="bestiary-search">Pesquisar Monstro:</label>
+                        <input type="search" id="bestiary-search" placeholder="Digite o nome do monstro...">
+                    </div>
+                </div>
+                 <div class="bestiary-div-filters"> 
+                    <fieldset class="bestiary-filters">
+                        <legend>Filtros</legend>
+                        <label><input type="radio" name="bestiary-filter" value="all" checked> Todos</label>
+                        <label><input type="radio" name="bestiary-filter" value="completed"> Completo</label>
+                        <label><input type="radio" name="bestiary-filter" value="soulcore"> Soulcore</label>
+                    </fieldset>
+                    </div>
                 <div id="bestiary-stats" class="bestiary-stats"></div>
                 <div id="bestiary-list"></div>
             </div>
         </div>
-
+        <div id="page-bosstiary" class="page-content hidden">
+                <div class="container">
+                    <header class="tool-header"><h1>Meu Bosstiário</h1></header>
+                    <div class="bestiary-toolbar">
+                        <div class="input-group search-container">
+                            <label for="bosstiary-search">Pesquisar Boss:</label>
+                            <input type="search" id="bosstiary-search" placeholder="Digite o nome do boss...">
+                        </div>
+                    </div>
+                    <div id="bosstiary-category-filters" class="category-filters hidden">
+                        <img src="images/bosstiary/Icon/Bosstiary_Bane.png" alt="Bane" data-category="bane" class="category-filter-icon" title="Filtrar por Bane">
+                        <img src="images/bosstiary/Icon/Bosstiary_Archfoe.png" alt="Archfoe" data-category="archfoe" class="category-filter-icon" title="Filtrar por Archfoe">
+                        <img src="images/bosstiary/Icon/Bosstiary_Nemesis.png" alt="Nemesis" data-category="nemesis" class="category-filter-icon" title="Filtrar por Nemesis">
+                        <fieldset class="bestiary-filters">
+                            <legend>Filtros</legend>
+                            <label><input type="radio" name="bosstiary-filter" value="all" checked> Todos</label>
+                            <label><input type="radio" name="bosstiary-filter" value="completed"> Completo</label>
+                        </fieldset>
+                    </div>
+                    <div id="bosstiary-stats" class="bestiary-stats"></div>
+                    <div id="bosstiary-list" class="bestiary-list"></div>
+                </div>
+            </div>
         <div id="page-Imbuements" class="page-content hidden">
     <div class="container">
         <header class="tool-header">
@@ -301,30 +328,30 @@
         <p style="color: #a0937d; margin-bottom: 25px;">Selecione um equipamento para ver os imbuements disponíveis.</p>
 
         <div id="imbuement-inventory-grid">
-    <div class="inventory-slot empty"></div>
-    <div class="inventory-slot" data-slot="head">
-        <img src="images/imbue/slot/head.png" alt="Capacete">
-    </div>
-    <div class="inventory-slot" data-slot="bag">
-        <img src="images/imbue/slot/bag.png" alt="Mochila">
-    </div>
-
-    <div class="inventory-slot" data-slot="weapon">
-        <img src="images/imbue/slot/weapon.png" alt="Arma">
-    </div>
-    <div class="inventory-slot" data-slot="armor">
-        <img src="images/imbue/slot/armor.png" alt="Armadura">
-    </div>
-    <div class="inventory-slot" data-slot="shield">
-        <img src="images/imbue/slot/shield.png" alt="Escudo">
-    </div>
-    
-    <div class="inventory-slot empty"></div>
-    <div class="inventory-slot" data-slot="boots">
-        <img src="images/imbue/slot/boots.png" alt="Botas">
-    </div>
-    <div class="inventory-slot empty"></div>
-</div>
+            <div class="inventory-slot empty"></div>
+            <div class="inventory-slot" data-slot="head">
+                <img src="images/imbue/slot/head.png" alt="Capacete">
+            </div>
+            <div class="inventory-slot" data-slot="bag">
+                <img src="images/imbue/slot/bag.png" alt="Mochila">
+            </div>
+        
+            <div class="inventory-slot" data-slot="weapon">
+                <img src="images/imbue/slot/weapon.png" alt="Arma">
+            </div>
+            <div class="inventory-slot" data-slot="armor">
+                <img src="images/imbue/slot/armor.png" alt="Armadura">
+            </div>
+            <div class="inventory-slot" data-slot="shield">
+                <img src="images/imbue/slot/shield.png" alt="Escudo">
+            </div>
+            
+            <div class="inventory-slot empty"></div>
+            <div class="inventory-slot" data-slot="boots">
+                <img src="images/imbue/slot/boots.png" alt="Botas">
+            </div>
+            <div class="inventory-slot empty"></div>
+        </div>
 
         <div id="imbuement-details-container" class="hidden">
             <h3 id="imbuement-slot-title"></h3>
@@ -332,19 +359,17 @@
         </div>
 
         <div id="imbuement-materials-container" class="hidden">
-    <h4 id="imbuement-materials-title"></h4>
-    <div id="imbuement-materials-list"></div>
-</div>
+            <h4 id="imbuement-materials-title"></h4>
+            <div id="imbuement-materials-list"></div>
+        </div>
     </div>
 </div>
  <footer class="site-footer-main">
     <div class="footer-ad-container">
         <ins class="adsbygoogle"
-     style="display:block"
+     style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-2319819253460562"
-     data-ad-slot="4834953571"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="4834953571"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -401,6 +426,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script src="firebase-config.js"></script>
     <script src="tibia-monsters-db.js"></script>
+    <script src="tibia-bosses-db.js"></script>
     <script src="navegacao.js"></script>
     <script src="calculadora_core.js"></script> 
     <script src="calculadora_navegacao.js"></script>
@@ -411,6 +437,7 @@
     <script src="input_formatter.js"></script>
     <script src="auth.js"></script>
     <script src="bestiary.js"></script>
+    <script src="bosstiary.js"></script>
     <script src="imbuements.js"></script>
     <script src="animations.js"></script>
     <script src="modals.js"></script>
@@ -419,8 +446,15 @@
     <div class="modal-content">
         <h2>Contato</h2>
         <div class="contact-info">
-            <p><strong>E-mail:</strong> thezarosplayer@gmail.com</p>
-            <p><strong>WhatsApp:</strong> +55 (21) 96525-5559</p>
+            <p><strong>E-mail:</strong> portaldotriste@gmail.com</p>
+            
+            <p class="contact-line">
+                <strong>Telefone:</strong> +55 (21) 96525-5559
+                <a href="https://wa.me/5521965255559" target="_blank" title="Enviar mensagem no WhatsApp">
+                    <img src="images/icon/WhatsApp.png" alt="WhatsApp" class="whatsapp-icon">
+                </a>
+            </p>
+
         </div>
         <button class="modal-close-btn">Fechar</button>
     </div>
@@ -432,11 +466,14 @@
         <p>Sua contribuição ajuda o site em desenvolvimento e a comprar um cafézinho.</p>
 
         <p>Muito Obrigado!</p>
-        <img src="/images/icon/qrcode-pix.png" alt="QR Code Pix" class="pix-qrcode">
         <img src="images/icon/pix.png" alt="Pix" class="pix">
-        <p>Gustavo Campos Viana</p>
-        <button class="modal-close-btn">Fechar</button>
-    </div>
+        <img src="/images/icon/qrcode-pix.png" alt="QR Code Pix" class="pix-qrcode">
+        <div class="modal-button-group">
+    <button id="pix-copy-btn" class="copy-btn">Pix Copia e Cola</button>
+    <button class="modal-close-btn">Fechar</button>
+        </div>
+        </div>
 </div>
 </body>
 </html>
+

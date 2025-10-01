@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    margin-bottom: 20px;
     align-items: center; 
 }
 .bestiary-toolbar .search-container {
@@ -61,6 +60,13 @@
     color: #a0937d;
     font-size: 1em;
 }
+.bestiary-div-filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
 .bestiary-stats span { white-space: nowrap; }
 .bestiary-stats strong { color: #f0e6d2; font-weight: bold; }
 .bestiary-card-wrapper {

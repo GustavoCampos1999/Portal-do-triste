@@ -7002,7 +7002,7 @@ var allMonstersData = [
   {
     "name": "Druid's Apparition",
     "hp": 25000,
-    "image_url": "images/monsters/Druid's_Apparition.gif",
+    "image_url": "images/monsters/Druid_s_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -12952,7 +12952,7 @@ var allMonstersData = [
   {
     "name": "Knight's Apparition",
     "hp": 25000,
-    "image_url": "images/monsters/Knight's_Apparition.gif",
+    "image_url": "images/monsters/Knight_s_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15682,7 +15682,7 @@ var allMonstersData = [
   {
     "name": "Monk's Apparition",
     "hp": 25000,
-    "image_url": "images/monsters/Monk's_Apparition.gif",
+    "image_url": "images/monsters/Monk_s_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -15717,7 +15717,7 @@ var allMonstersData = [
   {
     "name": "Mooh'Tah Warrior",
     "hp": 1200,
-    "image_url": "images/monsters/Mooh'Tah_Warrior.gif",
+    "image_url": "images/monsters/Mooh_Tah_Warrior.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -17537,7 +17537,7 @@ var allMonstersData = [
   {
     "name": "Paladin's Apparition",
     "hp": 25000,
-    "image_url": "images/monsters/Paladin's_Apparition.gif",
+    "image_url": "images/monsters/Paladin_s_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -21317,7 +21317,7 @@ var allMonstersData = [
   {
     "name": "Sorcerer's Apparition",
     "hp": 25000,
-    "image_url": "images/monsters/Sorcerer's_Apparition.gif",
+    "image_url": "images/monsters/Sorcerer_s_Apparition.gif",
     "damageTypes": [
       {
         "type": "physical",

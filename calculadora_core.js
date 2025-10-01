@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-      const charmsData = {
+    const charmsData = {
         "Curse": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'death', icon: 'images/charms/Curse_Icon.gif' },
         "Divine Wrath": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'holy', icon: 'images/charms/Divine_Wrath_Icon.gif' },
         "Enflame": { type: 'elemental_hp', chance: [5, 10, 11], damageMultiplier: 0.05, element: 'fire', icon: 'images/charms/Enflame_Icon.gif' },
@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let hasChanges = false;
     let presetsData = {}; 
 
+    // --- Funções Globais ---
     window.getPlayerStats = function() {
         const levelInput = page.querySelector('#level').value;
         const level = parseFloat(levelInput) || 0;
@@ -111,13 +112,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return num.toFixed(0);
     };
 
+    // --- Inicialização da UI ---
     const charmNames = Object.keys(charmsData).sort();
-     charmNames.forEach(charmName => {
+    charmNames.forEach(charmName => {
         const charmInfo = charmsData[charmName];
         const charmElement = document.createElement('div');
         charmElement.className = 'charm-icon-container';
         charmElement.dataset.charmName = charmName; 
-
         charmElement.innerHTML = `
             <img src="${charmInfo.icon}" alt="${charmName}" class="charm-icon">
             <span class="charm-icon-label">${charmName}</span>
@@ -130,8 +131,10 @@ document.addEventListener('DOMContentLoaded', () => {
         charmSelectionGrid.appendChild(charmElement);
     });
 
+    // --- Conexão Firebase e Elementos do DOM ---
     const db = firebase.firestore();
     const auth = firebase.auth();
+    
     const savePresetBtn = page.querySelector('#savePresetBtn');
     const savedPresetsList = page.querySelector('#saved-presets-list');
     const clearAllBtn = page.querySelector('#clearAllBtn');
@@ -157,42 +160,29 @@ document.addEventListener('DOMContentLoaded', () => {
     let unsubscribeFromPresets = null;
     let activeConfirmationButton = null;
 
-    document.addEventListener('click', (event) => {
-        if (activeConfirmationButton && !activeConfirmationButton.contains(event.target)) {
-            activeConfirmationButton.classList.remove('confirm-delete');
-            activeConfirmationButton = null;
-        }
-    });
-
-    function showConfirmModal(title, text, onConfirmCallback) {
-        confirmModalTitle.textContent = title;
-        confirmModalText.textContent = text;
-        confirmModal.classList.remove('hidden');
-
-        confirmModalConfirmBtn.onclick = () => {
-            confirmModal.classList.add('hidden');
-            onConfirmCallback();
-        };
-
-        confirmModalCancelBtn.onclick = () => {
-            confirmModal.classList.add('hidden');
-        };
-    }
-
+    // --- Funções de Lógica de Presets ---
     function loadUserPresets(uid) {
+        console.log('[DEBUG] A função loadUserPresets foi chamada com o UID:', uid);
         if (unsubscribeFromPresets) unsubscribeFromPresets();
+
         unsubscribeFromPresets = db.collection('users').doc(uid).collection('presets')
           .onSnapshot(snapshot => {
-              presetsData = {}; 
-              savedPresetsList.innerHTML = ''; 
+              console.log('[DEBUG] O listener onSnapshot foi ativado!');
+              console.log('[DEBUG] O snapshot (pacote de dados) está vazio?', snapshot.empty);
+              console.log('[DEBUG] Número de presets encontrados no pacote:', snapshot.size);
+
+              presetsData = {};
+              savedPresetsList.innerHTML = '';
               if (snapshot.empty) {
                   savedPresetsList.innerHTML = '<p style="font-size: 0.9em; color: #a0937d; margin: 0; width: 100%; text-align: center;">Nenhum preset salvo.</p>';
                   return;
               }
               snapshot.forEach(doc => {
                   const preset = doc.data();
-                  presetsData[preset.name] = preset; 
-                  
+                  console.log('[DEBUG] Processando o preset encontrado:', preset);
+
+                  presetsData[preset.name] = preset;
+
                   const presetTag = document.createElement('div');
                   presetTag.className = 'preset-tag';
                   if (preset.name === activePresetName && !hasChanges) {
@@ -205,20 +195,63 @@ document.addEventListener('DOMContentLoaded', () => {
                   `;
                   savedPresetsList.appendChild(presetTag);
               });
+              console.log('[DEBUG] Renderização dos presets na tela concluída.');
           }, error => {
-              console.error("Erro ao carregar presets:", error);
+              console.error("[DEBUG] Ocorreu um erro grave no listener onSnapshot:", error);
               savedPresetsList.innerHTML = '<p class="preset-status-message error">Erro ao carregar presets.</p>';
           });
     }
+
+    function _loadPresetLogic(presetData) {
+        clearAll(false);
+        const charmDataToLoad = presetData.charms || [];
+        const stats = presetData.stats || {};
+        charmDataToLoad.forEach(savedCharm => {
+            const charmContainer = charmSelectionGrid.querySelector(`.charm-icon-container[data-charm-name="${savedCharm.name}"]`);
+            if (charmContainer) {
+                charmContainer.classList.add('active');
+                const tierSelector = charmContainer.querySelector('.tier-selector');
+                if (tierSelector) {
+                    tierSelector.classList.add('visible');
+                    tierSelector.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
+                    const correctTierBtn = tierSelector.querySelector(`[data-tier="${savedCharm.tier}"]`);
+                    if (correctTierBtn) correctTierBtn.classList.add('active');
+                }
+            }
+        });
+        page.querySelector('#vocation').value = stats.vocation || '';
+        page.querySelector('#level').value = stats.level || '';
+        page.querySelector('#skillLevel').value = stats.skillLevel || '';
+        page.querySelector('#maxHp').value = stats.maxHp || '';
+        page.querySelector('#maxMana').value = stats.maxMana || '';
+        activePresetName = presetData.name;
+        updateUiForStateChange(false);
+        const newActiveTag = savedPresetsList.querySelector(`.preset-tag[data-preset-id="${presetData.name}"]`);
+        if (newActiveTag) {
+            document.querySelectorAll('.preset-tag.active').forEach(tag => tag.classList.remove('active'));
+            newActiveTag.classList.add('active');
+        }
+        runAnyAnalysis();
+    }
     
+    function loadPreset(presetData) {
+        if (hasChanges && activePresetName) {
+            showConfirmModal(
+                'Descartar Alterações?',
+                'Você tem alterações não salvas. Deseja continuar e perder suas mudanças?',
+                () => { _loadPresetLogic(presetData); }
+            );
+        } else {
+            _loadPresetLogic(presetData);
+        }
+    }
+
     function openSaveModal(isUpdate = false) {
         savePresetError.textContent = '';
         savePresetConfirmBtn.textContent = 'Salvar';
         savePresetNameInput.style.display = 'block';
         savePresetOptions.classList.add('hidden');
         saveAsNewBtn.classList.add('hidden');
-
-
         if (isUpdate && activePresetName) {
             saveModalTitle.textContent = 'Salvar Alterações';
             saveModalText.innerHTML = `Deseja salvar as alterações feitas no preset <strong>"${activePresetName}"</strong>?`;
@@ -240,102 +273,46 @@ document.addEventListener('DOMContentLoaded', () => {
     async function savePreset() {
         const user = auth.currentUser;
         if (!user) return;
-        
         let presetName = savePresetNameInput.value.trim();
         if (!presetName) {
             savePresetError.textContent = 'O nome não pode ser vazio.'; return;
         }
-
         const isUpdating = activePresetName === presetName;
         const isOverwriting = !!presetsData[presetName] && !isUpdating;
-        
         if(isOverwriting && savePresetConfirmBtn.textContent !== "Sobrescrever") {
             savePresetOptions.classList.remove('hidden');
             savePresetConfirmBtn.textContent = "Sobrescrever";
             return;
         }
-
         const selectedCharms = getSelectedCharms().map(c => ({ name: c.name, tier: c.tier }));
         const playerStatsToSave = {
             vocation: page.querySelector('#vocation').value, level: page.querySelector('#level').value,
             skillLevel: page.querySelector('#skillLevel').value, maxHp: page.querySelector('#maxHp').value,
             maxMana: page.querySelector('#maxMana').value
         };
-
         db.collection('users').doc(user.uid).collection('presets').doc(presetName).set({
             name: presetName, charms: selectedCharms, stats: playerStatsToSave
         }).then(() => {
             let message = isUpdating ? `Preset "${presetName}" atualizado!` : `Preset "${presetName}" salvo!`;
             showNotification(message);
             closeSaveModal();
-            
             activePresetName = presetName;
             updateUiForStateChange(false); 
-            
             const savedTag = savedPresetsList.querySelector(`.preset-tag[data-preset-id="${presetName}"]`);
             if (savedTag) savedTag.classList.add('active');
-
         }).catch(error => {
             console.error("Erro ao salvar preset:", error);
             savePresetError.textContent = 'Ocorreu um erro ao salvar.';
         });
     }
-    
-    function _loadPresetLogic(presetData) {
-        clearAll(false); 
-        const charmData = presetData.charms || [];
-        const stats = presetData.stats || {};
-        
-        charmData.forEach(charm => {
-            const checkbox = charmSelectionGrid.querySelector(`input[value="${charm.name}"]`);
-            if (checkbox) {
-                checkbox.checked = true;
-                const charmItem = checkbox.closest('.charm-item');
-                const tierSelector = charmItem.querySelector('.tier-selector');
-                tierSelector.classList.add('visible');
-                tierSelector.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
-                const correctTierBtn = tierSelector.querySelector(`[data-tier="${charm.tier}"]`);
-                if(correctTierBtn) correctTierBtn.classList.add('active');
-            }
-        });
-        
-        page.querySelector('#vocation').value = stats.vocation || '';
-        page.querySelector('#level').value = stats.level || '';
-        page.querySelector('#skillLevel').value = stats.skillLevel || '';
-        page.querySelector('#maxHp').value = stats.maxHp || '';
-        page.querySelector('#maxMana').value = stats.maxMana || '';
-        
-        activePresetName = presetData.name;
-        updateUiForStateChange(false); 
-        
-        const newActiveTag = savedPresetsList.querySelector(`.preset-tag[data-preset-id="${presetData.name}"]`);
-        if (newActiveTag) newActiveTag.classList.add('active');
-        
-        runAnyAnalysis(); 
-    }
-
-    function loadPreset(presetData) {
-        if (hasChanges && activePresetName) {
-            showConfirmModal(
-                'Descartar Alterações?',
-                'Você tem alterações não salvas. Deseja continuar e perder suas mudanças?',
-                () => { _loadPresetLogic(presetData); }
-            );
-        } else {
-            _loadPresetLogic(presetData);
-        }
-    }
 
     function deletePreset(uid, presetId, deleteBtn) {
         if (!deleteBtn.classList.contains('confirm-delete')) {
-            if (activeConfirmationButton) {
-                activeConfirmationButton.classList.remove('confirm-delete');
-            }
+            if (activeConfirmationButton) activeConfirmationButton.classList.remove('confirm-delete');
             deleteBtn.classList.add('confirm-delete');
             activeConfirmationButton = deleteBtn;
             return;
         }
-
         db.collection('users').doc(uid).collection('presets').doc(presetId).delete()
         .then(() => {
             showNotification(`Preset "${presetId}" deletado.`);
@@ -349,22 +326,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function clearAll(clearMonster = true) {
-    activePresetName = null;
-    ['vocation', 'level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => { page.querySelector(`#${id}`).value = ''; });
-
-    charmSelectionGrid.querySelectorAll('.charm-icon-container.active').forEach(container => {
-        container.classList.remove('active');
-        const tierSelector = container.querySelector('.tier-selector');
-        if (tierSelector) {
-            tierSelector.classList.remove('visible');
-        }
-    });
-    
-    updateUiForStateChange(false); 
-
-    if (clearMonster && typeof window.resetSelection === 'function') { window.resetSelection(); }
-    runAnyAnalysis();
-}
+        activePresetName = null;
+        ['vocation', 'level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => { page.querySelector(`#${id}`).value = ''; });
+        charmSelectionGrid.querySelectorAll('.charm-icon-container.active').forEach(container => {
+            container.classList.remove('active');
+            const tierSelector = container.querySelector('.tier-selector');
+            if (tierSelector) tierSelector.classList.remove('visible');
+        });
+        updateUiForStateChange(false); 
+        if (clearMonster && typeof window.resetSelection === 'function') { window.resetSelection(); }
+        runAnyAnalysis();
+    }
     
     function showNotification(message, type = 'success') {
         const container = document.getElementById('notification-container');
@@ -384,29 +356,40 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-  function updateUiForStateChange(hasUnsavedChanges) {
-    hasChanges = hasUnsavedChanges;
-    if (hasUnsavedChanges) {
-        savePresetBtn.classList.remove('hidden');
-    } else {
-        savePresetBtn.classList.add('hidden');
-        document.querySelectorAll('.preset-tag.active').forEach(tag => tag.classList.remove('active'));
+    function updateUiForStateChange(hasUnsavedChanges) {
+        hasChanges = hasUnsavedChanges;
+        if (hasUnsavedChanges) {
+            savePresetBtn.classList.remove('hidden');
+        } else {
+            savePresetBtn.classList.add('hidden');
+            document.querySelectorAll('.preset-tag.active').forEach(tag => tag.classList.remove('active'));
+        }
     }
-}
 
     function handleUserInputChange() {
-        if (!hasChanges) {
-            updateUiForStateChange(true);
-        }
+        if (!hasChanges) updateUiForStateChange(true);
         runAnyAnalysis();
     }
+    
+    function showConfirmModal(title, text, onConfirmCallback) {
+        confirmModalTitle.textContent = title;
+        confirmModalText.textContent = text;
+        confirmModal.classList.remove('hidden');
+        confirmModalConfirmBtn.onclick = () => {
+            confirmModal.classList.add('hidden');
+            onConfirmCallback();
+        };
+        confirmModalCancelBtn.onclick = () => {
+            confirmModal.classList.add('hidden');
+        };
+    }
 
+    // --- Handlers de Autenticação ---
     window.handleLoggedInUser = (uid) => {
         presetsLoggedInDiv.classList.remove('hidden');
         presetsLoggedOutDiv.classList.add('hidden');
         loadUserPresets(uid);
     };
-
     window.handleLoggedOutUser = () => {
         if (unsubscribeFromPresets) unsubscribeFromPresets();
         presetsLoggedInDiv.classList.add('hidden');
@@ -416,30 +399,40 @@ document.addEventListener('DOMContentLoaded', () => {
         clearAll(true);
     };
 
+    // --- Listeners de Eventos ---
+    auth.onAuthStateChanged(user => {
+        if (user) {
+            handleLoggedInUser(user.uid);
+        } else {
+            handleLoggedOutUser();
+        }
+    });
+
     savePresetBtn.addEventListener('click', () => {
         const isUpdating = !!activePresetName && hasChanges;
         openSaveModal(isUpdating);
     });
     
-    saveAsNewBtn.addEventListener('click', () => {
-        openSaveModal(false); 
-    });
-
+    saveAsNewBtn.addEventListener('click', () => { openSaveModal(false); });
     savePresetConfirmBtn.addEventListener('click', savePreset);
     savePresetCancelBtn.addEventListener('click', closeSaveModal);
     clearAllBtn.addEventListener('click', () => clearAll(true));
     
+    document.addEventListener('click', (event) => {
+        if (activeConfirmationButton && !activeConfirmationButton.contains(event.target)) {
+            activeConfirmationButton.classList.remove('confirm-delete');
+            activeConfirmationButton = null;
+        }
+    });
+
     savedPresetsList.addEventListener('click', (e) => {
         const user = auth.currentUser;
         if (!user) return;
-
         const target = e.target;
         const tag = target.closest('.preset-tag');
         if (!tag) return;
-
         const presetId = tag.dataset.presetId;
         const deleteBtn = target.closest('.preset-delete-btn');
-
         if (deleteBtn) {
             e.stopPropagation();
             deletePreset(user.uid, presetId, deleteBtn);
@@ -449,10 +442,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     
-   charmSelectionGrid.addEventListener('click', (event) => {
+    charmSelectionGrid.addEventListener('click', (event) => {
         const target = event.target;
         const charmContainer = target.closest('.charm-icon-container');
-
         if (target.classList.contains('tier-btn')) {
             const tierSelector = target.parentElement;
             tierSelector.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
@@ -460,11 +452,9 @@ document.addEventListener('DOMContentLoaded', () => {
             handleUserInputChange(); 
             return; 
         }
-
         if (charmContainer) {
             charmContainer.classList.toggle('active');
             const tierSelector = charmContainer.querySelector('.tier-selector');
-            
             if (charmContainer.classList.contains('active')) {
                 tierSelector.classList.add('visible');
             } else {
@@ -477,8 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ['vocation', 'level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => {
         page.querySelector(`#${id}`).addEventListener('input', handleUserInputChange);
     });
-
-      ['level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => {
+    ['level', 'skillLevel', 'maxHp', 'maxMana'].forEach(id => {
         const input = page.querySelector(`#${id}`);
         if (input) {
             input.addEventListener('input', () => {

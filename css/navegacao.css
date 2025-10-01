@@ -2,21 +2,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 115%;
+    position: relative;
+    height: 50px;   
 }
 
 .nav-link {
     color: #a0937d;
     text-decoration: none;
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    padding: 6px 6px;
     font-size: 1.1em;
-    transition: all 0.3s ease;
     cursor: pointer;
+    background: linear-gradient(to bottom, #4a3c28, #3c3020); 
+    border: 1px solid #57441b;
+    border-top-color: #6a5a3a; 
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px #000; 
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); 
+    transition: all 0.2s ease-out;
 }
 
 .nav-links-center {
+    position: absolute;
+    left: 43.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -25,13 +35,17 @@
 
 .nav-link:not(.disabled):hover {
     color: #f0e6d2;
-    background-color: #4a3c28;
+    background: linear-gradient(to bottom, #c89b3c, #8c6b2c); 
+    border-color: #f0e6d2;
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5), 0 0 5px rgba(200, 155, 60, 0.5); 
 }
-
 .nav-link.active {
-    color: #f0e6d2;
-    background-color: #8c6b2c;
-    border-color: #c89b3c;
+    color: #ffffff; 
+    background: linear-gradient(to top, #c89b3c, #8c6b2c); 
+    border-color: #f0e6d2;
+    transform: translateY(1px); 
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.6); 
     text-shadow: 1px 1px 1px #000;
 }
 
@@ -41,6 +55,10 @@
 }
 
 .nav-auth-links {
+    position: absolute;
+     right: 15%;
+     top: 50%;
+     transform: translateY(-50%);
     display: flex;
     align-items: center;
     gap: 15px;
@@ -73,21 +91,38 @@
 
 @media (max-width: 768px) {
     .main-nav {
+        position: static;
+        height: auto;    
         flex-direction: column;
         align-items: center;
-        gap: 12px;
+        gap: 20px; 
+        width: 100%; 
     }
+
+    .nav-links-center, 
+    .nav-auth-links {
+        position: static; 
+        transform: none;    
+        width: 100%;
+    }
+
     .nav-links-center {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 10px; 
     }
+    
     .nav-link {
         width: 95%;
         box-sizing: border-box;
         text-align: center;
     }
+
     .nav-auth-links {
+        display: flex;
         flex-direction: column;
-        width: 100%;
+        align-items: center;
         gap: 10px;
     }
 }

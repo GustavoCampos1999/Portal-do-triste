@@ -128,8 +128,6 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     width: 100%;
     max-width: 750px;
     margin: 40px auto 0 auto;
-    padding-top: 20px;
-    border-top: 1px solid #4a3c28;
     text-align: center;
     color: #a0937d;
     font-size: 0.9em;
@@ -336,11 +334,63 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
     color: #a0937d;
     opacity: 0.7;
 }
+.tools-grid .tool-card:first-child {
+    grid-column: 1 / -1;
+}
 
 .pix {
+    display: block;
     width: 30px;
     height: 30px;
+    margin: 10px auto 0 auto;
 }
+
+#pix-modal .modal-button-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    gap: 10px;             
+    margin-top: 20px;     
+}
+
+#pix-modal .modal-button-group button {
+    margin: 0;
+}
+
+#pix-modal .copy-btn {
+    width: 112px; 
+    padding: 6px 0px;
+    font-size: 0.9em;
+    background-color: #5c4b28;
+    border-color: #4a3c28;
+}
+
+#pix-modal .copy-btn:hover {
+    background-color: #4CAF50;
+}
+
+#pix-modal .copy-btn:disabled {
+    background-color: #275f29;
+    color: #ffffff;
+    cursor: not-allowed;
+    border-color: #4a3c28;
+}
+#contact-modal .contact-line {
+    display: flex;
+    align-items: center; 
+    gap: 8px;            
+}
+
+#contact-modal .whatsapp-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+}
+
+#contact-modal .whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
 
 @media (max-width: 768px) {
     main {
@@ -381,7 +431,7 @@ button:disabled { background-color: #5c4b28; color: #a0937d; cursor: not-allowed
         grid-template-columns: 1fr 750px 1fr; 
         align-items: start;
         gap: 20px;
-        padding: 20px;
+        padding: 0;
     }
 
     #ad-sidebar-left {
