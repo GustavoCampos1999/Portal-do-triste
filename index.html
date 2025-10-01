@@ -90,21 +90,33 @@
     <div class="container">
         <div class="hero-section">
             <h1>Portal do Triste</h1> 
-            <h1>Todas as ferramentas que um Tibiano precisa para sofrer um pouco menos.</h1>
+        </div>
+        <div class="hero-subsection">
+        <h2>Todas as ferramentas que um Tibiano precisa para sofrer um pouco menos.</h2>
         </div>
  <div class="section-divider">
             <h2>Informações do Dia</h2>
         </div>
-        <div class="dynamic-content-grid">
-            <div class="dynamic-card">
-                <h3>Criatura Boostada</h3>
-                <p class="coming-soon">Em Breve</p>
-            </div>
-            <div class="dynamic-card">
-                <h3>Boss Boostado</h3>
-                <p class="coming-soon">Em Breve</p>
-            </div>  
+<div class="server-selector">
+    <button class="server-btn active" data-server="global">Global</button>
+    <button class="server-btn" data-server="rubinot">Rubinot</button>
+</div>
+<div class="dynamic-content-grid">
+    <div class="dynamic-card" id="boosted-creature-card">
+        <h3>Criatura Boostada</h3>
+        <div class="boosted-info">
+            <img src="images/icon/loading.gif" alt="Carregando..." class="boosted-image">
+            <span class="boosted-name">Carregando...</span>
         </div>
+    </div>
+    <div class="dynamic-card" id="boosted-boss-card">
+        <h3>Boss Boostado</h3>
+        <div class="boosted-info">
+            <img src="images/icon/loading.gif" alt="Carregando..." class="boosted-image">
+            <span class="boosted-name">Carregando...</span>
+        </div>
+    </div>
+</div>
         <div class="section-divider">
             <h2>Nossas Ferramentas</h2>
         </div>
@@ -440,6 +452,7 @@
     <script src="bosstiary.js"></script>
     <script src="imbuements.js"></script>
     <script src="animations.js"></script>
+    <script src="boosted_info.js"></script>
     <script src="modals.js"></script>
 
     <div id="contact-modal" class="modal-overlay hidden">

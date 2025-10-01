@@ -3537,7 +3537,7 @@ var allMonstersData = [
   {
     "name": "Cloak Of Terror",
     "hp": 28000,
-    "image_url": "images/monsters/Cloak_Of_Terror.gif",
+    "image_url": "images/monsters/Cloak_of_Terror.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -7772,7 +7772,7 @@ var allMonstersData = [
   {
     "name": "Energuardian Of Tales",
     "hp": 14000,
-    "image_url": "images/monsters/Energuardian_Of_Tales.gif",
+    "image_url": "images/monsters/Energuardian_of_Tales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -10782,7 +10782,7 @@ var allMonstersData = [
   {
     "name": "Guardian Of Tales",
     "hp": 15000,
-    "image_url": "images/monsters/Guardian_Of_Tales.gif",
+    "image_url": "images/monsters/Guardian_of_Tales.gif",
     "damageTypes": [
       {
         "type": "physical",
@@ -18482,7 +18482,7 @@ var allMonstersData = [
   {
     "name": "Priestess Of The Wild Sun",
     "hp": 8500,
-    "image_url": "images/monsters/Priestess_Of_The_Wild_Sun.gif",
+    "image_url": "images/monsters/Priestess_of_the_Wild_Sun.gif",
     "damageTypes": [
       {
         "type": "physical",
