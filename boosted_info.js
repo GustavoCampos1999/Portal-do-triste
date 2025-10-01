@@ -1,5 +1,3 @@
-// Em js/boosted_info.js (VERSÃO FINAL COMPLETA)
-
 document.addEventListener('DOMContentLoaded', () => {
     const creatureCard = document.getElementById('boosted-creature-card');
     const bossCard = document.getElementById('boosted-boss-card');
@@ -79,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         displayBoostedInfo('rubinot');
         try {
-            const response = await fetch('https://rubinot-backend.onrender.com/api/rubinot-boosted'); // Sua URL da Render
+            const response = await fetch('https://rubinot-backend.onrender.com/api/rubinot-boosted'); 
             const data = await response.json();
             if (data.error || (!data.creature && !data.boss)) throw new Error(data.error || 'Nenhum dado retornado pela API do Rubinot');
 
